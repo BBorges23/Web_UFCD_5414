@@ -1,0 +1,70 @@
+{
+    "products": {
+        "dog": [
+            {
+                "id": 1,
+                "name": "iPhone 9",
+                "brand": "royal canin",
+                "category": "smartphones",
+                "description": "An apple mobile which is nothing like apple",
+                "price": 549,
+                "stock": 94,
+                "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+            },
+            {
+                "id": 1,
+                "name": "iPhone 9",
+                "brand": "royal canin",
+                "category": "smartphones",
+                "description": "An apple mobile which is nothing like apple",
+                "price": 549,
+                "stock": 94,
+                "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+            }     
+
+        ],
+        "cat": [
+
+            {
+                "id": 1,
+                "name": "iPhone 9",
+                "brand": "royal canin",
+                "category": "smartphones",
+                "description": "An apple mobile which is nothing like apple",
+                "price": 549,
+                "stock": 94,
+                "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+              }      
+
+        ],
+        "fish": [
+
+            {
+                "id": 1,
+                "name": "iPhone 9",
+                "brand": "royal canin",
+                "category": "smartphones",
+                "description": "An apple mobile which is nothing like apple",
+                "price": 549,
+                "stock": 94,
+                "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+              }      
+
+        ],
+        "bird": [
+
+            {
+                "id": 1,
+                "name": "iPhone 9",
+                "brand": "royal canin",
+                "category": "smartphones",
+                "description": "An apple mobile which is nothing like apple",
+                "price": 549,
+                "stock": 94,
+                "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+              }      
+
+        ]
+      
+    }
+  }
