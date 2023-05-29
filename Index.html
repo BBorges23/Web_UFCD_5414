@@ -54,50 +54,50 @@
         <ul class="navbar-nav  mx-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="cao" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false" onclick="capturarValorAnimal(event)">
+              aria-expanded="false">
               Cão
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="racao" onclick="capturarValorCategoria(event)">Ração</a></li>
-              <li><a class="dropdown-item" href="saude" onclick="capturarValorCategoria(event)">Saude</a></li>
-              <li><a class="dropdown-item" href="brinquedos" onclick="capturarValorCategoria(event)">Brinquedos</a></li>
-              <li><a class="dropdown-item" href="acessoorios" onclick="capturarValorCategoria(event)">Acessorios para
+              <li><a class="dropdown-item" href="cao_racao" onclick="capturaPagina(event)">Ração</a></li>
+              <li><a class="dropdown-item" href="cao.saude" onclick="capturaPagina(event)">Saude</a></li>
+              <li><a class="dropdown-item" href="cao.brinquedos" onclick="capturaPagina(event)">Brinquedos</a></li>
+              <li><a class="dropdown-item" href="cao.acessoorios" onclick="capturaPagina(event)">Acessorios para
                   casa</a></li>
             </ul>
           <li class="nav-item dropdown" value="gato">
             <a class="nav-link dropdown-toggle" href="gato" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false" onclick="capturarValorAnimal(event)">
+              aria-expanded="false">
               Gato
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="racao" onclick="capturarValorCategoria(event)">Ração</a></li>
-              <li><a class="dropdown-item" href="saude" onclick="capturarValorCategoria(event)">Saude</a></li>
-              <li><a class="dropdown-item" href="brinquedos" onclick="capturarValorCategoria(event)">Brinquedos</a></li>
-              <li><a class="dropdown-item" href="acessoorios" onclick="capturarValorCategoria(event)">Acessorios para
+              <li><a class="dropdown-item" href="gato.racao" onclick="capturaPagina(event)">Ração</a></li>
+              <li><a class="dropdown-item" href="gato.saude" onclick="capturaPagina(event)">Saude</a></li>
+              <li><a class="dropdown-item" href="gato.brinquedos" onclick="capturaPagina(event)">Brinquedos</a></li>
+              <li><a class="dropdown-item" href="gato.acessoorios" onclick="capturaPagina(event)">Acessorios para
                   casa</a></li>
             </ul>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="peixe" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false" onclick="capturarValorAnimal(event)">
+              aria-expanded="false">
               Peixe
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="racao" onclick="capturarValorCategoria(event)">Ração</a></li>
-              <li><a class="dropdown-item" href="saude" onclick="capturarValorCategoria(event)">Saude</a></li>
-              <li><a class="dropdown-item" href="brinquedos" onclick="capturarValorCategoria(event)">Brinquedos</a></li>
-              <li><a class="dropdown-item" href="acessoorios" onclick="capturarValorCategoria(event)">Acessorios para
+              <li><a class="dropdown-item" href="peixe.racao" onclick="capturaPagina(event)">Ração</a></li>
+              <li><a class="dropdown-item" href="peixe.saude" onclick="capturaPagina(event)">Saude</a></li>
+              <li><a class="dropdown-item" href="peixe.brinquedos" onclick="capturaPagina(event)">Brinquedos</a></li>
+              <li><a class="dropdown-item" href="peixe.acessoorios" onclick="capturaPagina(event)">Acessorios para
                   casa</a></li>
             </ul>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="aves" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false" onclick="capturarValorAnimal(event)">
+              aria-expanded="false">
               Aves
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="racao" onclick="capturarValorCategoria(event)">Ração</a></li>
-              <li><a class="dropdown-item" href="saude" onclick="capturarValorCategoria(event)">Saude</a></li>
-              <li><a class="dropdown-item" href="brinquedos" onclick="capturarValorCategoria(event)">Brinquedos</a></li>
-              <li><a class="dropdown-item" href="acessoorios" onclick="capturarValorCategoria(event)">Acessorios para
+              <li><a class="dropdown-item" href="aves.racao" onclick="capturaPagina(event)">Ração</a></li>
+              <li><a class="dropdown-item" href="aves.saude" onclick="capturaPagina(event)">Saude</a></li>
+              <li><a class="dropdown-item" href="aves.brinquedos" onclick="capturaPagina(event)">Brinquedos</a></li>
+              <li><a class="dropdown-item" href="aves.acessoorios" onclick="capturaPagina(event)">Acessorios para
                   casa</a></li>
             </ul>
           </li>
@@ -107,8 +107,22 @@
 </head>
 
 <body>
-  <div id="products">
-
+  <div>
+    <p id="products">batatas</p>            
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Age</th>
+          <th scope="col">Email</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
   </div>
 </body>
 
@@ -116,23 +130,50 @@
 
 
 <script>
-  var valorAnimal;
-  function capturarValorAnimal(event) {
-    event.preventDefault(); // Isso impede o comportamento padrão do link
+  document.addEventListener("DOMContentLoaded", () => {
+    getPeople()
+  });
 
-    var link = event.target; // Obtém o elemento de link clicado
-    valor = link.getAttribute("href"); // Obtém o valor do atributo href
-    valorAnimal =getAnimal(valor);
-  }
-  function capturarValorCategoria(event) {
+  function capturaPagina(event) {
     event.preventDefault(); // Isso impede o comportamento padrão do link
 
     var link = event.target; // Obtém o elemento de link clicado
     var valor = link.getAttribute("href"); // Obtém o valor do atributo href
+
+    console.log(valor);
+    //return valor;
   }
-    function gerAnimal(valor){
-    let valar1 = valor;
-    return valar1;
-  }
-  console.log(valorAnimal);
+  var listOfPeople = [];
+
+  var getPeople = function () {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+      if (this.readyState == 4 && this.status == 200) {
+        // Typical action to be performed when the document is ready:
+        listOfPeople = JSON.parse(xhttp.responseText);
+
+        buildRows(listOfPeople)
+      }
+
+    };
+    xhttp.open("GET", "http://localhost:3000/animal?category=smartphones", true);
+    xhttp.send();
+
+  };
+  var buildRows = function (peops) {
+    var rows = '';
+    for (let person of peops) {
+    
+      rows += '<tr>'
+      rows += '<td> ' + person.name + '</td>';
+      rows += '<td>' + person.brand + '</td>';
+      rows += '<td>' + person.category + '</td>';
+      rows += '<td>' + person.price + '</td>';
+      rows += '<td> <button type="button" class="btn btn-danger btn-sm" onclick="clickDeletePerson(' + person.Id +
+        ')">x</button> </td>';
+      rows += '</tr>';
+    }
+    console.log(rows);
+    document.getElementsByTagName("tbody")[0].innerHTML = rows;
+  };
 </script>
