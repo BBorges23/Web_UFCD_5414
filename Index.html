@@ -1,47 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <title>Salens Shop</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+  </script>
+  <title>Salens Shop</title>
 </head>
 <!-- Bar de navegacao -->
+
 <head>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Salem's Shop</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse  id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Categorias</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contatos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sobre Nós</a>
-              </li>
-            </ul>
-            <div class="col-sm  d-flex d-inline justify-content-end gap-3 align-items-baseline" >
-                <a href="" style="text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="black" class="bi bi-person-fill" viewBox="0 0 16 16">
-                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-                  </svg></a>
-                <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="black" class="bi bi-cart-fill" viewBox="0 0 16 16">
-                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                  </svg></a>
-            </div>
-          </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Salem's Shop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  id=" navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categorias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contatos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre Nós</a>
+          </li>
+        </ul>
+        <div class="col-sm  d-flex d-inline justify-content-end gap-3 align-items-baseline">
+          <a href="" style="text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+              fill="black" class="bi bi-person-fill" viewBox="0 0 16 16">
+              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+            </svg></a>
+          <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="black"
+              class="bi bi-cart-fill" viewBox="0 0 16 16">
+              <path
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+            </svg></a>
         </div>
-      </nav>
-      TEste TEste
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <div class="container">
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav  mx-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="cao" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" onclick="capturarValorAnimal(event)">
+              Cão
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="racao" onclick="capturarValorCategoria(event)">Ração</a></li>
+              <li><a class="dropdown-item" href="saude" onclick="capturarValorCategoria(event)">Saude</a></li>
+              <li><a class="dropdown-item" href="brinquedos" onclick="capturarValorCategoria(event)">Brinquedos</a></li>
+              <li><a class="dropdown-item" href="acessoorios" onclick="capturarValorCategoria(event)">Acessorios para
+                  casa</a></li>
+            </ul>
+          <li class="nav-item dropdown" value="gato">
+            <a class="nav-link dropdown-toggle" href="gato" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" onclick="capturarValorAnimal(event)">
+              Gato
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="racao" onclick="capturarValorCategoria(event)">Ração</a></li>
+              <li><a class="dropdown-item" href="saude" onclick="capturarValorCategoria(event)">Saude</a></li>
+              <li><a class="dropdown-item" href="brinquedos" onclick="capturarValorCategoria(event)">Brinquedos</a></li>
+              <li><a class="dropdown-item" href="acessoorios" onclick="capturarValorCategoria(event)">Acessorios para
+                  casa</a></li>
+            </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="peixe" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" onclick="capturarValorAnimal(event)">
+              Peixe
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="racao" onclick="capturarValorCategoria(event)">Ração</a></li>
+              <li><a class="dropdown-item" href="saude" onclick="capturarValorCategoria(event)">Saude</a></li>
+              <li><a class="dropdown-item" href="brinquedos" onclick="capturarValorCategoria(event)">Brinquedos</a></li>
+              <li><a class="dropdown-item" href="acessoorios" onclick="capturarValorCategoria(event)">Acessorios para
+                  casa</a></li>
+            </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="aves" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" onclick="capturarValorAnimal(event)">
+              Aves
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="racao" onclick="capturarValorCategoria(event)">Ração</a></li>
+              <li><a class="dropdown-item" href="saude" onclick="capturarValorCategoria(event)">Saude</a></li>
+              <li><a class="dropdown-item" href="brinquedos" onclick="capturarValorCategoria(event)">Brinquedos</a></li>
+              <li><a class="dropdown-item" href="acessoorios" onclick="capturarValorCategoria(event)">Acessorios para
+                  casa</a></li>
+            </ul>
+          </li>
+      </div>
+    </div>
+  </nav>
 </head>
+
 <body>
-    
+  <div id="products">
+
+  </div>
 </body>
+
 </html>
+
+
+<script>
+  var valorAnimal;
+  function capturarValorAnimal(event) {
+    event.preventDefault(); // Isso impede o comportamento padrão do link
+
+    var link = event.target; // Obtém o elemento de link clicado
+    valor = link.getAttribute("href"); // Obtém o valor do atributo href
+    valorAnimal =getAnimal(valor);
+  }
+  function capturarValorCategoria(event) {
+    event.preventDefault(); // Isso impede o comportamento padrão do link
+
+    var link = event.target; // Obtém o elemento de link clicado
+    var valor = link.getAttribute("href"); // Obtém o valor do atributo href
+  }
+    function gerAnimal(valor){
+    let valar1 = valor;
+    return valar1;
+  }
+  console.log(valorAnimal);
+</script>
