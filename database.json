@@ -2,24 +2,85 @@
     "dog": [{
             "id": 1,
             "name": "iPhone 9",
-            "brand": "royal canin",
-            "category": "smartphones",
+            "brand": "Royal Canin",
+            "category": "racao",
             "description": "An apple mobile which is nothing like apple",
             "price": 549,
             "stock": 94,
-            "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+            "image": "https://goldpet.pt/53581-large_default/royal-canin-exigent-mini-adult-racao-seca-para-cao-de-porte-pequeno-com-apetite-exigente.jpg"
         },
 
         {
             "id": 2,
             "name": "iPhone 9",
             "brand": "royal canin",
-            "category": "smartphones",
+            "category": "racao",
             "description": "An apple mobile which is nothing like apple",
             "price": 549,
             "stock": 94,
             "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
-        }
+        },
+        {
+            "id": 3,
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Royal Canin",
+            "category": "racao",
+            "description": "Ração de alta qualidade para cães adultos",
+            "price": 49.99,
+            "stock": 50,
+            "image": "https://goldpet.pt/53581-large_default/royal-canin-exigent-mini-adult-racao-seca-para-cao-de-porte-pequeno-com-apetite-exigente.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Ração para Filhotes de Cães",
+            "brand": "Hills",
+            "category": "racao",
+            "description": "Ração específica para filhotes de cães",
+            "price": 39.99,
+            "stock": 30,
+            "image": "https://goldpet.pt/53581-large_default/royal-canin-exigent-mini-adult-racao-seca-para-cao-de-porte-pequeno-com-apetite-exigente.jpg"
+          },
+          {
+            "id": 5,
+            "name": "iPhone 9",
+            "brand": "Royal Canin",
+            "category": "racao",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 549,
+            "stock": 94,
+            "image": "https://goldpet.pt/53581-large_default/royal-canin-exigent-mini-adult-racao-seca-para-cao-de-porte-pequeno-com-apetite-exigente.jpg"
+        },
+
+        {
+            "id": 6,
+            "name": "iPhone 9",
+            "brand": "royal canin",
+            "category": "racao",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 549,
+            "stock": 94,
+            "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Royal Canin",
+            "category": "racao",
+            "description": "Ração de alta qualidade para cães adultos",
+            "price": 49.99,
+            "stock": 50,
+            "image": "https://goldpet.pt/53581-large_default/royal-canin-exigent-mini-adult-racao-seca-para-cao-de-porte-pequeno-com-apetite-exigente.jpg"
+          },
+          {
+            "id": 8,
+            "name": "Ração para Filhotes de Cães",
+            "brand": "Hills",
+            "category": "racao",
+            "description": "Ração específica para filhotes de cães",
+            "price": 39.99,
+            "stock": 30,
+            "image": "https://goldpet.pt/53581-large_default/royal-canin-exigent-mini-adult-racao-seca-para-cao-de-porte-pequeno-com-apetite-exigente.jpg"
+          }
 
     ],
     "cat": [

@@ -59,9 +59,9 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="cao_racao" onclick="capturaPagina(event)">Ração</a></li>
-              <li><a class="dropdown-item" href="cao.saude" onclick="capturaPagina(event)">Saude</a></li>
+              <li><a class="dropdown-item" href="cao.saude" onclick="capturaPagina(event)">Saúde</a></li>
               <li><a class="dropdown-item" href="cao.brinquedos" onclick="capturaPagina(event)">Brinquedos</a></li>
-              <li><a class="dropdown-item" href="cao.acessoorios" onclick="capturaPagina(event)">Acessorios para
+              <li><a class="dropdown-item" href="cao.acessoorios" onclick="capturaPagina(event)">Acessórios para
                   casa</a></li>
             </ul>
           <li class="nav-item dropdown" value="gato">
@@ -71,9 +71,9 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="gato.racao" onclick="capturaPagina(event)">Ração</a></li>
-              <li><a class="dropdown-item" href="gato.saude" onclick="capturaPagina(event)">Saude</a></li>
+              <li><a class="dropdown-item" href="gato.saude" onclick="capturaPagina(event)">Saúde</a></li>
               <li><a class="dropdown-item" href="gato.brinquedos" onclick="capturaPagina(event)">Brinquedos</a></li>
-              <li><a class="dropdown-item" href="gato.acessoorios" onclick="capturaPagina(event)">Acessorios para
+              <li><a class="dropdown-item" href="gato.acessoorios" onclick="capturaPagina(event)">Acessórios para
                   casa</a></li>
             </ul>
           <li class="nav-item dropdown">
@@ -83,9 +83,9 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="peixe.racao" onclick="capturaPagina(event)">Ração</a></li>
-              <li><a class="dropdown-item" href="peixe.saude" onclick="capturaPagina(event)">Saude</a></li>
+              <li><a class="dropdown-item" href="peixe.saude" onclick="capturaPagina(event)">Saúde</a></li>
               <li><a class="dropdown-item" href="peixe.brinquedos" onclick="capturaPagina(event)">Brinquedos</a></li>
-              <li><a class="dropdown-item" href="peixe.acessoorios" onclick="capturaPagina(event)">Acessorios para
+              <li><a class="dropdown-item" href="peixe.acessoorios" onclick="capturaPagina(event)">Acessórios para
                   casa</a></li>
             </ul>
           <li class="nav-item dropdown">
@@ -95,9 +95,9 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="aves.racao" onclick="capturaPagina(event)">Ração</a></li>
-              <li><a class="dropdown-item" href="aves.saude" onclick="capturaPagina(event)">Saude</a></li>
+              <li><a class="dropdown-item" href="aves.saude" onclick="capturaPagina(event)">Saúde</a></li>
               <li><a class="dropdown-item" href="aves.brinquedos" onclick="capturaPagina(event)">Brinquedos</a></li>
-              <li><a class="dropdown-item" href="aves.acessoorios" onclick="capturaPagina(event)">Acessorios para
+              <li><a class="dropdown-item" href="aves.acessoorios" onclick="capturaPagina(event)">Acessórios para
                   casa</a></li>
             </ul>
           </li>
@@ -107,9 +107,12 @@
 </head>
 
 <body>
-  <div>
-    <p id="products">batatas</p>            
-    <table class="table">
+  <div class="container">
+    <div class="row d-flex gap-3 justify-content-center pt-5" id="produtos">
+        
+      </div>
+    </div>
+<!--     <table class="table">
       <thead>
         <tr>
           <th scope="col">#</th>
@@ -122,7 +125,8 @@
       </thead>
       <tbody>
       </tbody>
-    </table>
+    </table> -->
+
   </div>
 </body>
 
@@ -131,7 +135,7 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    getPeople()
+    getCategoria()
   });
 
   function capturaPagina(event) {
@@ -141,39 +145,53 @@
     var valor = link.getAttribute("href"); // Obtém o valor do atributo href
 
     console.log(valor);
-    //return valor;
   }
-  var listOfPeople = [];
 
-  var getPeople = function () {
+  var listaProdutos = [];
+
+  var getCategoria = function () {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
       if (this.readyState == 4 && this.status == 200) {
         // Typical action to be performed when the document is ready:
-        listOfPeople = JSON.parse(xhttp.responseText);
+        listaProdutos = JSON.parse(xhttp.responseText);
 
-        buildRows(listOfPeople)
+        buildRows(listaProdutos)
       }
 
     };
-    xhttp.open("GET", "http://localhost:3000/animal?category=smartphones", true);
+    xhttp.open("GET", "http://localhost:3000/animal?category=racao", true);
     xhttp.send();
 
   };
-  var buildRows = function (peops) {
+  var buildRows = function (produtos) {
     var rows = '';
-    for (let person of peops) {
+    for (let produto of produtos) {
+
+      rows += '<div class="card col-sm-3" style="width: 18rem;">';
+      rows += '<img class="card-img-top image-fluid" style="height:180px" src="' + produto.image + '" alt="Card image cap">';
+      rows += '<div class="card-body">';
+      rows += '<h5 class="card-title">'+ produto.name + '</h5>';
+      rows += '<p class="card-text">'+ produto.brand +'</p>';
+      rows += '<p class="card-text">'+ produto.description +'</p>';
+      rows += '<div class="display-flex align-content-between">';
+        rows += '<p class="card-text d-flex justify-content-between">'+ produto.price + '<a href="#" class="btn btn-primary">COMPRAR</a></p>';
+      rows += '</div>';
+      rows += '</div>';
+      rows += '</div>';
+      
     
-      rows += '<tr>'
+      /* rows += '<tr>'
       rows += '<td> ' + person.name + '</td>';
       rows += '<td>' + person.brand + '</td>';
       rows += '<td>' + person.category + '</td>';
       rows += '<td>' + person.price + '</td>';
       rows += '<td> <button type="button" class="btn btn-danger btn-sm" onclick="clickDeletePerson(' + person.Id +
         ')">x</button> </td>';
-      rows += '</tr>';
+      rows += '</tr>'; */
     }
     console.log(rows);
-    document.getElementsByTagName("tbody")[0].innerHTML = rows;
+    document.getElementById("produtos").innerHTML = rows;
   };
+
 </script>
