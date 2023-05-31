@@ -29,10 +29,15 @@ app.use(bodyParser.json());
 //     // res.send('api request' + id);
 // })
 
-app.get('/animal', (req, res) => {
-  res.send(dbRepo.list(req.query))
-  // res.send(req.query)
-})
+app.get('/animal/:category', (req, res) => {
+  const { category } = req.params;
+  res.send(dbRepo.list(req.query, category));
+});
+
+// app.get('/animal', (req, res) => {
+//   res.send(dbRepo.list(req.query, "cat"))
+//   // res.send(req.query)
+// })
 
 
 // app.get('/sample', (req, res) => {
@@ -45,7 +50,6 @@ app.get('/animal', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
-
 
 
 

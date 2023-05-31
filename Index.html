@@ -54,26 +54,26 @@
         <ul class="navbar-nav  mx-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="cao" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+              aria-expanded="false" >
               Cão
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="cao_racao" onclick="capturaPagina(event)">Ração</a></li>
-              <li><a class="dropdown-item" href="cao.saude" onclick="capturaPagina(event)">Saúde</a></li>
-              <li><a class="dropdown-item" href="cao.brinquedos" onclick="capturaPagina(event)">Brinquedos</a></li>
-              <li><a class="dropdown-item" href="cao.acessoorios" onclick="capturaPagina(event)">Acessórios para
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'dog', 'racao')">Ração</a></li>
+              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'dog', 'saude')">Saúde</a></li>
+              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'dog', 'brinquedo')">Brinquedos</a></li>
+              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'dog', 'acessorios')">Acessórios para
                   casa</a></li>
             </ul>
           <li class="nav-item dropdown" value="gato">
             <a class="nav-link dropdown-toggle" href="gato" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+              aria-expanded="false" >
               Gato
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="gato.racao" onclick="capturaPagina(event)">Ração</a></li>
-              <li><a class="dropdown-item" href="gato.saude" onclick="capturaPagina(event)">Saúde</a></li>
-              <li><a class="dropdown-item" href="gato.brinquedos" onclick="capturaPagina(event)">Brinquedos</a></li>
-              <li><a class="dropdown-item" href="gato.acessoorios" onclick="capturaPagina(event)">Acessórios para
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'cat', 'racao')">Ração</a></li>
+              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'cat', 'saude')">Saúde</a></li>
+              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'cat', 'brinquedo')">Brinquedos</a></li>
+              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'cat', 'acessorios')">Acessórios para
                   casa</a></li>
             </ul>
           <li class="nav-item dropdown">
@@ -82,10 +82,10 @@
               Peixe
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="peixe.racao" onclick="capturaPagina(event)">Ração</a></li>
-              <li><a class="dropdown-item" href="peixe.saude" onclick="capturaPagina(event)">Saúde</a></li>
-              <li><a class="dropdown-item" href="peixe.brinquedos" onclick="capturaPagina(event)">Brinquedos</a></li>
-              <li><a class="dropdown-item" href="peixe.acessoorios" onclick="capturaPagina(event)">Acessórios para
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'fish', 'racao')">Ração</a></li>
+              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'fish', 'saude')">Saúde</a></li>
+              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'fish', 'brinquedo')">Brinquedos</a></li>
+              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'fish', 'acessorios')">Acessórios para
                   casa</a></li>
             </ul>
           <li class="nav-item dropdown">
@@ -94,10 +94,10 @@
               Aves
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="aves.racao" onclick="capturaPagina(event)">Ração</a></li>
-              <li><a class="dropdown-item" href="aves.saude" onclick="capturaPagina(event)">Saúde</a></li>
-              <li><a class="dropdown-item" href="aves.brinquedos" onclick="capturaPagina(event)">Brinquedos</a></li>
-              <li><a class="dropdown-item" href="aves.acessoorios" onclick="capturaPagina(event)">Acessórios para
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'bird', 'racao')">Ração</a></li>
+              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'bird', 'saude')">Saúde</a></li>
+              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'bird', 'brinquedo')">Brinquedos</a></li>
+              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'bird', 'acessorios')">Acessórios para
                   casa</a></li>
             </ul>
           </li>
@@ -109,10 +109,10 @@
 <body>
   <div class="container">
     <div class="row d-flex gap-3 justify-content-center pt-5" id="produtos">
-        
-      </div>
+
     </div>
-<!--     <table class="table">
+  </div>
+  <!--     <table class="table">
       <thead>
         <tr>
           <th scope="col">#</th>
@@ -132,66 +132,47 @@
 
 </html>
 
-
 <script>
-  document.addEventListener("DOMContentLoaded", () => {
-    getCategoria()
-  });
-
-  function capturaPagina(event) {
+  function capturaPagina(event, animal , categoria ) {
     event.preventDefault(); // Isso impede o comportamento padrão do link
-
-    var link = event.target; // Obtém o elemento de link clicado
-    var valor = link.getAttribute("href"); // Obtém o valor do atributo href
-
-    console.log(valor);
-  }
-
-  var listaProdutos = [];
-
-  var getCategoria = function () {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function () {
-      if (this.readyState == 4 && this.status == 200) {
-        // Typical action to be performed when the document is ready:
-        listaProdutos = JSON.parse(xhttp.responseText);
-
-        buildRows(listaProdutos)
-      }
-
+  
+    var url = "http://localhost:3000/animal/" + animal + "?category=" + categoria;
+  
+    var listaProdutos = [];
+  
+    var getCategoria = function () {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          // Typical action to be performed when the document is ready:
+          listaProdutos = JSON.parse(xhttp.responseText);
+  
+          buildRows(listaProdutos);
+        }
+      };
+  
+      xhttp.open("GET", url, true);
+      xhttp.send();
     };
-    xhttp.open("GET", "http://localhost:3000/animal?category=racao", true);
-    xhttp.send();
-
-  };
-  var buildRows = function (produtos) {
-    var rows = '';
-    for (let produto of produtos) {
-
-      rows += '<div class="card col-sm-3" style="width: 18rem;">';
-      rows += '<img class="card-img-top image-fluid" style="height:180px" src="' + produto.image + '" alt="Card image cap">';
-      rows += '<div class="card-body">';
-      rows += '<h5 class="card-title">'+ produto.name + '</h5>';
-      rows += '<p class="card-text">'+ produto.brand +'</p>';
-      rows += '<p class="card-text">'+ produto.description +'</p>';
-      rows += '<div class="display-flex align-content-between">';
-        rows += '<p class="card-text d-flex justify-content-between">'+ produto.price + '<a href="#" class="btn btn-primary">COMPRAR</a></p>';
-      rows += '</div>';
-      rows += '</div>';
-      rows += '</div>';
-      
-    
-      /* rows += '<tr>'
-      rows += '<td> ' + person.name + '</td>';
-      rows += '<td>' + person.brand + '</td>';
-      rows += '<td>' + person.category + '</td>';
-      rows += '<td>' + person.price + '</td>';
-      rows += '<td> <button type="button" class="btn btn-danger btn-sm" onclick="clickDeletePerson(' + person.Id +
-        ')">x</button> </td>';
-      rows += '</tr>'; */
-    }
-    console.log(rows);
-    document.getElementById("produtos").innerHTML = rows;
-  };
-
+  
+    var buildRows = function (produtos) {
+      var rows = "";
+      for (let produto of produtos) {
+        rows += '<div class="card col-sm-3 mb-4" style="width: 18rem;">';
+        rows += '<img class="card-img-top image-fluid" style="height:180px" src="' + produto.image + '" alt="Card image cap">';
+        rows += '<div class="card-body">';
+        rows += '<h5 class="card-title">' + produto.name + '</h5>';
+        rows += '<p class="card-text">' + produto.brand + '</p>';
+        rows += '<div class="display-flex align-content-between">';
+        rows += '<p class="card-text d-flex justify-content-between">' + produto.price + '<a href="#" class="btn btn-primary">COMPRAR</a></p>';
+        rows += '</div>';
+        rows += '</div>';
+        rows += '</div>';
+      }
+      document.getElementById("produtos").innerHTML = rows;
+    };
+  
+    getCategoria();
+  }
+  
 </script>

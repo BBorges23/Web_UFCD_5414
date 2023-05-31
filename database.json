@@ -1,157 +1,341 @@
 {
     "dog": [{
             "id": 1,
-            "name": "iPhone 9",
-            "brand": "Royal Canin",
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Premium Pet Food",
             "category": "racao",
             "description": "An apple mobile which is nothing like apple",
-            "price": 549,
+            "price": 17.91,
             "stock": 94,
-            "image": "https://goldpet.pt/53581-large_default/royal-canin-exigent-mini-adult-racao-seca-para-cao-de-porte-pequeno-com-apetite-exigente.jpg"
+            "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
         },
 
         {
             "id": 2,
-            "name": "iPhone 9",
-            "brand": "royal canin",
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Premium Pet Food",
             "category": "racao",
             "description": "An apple mobile which is nothing like apple",
-            "price": 549,
+            "price": 17.91,
             "stock": 94,
-            "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+            "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
         },
         {
             "id": 3,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Royal Canin",
-            "category": "racao",
-            "description": "Ração de alta qualidade para cães adultos",
-            "price": 49.99,
+            "name": "Anima-Strath - Fortificante",
+            "brand": "Anima-Strath",
+            "category": "saude",
+            "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
+            "price": 13.17,
             "stock": 50,
-            "image": "https://goldpet.pt/53581-large_default/royal-canin-exigent-mini-adult-racao-seca-para-cao-de-porte-pequeno-com-apetite-exigente.jpg"
-          },
-          {
+            "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+        },
+        {
             "id": 4,
-            "name": "Ração para Filhotes de Cães",
-            "brand": "Hills",
-            "category": "racao",
-            "description": "Ração específica para filhotes de cães",
+            "name": "Bogadent - Elixir Oral Cão 250ml",
+            "brand": "Bogadent",
+            "category": "saude",
+            "description": "Elixir de Higiene Oral para cães",
             "price": 39.99,
             "stock": 30,
-            "image": "https://goldpet.pt/53581-large_default/royal-canin-exigent-mini-adult-racao-seca-para-cao-de-porte-pequeno-com-apetite-exigente.jpg"
-          },
-          {
+            "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+        },
+        {
             "id": 5,
-            "name": "iPhone 9",
-            "brand": "Royal Canin",
-            "category": "racao",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 549,
+            "name": "Peluche Kerbl Cordeiro Shaggy",
+            "brand": "Kerbl pet",
+            "category": "brinquedo",
+            "description": "Feito de chenille com corda de algodão",
+            "price": 8.56,
             "stock": 94,
-            "image": "https://goldpet.pt/53581-large_default/royal-canin-exigent-mini-adult-racao-seca-para-cao-de-porte-pequeno-com-apetite-exigente.jpg"
+            "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
         },
 
         {
             "id": 6,
-            "name": "iPhone 9",
-            "brand": "royal canin",
-            "category": "racao",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 549,
+            "name": "KONG - Air Squeaker Bone",
+            "brand": "KONG",
+            "category": "brinquedo",
+            "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
+            "price": 6.40,
             "stock": 94,
-            "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+            "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
         },
         {
             "id": 7,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Royal Canin",
-            "category": "racao",
-            "description": "Ração de alta qualidade para cães adultos",
-            "price": 49.99,
+            "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
+            "brand": "Ibanez",
+            "category": "acessorios",
+            "description": "Transportadora para cães e Gatos",
+            "price": 120.84,
             "stock": 50,
-            "image": "https://goldpet.pt/53581-large_default/royal-canin-exigent-mini-adult-racao-seca-para-cao-de-porte-pequeno-com-apetite-exigente.jpg"
-          },
-          {
+            "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+        },
+        {
             "id": 8,
-            "name": "Ração para Filhotes de Cães",
-            "brand": "Hills",
-            "category": "racao",
-            "description": "Ração específica para filhotes de cães",
-            "price": 39.99,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "acessorios",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
             "stock": 30,
-            "image": "https://goldpet.pt/53581-large_default/royal-canin-exigent-mini-adult-racao-seca-para-cao-de-porte-pequeno-com-apetite-exigente.jpg"
-          }
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        }
 
     ],
-    "cat": [
+    "cat": [{
+            "id": 1,
+            "name": "Royal Canin British Shorthair Kitten - Ração seca para gatinhos de raça",
+            "brand": "Royal Canin",
+            "category": "racao",
+            "description": "Royal Canin British Shortair Kitten é um alimento seco, completo e equilibrado, que contribui para o bem-estar geral dos gatinhos. A ração é formulada tendo em conta as necessidades específicas dos gatinhos de raça British Shortair, até aos 12 meses de idade.",
+            "price": 32.19,
+            "stock": 94,
+            "image": "https://goldpet.pt/54588-large_default/royal-canin-british-shorthair-kitten-racao-seca-para-gatinhos-de-raca.jpg"
+        },
 
         {
-            "id": 3,
-            "name": "iPhone 9",
+            "id": 2,
+            "name": "Royal Canin Mother & Babycat - Alimento em mousse para gatinhos e gatas gestantes/lactantes",
             "brand": "royal canin",
-            "category": "smartphones",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 549,
+            "category": "racao",
+            "description": "Royal Canin Mother & Babycat Loaf é um alimento especialmente formulado tendo em conta as necessidades nutricionais da mãe e gatinhos. Adequado para gatas gestantes ou lactantes, bem como gatinhos entre 1 e 4 meses de idade.",
+            "price": 3.21,
             "stock": 94,
-            "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+            "image": "https://goldpet.pt/80568-large_default/royal-canin-mother-babycat-alimento-em-mousse-para-gatinhos-e-gatas-gestanteslactantes.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Arthri Aid",
+            "brand": "Arthri Aid",
+            "category": "saude",
+            "description": "Alimento complementar para apoio ao funcionamento das articulações, particularmente em casos de osteoartrite, para cão e gato.",
+            "price": 39.20,
+            "stock": 50,
+            "image": "https://goldpet.pt/47854-large_default/arthri-aid.jpg"
         },
         {
             "id": 4,
-            "name": "iPhone 9",
-            "brand": "royal canin",
-            "category": "smartphones",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 549,
+            "name": "Trixie Body de proteção para gatos",
+            "brand": "TRIXIE",
+            "category": "saude",
+            "description": "Este body é indicado para proteger feridas e lesões, impedindo que o gato lamba as mesmas. Permite que o animal possa utilizar a caixa de areia para as necessidades. Body ajustável, graças às tiras aderentes e elástico de ajuste. Feito de algodão com elastano.",
+            "price": 17.83,
+            "stock": 30,
+            "image": "https://goldpet.pt/56465-large_default/trixie-body-de-protecao-para-gatos.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Bolas RATO em Peluche",
+            "brand": "TRIXIE",
+            "category": "brinquedos",
+            "description": "Pelucia curta Cores sortidas",
+            "price": 1.50,
             "stock": 94,
-            "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+            "image": "https://goldpet.pt/36901-large_default/bolas-rato-em-peluche.jpg"
+        },
+
+        {
+            "id": 6,
+            "name": "Kerbl Tunel Puntino para gatos",
+            "brand": "Kerbl pet",
+            "category": "brinquedo",
+            "description": "Em nylon",
+            "price": 13.72,
+            "stock": 94,
+            "image": "https://goldpet.pt/41016-large_default/kerbl-tunel-puntino-para-gatos.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Comedouro interativo para gatos - Senses 2.0 Digger - Catit",
+            "brand": "CATIT",
+            "category": "acessorios",
+            "description": "Catit Senses 2.0 Digger é um comedouro interativo para gatos. Com pequenos tubos para colocar os snacks favoritos do seu bichinho, dos quais o gato tem de se esforçar para as tirar e comer! É, por isto, um acessório que promove o bem-estar mental e físico dos gatos.",
+            "price": 16.68,
+            "stock": 50,
+            "image": "https://goldpet.pt/72856-large_default/comedouro-interativo-para-gatos-senses-20-digger-catit.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Kerbl Comedouro duplo antiderrapante",
+            "brand": "KERBL PET",
+            "category": "acessorios",
+            "description": "Comedouro duplo antiderrapante",
+            "price": 10.32,
+            "stock": 30,
+            "image": "https://goldpet.pt/27122-large_default/kerbl-comedouro-duplo-antiderrapante.jpg"
         }
 
     ],
     "fish": [
 
         {
-            "id": 5,
-            "name": "iPhone 9",
-            "brand": "royal canin",
-            "category": "smartphones",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 549,
+            "id": 1,
+            "name": "JBL -NovoArtemio 100ml",
+            "brand": "JBL",
+            "category": "racao",
+            "description": "JBL Novo Artemio - Artemia naturais liofilizado",
+            "price": 5.65,
             "stock": 94,
-            "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+            "image": "https://goldpet.pt/14097-large_default/jbl-novoartemio-100ml.jpg"
+        },
+
+        {
+            "id": 2,
+            "name": "Goldfish Premium - Comida em Flocos de Alto Valor Protéico p/ Peixes de Água Fria",
+            "brand": "Goldfish Premium",
+            "category": "racao",
+            "description": "Alimento composto por flocos, para peixes de água fria do tipo carassius.",
+            "price": 8.70,
+            "stock": 94,
+            "image": "https://goldpet.pt/16643-large_default/goldfish-premium-comida-em-flocos-de-alto-valor-proteico-p-peixes-de-agua-fria.jpg"
         },
         {
-            "id": 6,
-            "name": "iPhone 9",
-            "brand": "royal canin",
-            "category": "smartphones",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 549,
+            "id": 3,
+            "name": "JBL Atvitol 50ml",
+            "brand": "JBL",
+            "category": "saude",
+            "description": "Para aumentar os níveis de vitamina especificamente de congelado vivo alimentar, liofilizados e secos detodos os tipos. ",
+            "price": 9.75,
+            "stock": 50,
+            "image": "https://goldpet.pt/42526-large_default/jbl-atvitol-50ml.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Sera Siporax Algovec Professional",
+            "brand": "Sera",
+            "category": "saude",
+            "description": "Ração específica para filhotes de cães",
+            "price": 3.45,
+            "stock": 30,
+            "image": "https://goldpet.pt/50831-large_default/sera-siporax-algovec-professional.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Rocha Cavernosa Jura - Média",
+            "brand": "EX",
+            "category": "brinquedo",
+            "description": " Pedra natural",
+            "price": 5.00,
             "stock": 94,
-            "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+            "image": "https://goldpet.pt/73286-large_default/rocha-cavernosa-jura-media.jpg"
+        },
+
+        {
+            "id": 6,
+            "name": "Raiz Tanganyika para aquário",
+            "brand": "royal canin",
+            "category": "brinquedo",
+            "description": "Raiz de madeira, natural, Tanganyika para aquascaping. Forma e tamanho variável.",
+            "price": 5.73,
+            "stock": 94,
+            "image": "https://goldpet.pt/58391-large_default/raiz-tanganyika-para-aquario.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Bomba repuxo para lago pond-flow eco",
+            "brand": "Super Fish",
+            "category": "acessorios",
+            "description": "Ração de alta qualidade para cães adultos",
+            "price": 89.50,
+            "stock": 50,
+            "image": "https://goldpet.pt/63771-large_default/bomba-repuxo-para-lago-pond-flow-eco.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Flower LED Basic",
+            "brand": "SICCE",
+            "category": "acessorios",
+            "description": "Com um toque decorativo elegante, a FLOWER LED pode abrilhantar qualquer divisão ou espaço, garantindo um excelente efeito e um custo mínimo de operação.",
+            "price": 51.81,
+            "stock": 30,
+            "image": "https://goldpet.pt/63995-large_default/flower-led-basic.jpg"
         }
 
     ],
     "bird": [
 
         {
-            "id": 7,
-            "name": "iPhone 9",
-            "brand": "royal canin",
-            "category": "smartphones",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 549,
+            "id": 1,
+            "name": "Versele-Laga Prestige Rolas",
+            "brand": "Prestige",
+            "category": "racao",
+            "description": "Mistura especialmente composta para rolas e outros pequenos pombos exóticos. Rica em sementes pequenas. A mistura para rolas é muito utilizada como alimento para espalhar em jardins e parques.",
+            "price": 1.43,
             "stock": 94,
-            "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+            "image": "https://goldpet.pt/58756-large_default/versele-laga-prestige-rolas.jpg"
+        },
+
+        {
+            "id": 2,
+            "name": "Alpista Limpa",
+            "brand": "Canto Alegre",
+            "category": "racao",
+            "description": "Comida Gostosa",
+            "price": 2.08,
+            "stock": 94,
+            "image": "https://goldpet.pt/51549-large_default/alpista-limpa.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Gotas para a Muda",
+            "brand": "TRIXIE",
+            "category": "saude",
+            "description": "Promove o fornecimento de vitaminas durante o período da muda",
+            "price": 3.70,
+            "stock": 50,
+            "image": "https://goldpet.pt/40000-large_default/gotas-para-a-muda.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Colar isabelino Buster para aves",
+            "brand": "Buster",
+            "category": "saude",
+            "description": "Colar isabelino Buster, para aves. Essencial para prevenir que toque em feridas ou arranque as penas. Material transparente.",
+            "price": 2.72,
+            "stock": 30,
+            "image": "https://goldpet.pt/64736-large_default/colar-isabelino-buster-para-aves.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Escada p/ Aves",
+            "brand": "Kerbl pet",
+            "category": "brinquedo",
+            "description": "madeira, algodão e plástico",
+            "price": 2.94,
+            "stock": 94,
+            "image": "https://goldpet.pt/22018-large_default/escada-p-aves-10x35cm.jpg"
+        },
+
+        {
+            "id": 6,
+            "name": "Baloiço de Madeira",
+            "brand": "KERBL Pet",
+            "category": "brinquedo",
+            "description": "Baloiço de Madeira",
+            "price": 2.05,
+            "stock": 94,
+            "image": "https://goldpet.pt/27118-large_default/baloico-de-madeira-12x135cm.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Corrente com Anilha",
+            "brand": "Royal Canin",
+            "category": "acessorios",
+            "description": "Correntes com anilha ou anilha com parafuso (conforme tipo de ave a que se destina).",
+            "price": 7.97,
+            "stock": 50,
+            "image": "https://goldpet.pt/55653-large_default/corrente-com-anilha.jpg"
         },
         {
             "id": 8,
-            "name": "iPhone 9",
-            "brand": "royal canin",
-            "category": "smartphones",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 549,
-            "stock": 94,
-            "image": "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+            "name": "Anilhas em Plástico - 12 séries",
+            "brand": "EX",
+            "category": "acessorios",
+            "description": "Anilhas feitas de plástico, com 12 séries.",
+            "price": 4.48,
+            "stock": 30,
+            "image": "https://goldpet.pt/57475-large_default/anilhas-em-plastico-12-series.jpg"
         }
 
     ]

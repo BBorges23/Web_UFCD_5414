@@ -45,9 +45,10 @@ exports.databaseRepo = function () {
             return person
         },
         */
-        list: function(queryParams){
-            return readDb().dog.filter(a=>a.category==queryParams.category)
-        },
+        list: function(queryParams, arrayName){
+            return readDb()[arrayName].filter(a => a.category == queryParams.category);
+        }
+        
         /*
         delete: function(id){
             var dataJson = readDb();
