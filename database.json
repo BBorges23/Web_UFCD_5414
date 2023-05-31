@@ -1,6 +1,979 @@
 {
     "dog": [{
             "id": 1,
+            "name": "Yorkshire Terrier Adult",
+            "brand": "Royal Canin",
+            "category": "racao",
+            "description": "Cães adultos de raça Yorkshire Terrier, após os 10 meses.",
+            "price": 5.05,
+            "stock": 94,
+            "image": "https://petcity.pt/18486-large_default/royal-canin-yorkshire-terrier-adult-rcyt0500.jpg"
+        },
+
+        {
+            "id": 2,
+            "name": "X-Small Adult",
+            "brand": "Royal Canin",
+            "category": "racao",
+            "description": "Cães de raças muito pequenas (com peso em adulto até aos 4kg), dos 10 meses aos 8 anos.",
+            "price": 4.95,
+            "stock": 94,
+            "image": "https://petcity.pt/16684-large_default/royal-canin-x-small-adult-rcxadl050.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Dog Classic Adult",
+            "brand": "PetField",
+            "category": "racao",
+            "description": "Alimentação seca com 26% de proteína. Contém Ómega 6.",
+            "price": 35.91,
+            "stock": 50,
+            "image": "https://petcity.pt/12275-large_default/petfield-dog-classic-adult.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Premium Dog Adult Chicken and Oat",
+            "brand": "PetField",
+            "category": "racao",
+            "description": "Alimentação seca premium com 30% de proteína e 16% de gordura, para cães adultos.",
+            "price": 13.41,
+            "stock": 30,
+            "image": "https://petcity.pt/14482-large_default/petfield-premium-dog-adult-chicken-and-oat.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Atlantica",
+            "brand": "Naturea",
+            "category": "racao",
+            "description": "Contém cerca de 60% de ingredientes de origem animal, sendo o salmão o principal. Sem cereais.",
+            "price": 19.79,
+            "stock": 94,
+            "image": "https://petcity.pt/16847-large_default/naturea-atlantica-naatl02.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Adult Chicken",
+            "brand": "Naturea",
+            "category": "racao",
+            "description": "MANTÉM AS DEFESAS NATURAIS DO SEU CÃO Seguindo o conceito Naturalmente Apropriado, Naturea NATURALS Adult – all breeds, foi formulado de forma a incluir vários ingredientes fonte de proteína animal, sem adição de hormonas, milho, trigo, soja e glúten.",
+            "price": 15.29,
+            "stock": 94,
+            "image": "https://petcity.pt/17282-large_default/naturea-adult-chicken-nnnr014.jpg"
+        },
+        {
+            "id": 7,
+            "name": "All Breed Cordeiro",
+            "brand": "Advance",
+            "category": "racao",
+            "description": "Alimento de gama alta especialmente indicado para cães adultos de todas as raças e para um especial cuidado da pele e do pelo.",
+            "price": 20.67,
+            "stock": 50,
+            "image": "https://petcity.pt/7751-large_default/advance-all-breed-cordeiro-arroz-924107.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Bulldog Francês",
+            "brand": "Advance",
+            "category": "racao",
+            "description": "ADVANCE French Bulldog é um alimento de gama alta, completo e equilibrado, especialmente desenvolvido para cães adultos da raça Bulldog Francês.",
+            "price": 41.35,
+            "stock": 30,
+            "image": "https://petcity.pt/13096-large_default/advance-bulldog-frances.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Adulto Pele Sensível",
+            "brand": "Eukanuba",
+            "category": "racao",
+            "description": "Eukanuba Peles Sensíveis é um alimento completo para cães com pele sensível. Enriquecido com óleos naturais de peixe para um pelo brilhante e uma pele saudável. Com Fórmula Vital Health e FOS pré-bióticos.",
+            "price": 15.50,
+            "stock": 30,
+            "image": "https://petcity.pt/16303-large_default/eukanuba-adulto-pele-sensivel-eukaps23.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Labrador Retriever",
+            "brand": "Eukanuba",
+            "category": "racao",
+            "description": "Eukanuba Breed Labrador Retriever é uma ração elaborada especialmente para cães adultos de raça Labrador Retriever adultos, para um pelo brilhante e saudável e para articulações mais móveis",
+            "price": 53.89,
+            "stock": 30,
+            "image": "https://petcity.pt/16307-large_default/eukanuba-labrador-retriever-12kg-euklr12.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Active",
+            "brand": "Friskies",
+            "category": "racao",
+            "description": "PURINA Friskies Active foi concebido para cães cheios de energia e sempre com uma disposição brincalhona. É uma saborosa receita com carne de vaca, combinada com cereais integrais, vitaminas B e ácidos gordos Omega 3 e 6.",
+            "price": 6.99,
+            "stock": 30,
+            "image": "https://petcity.pt/19205-large_default/friskies-active-f12277936.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Digestion",
+            "brand": "Friskies",
+            "category": "racao",
+            "description": "Especialmente formulado com chicória e polpa de beterraba, duas fontes de fibras solúveis e insolúveis, para ajudar a melhorar o processo digestivo em cães mais sensíveis.",
+            "price": 12.65,
+            "stock": 30,
+            "image": "https://petcity.pt/19210-large_default/friskies-adult-digestion-f12093660.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Artero Pretty Eyes - Loção Para Manchas",
+            "brand": "Artero",
+            "category": "saude",
+            "description": "Champo para cães 2 em 1. o D-Panthenol promove a cicratização de feridas ao mesmo tempo que hidrata a pele. Este shampo contém também oleo de jojoba que promove o brilho natural do pêlo dando-lhe volume.",
+            "price": 12.99,
+            "stock": 94,
+            "image": "https://petcity.pt/7671-large_default/artero-pretty-eyes-locao-para-manchas-h646.jpg"
+        },
+
+        {
+            "id": 14,
+            "name": "Artero Spray Balsam - Calmante Dérmico",
+            "brand": "Artero",
+            "category": "saude",
+            "description": "Artero Bálsamo dérmico calmante para cães e gatos.",
+            "price": 11.99,
+            "stock": 94,
+            "image": "https://petcity.pt/10329-large_default/artero-spray-balsam-calmante-dermico.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Organissime Loção Ocular",
+            "brand": "Biogance",
+            "category": "saude",
+            "description": "Para cães e gatos. Ajuda a eliminar as impurezas equanto acalma e protege a pele do contorno dos olhos contra a secura.",
+            "price": 6.90,
+            "stock": 50,
+            "image": "https://petcity.pt/19374-large_default/organissime-locao-ocular.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Biogance Paw Balm",
+            "brand": "Biogance",
+            "category": "saude",
+            "description": "Este bálsamo reparador é formulado com óleo de coco e manteiga de karité.",
+            "price": 10.75,
+            "stock": 30,
+            "image": "https://petcity.pt/9894-large_default/biogance-dog-paw-balm-bg04bc50.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Condrovet Cat Force Ha",
+            "brand": "Bioiberica",
+            "category": "saude",
+            "description": "Suplemento alimentar recomendado para gatos, para proteção das articulações (condroprotetor).",
+            "price": 37.50,
+            "stock": 94,
+            "image": "https://petcity.pt/6805-large_default/condrovet-cat-force-ha-condro45.jpg"
+        },
+        {
+            "id": 18,
+            "name": "Impromune",
+            "brand": "Bioiberica",
+            "category": "saude",
+            "description": "Alimento complementar para estimular as defesas imunitárias, para cães e gatos.",
+            "price": 45.15,
+            "stock": 94,
+            "image": "https://petcity.pt/13374-large_default/impromune.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Biospotix Indoor Spray",
+            "brand": "Biospotix",
+            "category": "saude",
+            "description": "O spray BIOSPOTIX indoor ajuda a eliminar pulgas adultas, ovos e larvas do ambiente dos animais de estimação.",
+            "price": 16.80,
+            "stock": 50,
+            "image": "https://petcity.pt/19405-large_default/biospotix-indoor-spray.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "Biospotix",
+            "category": "saude",
+            "description": "Um antiparasitário de proteção permanente.",
+            "price": 5.25,
+            "stock": 30,
+            "image": "https://petcity.pt/19653-large_default/biospotix-cao-coleira-replente.jpg"
+        },
+        {
+            "id": 21,
+            "name": "Bogadent Dental Lipo-Gel",
+            "brand": "Bogadent",
+            "category": "saude",
+            "description": "A sua fórmula limpa os dentes e forma uma película de proteção sobre os dentes e as gengivas.",
+            "price": 10.95,
+            "stock": 30,
+            "image": "https://petcity.pt/18361-large_default/bogadent-dental-lipo-gel.jpg"
+        },
+        {
+            "id": 22,
+            "name": "Bogadent Dog Elixir Higiene Oral",
+            "brand": "Bogadent",
+            "category": "saude",
+            "description": "Suplemento alimentar para cães usado na manutenção da higiene oral e apoio à limpeza diária dos seus dentes.",
+            "price": 13.20,
+            "stock": 30,
+            "image": "https://petcity.pt/18399-large_default/bogadent-dog-elixir-higiene-oral.jpg"
+        },
+        {
+            "id": 23,
+            "name": "Otodine",
+            "brand": "Calier",
+            "category": "saude",
+            "description": "Otodine solução auricular, para cães e gatos. Indicações e espécies animais: Coadjuvante de tratamento de otites em cães e gatos. Não ototóxico.",
+            "price": 24.90,
+            "stock": 30,
+            "image": "https://petcity.pt/1447-large_default/otodine-otod0100.jpg"
+        },
+        {
+            "id": 24,
+            "name": "Arthri-Aid-Articulações",
+            "brand": "Calier",
+            "category": "saude",
+            "description": "Alimento complementar para apoio ao funcionamento das articulações, particularmente em casos de osteoartrite, para cão e gato.",
+            "price": 39.20,
+            "stock": 30,
+            "image": "https://petcity.pt/11236-large_default/arthri-aid-articulacoes-arthri120.jpg"
+        },
+        {
+            "id": 25,
+            "name": "Ferribiela Jogo Roulette",
+            "brand": "Ferribiela",
+            "category": "brinquedo",
+            "description": "Jogo para colocar snacks e divertir o seu cão.",
+            "price": 11.90,
+            "stock": 94,
+            "image": "https://petcity.pt/10610-large_default/ferribiella-jogo-roulette.jpg"
+        },
+
+        {
+            "id": 26,
+            "name": "Ferribiela Jogo Mikado",
+            "brand": "Ferribiela",
+            "category": "brinquedo",
+            "description": "Jogo para divertir e estimular o seu cão.",
+            "price": 9.90,
+            "stock": 94,
+            "image": "https://petcity.pt/10608-large_default/ferribiella-jogo-mikado.jpg"
+        },
+        {
+            "id": 27,
+            "name": "Fuzzyard Xmas Toy Tree Rex",
+            "brand": "Fuzzyard",
+            "category": "brinquedo",
+            "description": "Brinquedo natalício de peluche super macio.",
+            "price": 14.99,
+            "stock": 50,
+            "image": "https://petcity.pt/14224-large_default/fuzzyard-xmas-toy-tree-rex.jpg"
+        },
+        {
+            "id": 28,
+            "name": "Fuzzyard - Ginger Bread Dog",
+            "brand": "Fuzzyard",
+            "category": "brinquedo",
+            "description": "Boneco de gengibre para cão.",
+            "price": 13.50,
+            "stock": 30,
+            "image": "https://petcity.pt/11494-large_default/fuzzyard-ginger-bread-dog.jpg"
+        },
+        {
+            "id": 29,
+            "name": "Kong Shells Turtle",
+            "brand": "Kong",
+            "category": "brinquedo",
+            "description": "Kong Shells Turtle é um brinquedo indicado para cães.",
+            "price": 6.65,
+            "stock": 94,
+            "image": "https://petcity.pt/4523-large_default/kong-shells-turtle-rsh31e.jpg"
+        },
+        {
+            "id": 30,
+            "name": "Kong Classic Goodie Bone",
+            "brand": "Kong",
+            "category": "brinquedo",
+            "description": "KongGoodie Boneé aconselhável para o seu cão passar a maior parte do seu tempo entretido.",
+            "price": 6.40,
+            "stock": 94,
+            "image": "https://petcity.pt/7107-large_default/kong-classic-goodie-bone-kb31e.jpg"
+        },
+        {
+            "id": 31,
+            "name": "Rogz Grinz Ball",
+            "brand": "Rogz",
+            "category": "brinquedo",
+            "description": "Suave o suficiente para não ferir os dentes do seu cão, mas firme o suficiente para saltar.A bola de deleite mais engraçada e brincalhona.A sorrirde orelha a orelha. S - 4,9cm M - 6,4cm L - 7,8cm",
+            "price": 3.27,
+            "stock": 50,
+            "image": "https://petcity.pt/4316-large_default/rogz-grinz-ball-bpgr01.jpg"
+        },
+        {
+            "id": 32,
+            "name": "Rogz Frisbee",
+            "brand": "Rogz",
+            "category": "brinquedo",
+            "description": "Frisbee para o seu Doguinho brincar.",
+            "price": 19.10,
+            "stock": 30,
+            "image": "https://petcity.pt/8467-large_default/rogz-frisbee-rrf01b.jpg"
+        },
+        {
+            "id": 33,
+            "name": "Nobleza Peluche Smile c/ Som",
+            "brand": "Nobleza",
+            "category": "brinquedo",
+            "description": "Medidas aproximadas: 16cm",
+            "price": 1.99,
+            "stock": 30,
+            "image": "https://petcity.pt/18986-large_default/nobleza-peluche-smile-c-som-nbz265791.jpg"
+        },
+        {
+            "id": 34,
+            "name": "Nobleza Brinquedo c/ Corda",
+            "brand": "Nobleza",
+            "category": "brinquedo",
+            "description": "Medidas aproximadas: 37cm",
+            "price": 2.99,
+            "stock": 30,
+            "image": "https://petcity.pt/18957-large_default/nobleza-brinquedo-c-corda-nbz293101.jpg"
+        },
+        {
+            "id": 35,
+            "name": "Trixie Galo c/ Som",
+            "brand": "Trixie",
+            "category": "brinquedo",
+            "description": "Brinquedo em peluche com som.",
+            "price": 5.60,
+            "stock": 30,
+            "image": "https://petcity.pt/17582-large_default/trixie-galo-c-som-tx35940.jpg"
+        },
+        {
+            "id": 36,
+            "name": "Trixie Lama em Peluche c/ Som",
+            "brand": "Trixie",
+            "category": "brinquedo",
+            "description": "Peluche com som - 40cm",
+            "price": 7.90,
+            "stock": 30,
+            "image": "https://petcity.pt/17580-large_default/trixie-lama-em-peluche-c-som-tx35884.jpg"
+        },
+        {
+            "id": 37,
+            "name": "Animalzan Sweat Oficial Sporting CP",
+            "brand": "Animalzan",
+            "category": "acessorios",
+            "description": "Sweat polar cardada com impressão em alta definição do emblema do clube no dorso. Fabricada em Portugal.",
+            "price": 27.50,
+            "stock": 94,
+            "image": "https://petcity.pt/8175-large_default/animalzan-sweat-oficial-sporting-cp-exc3896-1.jpg"
+        },
+
+        {
+            "id": 38,
+            "name": "Animalzan T-Shirt Oficial Sporting CP",
+            "brand": "Animalzan",
+            "category": "acessorios",
+            "description": "T-shirt inspirada no 1º equipamento de manga curta da época 2017/18 do Sporting CP.",
+            "price": 24.95,
+            "stock": 94,
+            "image": "https://petcity.pt/8168-large_default/animalzan-t-shirt-oficial-sporting-cp-exc3897-1.jpg"
+        },
+        {
+            "id": 39,
+            "name": "Camon Tapete Refrescante",
+            "brand": "Camon",
+            "category": "acessorios",
+            "description": "Este tapete refrescante mantém o seu cão fresco, mantendo uma temperatura apropriada. Pode ser usado tanto dentro de casa como fora. Macio e duradouro, pode ser útil para animais que estejam a sofrer de dores ou articulações inflamadas.",
+            "price": 11.86,
+            "stock": 50,
+            "image": "https://petcity.pt/12890-large_default/camon-tapete-refrescante-c7951.jpg"
+        },
+        {
+            "id": 40,
+            "name": "Camon Brinquedo Refrescante para Cão",
+            "brand": "Camon",
+            "category": "acessorios",
+            "description": "Brinquedo refrescante para entreter o seu melhor amigo nos dias mais quentes. ",
+            "price": 14.20,
+            "stock": 30,
+            "image": "https://petcity.pt/14681-large_default/brinquedo-refrescante-para-cao.jpg"
+        },
+        {
+            "id": 41,
+            "name": "Dashi Taça Bamboo Originar",
+            "brand": "Dashi",
+            "category": "acessorios",
+            "description": "Taça feita de Pó de Bamboo e Melamina.",
+            "price": 10.99,
+            "stock": 94,
+            "image": "https://petcity.pt/9797-large_default/dashi-taca-bamboo-original-dbowl01.jpg"
+        },
+        {
+            "id": 42,
+            "name": "Poop It Up And Chill!",
+            "brand": "Dashi",
+            "category": "acessorios",
+            "description": "Mesmo que o teu cão faça as necessidades quando ninguém está a ver, ainda assim tens de as apanhar. Com o Dispensador de Sacos da Dashi, vamos-te ajudar.",
+            "price": 3.99,
+            "stock": 94,
+            "image": "https://petcity.pt/18428-large_default/poop-it-up-and-chill-dispensador-de-sacos-dpb01.jpg"
+        },
+        {
+            "id": 43,
+            "name": "Earth Rated - Dispensador de Sacos c/ Mosquetão",
+            "brand": "Earth Rated",
+            "category": "acessorios",
+            "description": "Dispensador de sacos para dejectos com recarga de 15 sacos. Com mosquetão incorporado indicado para transportar na trela ou preso ao cinto. A gama Earth Rated apenas fabrica sacos para dejectos feitos a partir de materiais reciclados e biodegradáveis.",
+            "price": 2.92,
+            "stock": 50,
+            "image": "https://petcity.pt/13692-large_default/earth-rated-dispensador-de-sacos-c-mosquetao.jpg"
+        },
+        {
+            "id": 44,
+            "name": "Earth Rated - Recargas com 120 Sacos",
+            "brand": "Earth Rated",
+            "category": "acessorios",
+            "description": "Esta embalagem inclui 8 rolos de 15 sacos que podem ser usados sozinhos ou com nosso dispensador. Esses sacos são fáceis de abrir, extra grossos e resistentes!",
+            "price": 6.79,
+            "stock": 30,
+            "image": "https://petcity.pt/3666-large_default/earth-rated-recargas-com-120-sacos-va01201.jpg"
+        },
+        {
+            "id": 45,
+            "name": "Flexi Multi Box - Dispensador de Sacos ou Snacks",
+            "brand": "Flexi",
+            "category": "acessorios",
+            "description": "Flexi Multibox é um prático e inovador acessório para a sua trela extensível Flexi.",
+            "price": 5.99,
+            "stock": 30,
+            "image": "https://petcity.pt/16102-large_default/flexi-multi-box-dispensador-de-sacos-ou-snacks-fle03-2370.jpg"
+        },
+        {
+            "id": 46,
+            "name": "Flexi Trela Verde Neon - Fita",
+            "brand": "Flexi",
+            "category": "acessorios",
+            "description": "Trela extensível em fita.",
+            "price": 18.09,
+            "stock": 30,
+            "image": "https://petcity.pt/19416-large_default/flexi-trela-verde-neon-fita.jpg"
+        },
+        {
+            "id": 47,
+            "name": "Mugue - Pelù Rolo Adesivo Anti-Ácaros",
+            "brand": "Mugue",
+            "category": "acessorios",
+            "description": "Elimina 99% dos ácaros (testados pela Universidade de Milão em condições experimentais).Limpa e remove os pêlos de qualquer superfície / tecido.Papel adesivo de máxima eficiência.Ambiente perfumado.10 metros, 60 aplicações.",
+            "price": 7.90,
+            "stock": 30,
+            "image": "https://petcity.pt/6701-large_default/mugue-pelu-rolo-adesivo-anti-acaros-lintac.jpg"
+        },
+        {
+            "id": 48,
+            "name": "Mugue - Pelù Smart Roll",
+            "brand": "Mugue",
+            "category": "acessorios",
+            "description": "O super rolo/escova adesivo. O objeto de design que se transforma: um único produto … 3 modos diferentes de o utilizar. 3 punhos e montagens diferentes que tornam mais fácil e eficaz a manutenção dos seus casacos e da sua casa.",
+            "price": 10.90,
+            "stock": 30,
+            "image": "https://petcity.pt/4633-large_default/mugue-pelu-smart-roll-28050.jpg"
+        }
+
+    ],
+    "cat": [{
+        "id": 1,
+        "name": "Ração Premium para Cães Adultos",
+        "brand": "Premium Pet Food",
+        "category": "racao",
+        "description": "An apple mobile which is nothing like apple",
+        "price": 17.91,
+        "stock": 94,
+        "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "Ração Premium para Cães Adultos",
+        "brand": "Premium Pet Food",
+        "category": "racao",
+        "description": "An apple mobile which is nothing like apple",
+        "price": 17.91,
+        "stock": 94,
+        "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Anima-Strath - Fortificante",
+        "brand": "Anima-Strath",
+        "category": "racao",
+        "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
+        "price": 13.17,
+        "stock": 50,
+        "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Bogadent - Elixir Oral Cão 250ml",
+        "brand": "Bogadent",
+        "category": "racao",
+        "description": "Elixir de Higiene Oral para cães",
+        "price": 39.99,
+        "stock": 30,
+        "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Peluche Kerbl Cordeiro Shaggy",
+        "brand": "Kerbl pet",
+        "category": "racao",
+        "description": "Feito de chenille com corda de algodão",
+        "price": 8.56,
+        "stock": 94,
+        "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+    },
+    {
+        "id": 6,
+        "name": "KONG - Air Squeaker Bone",
+        "brand": "KONG",
+        "category": "racao",
+        "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
+        "price": 6.40,
+        "stock": 94,
+        "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
+        "brand": "Ibanez",
+        "category": "racao",
+        "description": "Transportadora para cães e Gatos",
+        "price": 120.84,
+        "stock": 50,
+        "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "racao",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "racao",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "racao",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "racao",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "racao",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Ração Premium para Cães Adultos",
+        "brand": "Premium Pet Food",
+        "category": "saude",
+        "description": "An apple mobile which is nothing like apple",
+        "price": 17.91,
+        "stock": 94,
+        "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+    },
+
+    {
+        "id": 14,
+        "name": "Ração Premium para Cães Adultos",
+        "brand": "Premium Pet Food",
+        "category": "saude",
+        "description": "An apple mobile which is nothing like apple",
+        "price": 17.91,
+        "stock": 94,
+        "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Anima-Strath - Fortificante",
+        "brand": "Anima-Strath",
+        "category": "saude",
+        "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
+        "price": 13.17,
+        "stock": 50,
+        "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Bogadent - Elixir Oral Cão 250ml",
+        "brand": "Bogadent",
+        "category": "saude",
+        "description": "Elixir de Higiene Oral para cães",
+        "price": 39.99,
+        "stock": 30,
+        "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Peluche Kerbl Cordeiro Shaggy",
+        "brand": "Kerbl pet",
+        "category": "saude",
+        "description": "Feito de chenille com corda de algodão",
+        "price": 8.56,
+        "stock": 94,
+        "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+    },
+    {
+        "id": 18,
+        "name": "KONG - Air Squeaker Bone",
+        "brand": "KONG",
+        "category": "saude",
+        "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
+        "price": 6.40,
+        "stock": 94,
+        "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
+        "brand": "Ibanez",
+        "category": "saude",
+        "description": "Transportadora para cães e Gatos",
+        "price": 120.84,
+        "stock": 50,
+        "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "saude",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "saude",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "saude",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "saude",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "saude",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Ração Premium para Cães Adultos",
+        "brand": "Premium Pet Food",
+        "category": "brinquedo",
+        "description": "An apple mobile which is nothing like apple",
+        "price": 17.91,
+        "stock": 94,
+        "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+    },
+
+    {
+        "id": 26,
+        "name": "Ração Premium para Cães Adultos",
+        "brand": "Premium Pet Food",
+        "category": "brinquedo",
+        "description": "An apple mobile which is nothing like apple",
+        "price": 17.91,
+        "stock": 94,
+        "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Anima-Strath - Fortificante",
+        "brand": "Anima-Strath",
+        "category": "brinquedo",
+        "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
+        "price": 13.17,
+        "stock": 50,
+        "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Bogadent - Elixir Oral Cão 250ml",
+        "brand": "Bogadent",
+        "category": "brinquedo",
+        "description": "Elixir de Higiene Oral para cães",
+        "price": 39.99,
+        "stock": 30,
+        "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Peluche Kerbl Cordeiro Shaggy",
+        "brand": "Kerbl pet",
+        "category": "brinquedo",
+        "description": "Feito de chenille com corda de algodão",
+        "price": 8.56,
+        "stock": 94,
+        "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+    },
+    {
+        "id": 30,
+        "name": "KONG - Air Squeaker Bone",
+        "brand": "KONG",
+        "category": "brinquedo",
+        "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
+        "price": 6.40,
+        "stock": 94,
+        "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
+        "brand": "Ibanez",
+        "category": "brinquedo",
+        "description": "Transportadora para cães e Gatos",
+        "price": 120.84,
+        "stock": 50,
+        "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "brinquedo",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "brinquedo",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 34,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "brinquedo",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 35,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "brinquedo",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 36,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "brinquedo",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 37,
+        "name": "Ração Premium para Cães Adultos",
+        "brand": "Premium Pet Food",
+        "category": "acessorios",
+        "description": "An apple mobile which is nothing like apple",
+        "price": 17.91,
+        "stock": 94,
+        "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+    },
+
+    {
+        "id": 38,
+        "name": "Ração Premium para Cães Adultos",
+        "brand": "Premium Pet Food",
+        "category": "acessorios",
+        "description": "An apple mobile which is nothing like apple",
+        "price": 17.91,
+        "stock": 94,
+        "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+    },
+    {
+        "id": 39,
+        "name": "Anima-Strath - Fortificante",
+        "brand": "Anima-Strath",
+        "category": "acessorios",
+        "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
+        "price": 13.17,
+        "stock": 50,
+        "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+    },
+    {
+        "id": 40,
+        "name": "Bogadent - Elixir Oral Cão 250ml",
+        "brand": "Bogadent",
+        "category": "acessorios",
+        "description": "Elixir de Higiene Oral para cães",
+        "price": 39.99,
+        "stock": 30,
+        "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+    },
+    {
+        "id": 41,
+        "name": "Peluche Kerbl Cordeiro Shaggy",
+        "brand": "Kerbl pet",
+        "category": "acessorios",
+        "description": "Feito de chenille com corda de algodão",
+        "price": 8.56,
+        "stock": 94,
+        "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+    },
+    {
+        "id": 42,
+        "name": "KONG - Air Squeaker Bone",
+        "brand": "KONG",
+        "category": "acessorios",
+        "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
+        "price": 6.40,
+        "stock": 94,
+        "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+    },
+    {
+        "id": 43,
+        "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
+        "brand": "Ibanez",
+        "category": "acessorios",
+        "description": "Transportadora para cães e Gatos",
+        "price": 120.84,
+        "stock": 50,
+        "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+    },
+    {
+        "id": 44,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "acessorios",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 45,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "acessorios",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 46,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "acessorios",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 47,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "acessorios",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    },
+    {
+        "id": 48,
+        "name": "Mochila Transportadora SAVINA",
+        "brand": "TRIXIE",
+        "category": "acessorios",
+        "description": "Especialmente robusta e de alta qualidade",
+        "price": 43.01,
+        "stock": 30,
+        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+    }
+
+    ],
+    "fish": [
+        {
+            "id": 1,
             "name": "Ração Premium para Cães Adultos",
             "brand": "Premium Pet Food",
             "category": "racao",
@@ -24,7 +997,7 @@
             "id": 3,
             "name": "Anima-Strath - Fortificante",
             "brand": "Anima-Strath",
-            "category": "saude",
+            "category": "racao",
             "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
             "price": 13.17,
             "stock": 50,
@@ -34,7 +1007,7 @@
             "id": 4,
             "name": "Bogadent - Elixir Oral Cão 250ml",
             "brand": "Bogadent",
-            "category": "saude",
+            "category": "racao",
             "description": "Elixir de Higiene Oral para cães",
             "price": 39.99,
             "stock": 30,
@@ -44,18 +1017,17 @@
             "id": 5,
             "name": "Peluche Kerbl Cordeiro Shaggy",
             "brand": "Kerbl pet",
-            "category": "brinquedo",
+            "category": "racao",
             "description": "Feito de chenille com corda de algodão",
             "price": 8.56,
             "stock": 94,
             "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
         },
-
         {
             "id": 6,
             "name": "KONG - Air Squeaker Bone",
             "brand": "KONG",
-            "category": "brinquedo",
+            "category": "racao",
             "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
             "price": 6.40,
             "stock": 94,
@@ -65,7 +1037,7 @@
             "id": 7,
             "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
             "brand": "Ibanez",
-            "category": "acessorios",
+            "category": "racao",
             "description": "Transportadora para cães e Gatos",
             "price": 120.84,
             "stock": 50,
@@ -73,6 +1045,409 @@
         },
         {
             "id": 8,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "racao",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "racao",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "racao",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "racao",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "racao",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Premium Pet Food",
+            "category": "saude",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 17.91,
+            "stock": 94,
+            "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+        },
+
+        {
+            "id": 14,
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Premium Pet Food",
+            "category": "saude",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 17.91,
+            "stock": 94,
+            "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Anima-Strath - Fortificante",
+            "brand": "Anima-Strath",
+            "category": "saude",
+            "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
+            "price": 13.17,
+            "stock": 50,
+            "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Bogadent - Elixir Oral Cão 250ml",
+            "brand": "Bogadent",
+            "category": "saude",
+            "description": "Elixir de Higiene Oral para cães",
+            "price": 39.99,
+            "stock": 30,
+            "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Peluche Kerbl Cordeiro Shaggy",
+            "brand": "Kerbl pet",
+            "category": "saude",
+            "description": "Feito de chenille com corda de algodão",
+            "price": 8.56,
+            "stock": 94,
+            "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+        },
+        {
+            "id": 18,
+            "name": "KONG - Air Squeaker Bone",
+            "brand": "KONG",
+            "category": "saude",
+            "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
+            "price": 6.40,
+            "stock": 94,
+            "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
+            "brand": "Ibanez",
+            "category": "saude",
+            "description": "Transportadora para cães e Gatos",
+            "price": 120.84,
+            "stock": 50,
+            "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "saude",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 21,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "saude",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 22,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "saude",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 23,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "saude",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 24,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "saude",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 25,
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Premium Pet Food",
+            "category": "brinquedo",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 17.91,
+            "stock": 94,
+            "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+        },
+
+        {
+            "id": 26,
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Premium Pet Food",
+            "category": "brinquedo",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 17.91,
+            "stock": 94,
+            "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+        },
+        {
+            "id": 27,
+            "name": "Anima-Strath - Fortificante",
+            "brand": "Anima-Strath",
+            "category": "brinquedo",
+            "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
+            "price": 13.17,
+            "stock": 50,
+            "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+        },
+        {
+            "id": 28,
+            "name": "Bogadent - Elixir Oral Cão 250ml",
+            "brand": "Bogadent",
+            "category": "brinquedo",
+            "description": "Elixir de Higiene Oral para cães",
+            "price": 39.99,
+            "stock": 30,
+            "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+        },
+        {
+            "id": 29,
+            "name": "Peluche Kerbl Cordeiro Shaggy",
+            "brand": "Kerbl pet",
+            "category": "brinquedo",
+            "description": "Feito de chenille com corda de algodão",
+            "price": 8.56,
+            "stock": 94,
+            "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+        },
+        {
+            "id": 30,
+            "name": "KONG - Air Squeaker Bone",
+            "brand": "KONG",
+            "category": "brinquedo",
+            "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
+            "price": 6.40,
+            "stock": 94,
+            "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+        },
+        {
+            "id": 31,
+            "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
+            "brand": "Ibanez",
+            "category": "brinquedo",
+            "description": "Transportadora para cães e Gatos",
+            "price": 120.84,
+            "stock": 50,
+            "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+        },
+        {
+            "id": 32,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "brinquedo",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 33,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "brinquedo",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 34,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "brinquedo",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 35,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "brinquedo",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 36,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "brinquedo",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 37,
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Premium Pet Food",
+            "category": "acessorios",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 17.91,
+            "stock": 94,
+            "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+        },
+
+        {
+            "id": 38,
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Premium Pet Food",
+            "category": "acessorios",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 17.91,
+            "stock": 94,
+            "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+        },
+        {
+            "id": 39,
+            "name": "Anima-Strath - Fortificante",
+            "brand": "Anima-Strath",
+            "category": "acessorios",
+            "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
+            "price": 13.17,
+            "stock": 50,
+            "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+        },
+        {
+            "id": 40,
+            "name": "Bogadent - Elixir Oral Cão 250ml",
+            "brand": "Bogadent",
+            "category": "acessorios",
+            "description": "Elixir de Higiene Oral para cães",
+            "price": 39.99,
+            "stock": 30,
+            "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+        },
+        {
+            "id": 41,
+            "name": "Peluche Kerbl Cordeiro Shaggy",
+            "brand": "Kerbl pet",
+            "category": "acessorios",
+            "description": "Feito de chenille com corda de algodão",
+            "price": 8.56,
+            "stock": 94,
+            "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+        },
+        {
+            "id": 42,
+            "name": "KONG - Air Squeaker Bone",
+            "brand": "KONG",
+            "category": "acessorios",
+            "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
+            "price": 6.40,
+            "stock": 94,
+            "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+        },
+        {
+            "id": 43,
+            "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
+            "brand": "Ibanez",
+            "category": "acessorios",
+            "description": "Transportadora para cães e Gatos",
+            "price": 120.84,
+            "stock": 50,
+            "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+        },
+        {
+            "id": 44,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "acessorios",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 45,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "acessorios",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 46,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "acessorios",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 47,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "acessorios",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 48,
             "name": "Mochila Transportadora SAVINA",
             "brand": "TRIXIE",
             "category": "acessorios",
@@ -83,259 +1458,489 @@
         }
 
     ],
-    "cat": [{
-            "id": 1,
-            "name": "Royal Canin British Shorthair Kitten - Ração seca para gatinhos de raça",
-            "brand": "Royal Canin",
-            "category": "racao",
-            "description": "Royal Canin British Shortair Kitten é um alimento seco, completo e equilibrado, que contribui para o bem-estar geral dos gatinhos. A ração é formulada tendo em conta as necessidades específicas dos gatinhos de raça British Shortair, até aos 12 meses de idade.",
-            "price": 32.19,
-            "stock": 94,
-            "image": "https://goldpet.pt/54588-large_default/royal-canin-british-shorthair-kitten-racao-seca-para-gatinhos-de-raca.jpg"
-        },
-
-        {
-            "id": 2,
-            "name": "Royal Canin Mother & Babycat - Alimento em mousse para gatinhos e gatas gestantes/lactantes",
-            "brand": "royal canin",
-            "category": "racao",
-            "description": "Royal Canin Mother & Babycat Loaf é um alimento especialmente formulado tendo em conta as necessidades nutricionais da mãe e gatinhos. Adequado para gatas gestantes ou lactantes, bem como gatinhos entre 1 e 4 meses de idade.",
-            "price": 3.21,
-            "stock": 94,
-            "image": "https://goldpet.pt/80568-large_default/royal-canin-mother-babycat-alimento-em-mousse-para-gatinhos-e-gatas-gestanteslactantes.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Arthri Aid",
-            "brand": "Arthri Aid",
-            "category": "saude",
-            "description": "Alimento complementar para apoio ao funcionamento das articulações, particularmente em casos de osteoartrite, para cão e gato.",
-            "price": 39.20,
-            "stock": 50,
-            "image": "https://goldpet.pt/47854-large_default/arthri-aid.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Trixie Body de proteção para gatos",
-            "brand": "TRIXIE",
-            "category": "saude",
-            "description": "Este body é indicado para proteger feridas e lesões, impedindo que o gato lamba as mesmas. Permite que o animal possa utilizar a caixa de areia para as necessidades. Body ajustável, graças às tiras aderentes e elástico de ajuste. Feito de algodão com elastano.",
-            "price": 17.83,
-            "stock": 30,
-            "image": "https://goldpet.pt/56465-large_default/trixie-body-de-protecao-para-gatos.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Bolas RATO em Peluche",
-            "brand": "TRIXIE",
-            "category": "brinquedos",
-            "description": "Pelucia curta Cores sortidas",
-            "price": 1.50,
-            "stock": 94,
-            "image": "https://goldpet.pt/36901-large_default/bolas-rato-em-peluche.jpg"
-        },
-
-        {
-            "id": 6,
-            "name": "Kerbl Tunel Puntino para gatos",
-            "brand": "Kerbl pet",
-            "category": "brinquedo",
-            "description": "Em nylon",
-            "price": 13.72,
-            "stock": 94,
-            "image": "https://goldpet.pt/41016-large_default/kerbl-tunel-puntino-para-gatos.jpg"
-        },
-        {
-            "id": 7,
-            "name": "Comedouro interativo para gatos - Senses 2.0 Digger - Catit",
-            "brand": "CATIT",
-            "category": "acessorios",
-            "description": "Catit Senses 2.0 Digger é um comedouro interativo para gatos. Com pequenos tubos para colocar os snacks favoritos do seu bichinho, dos quais o gato tem de se esforçar para as tirar e comer! É, por isto, um acessório que promove o bem-estar mental e físico dos gatos.",
-            "price": 16.68,
-            "stock": 50,
-            "image": "https://goldpet.pt/72856-large_default/comedouro-interativo-para-gatos-senses-20-digger-catit.jpg"
-        },
-        {
-            "id": 8,
-            "name": "Kerbl Comedouro duplo antiderrapante",
-            "brand": "KERBL PET",
-            "category": "acessorios",
-            "description": "Comedouro duplo antiderrapante",
-            "price": 10.32,
-            "stock": 30,
-            "image": "https://goldpet.pt/27122-large_default/kerbl-comedouro-duplo-antiderrapante.jpg"
-        }
-
-    ],
-    "fish": [
-
-        {
-            "id": 1,
-            "name": "JBL -NovoArtemio 100ml",
-            "brand": "JBL",
-            "category": "racao",
-            "description": "JBL Novo Artemio - Artemia naturais liofilizado",
-            "price": 5.65,
-            "stock": 94,
-            "image": "https://goldpet.pt/14097-large_default/jbl-novoartemio-100ml.jpg"
-        },
-
-        {
-            "id": 2,
-            "name": "Goldfish Premium - Comida em Flocos de Alto Valor Protéico p/ Peixes de Água Fria",
-            "brand": "Goldfish Premium",
-            "category": "racao",
-            "description": "Alimento composto por flocos, para peixes de água fria do tipo carassius.",
-            "price": 8.70,
-            "stock": 94,
-            "image": "https://goldpet.pt/16643-large_default/goldfish-premium-comida-em-flocos-de-alto-valor-proteico-p-peixes-de-agua-fria.jpg"
-        },
-        {
-            "id": 3,
-            "name": "JBL Atvitol 50ml",
-            "brand": "JBL",
-            "category": "saude",
-            "description": "Para aumentar os níveis de vitamina especificamente de congelado vivo alimentar, liofilizados e secos detodos os tipos. ",
-            "price": 9.75,
-            "stock": 50,
-            "image": "https://goldpet.pt/42526-large_default/jbl-atvitol-50ml.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Sera Siporax Algovec Professional",
-            "brand": "Sera",
-            "category": "saude",
-            "description": "Ração específica para filhotes de cães",
-            "price": 3.45,
-            "stock": 30,
-            "image": "https://goldpet.pt/50831-large_default/sera-siporax-algovec-professional.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Rocha Cavernosa Jura - Média",
-            "brand": "EX",
-            "category": "brinquedo",
-            "description": " Pedra natural",
-            "price": 5.00,
-            "stock": 94,
-            "image": "https://goldpet.pt/73286-large_default/rocha-cavernosa-jura-media.jpg"
-        },
-
-        {
-            "id": 6,
-            "name": "Raiz Tanganyika para aquário",
-            "brand": "royal canin",
-            "category": "brinquedo",
-            "description": "Raiz de madeira, natural, Tanganyika para aquascaping. Forma e tamanho variável.",
-            "price": 5.73,
-            "stock": 94,
-            "image": "https://goldpet.pt/58391-large_default/raiz-tanganyika-para-aquario.jpg"
-        },
-        {
-            "id": 7,
-            "name": "Bomba repuxo para lago pond-flow eco",
-            "brand": "Super Fish",
-            "category": "acessorios",
-            "description": "Ração de alta qualidade para cães adultos",
-            "price": 89.50,
-            "stock": 50,
-            "image": "https://goldpet.pt/63771-large_default/bomba-repuxo-para-lago-pond-flow-eco.jpg"
-        },
-        {
-            "id": 8,
-            "name": "Flower LED Basic",
-            "brand": "SICCE",
-            "category": "acessorios",
-            "description": "Com um toque decorativo elegante, a FLOWER LED pode abrilhantar qualquer divisão ou espaço, garantindo um excelente efeito e um custo mínimo de operação.",
-            "price": 51.81,
-            "stock": 30,
-            "image": "https://goldpet.pt/63995-large_default/flower-led-basic.jpg"
-        }
-
-    ],
     "bird": [
-
         {
             "id": 1,
-            "name": "Versele-Laga Prestige Rolas",
-            "brand": "Prestige",
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Premium Pet Food",
             "category": "racao",
-            "description": "Mistura especialmente composta para rolas e outros pequenos pombos exóticos. Rica em sementes pequenas. A mistura para rolas é muito utilizada como alimento para espalhar em jardins e parques.",
-            "price": 1.43,
+            "description": "An apple mobile which is nothing like apple",
+            "price": 17.91,
             "stock": 94,
-            "image": "https://goldpet.pt/58756-large_default/versele-laga-prestige-rolas.jpg"
+            "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
         },
-
         {
             "id": 2,
-            "name": "Alpista Limpa",
-            "brand": "Canto Alegre",
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Premium Pet Food",
             "category": "racao",
-            "description": "Comida Gostosa",
-            "price": 2.08,
+            "description": "An apple mobile which is nothing like apple",
+            "price": 17.91,
             "stock": 94,
-            "image": "https://goldpet.pt/51549-large_default/alpista-limpa.jpg"
+            "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
         },
         {
             "id": 3,
-            "name": "Gotas para a Muda",
-            "brand": "TRIXIE",
-            "category": "saude",
-            "description": "Promove o fornecimento de vitaminas durante o período da muda",
-            "price": 3.70,
+            "name": "Anima-Strath - Fortificante",
+            "brand": "Anima-Strath",
+            "category": "racao",
+            "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
+            "price": 13.17,
             "stock": 50,
-            "image": "https://goldpet.pt/40000-large_default/gotas-para-a-muda.jpg"
+            "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
         },
         {
             "id": 4,
-            "name": "Colar isabelino Buster para aves",
-            "brand": "Buster",
-            "category": "saude",
-            "description": "Colar isabelino Buster, para aves. Essencial para prevenir que toque em feridas ou arranque as penas. Material transparente.",
-            "price": 2.72,
+            "name": "Bogadent - Elixir Oral Cão 250ml",
+            "brand": "Bogadent",
+            "category": "racao",
+            "description": "Elixir de Higiene Oral para cães",
+            "price": 39.99,
             "stock": 30,
-            "image": "https://goldpet.pt/64736-large_default/colar-isabelino-buster-para-aves.jpg"
+            "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
         },
         {
             "id": 5,
-            "name": "Escada p/ Aves",
+            "name": "Peluche Kerbl Cordeiro Shaggy",
             "brand": "Kerbl pet",
-            "category": "brinquedo",
-            "description": "madeira, algodão e plástico",
-            "price": 2.94,
+            "category": "racao",
+            "description": "Feito de chenille com corda de algodão",
+            "price": 8.56,
             "stock": 94,
-            "image": "https://goldpet.pt/22018-large_default/escada-p-aves-10x35cm.jpg"
+            "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
         },
-
         {
             "id": 6,
-            "name": "Baloiço de Madeira",
-            "brand": "KERBL Pet",
-            "category": "brinquedo",
-            "description": "Baloiço de Madeira",
-            "price": 2.05,
+            "name": "KONG - Air Squeaker Bone",
+            "brand": "KONG",
+            "category": "racao",
+            "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
+            "price": 6.40,
             "stock": 94,
-            "image": "https://goldpet.pt/27118-large_default/baloico-de-madeira-12x135cm.jpg"
+            "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
         },
         {
             "id": 7,
-            "name": "Corrente com Anilha",
-            "brand": "Royal Canin",
-            "category": "acessorios",
-            "description": "Correntes com anilha ou anilha com parafuso (conforme tipo de ave a que se destina).",
-            "price": 7.97,
+            "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
+            "brand": "Ibanez",
+            "category": "racao",
+            "description": "Transportadora para cães e Gatos",
+            "price": 120.84,
             "stock": 50,
-            "image": "https://goldpet.pt/55653-large_default/corrente-com-anilha.jpg"
+            "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
         },
         {
             "id": 8,
-            "name": "Anilhas em Plástico - 12 séries",
-            "brand": "EX",
-            "category": "acessorios",
-            "description": "Anilhas feitas de plástico, com 12 séries.",
-            "price": 4.48,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "racao",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
             "stock": 30,
-            "image": "https://goldpet.pt/57475-large_default/anilhas-em-plastico-12-series.jpg"
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "racao",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "racao",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "racao",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "racao",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Premium Pet Food",
+            "category": "saude",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 17.91,
+            "stock": 94,
+            "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+        },
+
+        {
+            "id": 14,
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Premium Pet Food",
+            "category": "saude",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 17.91,
+            "stock": 94,
+            "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Anima-Strath - Fortificante",
+            "brand": "Anima-Strath",
+            "category": "saude",
+            "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
+            "price": 13.17,
+            "stock": 50,
+            "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Bogadent - Elixir Oral Cão 250ml",
+            "brand": "Bogadent",
+            "category": "saude",
+            "description": "Elixir de Higiene Oral para cães",
+            "price": 39.99,
+            "stock": 30,
+            "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Peluche Kerbl Cordeiro Shaggy",
+            "brand": "Kerbl pet",
+            "category": "saude",
+            "description": "Feito de chenille com corda de algodão",
+            "price": 8.56,
+            "stock": 94,
+            "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+        },
+        {
+            "id": 18,
+            "name": "KONG - Air Squeaker Bone",
+            "brand": "KONG",
+            "category": "saude",
+            "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
+            "price": 6.40,
+            "stock": 94,
+            "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
+            "brand": "Ibanez",
+            "category": "saude",
+            "description": "Transportadora para cães e Gatos",
+            "price": 120.84,
+            "stock": 50,
+            "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "saude",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 21,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "saude",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 22,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "saude",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 23,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "saude",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 24,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "saude",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 25,
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Premium Pet Food",
+            "category": "brinquedo",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 17.91,
+            "stock": 94,
+            "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+        },
+
+        {
+            "id": 26,
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Premium Pet Food",
+            "category": "brinquedo",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 17.91,
+            "stock": 94,
+            "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+        },
+        {
+            "id": 27,
+            "name": "Anima-Strath - Fortificante",
+            "brand": "Anima-Strath",
+            "category": "brinquedo",
+            "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
+            "price": 13.17,
+            "stock": 50,
+            "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+        },
+        {
+            "id": 28,
+            "name": "Bogadent - Elixir Oral Cão 250ml",
+            "brand": "Bogadent",
+            "category": "brinquedo",
+            "description": "Elixir de Higiene Oral para cães",
+            "price": 39.99,
+            "stock": 30,
+            "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+        },
+        {
+            "id": 29,
+            "name": "Peluche Kerbl Cordeiro Shaggy",
+            "brand": "Kerbl pet",
+            "category": "brinquedo",
+            "description": "Feito de chenille com corda de algodão",
+            "price": 8.56,
+            "stock": 94,
+            "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+        },
+        {
+            "id": 30,
+            "name": "KONG - Air Squeaker Bone",
+            "brand": "KONG",
+            "category": "brinquedo",
+            "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
+            "price": 6.40,
+            "stock": 94,
+            "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+        },
+        {
+            "id": 31,
+            "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
+            "brand": "Ibanez",
+            "category": "brinquedo",
+            "description": "Transportadora para cães e Gatos",
+            "price": 120.84,
+            "stock": 50,
+            "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+        },
+        {
+            "id": 32,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "brinquedo",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 33,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "brinquedo",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 34,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "brinquedo",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 35,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "brinquedo",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 36,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "brinquedo",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 37,
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Premium Pet Food",
+            "category": "acessorios",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 17.91,
+            "stock": 94,
+            "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+        },
+
+        {
+            "id": 38,
+            "name": "Ração Premium para Cães Adultos",
+            "brand": "Premium Pet Food",
+            "category": "acessorios",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 17.91,
+            "stock": 94,
+            "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+        },
+        {
+            "id": 39,
+            "name": "Anima-Strath - Fortificante",
+            "brand": "Anima-Strath",
+            "category": "acessorios",
+            "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
+            "price": 13.17,
+            "stock": 50,
+            "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+        },
+        {
+            "id": 40,
+            "name": "Bogadent - Elixir Oral Cão 250ml",
+            "brand": "Bogadent",
+            "category": "acessorios",
+            "description": "Elixir de Higiene Oral para cães",
+            "price": 39.99,
+            "stock": 30,
+            "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+        },
+        {
+            "id": 41,
+            "name": "Peluche Kerbl Cordeiro Shaggy",
+            "brand": "Kerbl pet",
+            "category": "acessorios",
+            "description": "Feito de chenille com corda de algodão",
+            "price": 8.56,
+            "stock": 94,
+            "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+        },
+        {
+            "id": 42,
+            "name": "KONG - Air Squeaker Bone",
+            "brand": "KONG",
+            "category": "acessorios",
+            "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
+            "price": 6.40,
+            "stock": 94,
+            "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+        },
+        {
+            "id": 43,
+            "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
+            "brand": "Ibanez",
+            "category": "acessorios",
+            "description": "Transportadora para cães e Gatos",
+            "price": 120.84,
+            "stock": 50,
+            "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+        },
+        {
+            "id": 44,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "acessorios",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 45,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "acessorios",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 46,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "acessorios",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 47,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "acessorios",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        },
+        {
+            "id": 48,
+            "name": "Mochila Transportadora SAVINA",
+            "brand": "TRIXIE",
+            "category": "acessorios",
+            "description": "Especialmente robusta e de alta qualidade",
+            "price": 43.01,
+            "stock": 30,
+            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
         }
 
     ]
