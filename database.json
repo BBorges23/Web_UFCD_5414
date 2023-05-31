@@ -487,487 +487,487 @@
     ],
     "cat": [{
         "id": 1,
-        "name": "Ração Premium para Cães Adultos",
-        "brand": "Premium Pet Food",
+        "name": "Acana Cat First Feast",
+        "brand": "Acana",
         "category": "racao",
-        "description": "An apple mobile which is nothing like apple",
-        "price": 17.91,
+        "description": "Inicie a vida do seu gatinho com uma alimentação cheia de ingredientes de origem animal. Concebida para fornecer tudo o que o seu gatinho precisa para um crescimento e desenvolvimento saudável.",
+        "price": 6.21,
         "stock": 94,
-        "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+        "image": "https://petcity.pt/18686-large_default/acana-cat-first-feast-acc300.jpg"
     },
 
     {
         "id": 2,
-        "name": "Ração Premium para Cães Adultos",
-        "brand": "Premium Pet Food",
+        "name": "Acana Pacifica Cat",
+        "brand": "Acana",
         "category": "racao",
-        "description": "An apple mobile which is nothing like apple",
-        "price": 17.91,
+        "description": "Fornece naturalmente os nutrientes de que seu gato necessita para ter uma saúde perfeita e estar sempre nutrido da maneira que a Mãe Natureza pretendia.",
+        "price": 7.11,
         "stock": 94,
-        "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+        "image": "https://petcity.pt/9778-large_default/acana-pacifica-cat-acr303.jpg"
     },
     {
         "id": 3,
-        "name": "Anima-Strath - Fortificante",
-        "brand": "Anima-Strath",
+        "name": "Advance Cat Sterilised +10 Chicken/Barley",
+        "brand": "Advance",
         "category": "racao",
-        "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
-        "price": 13.17,
+        "description": "Alimento de gama alta indicado para gatos esterilizados com mais de 10 anos: Ajuda a prevenir a obesidade em gatos esterilizados, ajuda a diminuir o risco de insuficiência renal (DRC) e ajuda a evitar a formação de cálculos urinários de oxalato de cálcio.",
+        "price": 12.74,
         "stock": 50,
-        "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+        "image": "https://petcity.pt/8098-large_default/advance-cat-sterilised-10-chickenbarley-ad921508.jpg"
     },
     {
         "id": 4,
-        "name": "Bogadent - Elixir Oral Cão 250ml",
-        "brand": "Bogadent",
+        "name": "Advance Kitten Feline",
+        "brand": "Advance",
         "category": "racao",
-        "description": "Elixir de Higiene Oral para cães",
-        "price": 39.99,
+        "description": "Alimento de gama alta especialmente indicado para gatinhos (entre 2 e 12 meses) e para fêmeas gestantes ou lactantes.",
+        "price": 3.39,
         "stock": 30,
-        "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+        "image": "https://petcity.pt/6322-large_default/advance-kitten-feline-ad7887.jpg"
     },
     {
         "id": 5,
-        "name": "Peluche Kerbl Cordeiro Shaggy",
-        "brand": "Kerbl pet",
+        "name": "Applaws Cat Senior Chicken",
+        "brand": "Applaws",
         "category": "racao",
-        "description": "Feito de chenille com corda de algodão",
-        "price": 8.56,
+        "description": "Muitos alimentos secos para gatos usam grãos como fonte primária de proteína. Dietas que contêm altos níveis de grãos podem ser difíceis de digerir e converter em energia. Isso pode stressar o fígado e os rins e pode levar ao desenvolvimento de alergias.",
+        "price": 15.90,
         "stock": 94,
-        "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+        "image": "https://petcity.pt/7523-large_default/applaws-cat-senior-chicken-a4205ml.jpg"
     },
     {
         "id": 6,
-        "name": "KONG - Air Squeaker Bone",
-        "brand": "KONG",
+        "name": "Applaws Kitten Chicken",
+        "brand": "Applaws",
         "category": "racao",
-        "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
-        "price": 6.40,
+        "description": "Applaws dá ao seu gatinho uma dieta rica em proteína animal que é naturalmente rica em taurina.",
+        "price": 4.75,
         "stock": 94,
-        "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+        "image": "https://petcity.pt/7537-large_default/applaws-kitten-chicken-a4001c.jpg"
     },
     {
         "id": 7,
-        "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
-        "brand": "Ibanez",
+        "name": "Arion Essencial Cat Fish Complet",
+        "brand": "Arion Essencial",
         "category": "racao",
-        "description": "Transportadora para cães e Gatos",
-        "price": 120.84,
+        "description": "Arion Essential Fish Complet é um alimento completo para o seu gato. Tem na sua constituição peixe (5%) e é monopartícula.",
+        "price": 6.95,
         "stock": 50,
-        "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+        "image": "https://petcity.pt/11079-large_default/arion-essential-cat-fish-complet-f01903.jpg"
     },
     {
         "id": 8,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Arion Essencial Cat Multimix",
+        "brand": "Arion Essencial",
         "category": "racao",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Arion Essential Multimix é um alimento completo para o seu gato. Tem na sua composição carne de frango (mínimo 35%) e é multipartículas.",
+        "price": 6.95,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/5081-large_default/arion-essential-cat-multimix-f02003.jpg"
     },
     {
         "id": 9,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Avenal Cat Baby",
+        "brand": "Avenal",
         "category": "racao",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Avenal BabyCat é um alimento completo recomendado especialmente para as gatas e seus gatinhos dos 2 aos 12 meses.",
+        "price": 33.99,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/19554-large_default/avenal-cat-baby.jpg"
     },
     {
         "id": 10,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Avenal Cat Adult Peixe",
+        "brand": "Avenal",
         "category": "racao",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Avenal Cat Peixe é um alimento completo recomendado para gatos adultos de todas as raças.",
+        "price": 30.31,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/19548-large_default/avenal-cat-adult-peixe.jpg"
     },
     {
         "id": 11,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Cat Chow Adult Frango",
+        "brand": "Cat Chow",
         "category": "racao",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Um alimento completo para gatos que inclui Naturium, uma combinação específica de fibras de fontes naturais, bem como uma fonte natural de prebiótico para promover uma digestão saudável.",
+        "price": 6.30,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/19716-large_default/cat-chow-adult-frango-cchadfp.jpg"
     },
     {
         "id": 12,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Cat Chow Adulto Salmão",
+        "brand": "Cat Chow",
         "category": "racao",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Um alimento completo para gatos que inclui Naturium, uma combinação específica de fibras de fontes naturais, bem como uma fonte natural de prebiótico para promover uma digestão saudável.",
+        "price": 6.30,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/16995-large_default/cat-chow-adulto-salmao-cchadsa.jpg"
     },
     {
         "id": 13,
-        "name": "Ração Premium para Cães Adultos",
-        "brand": "Premium Pet Food",
+        "name": "Biospotix Gato Spot On Pipetas",
+        "brand": "Biospotix",
         "category": "saude",
-        "description": "An apple mobile which is nothing like apple",
-        "price": 17.91,
+        "description": "Um antiparasitário simples e natural.",
+        "price": 7.10,
         "stock": 94,
-        "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+        "image": "https://petcity.pt/19403-large_default/biospotix-gato-spot-on-pipetas.jpg"
     },
 
     {
         "id": 14,
-        "name": "Ração Premium para Cães Adultos",
-        "brand": "Premium Pet Food",
+        "name": "Biospotix Gato Spray",
+        "brand": "Biospotix",
         "category": "saude",
-        "description": "An apple mobile which is nothing like apple",
-        "price": 17.91,
+        "description": "Spray de ação preventiva.",
+        "price": 16.80,
         "stock": 94,
-        "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+        "image": "https://petcity.pt/19401-large_default/biospotix-gato-spray.jpg"
     },
     {
         "id": 15,
-        "name": "Anima-Strath - Fortificante",
-        "brand": "Anima-Strath",
+        "name": "Bogaclean Smell e Free Spray",
+        "brand": "Bogaclean",
         "category": "saude",
-        "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
-        "price": 13.17,
+        "description": "Bogaclean Clean & Smell Free Spray da Bogar é um detergente de limpeza ultra-eficiente e pronto a usar seguro para humanos e animais!",
+        "price": 7.99,
         "stock": 50,
-        "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+        "image": "https://petcity.pt/11945-large_default/bogaclean-smell-e-free-spray.jpg"
     },
     {
         "id": 16,
-        "name": "Bogadent - Elixir Oral Cão 250ml",
-        "brand": "Bogadent",
+        "name": "Bogaclean Clean & Smell Free Concentrado",
+        "brand": "Bogaclean",
         "category": "saude",
-        "description": "Elixir de Higiene Oral para cães",
-        "price": 39.99,
+        "description": "Detergente, altamente eficaz na eliminação das substâncias orgânicas (presentes nas fezes, urina, vómito, marcas territoriais, etc) que estão na origem de odores desagradáveis.",
+        "price": 15.99,
         "stock": 30,
-        "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+        "image": "https://petcity.pt/12911-large_default/bogaclean-clean-smell-free-concentrado.jpg"
     },
     {
         "id": 17,
-        "name": "Peluche Kerbl Cordeiro Shaggy",
-        "brand": "Kerbl pet",
+        "name": "Camon Difusor Elétrico",
+        "brand": "Camon",
         "category": "saude",
-        "description": "Feito de chenille com corda de algodão",
-        "price": 8.56,
+        "description": "A sinergia de óleo de neem e óleos essenciais de eucalipto, palmarosa, manjericão, tomilho, cedro, óleo de açafrão e hortelã liberta uma fragância agradável, mantendo insectos longe. Oferece 12 horas de proteção segura e não tóxica para pessoas e animai",
+        "price": 13.39,
         "stock": 94,
-        "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+        "image": "https://petcity.pt/2790-large_default/camon-difusor-eletrico-cmg925.jpg"
     },
     {
         "id": 18,
-        "name": "KONG - Air Squeaker Bone",
-        "brand": "KONG",
+        "name": "Camon Recargas Para Difusor Elétrico",
+        "brand": "Camon",
         "category": "saude",
-        "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
-        "price": 6.40,
+        "description": "Além de perfumar agradavelmente a casa, cria um ambiente desfavorável para hóspedes indesejados como parasitas e insetos se acomodarem.",
+        "price": 4.99,
         "stock": 94,
-        "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+        "image": "https://petcity.pt/10078-large_default/camon-recargas-para-difusor-eletrico-cmg925a.jpg"
     },
     {
         "id": 19,
-        "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
-        "brand": "Ibanez",
+        "name": "Feliway Spray",
+        "brand": "Ceva",
         "category": "saude",
-        "description": "Transportadora para cães e Gatos",
-        "price": 120.84,
+        "description": "Levar o seu gato para fora de casa, quer seja para umas férias divertidas ou eventualmente uma visita ao veterinário, pode ser muito mais fácil com Feliway (clinicamente comprovado). ",
+        "price": 14.11,
         "stock": 50,
-        "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+        "image": "https://petcity.pt/13492-large_default/feliway-spray-viagem-feliway20ml.jpg"
     },
     {
         "id": 20,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Feliway Optimum",
+        "brand": "Ceva",
         "category": "saude",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Feliway é um ambientador que ajuda a atenuar todos os sinais comuns de stresse ajudando os gatos a estarem tranquilos.",
+        "price": 30.21,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/18879-large_default/feliway-optimum.jpg"
     },
     {
         "id": 21,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Immunodol Cat",
+        "brand": "Dolfos",
         "category": "saude",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "ImmunoDol é utilizado durante períodos de convalescença, reprodução, em situações de stress e em caso de imunidade diminuída. Apoia o tratamento de infecções e neoplasias, acelera a recuperação dos tecidos.",
+        "price": 26.26,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/2537-large_default/immunodol-cat-immuc060.jpg"
     },
     {
         "id": 22,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Urinomet Cat",
+        "brand": "Dolfos",
         "category": "saude",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "UrinoMet Cat é um alimento complementar dietético para gatos com DL-Metionina. A DL-Metionina acidifica a urina e reduz a recorrência da formação de cálculos de estruvite.",
+        "price": 15.51,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/2536-large_default/urinomet-cat-urinmc060.jpg"
     },
     {
         "id": 23,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Multiva Viramax",
+        "brand": "Multiva",
         "category": "saude",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Alimento complementar de concentração ótima para gatos jovens ou adultos de baixo peso.",
+        "price": 17.88,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/14193-large_default/multiva-viramax.jpg"
     },
     {
         "id": 24,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Multiva Calming Cats",
+        "brand": "Multiva",
         "category": "saude",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Calmante natural indicado para promover um estado de calma em situações de stress para melhorar seu bem-estar.",
+        "price": 15.99,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/19093-large_default/multiva-calming-cats.jpg"
     },
     {
         "id": 25,
-        "name": "Ração Premium para Cães Adultos",
-        "brand": "Premium Pet Food",
+        "name": "Camon Cat Laser Toy",
+        "brand": "Camon",
         "category": "brinquedo",
-        "description": "An apple mobile which is nothing like apple",
-        "price": 17.91,
+        "description": "Laser em formato de rato.",
+        "price": 6.90,
         "stock": 94,
-        "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+        "image": "https://petcity.pt/14319-large_default/camon-cat-laser-toy.jpg"
     },
 
     {
         "id": 26,
-        "name": "Ração Premium para Cães Adultos",
-        "brand": "Premium Pet Food",
+        "name": "Camon Peixe Dançarino Interativo",
+        "brand": "Camon",
         "category": "brinquedo",
-        "description": "An apple mobile which is nothing like apple",
-        "price": 17.91,
+        "description": "Este peixinho, graças à sua aparência incrivelmente realista e ao bater da cauda, é o brinquedo perfeito para o seu gato.",
+        "price": 15.20,
         "stock": 94,
-        "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+        "image": "https://petcity.pt/18711-large_default/camon-peixe-dancarino-interativo.jpg"
     },
     {
         "id": 27,
-        "name": "Anima-Strath - Fortificante",
-        "brand": "Anima-Strath",
+        "name": "Grumpy Cat Knit GingerBread",
+        "brand": "Grumpy Cat",
         "category": "brinquedo",
-        "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
-        "price": 13.17,
+        "description": "Brinquedo de Natal para gato.",
+        "price": 4.99,
         "stock": 50,
-        "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+        "image": "https://petcity.pt/18589-large_default/grumpy-cat-knit-gingerbread.jpg"
     },
     {
         "id": 28,
-        "name": "Bogadent - Elixir Oral Cão 250ml",
-        "brand": "Bogadent",
+        "name": "Grumpy Cat Plush Snowman - Especial Natal",
+        "brand": "Grumpy Cat",
         "category": "brinquedo",
-        "description": "Elixir de Higiene Oral para cães",
-        "price": 39.99,
+        "description": "Confecionado com materiais suaves com detalhes bordados no rosto e na barriga, o brinquedo traz ainda uma grande cauda fofa para provocar e estimular o seu gato a brincar.",
+        "price": 4.99,
         "stock": 30,
-        "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+        "image": "https://petcity.pt/9876-large_default/grumpy-cat-plush-snowman-especial-natal-xmas00205.jpg"
     },
     {
         "id": 29,
-        "name": "Peluche Kerbl Cordeiro Shaggy",
-        "brand": "Kerbl pet",
+        "name": "Kong Cat Purrsuit Whirlwind",
+        "brand": "Kong",
         "category": "brinquedo",
-        "description": "Feito de chenille com corda de algodão",
-        "price": 8.56,
+        "description": "Purrsuit Whirlwind estimula a perseguição de um gato girando imprevisivelmente em superfícies duras enquanto contrai ativamente sua cauda longa.",
+        "price": 12.60,
         "stock": 94,
-        "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+        "image": "https://petcity.pt/9296-large_default/kong-cat-purrsuit-whirlwind-k31-ca455e.jpg"
     },
     {
         "id": 30,
-        "name": "KONG - Air Squeaker Bone",
-        "brand": "KONG",
+        "name": "Kong Cat Active Teaser Snake",
+        "brand": "Kong",
         "category": "brinquedo",
-        "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
-        "price": 6.40,
+        "description": "O KONG Snake Teaser é perfeito para diversão interativa. Penas irresistíveis e movimentos imprevisíveis estimularão os instintos naturais de caça do seu amigo e fornecerão exercícios benéficos.",
+        "price": 5.29,
         "stock": 94,
-        "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+        "image": "https://petcity.pt/19507-large_default/kong-cat-active-teaser-snake-k31-ct45e.jpg"
     },
     {
         "id": 31,
-        "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
-        "brand": "Ibanez",
+        "name": "Nobleza Brinquedo Rã Sorridente",
+        "brand": "Nobleza",
         "category": "brinquedo",
-        "description": "Transportadora para cães e Gatos",
-        "price": 120.84,
+        "description": "Brinquedo para cães em algodão e linho.",
+        "price": 1.70,
         "stock": 50,
-        "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+        "image": "https://petcity.pt/9939-large_default/nobleza-brinquedo-ra-sorridente-nbz40278.jpg"
     },
     {
         "id": 32,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Nobleza Brinquedo Rato",
+        "brand": "Nobleza",
         "category": "brinquedo",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Tamanho: 14 cm",
+        "price": 1.51,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/18602-large_default/nobleza-brinquedo-rato-nbz26166.jpg"
     },
     {
         "id": 33,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Trixie Túnel em Nylon p/ Gatos",
+        "brand": "Trixie",
         "category": "brinquedo",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Feito de nylon resistente Estável graças à argola em espiral Para interior e exterior Com 4 entradas Também para cachorros.",
+        "price": 15.95,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/2979-large_default/trixie-tunel-em-nylon-p-gatos-tx4305.jpg"
     },
     {
         "id": 34,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Trixie Bola Dupla em Sisal Recheada c/ Catnip",
+        "brand": "Trixie",
         "category": "brinquedo",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Brinquedo em sisal para gatos.",
+        "price": 1.30,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/8553-large_default/trixie-bola-dupla-em-sisal-recheada-c-catnip-tx4077.jpg"
     },
     {
         "id": 35,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Rosewood Christmas Koala - Cat",
+        "brand": "Rosewood",
         "category": "brinquedo",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Brinquedo para gato temático de natal.",
+        "price": 5.50,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/10508-large_default/rosewood-christmas-koala-cat.jpg"
     },
     {
         "id": 36,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Rosewood Cat Floppy Rabbit",
+        "brand": "Rosewood",
         "category": "brinquedo",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Brinquedo para gato e gatinho.",
+        "price": 4.49,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/19431-large_default/rosewood-cat-floppy-rabbit.jpg"
     },
     {
         "id": 37,
-        "name": "Ração Premium para Cães Adultos",
-        "brand": "Premium Pet Food",
+        "name": "Bebedouro Cat It Senses",
+        "brand": "Cat It",
         "category": "acessorios",
-        "description": "An apple mobile which is nothing like apple",
-        "price": 17.91,
-        "stock": 94,
-        "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+        "description": "O Catit Design Bebedouro - 3 Litros é a forma perfeita de dar ao seu gato água corrente. A circulação e filtragem contínua da água aumenta as quantidades de oxigénio e garante que a água fica sempre fresca e pura. O facto de o seu gato beber muita água.",
+        "price": 40.84,
+        "stock": 50,
+        "image": "https://petcity.pt/19226-large_default/bebedouro-catit-senses-50761.jpg"
     },
 
     {
         "id": 38,
-        "name": "Ração Premium para Cães Adultos",
-        "brand": "Premium Pet Food",
+        "name": "Cat It Fonte de Água Fresh & Clear",
+        "brand": "Cat It",
         "category": "acessorios",
-        "description": "An apple mobile which is nothing like apple",
-        "price": 17.91,
+        "description": "Torna o acto de beber num prazer. Previne problemas renais ou do trato urinário. Fornece água potável limpa e fresca continuamente.",
+        "price": 69.15,
         "stock": 94,
-        "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+        "image": "https://petcity.pt/5372-large_default/cat-it-fonte-de-agua-fresh-clear-fp50050.jpg"
     },
     {
         "id": 39,
-        "name": "Anima-Strath - Fortificante",
-        "brand": "Anima-Strath",
+        "name": "Dashi Cat Coleira Solid Green",
+        "brand": "Dashi",
         "category": "acessorios",
-        "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
-        "price": 13.17,
-        "stock": 50,
-        "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+        "description": "As nossas coleiras são feitas de poliéster resistente, totalmente ajustável, com um fecho de abertura fácil para a segurança do teu gato.",
+        "price": 4.99,
+        "stock": 94,
+        "image": "https://petcity.pt/18608-large_default/dashi-cat-coleira-solid-green-dcc00015.jpg"
     },
     {
         "id": 40,
-        "name": "Bogadent - Elixir Oral Cão 250ml",
-        "brand": "Bogadent",
+        "name": "Dashi Cat Coleira Boom",
+        "brand": "Dashi",
         "category": "acessorios",
-        "description": "Elixir de Higiene Oral para cães",
-        "price": 39.99,
+        "description": "As nossas coleiras são feitas de poliéster resistente, totalmente ajustável, com um fecho de abertura fácil para a segurança do teu gato.",
+        "price": 4.99,
         "stock": 30,
-        "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+        "image": "https://petcity.pt/18568-large_default/dashi-cat-coleira-boom-dcc00002.jpg"
     },
     {
         "id": 41,
-        "name": "Peluche Kerbl Cordeiro Shaggy",
-        "brand": "Kerbl pet",
+        "name": "Karlie Flamingo Comedouro Duplo",
+        "brand": "Karlie Flamingo",
         "category": "acessorios",
-        "description": "Feito de chenille com corda de algodão",
-        "price": 8.56,
-        "stock": 94,
-        "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+        "description": "O comedouro duplo com suporte de madeira é um acessório no qual poderá servir a comida e a água do seu animal de estimação. Já não será necessário ter duas tigelas independentes que se movimentem de um lado para outro.",
+        "price": 42.50,
+        "stock": 50,
+        "image": "https://petcity.pt/18441-large_default/karlie-flamingo-comedouro-duplo-fl1031113.jpg"
     },
     {
         "id": 42,
-        "name": "KONG - Air Squeaker Bone",
-        "brand": "KONG",
+        "name": "Karlie Flamingo Comedouro Cuisine",
+        "brand": "Karlie Flamingo",
         "category": "acessorios",
-        "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
-        "price": 6.40,
+        "description": "Comedouro pesado com fundo de controlo de aderência - a taça está absolutamente firme e segura! Feito de Lustran, de alta qualidade, adequado para máquinas de lavar louça.",
+        "price": 16.25,
         "stock": 94,
-        "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+        "image": "https://petcity.pt/18440-large_default/karlie-flamingo-comedouro-cuisine-k44293.jpg"
     },
     {
         "id": 43,
-        "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
-        "brand": "Ibanez",
+        "name": "Mugue Pelù Smart Roll Refill",
+        "brand": "Mugue",
         "category": "acessorios",
-        "description": "Transportadora para cães e Gatos",
-        "price": 120.84,
-        "stock": 50,
-        "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+        "description": "O rolo super adesivo. Excelente para remover pelos soltos do animal bem como pó, cabelos... de sofás ,mantas ,roupa, bancos de automóvel… Pack - dois rolos.",
+        "price": 6.90,
+        "stock": 30,
+        "image": "https://petcity.pt/4632-large_default/mugue-pelu-smart-roll-refill-idb28051.jpg"
     },
     {
         "id": 44,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Mugue Pelù Pet Cat",
+        "brand": "Mugue",
         "category": "acessorios",
-        "description": "Especialmente robusta e de alta qualidade",
+        "description": "Rolo adesivo para fixar pelos degatos Ideal para o gato – previne as bolas de pelo Ideal para si – se sofre de alergias.",
         "price": 43.01,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/4630-large_default/mugue-pelu-pet-cat-esp28012.jpg"
     },
     {
         "id": 45,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Nobleza Caixa Transportadora",
+        "brand": "Nobleza",
         "category": "acessorios",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Tamanho: S - 47cm x 31cm x 26cm M - 28cm x 38,7cm x 33cm L - 68cm x 48cm x 42cm",
+        "price": 12.65,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/4765-large_default/nobleza-caixa-transportadora-nbz25725.jpg"
     },
     {
         "id": 46,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Nobleza Guizo p/ Coleira",
+        "brand": "Nobleza",
         "category": "acessorios",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Tamanho S: 1.5 cm M: 1.8 cm",
+        "price": 0.29,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/6726-large_default/nobleza-guizo-p-coleira-nbz09558.jpg"
     },
     {
         "id": 47,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Trixie - Transportadora 'Traveller Capri'",
+        "brand": "Trixie",
         "category": "acessorios",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Portador deplástico rigído com porta grelha de plástico resistente. Este portador do animal de estimação é a solução para levar seu animal de estimação em suas viagens de carro ou de comboio ou para visitas ao veterinário.",
+        "price": 12.99,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/11400-large_default/trixie-i-transportadora-traveller-capri-tx39811.jpg"
     },
     {
         "id": 48,
-        "name": "Mochila Transportadora SAVINA",
-        "brand": "TRIXIE",
+        "name": "Trixie - Arranhador Zaragoza",
+        "brand": "Trixie",
         "category": "acessorios",
-        "description": "Especialmente robusta e de alta qualidade",
-        "price": 43.01,
+        "description": "Características: Com fixação para o teto; Cobertura em pelúcia; Postes envoltos em sisal natural; Nicho forrado em feltro. Dimensões: 68 x 56 x 220-260cm.",
+        "price": 174.35,
         "stock": 30,
-        "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+        "image": "https://petcity.pt/2690-large_default/trixie-arranhador-zaragoza-tx43931.jpg"
     }
 
     ],
