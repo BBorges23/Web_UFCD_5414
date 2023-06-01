@@ -974,973 +974,973 @@
     "fish": [
         {
             "id": 1,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Premium Pet Food",
+            "name": "Aquapex Alimento de Férias Para Peixes",
+            "brand": "Orniex",
             "category": "racao",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 17.91,
+            "description": "Aquapex Holiday Block é um alimento para férias para peixes de água doce, suficiente para alimentar 20-25 peixes no aquário, por um período até 2 semanas.",
+            "price": 2.16,
             "stock": 94,
-            "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+            "image": "https://petcity.pt/18877-large_default/aquapex-alimento-de-ferias-para-peixes.jpg"
         },
 
         {
             "id": 2,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Premium Pet Food",
+            "name": "Aquapex Alimento Fim de Semana para Peixes",
+            "brand": "Orniex",
             "category": "racao",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 17.91,
+            "description": "Aquapex Weekend Block é um alimento de fim de semana para peixes de água doce.",
+            "price": 2.29,
             "stock": 94,
-            "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+            "image": "https://petcity.pt/19060-large_default/aquapex-alimento-fim-de-semana-para-peixes.jpg"
         },
         {
             "id": 3,
-            "name": "Anima-Strath - Fortificante",
-            "brand": "Anima-Strath",
+            "name": "TetraPond Koi Sticks",
+            "brand": "Tetra",
             "category": "racao",
-            "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
-            "price": 13.17,
+            "description": "Agora em embalagem resselável: TetraPond Koi Sticks, alimento completo em sticks flutuangtes para peixes de lago koi, para uma alimentação saudável e equilibrada.",
+            "price": 17.29,
             "stock": 50,
-            "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+            "image": "https://shop-cdn-m.mediazs.com/bilder/tetrapond/koi/sticks/2/400/23524_pla_tetrapond_koi_sticks_4l_hs_01_2.jpg"
         },
         {
             "id": 4,
-            "name": "Bogadent - Elixir Oral Cão 250ml",
-            "brand": "Bogadent",
+            "name": "TetraMin flocos",
+            "brand": "Tetra",
             "category": "racao",
-            "description": "Elixir de Higiene Oral para cães",
-            "price": 39.99,
+            "description": "Comida completa, equilibrada e rica em vitaminas, para todos os peixes tropicais. Para uma vida longa e saudável. Com nutrientes de qualidade, incluindo vitaminas, minerais e oligoelementos.",
+            "price": 9.19,
             "stock": 30,
-            "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+            "image": "https://shop-cdn-m.mediazs.com/bilder/tetramin/flocos/9/400/7740_pla_tetramin_flockenfutter_250ml_hs_01_9.jpg"
         },
         {
             "id": 5,
-            "name": "Peluche Kerbl Cordeiro Shaggy",
-            "brand": "Kerbl pet",
+            "name": "Sera Vipan Baby",
+            "brand": "Sera",
             "category": "racao",
-            "description": "Feito de chenille com corda de algodão",
-            "price": 8.56,
+            "description": "Microflocos para animais jovens sera Vipan Baby é o alimento de crescimento composto por microflocos cuidadosamente processados, para todos os peixes jovens que comem na superfície da água.",
+            "price": 2.90,
             "stock": 94,
-            "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+            "image": "https://petcity.pt/6493-large_default/sera-vipan-baby-se00730.jpg"
         },
         {
             "id": 6,
-            "name": "KONG - Air Squeaker Bone",
-            "brand": "KONG",
+            "name": "Sera Vipagran Baby",
+            "brand": "Sera",
             "category": "racao",
-            "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
-            "price": 6.40,
+            "description": "Microgranulado para animais jovens sera Vipagran Baby é o alimento decrescimento composto por microgranuladomacio cuidadosamente processado,para todos os peixes jovensque comem na zona média da água.",
+            "price": 2.90,
             "stock": 94,
-            "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+            "image": "https://petcity.pt/6499-large_default/sera-vipagran-baby-se00700.jpg"
         },
         {
             "id": 7,
-            "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
-            "brand": "Ibanez",
+            "name": "Tetra Goldfish comida em flocos para peixes",
+            "brand": "Tetra",
             "category": "racao",
-            "description": "Transportadora para cães e Gatos",
-            "price": 120.84,
+            "description": "Comida em flocos para peixes de água doce ou carpas douradas. Contém os aditivos nutricionais e os oligoelementos essenciais que garantam uma alimentação completa e equilibrada.",
+            "price": 30.99,
             "stock": 50,
-            "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+            "image": "https://shop-cdn-m.mediazs.com/bilder/tetra/goldfish/comida/em/flocos/para/peixes/7/400/75944_pla_tetra_goldfish_hs_01_7.jpg"
         },
         {
             "id": 8,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "TetraPond Multi Mix - mistura para peixes de lago",
+            "brand": "Tetra",
             "category": "racao",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "TetraPond Multi Mix em práticas embalagens resseláveis - uma mistura selecionada de comida que representa os hábitos alimentares individuais de cada um dos peixes do seu lago.",
+            "price": 24.99,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://shop-cdn-m.mediazs.com/bilder/tetrapond/multi/mix/mistura/para/peixes/de/lago/2/400/23523_pla_tetrapond_teichfischfutter_multimix_4l_hs_01_2.jpg"
         },
         {
             "id": 9,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Sera Koi Professional Alimento de Primavera/Outono",
+            "brand": "Sera",
             "category": "racao",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "O alimento de fácil digestão para temperaturas inferiores a 17 °C Quando as temperaturas são inferiores a 17 °C, o metabolismo dos peixes já não funciona à sua capacidade máxima. Por isso, os alimentos devem ser de fácil digestão. Só assim é que as Koi",
+            "price": 14.29,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/6521-large_default/sera-koi-professional-alimento-de-primaveraoutono-se07011.jpg"
         },
         {
             "id": 10,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Sera Koi Professional Alimento de Inverno",
+            "brand": "Sera",
             "category": "racao",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Alimento especial para Kois e outros valiosos peixes de lago a temperaturas inferiores a 12 °C.",
+            "price": 10.90,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/6572-large_default/sera-koi-professional-alimento-de-inverno-se07017.jpg"
         },
         {
             "id": 11,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Sera Spirulina Tabs Nature",
+            "brand": "Sera",
             "category": "racao",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Pastilhas autocolantes com 24 % de Spirulina para uma digestão saudável e vitalidade.",
+            "price": 2.90,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/14403-large_default/sera-spirulina-tabs-nature.jpg"
         },
         {
             "id": 12,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Sera Pond Color Sticks Nature",
+            "brand": "Sera",
             "category": "racao",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "O alimento que realça as cores para peixes de lago.",
+            "price": 4.50,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/14407-large_default/sera-pond-color-sticks-nature.jpg"
         },
         {
             "id": 13,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Premium Pet Food",
+            "name": "Saco Superfino para Aspirador Fx Gravel Vac",
+            "brand": "Fluval",
             "category": "saude",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 17.91,
+            "description": "Quando usado com o limpador de cascalho Fluval FX, o saco de filtro fino captura partículas e detritos de forma eficaz.   CARACTERÍSTICAS PRINCIPAIS Compatível com o limpador de cascalho Fluval FX (vendido separadamente).",
+            "price": 7.88,
             "stock": 94,
-            "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+            "image": "https://static.petness.pt/media/10/photos/products/169223/fx-gravel-vac-fine-bag-para-aspirador-de-po_1_g.png"
         },
 
         {
             "id": 14,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Premium Pet Food",
+            "name": "Cartuchos Descartáveis ​​de CO2",
+            "brand": "Fluval",
             "category": "saude",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 17.91,
+            "description": "Cartuchos Descartáveis ​​de CO2 - pacote com 3x45 g   Indicado para: Kit Fluval Pressurized 45g CO2 Este cartucho descartável pressurizado é um item de substituição genuíno para o kit de CO2 pressurizado Fluval 45 g.",
+            "price": 54.29,
             "stock": 94,
-            "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+            "image": "https://static.petness.pt/media/10/photos/products/169278/descartavel-45g-co2-cartucho-3piezas_1_g.jpeg"
         },
         {
             "id": 15,
-            "name": "Anima-Strath - Fortificante",
-            "brand": "Anima-Strath",
+            "name": "Hill's Adult Fish Perfect Weight 3Kg",
+            "brand": "Tetra",
             "category": "saude",
-            "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
-            "price": 13.17,
+            "description": "Torne a água da torneira segura para os peixes",
+            "price": 10.95,
             "stock": 50,
-            "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+            "image": "https://static.petness.pt/media/10/photos/products/161973/tetra-aquasafe-6408ac6baa79d_g.jpg"
         },
         {
             "id": 16,
-            "name": "Bogadent - Elixir Oral Cão 250ml",
-            "brand": "Bogadent",
+            "name": "Escovas da Marinha para Impulsores",
+            "brand": "Marina",
             "category": "saude",
-            "description": "Elixir de Higiene Oral para cães",
-            "price": 39.99,
+            "description": "Ele contém duas escovas que são ideais para remover detritos pegajosos do eixo do rotor. De tamanho compacto, eles são válidos para qualquer filtro.",
+            "price": 4.79,
             "stock": 30,
-            "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+            "image": "https://static.petness.pt/media/10/photos/products/169185/escovas-da-marinha-para-impulsores_1_g.jpeg"
         },
         {
             "id": 17,
-            "name": "Peluche Kerbl Cordeiro Shaggy",
-            "brand": "Kerbl pet",
+            "name": "Sacos de Reposição do Vácuo da Marina",
+            "brand": "Marina",
             "category": "saude",
-            "description": "Feito de chenille com corda de algodão",
-            "price": 8.56,
+            "description": "Proporciona o máximo conforto ao limpar o cascalho do aquário sem a necessidade de molhar as mãos. Sua operação é muito simples, é apenas clique e começa a funcionar. Profundidades entre 23 e 45 cm.",
+            "price": 3.19,
             "stock": 94,
-            "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+            "image": "https://static.petness.pt/media/10/photos/products/169189/sacos-de-reposicao-do-vacuo-da-marina_1_g.jpeg"
         },
         {
             "id": 18,
-            "name": "KONG - Air Squeaker Bone",
-            "brand": "KONG",
+            "name": "Kit de Limpeza para Vidro",
+            "brand": "Marina",
             "category": "saude",
-            "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
-            "price": 6.40,
+            "description": "Lâminas de reposição exclusivas para o kit de limpeza de vidro (11013). As lâminas afiadas são ideais para remover as algas mais resistentes e contêm as ferramentas essenciais que permitem limpar o interior do aquário sem molhar as mãos. ",
+            "price": 13.24,
             "stock": 94,
-            "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+            "image": "https://static.petness.pt/media/10/photos/products/169192/kit-de-limpeza-para-vidro_1_g.jpeg"
         },
         {
             "id": 19,
-            "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
-            "brand": "Ibanez",
+            "name": "Water Conditioner Aquaplus",
+            "brand": "Fluval",
             "category": "saude",
-            "description": "Transportadora para cães e Gatos",
-            "price": 120.84,
+            "description": "O condicionador de água Aqua Plus torna a água da torneira segura, removendo o cloro, a cloramina e as toxinas metálicas que ela contém. Extratos vegetais puros reduzem visivelmente o estresse atribuído ao transporte, manuseio e aclimatação.",
+            "price": 10.61,
             "stock": 50,
-            "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+            "image": "https://static.petness.pt/media/10/photos/products/169247/water-conditioner-aquaplus_1_g.png"
         },
         {
             "id": 20,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Water Conditioner Aquaplus",
+            "brand": "Fluval",
             "category": "saude",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "O condicionador de água Aqua Plus torna a água da torneira segura, removendo o cloro, a cloramina e as toxinas metálicas que ela contém. Extratos vegetais puros reduzem visivelmente o estresse atribuído ao transporte, manuseio e aclimatação.",
+            "price": 40.79,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://static.petness.pt/media/10/photos/products/169249/water-conditioner-aquaplus_1_g.png"
         },
         {
             "id": 21,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Biological Cleaner Waste Control",
+            "brand": "Fluval",
             "category": "saude",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "O Limpador Biológico de Controle de Resíduos ajuda a reduzir a manutenção do aquário reduzindo o acúmulo de detritos em cascalho, filtros mecânicos, decoração e superfícies internas.",
+            "price": 11.99,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://static.petness.pt/media/10/photos/products/169256/biological-cleaner-waste-control_1_g.png"
         },
         {
             "id": 22,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Rapido",
+            "brand": "Fluval",
             "category": "saude",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "O Fluval Quick Clear efetivamente ajuda a eliminar partículas indesejadas que geram água turva do aquário, como partículas orgânicas e inorgânicas suspensas, sujeira, sedimentos e areia fina.",
+            "price": 7.42,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://static.petness.pt/media/10/photos/products/169260/rapido_1_g.png"
         },
         {
             "id": 23,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Med Nematol Tratamento contra Vermes e Nematoides",
+            "brand": "Sera",
             "category": "saude",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Com SERA Nematol pode tratar os seus peixes de forma rápida e eficaz contra vermes e outros nematóides! Indicações:- Tratamento contra infestações por lombrigas, vermes capilares e outros nematoides.",
+            "price": 17.29,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://static.petness.pt/media/10/photos/products/500859/med-profesional-nematol-acondicionador-contra-nematodos_1_g.png"
         },
         {
             "id": 24,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Baktopur Direto Conditioner Contra Infecções Bacterianas",
+            "brand": "Sera",
             "category": "saude",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Tem efeitos desinfetantes e favorece o processo de cicatrização. Condicionador de água para uso de água doce no caso de doenças bacterianas comuns, tais como colunaris, aletas apodrecidas, ramos de brânquias e infecções com bactérias aeromonas ou pseudomonas.",
+            "price": 8.49,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://static.petness.pt/media/10/photos/products/500939/backtopur-acondicionador-contra-infecciones-bacterianas_1_g.png"
         },
         {
             "id": 25,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Premium Pet Food",
+            "name": "Aquário Fluval Chi",
+            "brand": "Fluval",
             "category": "brinquedo",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 17.91,
+            "description": "Kit composto por: Aquário 19 litros com base | Filtro de baixa voltagemSistema de iluminaçao em LED | Caixa para PlantasCesto para areão | Areao natural 400gr Cesto para Plantas | Esponja de espuma | Esponja de filtragem.",
+            "price": 80.95,
             "stock": 94,
-            "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+            "image": "https://petcity.pt/5354-large_default/aquario-fluval-chi-10506.jpg"
         },
 
         {
             "id": 26,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Premium Pet Food",
+            "name": "Aquário Fluval Flex",
+            "brand": "Fluval",
             "category": "brinquedo",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 17.91,
+            "description": "A nova gama de aquários nano, a serie FLUVAL FLEX, proporciona um estilo contemporâneo com o seu frontal distintivo em vidro côncavo O aquário é equipado com a filtração de 3-etapas.",
+            "price": 176.15,
             "stock": 94,
-            "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+            "image": "https://petcity.pt/5363-large_default/aquario-fluval-flex-15007.jpg"
         },
         {
             "id": 27,
-            "name": "Anima-Strath - Fortificante",
-            "brand": "Anima-Strath",
+            "name": "Aquário Fluval Flex",
+            "brand": "Fluval",
             "category": "brinquedo",
-            "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
-            "price": 13.17,
+            "description": "Inclui:Fluval EDGE, 23 L , 6 lados em vidro seladosSistema de iluminação de 21 LED. Poderoso e eficienteClip-On Power Filter na traseiraNutrafin aquaplus, condicionador de água (30 mL)Nutrafin cycle, activador biológico (30 mL).",
+            "price": 157.35,
             "stock": 50,
-            "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+            "image": "https://petcity.pt/5365-large_default/aquario-fluval-edge-21led-15386.jpg"
         },
         {
             "id": 28,
-            "name": "Bogadent - Elixir Oral Cão 250ml",
-            "brand": "Bogadent",
+            "name": "Aquário JustGrow - Acrílico",
+            "brand": "JustGrow",
             "category": "brinquedo",
-            "description": "Elixir de Higiene Oral para cães",
-            "price": 39.99,
+            "description": "Tecnologia e natureza são fundidas para reduzir sinergias e ciclos naturais entre peixes, bactérias e plantas.",
+            "price": 439.00,
             "stock": 30,
-            "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+            "image": "https://petcity.pt/8444-large_default/aquario-justgrow-acrilico-acrylic.jpg"
         },
         {
             "id": 29,
-            "name": "Peluche Kerbl Cordeiro Shaggy",
-            "brand": "Kerbl pet",
+            "name": "Aquário JustGrow - Alumínio",
+            "brand": "JustGrow",
             "category": "brinquedo",
-            "description": "Feito de chenille com corda de algodão",
-            "price": 8.56,
+            "description": "Tecnologia e natureza são fundidas para reduzir sinergias e ciclos naturais entre peixes, bactérias e plantas.",
+            "price": 549.00,
             "stock": 94,
-            "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+            "image": "https://petcity.pt/8445-large_default/aquario-justgrow-aluminio-aluminum.jpg"
         },
         {
             "id": 30,
-            "name": "KONG - Air Squeaker Bone",
-            "brand": "KONG",
+            "name": "Aquário JustGrow Premium - Acrílico",
+            "brand": "JustGrow",
             "category": "brinquedo",
-            "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
-            "price": 6.40,
+            "description": "Tecnologia e natureza são fundidas para reduzir sinergias e ciclos naturais entre peixes, bactérias e plantas.",
+            "price": 549.00,
             "stock": 94,
-            "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+            "image": "https://petcity.pt/8446-large_default/aquario-justgrow-premium-acrilico-planetbox.jpg"
         },
         {
             "id": 31,
-            "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
-            "brand": "Ibanez",
+            "name": "Nobleza Mini - Aquário Triângular para Peixes",
+            "brand": "Nobleza",
             "category": "brinquedo",
-            "description": "Transportadora para cães e Gatos",
-            "price": 120.84,
+            "description": "Aquário com função de drenagem.",
+            "price": 49.99,
             "stock": 50,
-            "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+            "image": "https://petcity.pt/12678-large_default/nobleza-mini-aquario-triangular-para-peixes-nbz30040.jpg"
         },
         {
             "id": 32,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Aquário Kit Fluval Flora",
+            "brand": "Fluval",
             "category": "brinquedo",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Kit Fluval Fluvalra.",
+            "price": 82.15,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/14834-large_default/aquario-kit-fluval-flora.jpg"
         },
         {
             "id": 33,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Aquário Globo em Acrílico",
+            "brand": "Orniex",
             "category": "brinquedo",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Aquário redondo para peixes.",
+            "price": 8.55,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/18919-large_default/aquario-globo-em-acrilico.jpg"
         },
         {
             "id": 34,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Marina Aquário Água Fria",
+            "brand": "Marina",
             "category": "brinquedo",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Aquário ideal para quem se inicia em aquariofilia.Totalmente seguro para crianças, com tampa e em plástico inquebrável.",
+            "price": 29.99,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/19717-large_default/marina-aquario-agua-fria-ma13379.jpg"
         },
         {
             "id": 35,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Marina Peixe Aquário | Betta Floral",
+            "brand": "Marina",
             "category": "brinquedo",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Kit aquário para peixes.",
+            "price": 15.50,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://quintanimal.pt/4422-large_default/marina-peixe-aquario-betta-floral.jpg"
         },
         {
             "id": 36,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Fluvial Peixe Aquário | Flex",
+            "brand": "Fluvial",
             "category": "brinquedo",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Kit aquário para peixes.",
+            "price": 182.10,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://quintanimal.pt/4426-large_default/fluval-peixe-aquario-flex.jpg"
         },
         {
             "id": 37,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Premium Pet Food",
+            "name": "Sera GH-Test",
+            "brand": "Sera",
             "category": "acessorios",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 17.91,
+            "description": "Para determinar facilmente a dureza total. Para aproximadamente 420°dgH.",
+            "price": 5.80,
             "stock": 94,
-            "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+            "image": "https://petcity.pt/18697-large_default/sera-gh-test-se04110.jpg"
         },
 
         {
             "id": 38,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Premium Pet Food",
+            "name": "Sera Aspirador de Areão",
+            "brand": "Sera",
             "category": "acessorios",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 17.91,
+            "description": "Remove cuidadosamente lodo e sujidade do fundo do aquário sem mudança de água. Basta ligar o sera aspirador de areão a uma bomba de membrana, p.ex. à bomb de ar sera air plus.Adequado para todos os aquários até uma altura de 60 cm.",
+            "price": 8.71,
             "stock": 94,
-            "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+            "image": "https://petcity.pt/4375-large_default/sera-aspirador-de-areao-se08550.jpg"
         },
         {
             "id": 39,
-            "name": "Anima-Strath - Fortificante",
-            "brand": "Anima-Strath",
+            "name": "Areia Azul para Aquário",
+            "brand": "Orniex",
             "category": "acessorios",
-            "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
-            "price": 13.17,
+            "description": "Areia colorida para colocar no fundo do aquário.",
+            "price": 2.61,
             "stock": 50,
-            "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+            "image": "https://petcity.pt/18911-large_default/areia-azul-para-aquario.jpg"
         },
         {
             "id": 40,
-            "name": "Bogadent - Elixir Oral Cão 250ml",
-            "brand": "Bogadent",
+            "name": "Trixie Arca do Tesouro",
+            "brand": "Trixie",
             "category": "acessorios",
-            "description": "Elixir de Higiene Oral para cães",
-            "price": 39.99,
+            "description": "Decoração para aquário.",
+            "price": 12.57,
             "stock": 30,
-            "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+            "image": "https://petcity.pt/8660-large_default/trixie-arca-do-tesouro-tx87813.jpg"
         },
         {
             "id": 41,
-            "name": "Peluche Kerbl Cordeiro Shaggy",
-            "brand": "Kerbl pet",
+            "name": "Trixie Estrelas do Mar",
+            "brand": "Trixie",
             "category": "acessorios",
-            "description": "Feito de chenille com corda de algodão",
-            "price": 8.56,
+            "description": "Decoração para aquário.",
+            "price": 2.40,
             "stock": 94,
-            "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+            "image": "https://petcity.pt/8665-large_default/trixie-estrelas-do-mar-tx8866.jpg"
         },
         {
             "id": 42,
-            "name": "KONG - Air Squeaker Bone",
-            "brand": "KONG",
+            "name": "Decoração Destroços de Navio para Aquário",
+            "brand": "Orniex",
             "category": "acessorios",
-            "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
-            "price": 6.40,
+            "description": "Decoração para aquários.",
+            "price": 10.50,
             "stock": 94,
-            "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+            "image": "https://petcity.pt/18920-large_default/decoracao-destrocos-de-navio-para-aquario.jpg"
         },
         {
             "id": 43,
-            "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
-            "brand": "Ibanez",
+            "name": "Esconderijo de Pedra Médio para Aquário",
+            "brand": "Orniex",
             "category": "acessorios",
-            "description": "Transportadora para cães e Gatos",
-            "price": 120.84,
+            "description": "Rocha artificial de decoração para aquários.",
+            "price": 9.80,
             "stock": 50,
-            "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+            "image": "https://petcity.pt/18922-large_default/esconderijo-de-pedra-medio-para-aquario.jpg"
         },
         {
             "id": 44,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Plantas Microsorum Artificiais para Aquário",
+            "brand": "Orniex",
             "category": "acessorios",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Planta artificial de decoração para aquários.",
+            "price": 7.44,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/18923-large_default/plantas-microsorum-artificiais-para-aquario.jpg"
         },
         {
             "id": 45,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Plantas Myriophyllum Red Artificias para Aquário",
+            "brand": "Orniex",
             "category": "acessorios",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Planta artificial de decoração para aquários.",
+            "price": 7.44,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/18924-large_default/plantas-myriophyllum-red-artificiais-para-aquario.jpg"
         },
         {
             "id": 46,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Superfish Peixe Decoração Aquário | Plantas Artificiais",
+            "brand": "Orniex",
             "category": "acessorios",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Decoração para aquários de peixe.",
+            "price": 5.20,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://quintanimal.pt/2449-large_default/superfish-peixe-decoracao-aquario-plantas-artificiais.jpg"
         },
         {
             "id": 47,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Superfish Peixe Decoração Aquário | Plantas Artificiais",
+            "brand": "Orniex",
             "category": "acessorios",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Esta planta artificial não é tóxica e suas bordas arredondadas não farão mal aos peixes. O seu pé permite fixá-lo facilmente na areia.",
+            "price": 1.10,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://quintanimal.pt/2450-large_default/superfish-peixe-decoracao-aquario-plantas-artificiais.jpg"
         },
         {
             "id": 48,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Amtra Peixe Decoração Aquário | Fluo Reef Mushroom",
+            "brand": "Wave",
             "category": "acessorios",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "A nova linha de decorativos Wave desenhada para enriquecer qualquer tipo de aquário com cores e formas. Confeccionadas em silicone de cor suave e resistente, essas decorações são equipadas com práticas ventosas para fixação.",
+            "price": 9.60,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://quintanimal.pt/2451-large_default/amtra-peixe-decoracao-aquario-fluo-reef-mushroom.jpg"
         }
 
     ],
     "bird": [
         {
             "id": 1,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Premium Pet Food",
+            "name": "Babypapex com seringa",
+            "brand": "Orniex",
             "category": "racao",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 17.91,
+            "description": "Papa especial para aves recém nascidas de pequeno porteComposição especial para aves que necessitam de ajuda alimentar para o seu normal crescimento, ou quando rejeitadas pelos pais.Para criação com seringa.",
+            "price": 5.10,
             "stock": 94,
-            "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+            "image": "https://petcity.pt/18701-large_default/babypapex-com-seringa-ex0185.jpg"
         },
         {
             "id": 2,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Premium Pet Food",
+            "name": "Gritex - Grite p/ Aves Peq. Porte",
+            "brand": "Orniex",
             "category": "racao",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 17.91,
+            "description": "Grite com carvão e tijoloPara aves de pequeno e médio porte, é um complemento mineral da alimentação e facilita a digestão.",
+            "price": 1.93,
             "stock": 94,
-            "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+            "image": "https://petcity.pt/12671-large_default/gritex-grite-p-aves-peq-porte-ex0150.jpg"
         },
         {
             "id": 3,
-            "name": "Anima-Strath - Fortificante",
-            "brand": "Anima-Strath",
+            "name": "Psittacus Fórmula Manutenção Minor",
+            "brand": "Psittacus",
             "category": "racao",
-            "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
-            "price": 13.17,
+            "description": "Psittacus alimento de manutençãominor é um alimento especialmente formulado para periquitos, agapornis pequenos, kakarikis e Forpus Sua fórmula destina se a alimentar essas aves ao longo do ano, se não em período reprodutivo.",
+            "price": 7.03,
             "stock": 50,
-            "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+            "image": "https://petcity.pt/18517-large_default/psittacus-formula-manutencao-minor-pi4010.jpg"
         },
         {
             "id": 4,
-            "name": "Bogadent - Elixir Oral Cão 250ml",
-            "brand": "Bogadent",
+            "name": "Psittacus Fórmula Ómega",
+            "brand": "Psittacus",
             "category": "racao",
-            "description": "Elixir de Higiene Oral para cães",
-            "price": 39.99,
+            "description": "Este produto foi concebido para espécies como araras e cinzentos que, na natureza, consomem uma quantidade significativa de frutas e sementes de plantas ricas em óleo, e que beneficiam os perfis dos ácidos gordos, especialmente ricas em ácido palmítico.",
+            "price": 13.55,
             "stock": 30,
-            "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+            "image": "https://petcity.pt/18549-large_default/psittacus-formula-omega-pi1410.jpg"
         },
         {
             "id": 5,
-            "name": "Peluche Kerbl Cordeiro Shaggy",
-            "brand": "Kerbl pet",
+            "name": "Versele Laga Papagaios Exotic Fruit Mix",
+            "brand": "Versele Laga",
             "category": "racao",
-            "description": "Feito de chenille com corda de algodão",
-            "price": 8.56,
+            "description": "Prestige Papagaios Exotic Fruit Mix é uma mistura de cereais cuidadosamente seleccionados, enriquecida com frutos secos, amadurecidos ao sol e deliciosas nozes descascadas. Exotic Fruit Mix é feito exclusivamente de produtos frescos e não contém corante.",
+            "price": 6.31,
             "stock": 94,
-            "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+            "image": "https://petcity.pt/18733-large_default/versele-laga-papagaios-exotic-fruit-mix-i421781.jpg"
         },
         {
             "id": 6,
-            "name": "KONG - Air Squeaker Bone",
-            "brand": "KONG",
+            "name": "Versele Laga Papagaios Exotic Nut Mix",
+            "brand": "Versele Laga",
             "category": "racao",
-            "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
-            "price": 6.40,
+            "description": "Prestige Papagaios Exotic Nut Mix é uma mistura de cereais cuidadosamente seleccionados e enriquecida com deliciosas nozes inteiras e frutos secos, amadurecidos ao sol. Exotic Nut Mix é feito exclusivamente de produtos frescos e não contém corantes.",
+            "price": 6.33,
             "stock": 94,
-            "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+            "image": "https://petcity.pt/18732-large_default/versele-laga-papagaios-exotic-nut-mix-pen421782.jpg"
         },
         {
             "id": 7,
-            "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
-            "brand": "Ibanez",
+            "name": "Versele Laga Nutribi G14 Original",
+            "brand": "Versele Laga Nutribi",
             "category": "racao",
-            "description": "Transportadora para cães e Gatos",
-            "price": 120.84,
+            "description": "NutriBird G14 Original é uma ração de manutenção completa e equilibrada para grandes periquitos.",
+            "price": 9.24,
             "stock": 50,
-            "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+            "image": "https://petcity.pt/18378-large_default/versele-laga-nutribird-g14-original-i422058.jpg"
         },
         {
             "id": 8,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Versele Laga Nutribird A18 Lori - p/ Lories",
+            "brand": "Versele Laga Nutribi",
             "category": "racao",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "NutriBird A18 é um alimento completo e equilibrado para a criação à mão de papagaios pequenos.",
+            "price": 14.87,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/19311-large_default/versele-laga-nutribird-a18-lori-plories-i422097.jpg"
         },
         {
             "id": 9,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Versele Laga Insect Patee Premium",
+            "brand": "Versele Laga Orlux",
             "category": "racao",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Orlux Insect patee Premium é um alimento completo para todos os pássaros insectívoros.",
+            "price": 8.85,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/12897-large_default/versele-laga-insect-patee-premium-i424091.jpg"
         },
         {
             "id": 10,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Versele Laga Orlux Gold Patee Amarelo",
+            "brand": "Versele Laga Orlux",
             "category": "racao",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Orlux Gold patee canários é uma papa de ovo pronta a usar para canários, pássaros exóticos e indígenas.",
+            "price": 2.72,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/11777-large_default/versele-laga-orlux-gold-patee-amarelo-gp424011.jpg"
         },
         {
             "id": 11,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Versele Laga Periquitos Premium",
+            "brand": "Versele Laga Premium",
             "category": "racao",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Esta mistura de sementes Premium tem uma composição variada e equilibrada, perfeitamente adaptada às necessidades alimentares de periquitos pequenos.",
+            "price": 3.75,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/18577-large_default/versele-laga-periquitos-premium-pp421688.jpg"
         },
         {
             "id": 12,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Versele Laga Canários Premium",
+            "brand": "Versele Laga Premium",
             "category": "racao",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Prestige Canários Premium é uma mistura de sementes enriquecida com elementos nutritivos suplementares dos quais os canários necessitam para manter uma boa forma.",
+            "price": 4.34,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/19348-large_default/versele-laga-canarios-premium-i421068.jpg"
         },
         {
             "id": 13,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Premium Pet Food",
+            "name": "Anima Strath Suplemento",
+            "brand": "Anima Strath",
             "category": "saude",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 17.91,
+            "description": "Suplemento fortificante à base de levedura vegetal.",
+            "price": 9.30,
             "stock": 94,
-            "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+            "image": "https://petcity.pt/17710-large_default/anima-strath-anstr100.jpg"
         },
 
         {
             "id": 14,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Premium Pet Food",
+            "name": "Anima Strath Tomilho",
+            "brand": "Anima Strath",
             "category": "saude",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 17.91,
+            "description": "Anima-Strath Fortificante com tomilho é um alimento complementar para animais, 100% natural.",
+            "price": 9.90,
             "stock": 94,
-            "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+            "image": "https://petcity.pt/18556-large_default/anima-strath-tomilho.jpg"
         },
         {
             "id": 15,
-            "name": "Anima-Strath - Fortificante",
-            "brand": "Anima-Strath",
+            "name": "Avizoon Aminovit 'L'",
+            "brand": "Avizoon",
             "category": "saude",
-            "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
-            "price": 13.17,
+            "description": "Suplemento alimentar que contém uma completa gama de vitaminas e aminoácidos essenciais, indispensáveis para um correcto funcionamento do organismo.Graças à sua composição,Aminovit 'L' é umbioestimulante completo, de indiscutivel utilidade.",
+            "price": 2.90,
             "stock": 50,
-            "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+            "image": "https://petcity.pt/6754-large_default/avizoon-aminovit-l-proml030cc.jpg"
         },
         {
             "id": 16,
-            "name": "Bogadent - Elixir Oral Cão 250ml",
-            "brand": "Bogadent",
+            "name": "Avizoon Naturvermes Cápsulas",
+            "brand": "Avizoon",
             "category": "saude",
-            "description": "Elixir de Higiene Oral para cães",
-            "price": 39.99,
+            "description": "Conforme revelado por inúmeros estudos, este produto tem a capacidade de inibição ou neutralização da maior parte dos parasitas intestinais. Espécies : Canários, exóticos, fauna europeia, periquitos, papagaios, faisões e outros.",
+            "price": 3.80,
             "stock": 30,
-            "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+            "image": "https://petcity.pt/6750-large_default/avizoon-naturvermes-capsulas-natverm20.jpg"
         },
         {
             "id": 17,
-            "name": "Peluche Kerbl Cordeiro Shaggy",
-            "brand": "Kerbl pet",
+            "name": "Avizoon Clearudine",
+            "brand": "Avizoon",
             "category": "saude",
-            "description": "Feito de chenille com corda de algodão",
-            "price": 8.56,
+            "description": "Clearudine é especialmente indicado para remover matéria orgânica, como fezes e gorduras. É ideal no uso em instalações. gaiolas. equipamentos e acessórios.",
+            "price": 4.50,
             "stock": 94,
-            "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+            "image": "https://petcity.pt/6755-large_default/avizoon-clearudine-czocd100.jpg"
         },
         {
             "id": 18,
-            "name": "KONG - Air Squeaker Bone",
-            "brand": "KONG",
+            "name": "Avizoon Fertizoon AD3EC",
+            "brand": "Avizoon",
             "category": "saude",
-            "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
-            "price": 6.40,
+            "description": "Polivitaminico contendo vitamina A e E factor indispensável no crescimento, reprodução e fertilidade. A Vitamina D sendo um excelente coadjuvante na assimilação do cálcio e na formação óssea.E por ultimo Vitamina C, um anti-infeccioso indispensavel.",
+            "price": 2.99,
             "stock": 94,
-            "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+            "image": "https://petcity.pt/6753-large_default/avizoon-fertizoon-ad3ec-vitazad030c.jpg"
         },
         {
             "id": 19,
-            "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
-            "brand": "Ibanez",
+            "name": "Excalibird Tipo A",
+            "brand": "Bioanalitica",
             "category": "saude",
-            "description": "Transportadora para cães e Gatos",
-            "price": 120.84,
+            "description": "Excalibird Tipo A é um composto natural pronto a utilizar, desenvolvido para afugentar – sem agressão – aves de todos os tipos de estruturas e edifícios.",
+            "price": 12.20,
             "stock": 50,
-            "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+            "image": "https://petcity.pt/2320-large_default/excalibird-tipo-a-chexacalibia.jpg"
         },
         {
             "id": 20,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Excalibird Tipo B",
+            "brand": "Bioanalitica",
             "category": "saude",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Excalibird não é perigoso para os seres humanos, plantas, solo e meio ambiente Excalibird Tipo-B é uma formulação patenteada constituída por ingredientes naturais que figuram na lista GRAS (Generally Recognized As Safe Geralmente Reconhecido como Seguro.",
+            "price": 12.20,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/2321-large_default/excalibird-tipo-b-chexacalibib.jpg"
         },
         {
             "id": 21,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Tabernil Pomada",
+            "brand": "Divasa",
             "category": "saude",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Pomada tarbenilpara canários e ornamentação em geral aves(periquitos, Pintassilgo, pombos, etc.) combina uma série de ações terapêuticas para uma regeneração epitelial de lesões epiteliais. Indicação para seu uso em caso de: Crostas",
+            "price": 8.50,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/6283-large_default/tabernil-pomada-tabpom.jpg"
         },
         {
             "id": 22,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Tabernil Cria",
+            "brand": "Divasa",
             "category": "saude",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Suplemento nutricional oral em pó Pela sua composição de componentes naturais, podem manter os animais nas melhores condições possíveis, dando-lhes a resistência natural contra situações críticas que ocorrem na época de reprodução.",
+            "price": 17.25,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/6296-large_default/tabernil-cria-tc4220292.jpg"
         },
         {
             "id": 23,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Quikon Levedura de Cerveja",
+            "brand": "Orniex",
             "category": "saude",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "A levedura de cerveja é um produto 100% natural, rico em aminoácidos e vitaminas - Alimento complementar para aves, ideal para os períodos de criação e crescimento.",
+            "price": 12.24,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/5371-large_default/quikon-levedura-de-cerveja-qu100540.jpg"
         },
         {
             "id": 24,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Sprayavex - Recarga",
+            "brand": "Orniex",
             "category": "saude",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Produto natural.",
+            "price": 11.99,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/8644-large_default/sprayavex-recarga-ex1326.jpg"
         },
         {
             "id": 25,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Premium Pet Food",
+            "name": "Trixie Brinquedo Colorido de Madeira",
+            "brand": "Trixie",
             "category": "brinquedo",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 17.91,
+            "description": "Com corrente e corda. Por exemplo: para papagaios ou caturras.",
+            "price": 1.95,
             "stock": 94,
-            "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+            "image": "https://petcity.pt/4305-large_default/trixie-brinquedo-colorido-de-madeira-bctx5195.jpg"
         },
 
         {
             "id": 26,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Premium Pet Food",
+            "name": "Trixie Brinquedo em Corda e Madeira p/ Gaiola",
+            "brand": "Trixie",
             "category": "brinquedo",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 17.91,
+            "description": "Brinquedo para pendurar na gaiola.",
+            "price": 4.30,
             "stock": 94,
-            "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+            "image": "https://petcity.pt/9742-large_default/trixie-brinquedo-em-corda-e-madeira-p-gaiola-tx58985.jpg"
         },
         {
             "id": 27,
-            "name": "Anima-Strath - Fortificante",
-            "brand": "Anima-Strath",
+            "name": "Trixie Brinquedo Natural Living p/ Periquitos e Caturras",
+            "brand": "Trixie",
             "category": "brinquedo",
-            "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
-            "price": 13.17,
+            "description": "Brinquedos que ajudam a cuidar da saúde do animal graças ao facto de serem acessórios produzidos com materiais naturais, que não são tratados com substâncias aditivas.",
+            "price": 2.20,
             "stock": 50,
-            "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+            "image": "https://petcity.pt/9744-large_default/trixie-brinquedo-natural-living-p-periquitos-e-caturras-tx58961.jpg"
         },
         {
             "id": 28,
-            "name": "Bogadent - Elixir Oral Cão 250ml",
-            "brand": "Bogadent",
+            "name": "Baloiço Duplo em Madeira com Sino para Aves",
+            "brand": "Trixie",
             "category": "brinquedo",
-            "description": "Elixir de Higiene Oral para cães",
-            "price": 39.99,
+            "description": "Balanço de madeira natural adequado para periquitos ou similares.",
+            "price": 1.80,
             "stock": 30,
-            "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+            "image": "https://petcity.pt/9822-large_default/baloico-duplo-em-madeira-com-sino-para-aves-tx5822.jpg"
         },
         {
             "id": 29,
-            "name": "Peluche Kerbl Cordeiro Shaggy",
-            "brand": "Kerbl pet",
+            "name": "Brinquedo c/ Madeira, Couro e Contas p/ Gaiola",
+            "brand": "Trixie",
             "category": "brinquedo",
-            "description": "Feito de chenille com corda de algodão",
-            "price": 8.56,
+            "description": "Brinquedo para pendurar na gaiola.",
+            "price": 3.90,
             "stock": 94,
-            "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+            "image": "https://petcity.pt/9743-large_default/brinquedo-c-madeira-couro-e-contas-p-gaiola-tx58984.jpg"
         },
         {
             "id": 30,
-            "name": "KONG - Air Squeaker Bone",
-            "brand": "KONG",
+            "name": "Parque de Diversão em Madeira",
+            "brand": "Trixie",
             "category": "brinquedo",
-            "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
-            "price": 6.40,
+            "description": " Parque de Diversão de Madeira. Medidas: 34 x 26 x 25cm.",
+            "price": 16.17,
             "stock": 94,
-            "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+            "image": "https://goldpet.pt/35260-large_default/parque-de-diversao-em-madeira.jpg"
         },
         {
             "id": 31,
-            "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
-            "brand": "Ibanez",
+            "name": "Parque para aves em madeira natural",
+            "brand": "Trixie",
             "category": "brinquedo",
-            "description": "Transportadora para cães e Gatos",
-            "price": 120.84,
+            "description": "Parque para aves em madeira natural. Medida: 28x25x22cm.",
+            "price": 9.22,
             "stock": 50,
-            "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+            "image": "https://goldpet.pt/40276-large_default/parque-para-aves-em-madeira-natural.jpg"
         },
         {
             "id": 32,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Parede Escalada Madeira Natural para Periquitos",
+            "brand": "Trixie",
             "category": "brinquedo",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": " Madeira natural, com rede de sisal e com correntes.",
+            "price": 4.32,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://goldpet.pt/74059-large_default/parede-escalada-madeira-natural-para-periquitos.jpg"
         },
         {
             "id": 33,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Escada Prisma em Madeira Natural",
+            "brand": "Trixie",
             "category": "brinquedo",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Escada Prisma em Madeira Natural. Medida: 58cm (12 degraus).",
+            "price": 4.32,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://goldpet.pt/40222-large_default/escada-prisma-em-madeira-natural.jpg"
         },
         {
             "id": 34,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Baloiço Triangular em Madeira Natural e Corda",
+            "brand": "Trixie",
             "category": "brinquedo",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Baloiço Triangular em Madeira Natural. Tamanhos Disponíveis: Pequeno: 16x16x16cm e Grande: 27x27x27cm.",
+            "price": 5.06,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://goldpet.pt/40233-large_default/baloico-triangular-em-madeira-natural-e-corda.jpg"
         },
         {
             "id": 35,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Duvo+ Meia lua com cordas para aves",
+            "brand": "Duvo Plus",
             "category": "brinquedo",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Brinquedo colorido de madeira e com cordas, para pássaros.",
+            "price": 13.52,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://goldpet.pt/54849-large_default/duvo-meia-lua-com-cordas-para-aves.jpg"
         },
         {
             "id": 36,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Duvo+ Brinquedo de blocos de madeira para aves",
+            "brand": "Duvo Plus",
             "category": "brinquedo",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Brinquedo colorido de madeira e com aplicações em couro, para pássaros.",
+            "price": 11.21,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://goldpet.pt/54850-large_default/duvo-brinquedo-de-blocos-de-madeira-para-aves.jpg"
         },
         {
             "id": 37,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Premium Pet Food",
+            "name": "Espigas de Painço",
+            "brand": "Orniex",
             "category": "acessorios",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 17.91,
+            "description": "Espigas de Painço 250gr - 6 unidades. Alimento complementar para Diamantes, Canários, Híbridos e outras aves Carnívoras de pequeno porte.",
+            "price": 3.89,
             "stock": 94,
-            "image": "https://goldpet.pt/52459-large_default/happyone-premium-racao-seca-para-cao-adulto-aves.jpg"
+            "image": "https://petcity.pt/8971-large_default/espigas-de-painco-epexa0610.jpg"
         },
 
         {
             "id": 38,
-            "name": "Ração Premium para Cães Adultos",
-            "brand": "Premium Pet Food",
+            "name": "Ninhex - Pelo de Cabra",
+            "brand": "Orniex",
             "category": "acessorios",
-            "description": "An apple mobile which is nothing like apple",
-            "price": 17.91,
+            "description": "Selecionado de acordo com o habitat natural das aves.",
+            "price": 1.90,
             "stock": 94,
-            "image": "https://goldpet.pt/52457-large_default/happyone-premium-racao-seca-para-cao-adulto-salmao.jpg"
+            "image": "https://petcity.pt/14863-large_default/ninhex-pelo-de-cabra-ex0160.jpg"
         },
         {
             "id": 39,
-            "name": "Anima-Strath - Fortificante",
-            "brand": "Anima-Strath",
+            "name": "Ovoex Ovos Artificiais p/ Canários",
+            "brand": "Orniex",
             "category": "acessorios",
-            "description": "A sua administração regular garante uma alimentação completa e equilibrada em todas as substâncias vitais necessárias a um metabolismo correcto. Pode ser administrado sem interrupções, pois é 100% natural e não contém qualquer aditivo artificial ou agente químico de conservação.",
-            "price": 13.17,
+            "description": "Ovos artificiais para canários.",
+            "price": 4.35,
             "stock": 50,
-            "image": "https://goldpet.pt/31806-large_default/anima-strath-fortificante.jpg"
+            "image": "https://petcity.pt/14898-large_default/ovoex-ovos-artificiais-p-canarios-ex650.jpg"
         },
         {
             "id": 40,
-            "name": "Bogadent - Elixir Oral Cão 250ml",
-            "brand": "Bogadent",
+            "name": "Ovoex Ovos Artificiais p/ Pombos",
+            "brand": "Orniex",
             "category": "acessorios",
-            "description": "Elixir de Higiene Oral para cães",
-            "price": 39.99,
+            "description": "Ovos artificiais ø 30mm para pombos.",
+            "price": 0.60,
             "stock": 30,
-            "image": "https://goldpet.pt/17991-large_default/bogadent-elixir-oral-cao-250ml.jpg"
+            "image": "https://petcity.pt/8646-large_default/ovoex-ovos-artificiais-p-pombos-ex655.jpg"
         },
         {
             "id": 41,
-            "name": "Peluche Kerbl Cordeiro Shaggy",
-            "brand": "Kerbl pet",
+            "name": "Trixie Osso de Choco com Suporte",
+            "brand": "Trixie",
             "category": "acessorios",
-            "description": "Feito de chenille com corda de algodão",
-            "price": 8.56,
+            "description": "Osso de choco, com suporte. Produto natural com cálcio, para o desgaste do bico. Tamanho: 12cm Tamanho: 16cm.",
+            "price": 1.97,
             "stock": 94,
-            "image": "https://goldpet.pt/42827-large_default/peluche-kerbl-cordeiro-shaggy.jpg"
+            "image": "https://petcity.pt/11026-large_default/trixie-osso-de-choco-com-suporte-tr5050.jpg"
         },
         {
             "id": 42,
-            "name": "KONG - Air Squeaker Bone",
-            "brand": "KONG",
+            "name": "Trixie Comedouro Circular",
+            "brand": "Trixie",
             "category": "acessorios",
-            "description": "O KONG AirDog Bone combina dois brinquedos clássicos para cães - a bola de tênis e o squeaker - para criar uma forma de osso imediatamente reconhecível que é o brinquedo perfeito para pegar e escolher. Nosso AirDog Bone, resistente e de alta qualidade, não usará os dentes do cão. É feito com um feltro especial não abrasivo, não com o material abrasivo das bolas normais de tênis.",
-            "price": 6.40,
+            "description": "Comedouro circular com ganchos para pendurar.",
+            "price": 1.43,
             "stock": 94,
-            "image": "https://goldpet.pt/45037-large_default/kong-air-squeaker-bone.jpg"
+            "image": "https://petcity.pt/8891-large_default/trixie-comedouro-circular-tr5477.jpg"
         },
         {
             "id": 43,
-            "name": "Transportim p/carro Pequeno 82x51x61cm (IBZ)",
-            "brand": "Ibanez",
+            "name": "Trixie Poleiro Multicolorido em Corda Algodão p/ Aves",
+            "brand": "Trixie",
             "category": "acessorios",
-            "description": "Transportadora para cães e Gatos",
-            "price": 120.84,
+            "description": "Em algodão - Flexíveis - Pode ser fixado em qualquer posição - Dimensão 37cm.",
+            "price": 4.80,
             "stock": 50,
-            "image": "https://goldpet.pt/6733-large_default/ibanez-transportim-pcarro-pequeno.jpg"
+            "image": "https://petcity.pt/2955-large_default/trixie-poleiro-multicolorido-em-corda-algodao-p-aves-tx5162.jpg"
         },
         {
             "id": 44,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Quiko Tesoura Corta-Anilhas",
+            "brand": "Quiko",
             "category": "acessorios",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Tesoura para remover anilhas.",
+            "price": 30.20,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/8138-large_default/quiko-tesoura-corta-anilhas-qu610050.jpg"
         },
         {
             "id": 45,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Versele Laga Grit",
+            "brand": "Versele Laga Prestige",
             "category": "acessorios",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Grit é um material comido por pássaros para ajudar em suas dietas e digestão.",
+            "price": 3.76,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/10278-large_default/versele-laga-grit-gp423110.jpg"
         },
         {
             "id": 46,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Versele Laga Kristal Shell Sand White - Fundo Gaiola",
+            "brand": "Versele Laga Prestige",
             "category": "acessorios",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Areia branca com casca de anis. esterilizado a alta temperatura.",
+            "price": 3.32,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/8550-large_default/versele-laga-kristal-shell-sand-white-fundo-gaiola-i423004.jpg"
         },
         {
             "id": 47,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Versele Laga Milho Alvo em Cacho",
+            "brand": "Versele Laga",
             "category": "acessorios",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Conjunto de painço para todos os tipos de pássaros.",
+            "price": 2.80,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/18681-large_default/versele-laga-milho-alvo-em-cacho-i451330.jpg"
         },
         {
             "id": 48,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "TRIXIE",
+            "name": "Versele Laga Bedding Wood Nº 6 - Cordi Faia Fina",
+            "brand": "Versele Laga",
             "category": "acessorios",
-            "description": "Especialmente robusta e de alta qualidade",
-            "price": 43.01,
+            "description": "Wood bedding n° 6 é uma cama higinica de madeira finamente trituradas faia para gaiolas e viveiros.",
+            "price": 16.22,
             "stock": 30,
-            "image": "https://goldpet.pt/38562-large_default/mochila-transportadora-savina.jpg"
+            "image": "https://petcity.pt/8037-large_default/versele-laga-bedding-wood-n-6-cordi-faia-fina-ib423094.jpg"
         }
 
     ]
