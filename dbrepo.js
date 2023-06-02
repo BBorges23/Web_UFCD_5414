@@ -72,7 +72,9 @@ exports.databaseRepo = function () {
                 name: product.name,
                 brand: product.brand,
                 category: product.category,
+                description: product.description,
                 price: product.price,
+                stock: product.stock,
                 image: product.image
             };
 
