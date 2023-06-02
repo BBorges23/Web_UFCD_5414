@@ -45,6 +45,23 @@ exports.databaseRepo = function () {
                     return product;
                 },
          */
+        delete: function (animalType, id) {
+        var dataJson = readDb();
+
+        if (dataJson.hasOwnProperty(animalType)) {
+            var animalArray = dataJson[animalType];
+            for (var i = 0; i < animalArray.length; i++) {
+            if (animalArray[i].id === id) {
+                animalArray.splice(i, 1);
+                fs.writeFileSync(dbName, JSON.stringify(dataJson, null, 2));
+                return true;
+            }
+            }
+        }
+
+        return false;
+        },
+
         insert: function (product) {
             var dataJson = readDb();
 

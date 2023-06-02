@@ -261,8 +261,9 @@
         rows += '<p class="card-text d-flex justify-content-between mt-3">Stock: ' + produto.stock;
         rows += '<button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + produto.id + '" aria-expanded="false" aria-controls="descricao-' + produto.id + '">Mostrar Descrição</button>';
         rows += '<div class="collapse p-2" id="descricao-' + produto.id + '">';
-        rows += '<p>' + produto.description + '</p>';
+        rows += '<p>' + produto.description + '</p>';        
         rows += '</div>';
+        rows += '<div><button type="button" class="btn btn-danger btn-sm" onclick="clickDeleteProduto(\'' + animal + '\', ' + produto.id + ')">x</button></div>';      
         rows += '</div>';
         rows += '</div>';
       }
@@ -282,6 +283,18 @@
     xhttp.open("POST", "http://localhost:3000/addProduto", true);
     xhttp.setRequestHeader("Content-type", "application/json;charset=UTF-8");
     xhttp.send(JSON.stringify(produto));
+  };
+
+    var deleteProduto = function(animalType, id) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        alert(xhttp.responseText);
+      }
+    };
+    xhttp.open("POST", "http://localhost:3000/deleteProduto", true);
+    xhttp.setRequestHeader("Content-type", "application/json;charset=UTF-8");
+    xhttp.send(JSON.stringify({ id: id, animalType: animalType }));
   };
 
   var buildNewRow = function (produto) {
@@ -331,4 +344,10 @@
     });
 
   };
+  
+  var clickDeleteProduto = function(animalType, id) {
+    deleteProduto(animalType, id);
+  };
+
+
 </script>

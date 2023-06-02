@@ -24,6 +24,14 @@ app.use(bodyParser.json());
 //     // res.send('api request' + id);
 // })
 
+app.post('/deleteProduto', (req, res) => {
+  let id = req.body.id;
+  let animalType = req.body.animalType; // Adicione esta linha para obter o tipo de animal
+
+  var result = dbRepo.delete(animalType, id); // Modifique a chamada para a função delete
+  res.send(result ? 'OK' : 'NOK');
+});
+
 app.get('/animal/:category', (req, res) => {
   const { category } = req.params;
   res.send(dbRepo.list(req.query, category));
