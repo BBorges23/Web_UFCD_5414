@@ -9,11 +9,6 @@ const port = 3000
 app.use(cors())
 app.use(bodyParser.json());
 
-// app.post('/addPerson', (req, res) => {
-//   let data = req.body;
-//   let insertedPerson = dbRepo.insert(data)
-//   res.send(insertedPerson);
-// })
 
 // app.post('/updatePerson', (req, res) => {
 //   let data = req.body;
@@ -34,10 +29,11 @@ app.get('/animal/:category', (req, res) => {
   res.send(dbRepo.list(req.query, category));
 });
 
-// app.get('/animal', (req, res) => {
-//   res.send(dbRepo.list(req.query, "cat"))
-//   // res.send(req.query)
-// })
+app.post('/addProduto', (req, res) => {
+  let data = req.body;
+  let insertedProduct = dbRepo.insert(data);
+  res.send(insertedProduct);
+});
 
 
 // app.get('/sample', (req, res) => {

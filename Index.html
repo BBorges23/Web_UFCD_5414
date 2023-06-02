@@ -134,7 +134,61 @@
             </div>
       </div>          
     </div>
+  <div class="container">
+      <div class="row mt-4">
+        <div class="col-2">
+          <label for="inputAnimal" class="form-label">Animal</label>
+          <select class="form-select" id="inputAnimal" aria-label="Default select example">
+            <option value="dog">Cão</option>
+            <option value="cat">Gato</option>
+            <option value="fish">Peixe</option>
+            <option value="bird">Aves</option>
+          </select>
+        </div>
+        <div class="col-2">
+          <label for="inputCategory" class="form-label">Categoria</label>
+          <select class="form-select" id="inputCategory" aria-label="Default select example">
+            <option value="racao">Ração</option>
+            <option value="saude">Saúde</option>
+            <option value="brinquedo">Brinquedos</option>
+            <option value="acessorios">Acessórios para a casa</option>
+          </select>
+        </div>
+        <div class="col-2">
+          <label for="inputName" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="inputName">
+        </div>
+        <div class="col-2">
+          <label for="inputBrand" class="form-label">Marca</label>
+          <input type="text" class="form-control" id="inputBrand">
+        </div>
+        <div class="col-2">
+          <label for="inputDescription" class="form-label">Descrição</label>
+          <input type="text" class="form-control" id="inputDescription">
+        </div>
+        <div class="col-2">
+          <label for="inputPrice" class="form-label">Preço</label>
+          <input type="text" class="form-control" id="inputPrice">
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-2">
+          <label for="inputStock" class="form-label">Stock</label>
+          <input type="text" class="form-control" id="inputStock">
+        </div>
+        <div class="col-2">
+          <label for="inputImage" class="form-label">Imagem</label>
+          <input type="text" class="form-control" id="inputImage">
+        </div>
+        <div class="col-2"></div>
+        <div class="col-2"></div>
+        <div class="col-2"></div>
+        <div class="col-2 d-flex justify-content-end">
+          <button type="button" class="btn btn-primary mt-4" onclick="clickAddProduto(event)">Adicionar</button>
+        </div>
+      </div>
 
+  </div>
   <div class="container">
     <div class="row d-flex gap-3 justify-content-center pt-5" id="produtos">
 
@@ -187,14 +241,21 @@
       var rows = "";
       for (let produto of produtos) {
         rows += '<div class="card col-sm-3 mb-4" style="width: 18rem;">';
-        rows += '<img class="card-img-top image-fluid" style="height:180px" src="' + produto.image + '" alt="Card image cap">';
-        rows += '<div class="card-body">';
-        rows += '<h5 class="card-title">' + produto.name + '</h5>';
-        rows += '<p class="card-text">' + produto.brand + '</p>';
-        rows += '<div class="display-flex align-content-between">';
-        rows += '<p class="card-text d-flex justify-content-between">€' + produto.price + '<a href="#" class="btn btn-primary">COMPRAR</a></p>';
-        rows += '</div>';
-        rows += '</div>';
+          rows += '<img class="card-img-top image-fluid" style="height:180px" src="' + produto.image + '" alt="Card image cap">';
+            rows += '<div class="card-body">';
+              rows += '<h5 class="card-title">' + produto.name + '</h5>';
+              rows += '<p class="card-text">' + produto.brand + '</p>';
+            rows += '<div class="display-flex align-content-between">';
+              rows += '<p class="card-text d-flex justify-content-between">€' + produto.price + '<a href="#" class="btn btn-primary">COMPRAR</a></p>';
+              rows += '<p class="card-text d-flex justify-content-between">Stock: ' + produto.stock;
+            rows += '<div class="dropdown">';
+              rows += '<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Descrição </button>';
+              rows += '<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">';
+                rows += '<a class="dropdown-item" href="#">' + produto.description +'</a>';
+              rows += '</div>';
+            rows += '</div>';
+            rows += '</div>';
+            rows += '</div>';
         rows += '</div>';
       }
       document.getElementById("produtos").innerHTML = rows;
@@ -202,5 +263,56 @@
   
     getCategoria();
   }
-  
+  var insertProduto = function (produto) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+      if (this.readyState == 4 && this.status == 200) {
+        let produto = JSON.parse(xhttp.responseText);
+        buildNewRow(produto);
+      }
+    };
+    xhttp.open("POST", "http://localhost:3000/addProduto", true);
+    xhttp.setRequestHeader("Content-type", "application/json;charset=UTF-8");
+    xhttp.send(JSON.stringify(produto));
+  };
+
+  var buildNewRow = function (produto) {
+      var newRow = '<div class="card col-sm-3 mb-4" style="width: 18rem;">';
+      newRow += '<img class="card-img-top image-fluid" style="height:180px" src="' + produto.image +
+        '" alt="Card image cap">';
+      newRow += '<div class="card-body">';
+      newRow += '<h5 class="card-title">' + produto.name + '</h5>';
+      newRow += '<p class="card-text">' + produto.brand + '</p>';
+      newRow += '<div class="display-flex align-content-between">';
+      newRow += '<p class="card-text d-flex justify-content-between">€' + produto.price +
+        '<a href="#" class="btn btn-primary">COMPRAR</a></p>';
+      newRow += '<p class="card-text d-flex justify-content-between">Stock: ' + produto.stock;
+      newRow += '</div>';
+      newRow += '</div>';
+      newRow += '</div>';
+    
+    var rows = document.getElementById("produtos").innerHTML;
+    document.getElementById("produtos").innerHTML = rows + newRow;
+  };
+
+  var clickAddProduto = function () {
+
+    event.preventDefault();
+    let animal = document.getElementById('inputAnimal').value;
+    let name = document.getElementById('inputName').value;
+    let brand = document.getElementById('inputBrand').value;
+    let category = document.getElementById('inputCategory').value;
+    let price = document.getElementById('inputPrice').value;
+    let image = document.getElementById('inputImage').value;
+
+    insertProduto({
+        animal: animal,
+        name: name,
+        brand: brand,
+        category: category,
+        price: price,
+        image: image,
+    });
+
+  };
 </script>

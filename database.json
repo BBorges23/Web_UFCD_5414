@@ -1,1948 +1,1930 @@
 {
-    "dog": [{
-            "id": 1,
-            "name": "Yorkshire Terrier Adult",
-            "brand": "Royal Canin",
-            "category": "racao",
-            "description": "Cães adultos de raça Yorkshire Terrier, após os 10 meses.",
-            "price": 5.05,
-            "stock": 94,
-            "image": "https://petcity.pt/18486-large_default/royal-canin-yorkshire-terrier-adult-rcyt0500.jpg"
-        },
-
-        {
-            "id": 2,
-            "name": "X-Small Adult",
-            "brand": "Royal Canin",
-            "category": "racao",
-            "description": "Cães de raças muito pequenas (com peso em adulto até aos 4kg), dos 10 meses aos 8 anos.",
-            "price": 4.95,
-            "stock": 94,
-            "image": "https://petcity.pt/16684-large_default/royal-canin-x-small-adult-rcxadl050.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Dog Classic Adult",
-            "brand": "PetField",
-            "category": "racao",
-            "description": "Alimentação seca com 26% de proteína. Contém Ómega 6.",
-            "price": 35.91,
-            "stock": 50,
-            "image": "https://petcity.pt/12275-large_default/petfield-dog-classic-adult.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Premium Dog Adult Chicken and Oat",
-            "brand": "PetField",
-            "category": "racao",
-            "description": "Alimentação seca premium com 30% de proteína e 16% de gordura, para cães adultos.",
-            "price": 13.41,
-            "stock": 30,
-            "image": "https://petcity.pt/14482-large_default/petfield-premium-dog-adult-chicken-and-oat.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Atlantica",
-            "brand": "Naturea",
-            "category": "racao",
-            "description": "Contém cerca de 60% de ingredientes de origem animal, sendo o salmão o principal. Sem cereais.",
-            "price": 19.79,
-            "stock": 94,
-            "image": "https://petcity.pt/16847-large_default/naturea-atlantica-naatl02.jpg"
-        },
-        {
-            "id": 6,
-            "name": "Adult Chicken",
-            "brand": "Naturea",
-            "category": "racao",
-            "description": "MANTÉM AS DEFESAS NATURAIS DO SEU CÃO Seguindo o conceito Naturalmente Apropriado, Naturea NATURALS Adult – all breeds, foi formulado de forma a incluir vários ingredientes fonte de proteína animal, sem adição de hormonas, milho, trigo, soja e glúten.",
-            "price": 15.29,
-            "stock": 94,
-            "image": "https://petcity.pt/17282-large_default/naturea-adult-chicken-nnnr014.jpg"
-        },
-        {
-            "id": 7,
-            "name": "All Breed Cordeiro",
-            "brand": "Advance",
-            "category": "racao",
-            "description": "Alimento de gama alta especialmente indicado para cães adultos de todas as raças e para um especial cuidado da pele e do pelo.",
-            "price": 20.67,
-            "stock": 50,
-            "image": "https://petcity.pt/7751-large_default/advance-all-breed-cordeiro-arroz-924107.jpg"
-        },
-        {
-            "id": 8,
-            "name": "Bulldog Francês",
-            "brand": "Advance",
-            "category": "racao",
-            "description": "ADVANCE French Bulldog é um alimento de gama alta, completo e equilibrado, especialmente desenvolvido para cães adultos da raça Bulldog Francês.",
-            "price": 41.35,
-            "stock": 30,
-            "image": "https://petcity.pt/13096-large_default/advance-bulldog-frances.jpg"
-        },
-        {
-            "id": 9,
-            "name": "Adulto Pele Sensível",
-            "brand": "Eukanuba",
-            "category": "racao",
-            "description": "Eukanuba Peles Sensíveis é um alimento completo para cães com pele sensível. Enriquecido com óleos naturais de peixe para um pelo brilhante e uma pele saudável. Com Fórmula Vital Health e FOS pré-bióticos.",
-            "price": 15.50,
-            "stock": 30,
-            "image": "https://petcity.pt/16303-large_default/eukanuba-adulto-pele-sensivel-eukaps23.jpg"
-        },
-        {
-            "id": 10,
-            "name": "Labrador Retriever",
-            "brand": "Eukanuba",
-            "category": "racao",
-            "description": "Eukanuba Breed Labrador Retriever é uma ração elaborada especialmente para cães adultos de raça Labrador Retriever adultos, para um pelo brilhante e saudável e para articulações mais móveis",
-            "price": 53.89,
-            "stock": 30,
-            "image": "https://petcity.pt/16307-large_default/eukanuba-labrador-retriever-12kg-euklr12.jpg"
-        },
-        {
-            "id": 11,
-            "name": "Active",
-            "brand": "Friskies",
-            "category": "racao",
-            "description": "PURINA Friskies Active foi concebido para cães cheios de energia e sempre com uma disposição brincalhona. É uma saborosa receita com carne de vaca, combinada com cereais integrais, vitaminas B e ácidos gordos Omega 3 e 6.",
-            "price": 6.99,
-            "stock": 30,
-            "image": "https://petcity.pt/19205-large_default/friskies-active-f12277936.jpg"
-        },
-        {
-            "id": 12,
-            "name": "Digestion",
-            "brand": "Friskies",
-            "category": "racao",
-            "description": "Especialmente formulado com chicória e polpa de beterraba, duas fontes de fibras solúveis e insolúveis, para ajudar a melhorar o processo digestivo em cães mais sensíveis.",
-            "price": 12.65,
-            "stock": 30,
-            "image": "https://petcity.pt/19210-large_default/friskies-adult-digestion-f12093660.jpg"
-        },
-        {
-            "id": 13,
-            "name": "Artero Pretty Eyes - Loção Para Manchas",
-            "brand": "Artero",
-            "category": "saude",
-            "description": "Champo para cães 2 em 1. o D-Panthenol promove a cicratização de feridas ao mesmo tempo que hidrata a pele. Este shampo contém também oleo de jojoba que promove o brilho natural do pêlo dando-lhe volume.",
-            "price": 12.99,
-            "stock": 94,
-            "image": "https://petcity.pt/7671-large_default/artero-pretty-eyes-locao-para-manchas-h646.jpg"
-        },
-
-        {
-            "id": 14,
-            "name": "Artero Spray Balsam - Calmante Dérmico",
-            "brand": "Artero",
-            "category": "saude",
-            "description": "Artero Bálsamo dérmico calmante para cães e gatos.",
-            "price": 11.99,
-            "stock": 94,
-            "image": "https://petcity.pt/10329-large_default/artero-spray-balsam-calmante-dermico.jpg"
-        },
-        {
-            "id": 15,
-            "name": "Organissime Loção Ocular",
-            "brand": "Biogance",
-            "category": "saude",
-            "description": "Para cães e gatos. Ajuda a eliminar as impurezas equanto acalma e protege a pele do contorno dos olhos contra a secura.",
-            "price": 6.90,
-            "stock": 50,
-            "image": "https://petcity.pt/19374-large_default/organissime-locao-ocular.jpg"
-        },
-        {
-            "id": 16,
-            "name": "Biogance Paw Balm",
-            "brand": "Biogance",
-            "category": "saude",
-            "description": "Este bálsamo reparador é formulado com óleo de coco e manteiga de karité.",
-            "price": 10.75,
-            "stock": 30,
-            "image": "https://petcity.pt/9894-large_default/biogance-dog-paw-balm-bg04bc50.jpg"
-        },
-        {
-            "id": 17,
-            "name": "Condrovet Cat Force Ha",
-            "brand": "Bioiberica",
-            "category": "saude",
-            "description": "Suplemento alimentar recomendado para gatos, para proteção das articulações (condroprotetor).",
-            "price": 37.50,
-            "stock": 94,
-            "image": "https://petcity.pt/6805-large_default/condrovet-cat-force-ha-condro45.jpg"
-        },
-        {
-            "id": 18,
-            "name": "Impromune",
-            "brand": "Bioiberica",
-            "category": "saude",
-            "description": "Alimento complementar para estimular as defesas imunitárias, para cães e gatos.",
-            "price": 45.15,
-            "stock": 94,
-            "image": "https://petcity.pt/13374-large_default/impromune.jpg"
-        },
-        {
-            "id": 19,
-            "name": "Biospotix Indoor Spray",
-            "brand": "Biospotix",
-            "category": "saude",
-            "description": "O spray BIOSPOTIX indoor ajuda a eliminar pulgas adultas, ovos e larvas do ambiente dos animais de estimação.",
-            "price": 16.80,
-            "stock": 50,
-            "image": "https://petcity.pt/19405-large_default/biospotix-indoor-spray.jpg"
-        },
-        {
-            "id": 20,
-            "name": "Mochila Transportadora SAVINA",
-            "brand": "Biospotix",
-            "category": "saude",
-            "description": "Um antiparasitário de proteção permanente.",
-            "price": 5.25,
-            "stock": 30,
-            "image": "https://petcity.pt/19653-large_default/biospotix-cao-coleira-replente.jpg"
-        },
-        {
-            "id": 21,
-            "name": "Bogadent Dental Lipo-Gel",
-            "brand": "Bogadent",
-            "category": "saude",
-            "description": "A sua fórmula limpa os dentes e forma uma película de proteção sobre os dentes e as gengivas.",
-            "price": 10.95,
-            "stock": 30,
-            "image": "https://petcity.pt/18361-large_default/bogadent-dental-lipo-gel.jpg"
-        },
-        {
-            "id": 22,
-            "name": "Bogadent Dog Elixir Higiene Oral",
-            "brand": "Bogadent",
-            "category": "saude",
-            "description": "Suplemento alimentar para cães usado na manutenção da higiene oral e apoio à limpeza diária dos seus dentes.",
-            "price": 13.20,
-            "stock": 30,
-            "image": "https://petcity.pt/18399-large_default/bogadent-dog-elixir-higiene-oral.jpg"
-        },
-        {
-            "id": 23,
-            "name": "Otodine",
-            "brand": "Calier",
-            "category": "saude",
-            "description": "Otodine solução auricular, para cães e gatos. Indicações e espécies animais: Coadjuvante de tratamento de otites em cães e gatos. Não ototóxico.",
-            "price": 24.90,
-            "stock": 30,
-            "image": "https://petcity.pt/1447-large_default/otodine-otod0100.jpg"
-        },
-        {
-            "id": 24,
-            "name": "Arthri-Aid-Articulações",
-            "brand": "Calier",
-            "category": "saude",
-            "description": "Alimento complementar para apoio ao funcionamento das articulações, particularmente em casos de osteoartrite, para cão e gato.",
-            "price": 39.20,
-            "stock": 30,
-            "image": "https://petcity.pt/11236-large_default/arthri-aid-articulacoes-arthri120.jpg"
-        },
-        {
-            "id": 25,
-            "name": "Ferribiela Jogo Roulette",
-            "brand": "Ferribiela",
-            "category": "brinquedo",
-            "description": "Jogo para colocar snacks e divertir o seu cão.",
-            "price": 11.90,
-            "stock": 94,
-            "image": "https://petcity.pt/10610-large_default/ferribiella-jogo-roulette.jpg"
-        },
-
-        {
-            "id": 26,
-            "name": "Ferribiela Jogo Mikado",
-            "brand": "Ferribiela",
-            "category": "brinquedo",
-            "description": "Jogo para divertir e estimular o seu cão.",
-            "price": 9.90,
-            "stock": 94,
-            "image": "https://petcity.pt/10608-large_default/ferribiella-jogo-mikado.jpg"
-        },
-        {
-            "id": 27,
-            "name": "Fuzzyard Xmas Toy Tree Rex",
-            "brand": "Fuzzyard",
-            "category": "brinquedo",
-            "description": "Brinquedo natalício de peluche super macio.",
-            "price": 14.99,
-            "stock": 50,
-            "image": "https://petcity.pt/14224-large_default/fuzzyard-xmas-toy-tree-rex.jpg"
-        },
-        {
-            "id": 28,
-            "name": "Fuzzyard - Ginger Bread Dog",
-            "brand": "Fuzzyard",
-            "category": "brinquedo",
-            "description": "Boneco de gengibre para cão.",
-            "price": 13.50,
-            "stock": 30,
-            "image": "https://petcity.pt/11494-large_default/fuzzyard-ginger-bread-dog.jpg"
-        },
-        {
-            "id": 29,
-            "name": "Kong Shells Turtle",
-            "brand": "Kong",
-            "category": "brinquedo",
-            "description": "Kong Shells Turtle é um brinquedo indicado para cães.",
-            "price": 6.65,
-            "stock": 94,
-            "image": "https://petcity.pt/4523-large_default/kong-shells-turtle-rsh31e.jpg"
-        },
-        {
-            "id": 30,
-            "name": "Kong Classic Goodie Bone",
-            "brand": "Kong",
-            "category": "brinquedo",
-            "description": "KongGoodie Boneé aconselhável para o seu cão passar a maior parte do seu tempo entretido.",
-            "price": 6.40,
-            "stock": 94,
-            "image": "https://petcity.pt/7107-large_default/kong-classic-goodie-bone-kb31e.jpg"
-        },
-        {
-            "id": 31,
-            "name": "Rogz Grinz Ball",
-            "brand": "Rogz",
-            "category": "brinquedo",
-            "description": "Suave o suficiente para não ferir os dentes do seu cão, mas firme o suficiente para saltar.A bola de deleite mais engraçada e brincalhona.A sorrirde orelha a orelha. S - 4,9cm M - 6,4cm L - 7,8cm",
-            "price": 3.27,
-            "stock": 50,
-            "image": "https://petcity.pt/4316-large_default/rogz-grinz-ball-bpgr01.jpg"
-        },
-        {
-            "id": 32,
-            "name": "Rogz Frisbee",
-            "brand": "Rogz",
-            "category": "brinquedo",
-            "description": "Frisbee para o seu Doguinho brincar.",
-            "price": 19.10,
-            "stock": 30,
-            "image": "https://petcity.pt/8467-large_default/rogz-frisbee-rrf01b.jpg"
-        },
-        {
-            "id": 33,
-            "name": "Nobleza Peluche Smile c/ Som",
-            "brand": "Nobleza",
-            "category": "brinquedo",
-            "description": "Medidas aproximadas: 16cm",
-            "price": 1.99,
-            "stock": 30,
-            "image": "https://petcity.pt/18986-large_default/nobleza-peluche-smile-c-som-nbz265791.jpg"
-        },
-        {
-            "id": 34,
-            "name": "Nobleza Brinquedo c/ Corda",
-            "brand": "Nobleza",
-            "category": "brinquedo",
-            "description": "Medidas aproximadas: 37cm",
-            "price": 2.99,
-            "stock": 30,
-            "image": "https://petcity.pt/18957-large_default/nobleza-brinquedo-c-corda-nbz293101.jpg"
-        },
-        {
-            "id": 35,
-            "name": "Trixie Galo c/ Som",
-            "brand": "Trixie",
-            "category": "brinquedo",
-            "description": "Brinquedo em peluche com som.",
-            "price": 5.60,
-            "stock": 30,
-            "image": "https://petcity.pt/17582-large_default/trixie-galo-c-som-tx35940.jpg"
-        },
-        {
-            "id": 36,
-            "name": "Trixie Lama em Peluche c/ Som",
-            "brand": "Trixie",
-            "category": "brinquedo",
-            "description": "Peluche com som - 40cm",
-            "price": 7.90,
-            "stock": 30,
-            "image": "https://petcity.pt/17580-large_default/trixie-lama-em-peluche-c-som-tx35884.jpg"
-        },
-        {
-            "id": 37,
-            "name": "Animalzan Sweat Oficial Sporting CP",
-            "brand": "Animalzan",
-            "category": "acessorios",
-            "description": "Sweat polar cardada com impressão em alta definição do emblema do clube no dorso. Fabricada em Portugal.",
-            "price": 27.50,
-            "stock": 94,
-            "image": "https://petcity.pt/8175-large_default/animalzan-sweat-oficial-sporting-cp-exc3896-1.jpg"
-        },
-
-        {
-            "id": 38,
-            "name": "Animalzan T-Shirt Oficial Sporting CP",
-            "brand": "Animalzan",
-            "category": "acessorios",
-            "description": "T-shirt inspirada no 1º equipamento de manga curta da época 2017/18 do Sporting CP.",
-            "price": 24.95,
-            "stock": 94,
-            "image": "https://petcity.pt/8168-large_default/animalzan-t-shirt-oficial-sporting-cp-exc3897-1.jpg"
-        },
-        {
-            "id": 39,
-            "name": "Camon Tapete Refrescante",
-            "brand": "Camon",
-            "category": "acessorios",
-            "description": "Este tapete refrescante mantém o seu cão fresco, mantendo uma temperatura apropriada. Pode ser usado tanto dentro de casa como fora. Macio e duradouro, pode ser útil para animais que estejam a sofrer de dores ou articulações inflamadas.",
-            "price": 11.86,
-            "stock": 50,
-            "image": "https://petcity.pt/12890-large_default/camon-tapete-refrescante-c7951.jpg"
-        },
-        {
-            "id": 40,
-            "name": "Camon Brinquedo Refrescante para Cão",
-            "brand": "Camon",
-            "category": "acessorios",
-            "description": "Brinquedo refrescante para entreter o seu melhor amigo nos dias mais quentes. ",
-            "price": 14.20,
-            "stock": 30,
-            "image": "https://petcity.pt/14681-large_default/brinquedo-refrescante-para-cao.jpg"
-        },
-        {
-            "id": 41,
-            "name": "Dashi Taça Bamboo Originar",
-            "brand": "Dashi",
-            "category": "acessorios",
-            "description": "Taça feita de Pó de Bamboo e Melamina.",
-            "price": 10.99,
-            "stock": 94,
-            "image": "https://petcity.pt/9797-large_default/dashi-taca-bamboo-original-dbowl01.jpg"
-        },
-        {
-            "id": 42,
-            "name": "Poop It Up And Chill!",
-            "brand": "Dashi",
-            "category": "acessorios",
-            "description": "Mesmo que o teu cão faça as necessidades quando ninguém está a ver, ainda assim tens de as apanhar. Com o Dispensador de Sacos da Dashi, vamos-te ajudar.",
-            "price": 3.99,
-            "stock": 94,
-            "image": "https://petcity.pt/18428-large_default/poop-it-up-and-chill-dispensador-de-sacos-dpb01.jpg"
-        },
-        {
-            "id": 43,
-            "name": "Earth Rated - Dispensador de Sacos c/ Mosquetão",
-            "brand": "Earth Rated",
-            "category": "acessorios",
-            "description": "Dispensador de sacos para dejectos com recarga de 15 sacos. Com mosquetão incorporado indicado para transportar na trela ou preso ao cinto. A gama Earth Rated apenas fabrica sacos para dejectos feitos a partir de materiais reciclados e biodegradáveis.",
-            "price": 2.92,
-            "stock": 50,
-            "image": "https://petcity.pt/13692-large_default/earth-rated-dispensador-de-sacos-c-mosquetao.jpg"
-        },
-        {
-            "id": 44,
-            "name": "Earth Rated - Recargas com 120 Sacos",
-            "brand": "Earth Rated",
-            "category": "acessorios",
-            "description": "Esta embalagem inclui 8 rolos de 15 sacos que podem ser usados sozinhos ou com nosso dispensador. Esses sacos são fáceis de abrir, extra grossos e resistentes!",
-            "price": 6.79,
-            "stock": 30,
-            "image": "https://petcity.pt/3666-large_default/earth-rated-recargas-com-120-sacos-va01201.jpg"
-        },
-        {
-            "id": 45,
-            "name": "Flexi Multi Box - Dispensador de Sacos ou Snacks",
-            "brand": "Flexi",
-            "category": "acessorios",
-            "description": "Flexi Multibox é um prático e inovador acessório para a sua trela extensível Flexi.",
-            "price": 5.99,
-            "stock": 30,
-            "image": "https://petcity.pt/16102-large_default/flexi-multi-box-dispensador-de-sacos-ou-snacks-fle03-2370.jpg"
-        },
-        {
-            "id": 46,
-            "name": "Flexi Trela Verde Neon - Fita",
-            "brand": "Flexi",
-            "category": "acessorios",
-            "description": "Trela extensível em fita.",
-            "price": 18.09,
-            "stock": 30,
-            "image": "https://petcity.pt/19416-large_default/flexi-trela-verde-neon-fita.jpg"
-        },
-        {
-            "id": 47,
-            "name": "Mugue - Pelù Rolo Adesivo Anti-Ácaros",
-            "brand": "Mugue",
-            "category": "acessorios",
-            "description": "Elimina 99% dos ácaros (testados pela Universidade de Milão em condições experimentais).Limpa e remove os pêlos de qualquer superfície / tecido.Papel adesivo de máxima eficiência.Ambiente perfumado.10 metros, 60 aplicações.",
-            "price": 7.90,
-            "stock": 30,
-            "image": "https://petcity.pt/6701-large_default/mugue-pelu-rolo-adesivo-anti-acaros-lintac.jpg"
-        },
-        {
-            "id": 48,
-            "name": "Mugue - Pelù Smart Roll",
-            "brand": "Mugue",
-            "category": "acessorios",
-            "description": "O super rolo/escova adesivo. O objeto de design que se transforma: um único produto … 3 modos diferentes de o utilizar. 3 punhos e montagens diferentes que tornam mais fácil e eficaz a manutenção dos seus casacos e da sua casa.",
-            "price": 10.90,
-            "stock": 30,
-            "image": "https://petcity.pt/4633-large_default/mugue-pelu-smart-roll-28050.jpg"
-        }
-
-    ],
-    "cat": [{
-        "id": 1,
-        "name": "Acana Cat First Feast",
-        "brand": "Acana",
-        "category": "racao",
-        "description": "Inicie a vida do seu gatinho com uma alimentação cheia de ingredientes de origem animal. Concebida para fornecer tudo o que o seu gatinho precisa para um crescimento e desenvolvimento saudável.",
-        "price": 6.21,
-        "stock": 94,
-        "image": "https://petcity.pt/18686-large_default/acana-cat-first-feast-acc300.jpg"
-    },
-
+  "dog": [
     {
-        "id": 2,
-        "name": "Acana Pacifica Cat",
-        "brand": "Acana",
-        "category": "racao",
-        "description": "Fornece naturalmente os nutrientes de que seu gato necessita para ter uma saúde perfeita e estar sempre nutrido da maneira que a Mãe Natureza pretendia.",
-        "price": 7.11,
-        "stock": 94,
-        "image": "https://petcity.pt/9778-large_default/acana-pacifica-cat-acr303.jpg"
+      "id": 1,
+      "name": "Yorkshire Terrier Adult",
+      "brand": "Royal Canin",
+      "category": "racao",
+      "description": "Cães adultos de raça Yorkshire Terrier, após os 10 meses.",
+      "price": 5.05,
+      "stock": 94,
+      "image": "https://petcity.pt/18486-large_default/royal-canin-yorkshire-terrier-adult-rcyt0500.jpg"
     },
     {
-        "id": 3,
-        "name": "Advance Cat Sterilised +10 Chicken/Barley",
-        "brand": "Advance",
-        "category": "racao",
-        "description": "Alimento de gama alta indicado para gatos esterilizados com mais de 10 anos: Ajuda a prevenir a obesidade em gatos esterilizados, ajuda a diminuir o risco de insuficiência renal (DRC) e ajuda a evitar a formação de cálculos urinários de oxalato de cálcio.",
-        "price": 12.74,
-        "stock": 50,
-        "image": "https://petcity.pt/8098-large_default/advance-cat-sterilised-10-chickenbarley-ad921508.jpg"
+      "id": 2,
+      "name": "X-Small Adult",
+      "brand": "Royal Canin",
+      "category": "racao",
+      "description": "Cães de raças muito pequenas (com peso em adulto até aos 4kg), dos 10 meses aos 8 anos.",
+      "price": 4.95,
+      "stock": 94,
+      "image": "https://petcity.pt/16684-large_default/royal-canin-x-small-adult-rcxadl050.jpg"
     },
     {
-        "id": 4,
-        "name": "Advance Kitten Feline",
-        "brand": "Advance",
-        "category": "racao",
-        "description": "Alimento de gama alta especialmente indicado para gatinhos (entre 2 e 12 meses) e para fêmeas gestantes ou lactantes.",
-        "price": 3.39,
-        "stock": 30,
-        "image": "https://petcity.pt/6322-large_default/advance-kitten-feline-ad7887.jpg"
+      "id": 3,
+      "name": "Dog Classic Adult",
+      "brand": "PetField",
+      "category": "racao",
+      "description": "Alimentação seca com 26% de proteína. Contém Ómega 6.",
+      "price": 35.91,
+      "stock": 50,
+      "image": "https://petcity.pt/12275-large_default/petfield-dog-classic-adult.jpg"
     },
     {
-        "id": 5,
-        "name": "Applaws Cat Senior Chicken",
-        "brand": "Applaws",
-        "category": "racao",
-        "description": "Muitos alimentos secos para gatos usam grãos como fonte primária de proteína. Dietas que contêm altos níveis de grãos podem ser difíceis de digerir e converter em energia. Isso pode stressar o fígado e os rins e pode levar ao desenvolvimento de alergias.",
-        "price": 15.90,
-        "stock": 94,
-        "image": "https://petcity.pt/7523-large_default/applaws-cat-senior-chicken-a4205ml.jpg"
+      "id": 4,
+      "name": "Premium Dog Adult Chicken and Oat",
+      "brand": "PetField",
+      "category": "racao",
+      "description": "Alimentação seca premium com 30% de proteína e 16% de gordura, para cães adultos.",
+      "price": 13.41,
+      "stock": 30,
+      "image": "https://petcity.pt/14482-large_default/petfield-premium-dog-adult-chicken-and-oat.jpg"
     },
     {
-        "id": 6,
-        "name": "Applaws Kitten Chicken",
-        "brand": "Applaws",
-        "category": "racao",
-        "description": "Applaws dá ao seu gatinho uma dieta rica em proteína animal que é naturalmente rica em taurina.",
-        "price": 4.75,
-        "stock": 94,
-        "image": "https://petcity.pt/7537-large_default/applaws-kitten-chicken-a4001c.jpg"
+      "id": 5,
+      "name": "Atlantica",
+      "brand": "Naturea",
+      "category": "racao",
+      "description": "Contém cerca de 60% de ingredientes de origem animal, sendo o salmão o principal. Sem cereais.",
+      "price": 19.79,
+      "stock": 94,
+      "image": "https://petcity.pt/16847-large_default/naturea-atlantica-naatl02.jpg"
     },
     {
-        "id": 7,
-        "name": "Arion Essencial Cat Fish Complet",
-        "brand": "Arion Essencial",
-        "category": "racao",
-        "description": "Arion Essential Fish Complet é um alimento completo para o seu gato. Tem na sua constituição peixe (5%) e é monopartícula.",
-        "price": 6.95,
-        "stock": 50,
-        "image": "https://petcity.pt/11079-large_default/arion-essential-cat-fish-complet-f01903.jpg"
+      "id": 6,
+      "name": "Adult Chicken",
+      "brand": "Naturea",
+      "category": "racao",
+      "description": "MANTÉM AS DEFESAS NATURAIS DO SEU CÃO Seguindo o conceito Naturalmente Apropriado, Naturea NATURALS Adult – all breeds, foi formulado de forma a incluir vários ingredientes fonte de proteína animal, sem adição de hormonas, milho, trigo, soja e glúten.",
+      "price": 15.29,
+      "stock": 94,
+      "image": "https://petcity.pt/17282-large_default/naturea-adult-chicken-nnnr014.jpg"
     },
     {
-        "id": 8,
-        "name": "Arion Essencial Cat Multimix",
-        "brand": "Arion Essencial",
-        "category": "racao",
-        "description": "Arion Essential Multimix é um alimento completo para o seu gato. Tem na sua composição carne de frango (mínimo 35%) e é multipartículas.",
-        "price": 6.95,
-        "stock": 30,
-        "image": "https://petcity.pt/5081-large_default/arion-essential-cat-multimix-f02003.jpg"
+      "id": 7,
+      "name": "All Breed Cordeiro",
+      "brand": "Advance",
+      "category": "racao",
+      "description": "Alimento de gama alta especialmente indicado para cães adultos de todas as raças e para um especial cuidado da pele e do pelo.",
+      "price": 20.67,
+      "stock": 50,
+      "image": "https://petcity.pt/7751-large_default/advance-all-breed-cordeiro-arroz-924107.jpg"
     },
     {
-        "id": 9,
-        "name": "Avenal Cat Baby",
-        "brand": "Avenal",
-        "category": "racao",
-        "description": "Avenal BabyCat é um alimento completo recomendado especialmente para as gatas e seus gatinhos dos 2 aos 12 meses.",
-        "price": 33.99,
-        "stock": 30,
-        "image": "https://petcity.pt/19554-large_default/avenal-cat-baby.jpg"
+      "id": 8,
+      "name": "Bulldog Francês",
+      "brand": "Advance",
+      "category": "racao",
+      "description": "ADVANCE French Bulldog é um alimento de gama alta, completo e equilibrado, especialmente desenvolvido para cães adultos da raça Bulldog Francês.",
+      "price": 41.35,
+      "stock": 30,
+      "image": "https://petcity.pt/13096-large_default/advance-bulldog-frances.jpg"
     },
     {
-        "id": 10,
-        "name": "Avenal Cat Adult Peixe",
-        "brand": "Avenal",
-        "category": "racao",
-        "description": "Avenal Cat Peixe é um alimento completo recomendado para gatos adultos de todas as raças.",
-        "price": 30.31,
-        "stock": 30,
-        "image": "https://petcity.pt/19548-large_default/avenal-cat-adult-peixe.jpg"
+      "id": 9,
+      "name": "Adulto Pele Sensível",
+      "brand": "Eukanuba",
+      "category": "racao",
+      "description": "Eukanuba Peles Sensíveis é um alimento completo para cães com pele sensível. Enriquecido com óleos naturais de peixe para um pelo brilhante e uma pele saudável. Com Fórmula Vital Health e FOS pré-bióticos.",
+      "price": 15.5,
+      "stock": 30,
+      "image": "https://petcity.pt/16303-large_default/eukanuba-adulto-pele-sensivel-eukaps23.jpg"
     },
     {
-        "id": 11,
-        "name": "Cat Chow Adult Frango",
-        "brand": "Cat Chow",
-        "category": "racao",
-        "description": "Um alimento completo para gatos que inclui Naturium, uma combinação específica de fibras de fontes naturais, bem como uma fonte natural de prebiótico para promover uma digestão saudável.",
-        "price": 6.30,
-        "stock": 30,
-        "image": "https://petcity.pt/19716-large_default/cat-chow-adult-frango-cchadfp.jpg"
+      "id": 10,
+      "name": "Labrador Retriever",
+      "brand": "Eukanuba",
+      "category": "racao",
+      "description": "Eukanuba Breed Labrador Retriever é uma ração elaborada especialmente para cães adultos de raça Labrador Retriever adultos, para um pelo brilhante e saudável e para articulações mais móveis",
+      "price": 53.89,
+      "stock": 30,
+      "image": "https://petcity.pt/16307-large_default/eukanuba-labrador-retriever-12kg-euklr12.jpg"
     },
     {
-        "id": 12,
-        "name": "Cat Chow Adulto Salmão",
-        "brand": "Cat Chow",
-        "category": "racao",
-        "description": "Um alimento completo para gatos que inclui Naturium, uma combinação específica de fibras de fontes naturais, bem como uma fonte natural de prebiótico para promover uma digestão saudável.",
-        "price": 6.30,
-        "stock": 30,
-        "image": "https://petcity.pt/16995-large_default/cat-chow-adulto-salmao-cchadsa.jpg"
+      "id": 11,
+      "name": "Active",
+      "brand": "Friskies",
+      "category": "racao",
+      "description": "PURINA Friskies Active foi concebido para cães cheios de energia e sempre com uma disposição brincalhona. É uma saborosa receita com carne de vaca, combinada com cereais integrais, vitaminas B e ácidos gordos Omega 3 e 6.",
+      "price": 6.99,
+      "stock": 30,
+      "image": "https://petcity.pt/19205-large_default/friskies-active-f12277936.jpg"
     },
     {
-        "id": 13,
-        "name": "Biospotix Gato Spot On Pipetas",
-        "brand": "Biospotix",
-        "category": "saude",
-        "description": "Um antiparasitário simples e natural.",
-        "price": 7.10,
-        "stock": 94,
-        "image": "https://petcity.pt/19403-large_default/biospotix-gato-spot-on-pipetas.jpg"
-    },
-
-    {
-        "id": 14,
-        "name": "Biospotix Gato Spray",
-        "brand": "Biospotix",
-        "category": "saude",
-        "description": "Spray de ação preventiva.",
-        "price": 16.80,
-        "stock": 94,
-        "image": "https://petcity.pt/19401-large_default/biospotix-gato-spray.jpg"
+      "id": 12,
+      "name": "Digestion",
+      "brand": "Friskies",
+      "category": "racao",
+      "description": "Especialmente formulado com chicória e polpa de beterraba, duas fontes de fibras solúveis e insolúveis, para ajudar a melhorar o processo digestivo em cães mais sensíveis.",
+      "price": 12.65,
+      "stock": 30,
+      "image": "https://petcity.pt/19210-large_default/friskies-adult-digestion-f12093660.jpg"
     },
     {
-        "id": 15,
-        "name": "Bogaclean Smell e Free Spray",
-        "brand": "Bogaclean",
-        "category": "saude",
-        "description": "Bogaclean Clean & Smell Free Spray da Bogar é um detergente de limpeza ultra-eficiente e pronto a usar seguro para humanos e animais!",
-        "price": 7.99,
-        "stock": 50,
-        "image": "https://petcity.pt/11945-large_default/bogaclean-smell-e-free-spray.jpg"
+      "id": 13,
+      "name": "Artero Pretty Eyes - Loção Para Manchas",
+      "brand": "Artero",
+      "category": "saude",
+      "description": "Champo para cães 2 em 1. o D-Panthenol promove a cicratização de feridas ao mesmo tempo que hidrata a pele. Este shampo contém também oleo de jojoba que promove o brilho natural do pêlo dando-lhe volume.",
+      "price": 12.99,
+      "stock": 94,
+      "image": "https://petcity.pt/7671-large_default/artero-pretty-eyes-locao-para-manchas-h646.jpg"
     },
     {
-        "id": 16,
-        "name": "Bogaclean Clean & Smell Free Concentrado",
-        "brand": "Bogaclean",
-        "category": "saude",
-        "description": "Detergente, altamente eficaz na eliminação das substâncias orgânicas (presentes nas fezes, urina, vómito, marcas territoriais, etc) que estão na origem de odores desagradáveis.",
-        "price": 15.99,
-        "stock": 30,
-        "image": "https://petcity.pt/12911-large_default/bogaclean-clean-smell-free-concentrado.jpg"
+      "id": 14,
+      "name": "Artero Spray Balsam - Calmante Dérmico",
+      "brand": "Artero",
+      "category": "saude",
+      "description": "Artero Bálsamo dérmico calmante para cães e gatos.",
+      "price": 11.99,
+      "stock": 94,
+      "image": "https://petcity.pt/10329-large_default/artero-spray-balsam-calmante-dermico.jpg"
     },
     {
-        "id": 17,
-        "name": "Camon Difusor Elétrico",
-        "brand": "Camon",
-        "category": "saude",
-        "description": "A sinergia de óleo de neem e óleos essenciais de eucalipto, palmarosa, manjericão, tomilho, cedro, óleo de açafrão e hortelã liberta uma fragância agradável, mantendo insectos longe. Oferece 12 horas de proteção segura e não tóxica para pessoas e animai",
-        "price": 13.39,
-        "stock": 94,
-        "image": "https://petcity.pt/2790-large_default/camon-difusor-eletrico-cmg925.jpg"
+      "id": 15,
+      "name": "Organissime Loção Ocular",
+      "brand": "Biogance",
+      "category": "saude",
+      "description": "Para cães e gatos. Ajuda a eliminar as impurezas equanto acalma e protege a pele do contorno dos olhos contra a secura.",
+      "price": 6.9,
+      "stock": 50,
+      "image": "https://petcity.pt/19374-large_default/organissime-locao-ocular.jpg"
     },
     {
-        "id": 18,
-        "name": "Camon Recargas Para Difusor Elétrico",
-        "brand": "Camon",
-        "category": "saude",
-        "description": "Além de perfumar agradavelmente a casa, cria um ambiente desfavorável para hóspedes indesejados como parasitas e insetos se acomodarem.",
-        "price": 4.99,
-        "stock": 94,
-        "image": "https://petcity.pt/10078-large_default/camon-recargas-para-difusor-eletrico-cmg925a.jpg"
+      "id": 16,
+      "name": "Biogance Paw Balm",
+      "brand": "Biogance",
+      "category": "saude",
+      "description": "Este bálsamo reparador é formulado com óleo de coco e manteiga de karité.",
+      "price": 10.75,
+      "stock": 30,
+      "image": "https://petcity.pt/9894-large_default/biogance-dog-paw-balm-bg04bc50.jpg"
     },
     {
-        "id": 19,
-        "name": "Feliway Spray",
-        "brand": "Ceva",
-        "category": "saude",
-        "description": "Levar o seu gato para fora de casa, quer seja para umas férias divertidas ou eventualmente uma visita ao veterinário, pode ser muito mais fácil com Feliway (clinicamente comprovado). ",
-        "price": 14.11,
-        "stock": 50,
-        "image": "https://petcity.pt/13492-large_default/feliway-spray-viagem-feliway20ml.jpg"
+      "id": 17,
+      "name": "Condrovet Cat Force Ha",
+      "brand": "Bioiberica",
+      "category": "saude",
+      "description": "Suplemento alimentar recomendado para gatos, para proteção das articulações (condroprotetor).",
+      "price": 37.5,
+      "stock": 94,
+      "image": "https://petcity.pt/6805-large_default/condrovet-cat-force-ha-condro45.jpg"
     },
     {
-        "id": 20,
-        "name": "Feliway Optimum",
-        "brand": "Ceva",
-        "category": "saude",
-        "description": "Feliway é um ambientador que ajuda a atenuar todos os sinais comuns de stresse ajudando os gatos a estarem tranquilos.",
-        "price": 30.21,
-        "stock": 30,
-        "image": "https://petcity.pt/18879-large_default/feliway-optimum.jpg"
+      "id": 18,
+      "name": "Impromune",
+      "brand": "Bioiberica",
+      "category": "saude",
+      "description": "Alimento complementar para estimular as defesas imunitárias, para cães e gatos.",
+      "price": 45.15,
+      "stock": 94,
+      "image": "https://petcity.pt/13374-large_default/impromune.jpg"
     },
     {
-        "id": 21,
-        "name": "Immunodol Cat",
-        "brand": "Dolfos",
-        "category": "saude",
-        "description": "ImmunoDol é utilizado durante períodos de convalescença, reprodução, em situações de stress e em caso de imunidade diminuída. Apoia o tratamento de infecções e neoplasias, acelera a recuperação dos tecidos.",
-        "price": 26.26,
-        "stock": 30,
-        "image": "https://petcity.pt/2537-large_default/immunodol-cat-immuc060.jpg"
+      "id": 19,
+      "name": "Biospotix Indoor Spray",
+      "brand": "Biospotix",
+      "category": "saude",
+      "description": "O spray BIOSPOTIX indoor ajuda a eliminar pulgas adultas, ovos e larvas do ambiente dos animais de estimação.",
+      "price": 16.8,
+      "stock": 50,
+      "image": "https://petcity.pt/19405-large_default/biospotix-indoor-spray.jpg"
     },
     {
-        "id": 22,
-        "name": "Urinomet Cat",
-        "brand": "Dolfos",
-        "category": "saude",
-        "description": "UrinoMet Cat é um alimento complementar dietético para gatos com DL-Metionina. A DL-Metionina acidifica a urina e reduz a recorrência da formação de cálculos de estruvite.",
-        "price": 15.51,
-        "stock": 30,
-        "image": "https://petcity.pt/2536-large_default/urinomet-cat-urinmc060.jpg"
+      "id": 20,
+      "name": "Mochila Transportadora SAVINA",
+      "brand": "Biospotix",
+      "category": "saude",
+      "description": "Um antiparasitário de proteção permanente.",
+      "price": 5.25,
+      "stock": 30,
+      "image": "https://petcity.pt/19653-large_default/biospotix-cao-coleira-replente.jpg"
     },
     {
-        "id": 23,
-        "name": "Multiva Viramax",
-        "brand": "Multiva",
-        "category": "saude",
-        "description": "Alimento complementar de concentração ótima para gatos jovens ou adultos de baixo peso.",
-        "price": 17.88,
-        "stock": 30,
-        "image": "https://petcity.pt/14193-large_default/multiva-viramax.jpg"
+      "id": 21,
+      "name": "Bogadent Dental Lipo-Gel",
+      "brand": "Bogadent",
+      "category": "saude",
+      "description": "A sua fórmula limpa os dentes e forma uma película de proteção sobre os dentes e as gengivas.",
+      "price": 10.95,
+      "stock": 30,
+      "image": "https://petcity.pt/18361-large_default/bogadent-dental-lipo-gel.jpg"
     },
     {
-        "id": 24,
-        "name": "Multiva Calming Cats",
-        "brand": "Multiva",
-        "category": "saude",
-        "description": "Calmante natural indicado para promover um estado de calma em situações de stress para melhorar seu bem-estar.",
-        "price": 15.99,
-        "stock": 30,
-        "image": "https://petcity.pt/19093-large_default/multiva-calming-cats.jpg"
+      "id": 22,
+      "name": "Bogadent Dog Elixir Higiene Oral",
+      "brand": "Bogadent",
+      "category": "saude",
+      "description": "Suplemento alimentar para cães usado na manutenção da higiene oral e apoio à limpeza diária dos seus dentes.",
+      "price": 13.2,
+      "stock": 30,
+      "image": "https://petcity.pt/18399-large_default/bogadent-dog-elixir-higiene-oral.jpg"
     },
     {
-        "id": 25,
-        "name": "Camon Cat Laser Toy",
-        "brand": "Camon",
-        "category": "brinquedo",
-        "description": "Laser em formato de rato.",
-        "price": 6.90,
-        "stock": 94,
-        "image": "https://petcity.pt/14319-large_default/camon-cat-laser-toy.jpg"
-    },
-
-    {
-        "id": 26,
-        "name": "Camon Peixe Dançarino Interativo",
-        "brand": "Camon",
-        "category": "brinquedo",
-        "description": "Este peixinho, graças à sua aparência incrivelmente realista e ao bater da cauda, é o brinquedo perfeito para o seu gato.",
-        "price": 15.20,
-        "stock": 94,
-        "image": "https://petcity.pt/18711-large_default/camon-peixe-dancarino-interativo.jpg"
+      "id": 23,
+      "name": "Otodine",
+      "brand": "Calier",
+      "category": "saude",
+      "description": "Otodine solução auricular, para cães e gatos. Indicações e espécies animais: Coadjuvante de tratamento de otites em cães e gatos. Não ototóxico.",
+      "price": 24.9,
+      "stock": 30,
+      "image": "https://petcity.pt/1447-large_default/otodine-otod0100.jpg"
     },
     {
-        "id": 27,
-        "name": "Grumpy Cat Knit GingerBread",
-        "brand": "Grumpy Cat",
-        "category": "brinquedo",
-        "description": "Brinquedo de Natal para gato.",
-        "price": 4.99,
-        "stock": 50,
-        "image": "https://petcity.pt/18589-large_default/grumpy-cat-knit-gingerbread.jpg"
+      "id": 24,
+      "name": "Arthri-Aid-Articulações",
+      "brand": "Calier",
+      "category": "saude",
+      "description": "Alimento complementar para apoio ao funcionamento das articulações, particularmente em casos de osteoartrite, para cão e gato.",
+      "price": 39.2,
+      "stock": 30,
+      "image": "https://petcity.pt/11236-large_default/arthri-aid-articulacoes-arthri120.jpg"
     },
     {
-        "id": 28,
-        "name": "Grumpy Cat Plush Snowman - Especial Natal",
-        "brand": "Grumpy Cat",
-        "category": "brinquedo",
-        "description": "Confecionado com materiais suaves com detalhes bordados no rosto e na barriga, o brinquedo traz ainda uma grande cauda fofa para provocar e estimular o seu gato a brincar.",
-        "price": 4.99,
-        "stock": 30,
-        "image": "https://petcity.pt/9876-large_default/grumpy-cat-plush-snowman-especial-natal-xmas00205.jpg"
+      "id": 25,
+      "name": "Ferribiela Jogo Roulette",
+      "brand": "Ferribiela",
+      "category": "brinquedo",
+      "description": "Jogo para colocar snacks e divertir o seu cão.",
+      "price": 11.9,
+      "stock": 94,
+      "image": "https://petcity.pt/10610-large_default/ferribiella-jogo-roulette.jpg"
     },
     {
-        "id": 29,
-        "name": "Kong Cat Purrsuit Whirlwind",
-        "brand": "Kong",
-        "category": "brinquedo",
-        "description": "Purrsuit Whirlwind estimula a perseguição de um gato girando imprevisivelmente em superfícies duras enquanto contrai ativamente sua cauda longa.",
-        "price": 12.60,
-        "stock": 94,
-        "image": "https://petcity.pt/9296-large_default/kong-cat-purrsuit-whirlwind-k31-ca455e.jpg"
+      "id": 26,
+      "name": "Ferribiela Jogo Mikado",
+      "brand": "Ferribiela",
+      "category": "brinquedo",
+      "description": "Jogo para divertir e estimular o seu cão.",
+      "price": 9.9,
+      "stock": 94,
+      "image": "https://petcity.pt/10608-large_default/ferribiella-jogo-mikado.jpg"
     },
     {
-        "id": 30,
-        "name": "Kong Cat Active Teaser Snake",
-        "brand": "Kong",
-        "category": "brinquedo",
-        "description": "O KONG Snake Teaser é perfeito para diversão interativa. Penas irresistíveis e movimentos imprevisíveis estimularão os instintos naturais de caça do seu amigo e fornecerão exercícios benéficos.",
-        "price": 5.29,
-        "stock": 94,
-        "image": "https://petcity.pt/19507-large_default/kong-cat-active-teaser-snake-k31-ct45e.jpg"
+      "id": 27,
+      "name": "Fuzzyard Xmas Toy Tree Rex",
+      "brand": "Fuzzyard",
+      "category": "brinquedo",
+      "description": "Brinquedo natalício de peluche super macio.",
+      "price": 14.99,
+      "stock": 50,
+      "image": "https://petcity.pt/14224-large_default/fuzzyard-xmas-toy-tree-rex.jpg"
     },
     {
-        "id": 31,
-        "name": "Nobleza Brinquedo Rã Sorridente",
-        "brand": "Nobleza",
-        "category": "brinquedo",
-        "description": "Brinquedo para cães em algodão e linho.",
-        "price": 1.70,
-        "stock": 50,
-        "image": "https://petcity.pt/9939-large_default/nobleza-brinquedo-ra-sorridente-nbz40278.jpg"
+      "id": 28,
+      "name": "Fuzzyard - Ginger Bread Dog",
+      "brand": "Fuzzyard",
+      "category": "brinquedo",
+      "description": "Boneco de gengibre para cão.",
+      "price": 13.5,
+      "stock": 30,
+      "image": "https://petcity.pt/11494-large_default/fuzzyard-ginger-bread-dog.jpg"
     },
     {
-        "id": 32,
-        "name": "Nobleza Brinquedo Rato",
-        "brand": "Nobleza",
-        "category": "brinquedo",
-        "description": "Tamanho: 14 cm",
-        "price": 1.51,
-        "stock": 30,
-        "image": "https://petcity.pt/18602-large_default/nobleza-brinquedo-rato-nbz26166.jpg"
+      "id": 29,
+      "name": "Kong Shells Turtle",
+      "brand": "Kong",
+      "category": "brinquedo",
+      "description": "Kong Shells Turtle é um brinquedo indicado para cães.",
+      "price": 6.65,
+      "stock": 94,
+      "image": "https://petcity.pt/4523-large_default/kong-shells-turtle-rsh31e.jpg"
     },
     {
-        "id": 33,
-        "name": "Trixie Túnel em Nylon p/ Gatos",
-        "brand": "Trixie",
-        "category": "brinquedo",
-        "description": "Feito de nylon resistente Estável graças à argola em espiral Para interior e exterior Com 4 entradas Também para cachorros.",
-        "price": 15.95,
-        "stock": 30,
-        "image": "https://petcity.pt/2979-large_default/trixie-tunel-em-nylon-p-gatos-tx4305.jpg"
+      "id": 30,
+      "name": "Kong Classic Goodie Bone",
+      "brand": "Kong",
+      "category": "brinquedo",
+      "description": "KongGoodie Boneé aconselhável para o seu cão passar a maior parte do seu tempo entretido.",
+      "price": 6.4,
+      "stock": 94,
+      "image": "https://petcity.pt/7107-large_default/kong-classic-goodie-bone-kb31e.jpg"
     },
     {
-        "id": 34,
-        "name": "Trixie Bola Dupla em Sisal Recheada c/ Catnip",
-        "brand": "Trixie",
-        "category": "brinquedo",
-        "description": "Brinquedo em sisal para gatos.",
-        "price": 1.30,
-        "stock": 30,
-        "image": "https://petcity.pt/8553-large_default/trixie-bola-dupla-em-sisal-recheada-c-catnip-tx4077.jpg"
+      "id": 31,
+      "name": "Rogz Grinz Ball",
+      "brand": "Rogz",
+      "category": "brinquedo",
+      "description": "Suave o suficiente para não ferir os dentes do seu cão, mas firme o suficiente para saltar.A bola de deleite mais engraçada e brincalhona.A sorrirde orelha a orelha. S - 4,9cm M - 6,4cm L - 7,8cm",
+      "price": 3.27,
+      "stock": 50,
+      "image": "https://petcity.pt/4316-large_default/rogz-grinz-ball-bpgr01.jpg"
     },
     {
-        "id": 35,
-        "name": "Rosewood Christmas Koala - Cat",
-        "brand": "Rosewood",
-        "category": "brinquedo",
-        "description": "Brinquedo para gato temático de natal.",
-        "price": 5.50,
-        "stock": 30,
-        "image": "https://petcity.pt/10508-large_default/rosewood-christmas-koala-cat.jpg"
+      "id": 32,
+      "name": "Rogz Frisbee",
+      "brand": "Rogz",
+      "category": "brinquedo",
+      "description": "Frisbee para o seu Doguinho brincar.",
+      "price": 19.1,
+      "stock": 30,
+      "image": "https://petcity.pt/8467-large_default/rogz-frisbee-rrf01b.jpg"
     },
     {
-        "id": 36,
-        "name": "Rosewood Cat Floppy Rabbit",
-        "brand": "Rosewood",
-        "category": "brinquedo",
-        "description": "Brinquedo para gato e gatinho.",
-        "price": 4.49,
-        "stock": 30,
-        "image": "https://petcity.pt/19431-large_default/rosewood-cat-floppy-rabbit.jpg"
+      "id": 33,
+      "name": "Nobleza Peluche Smile c/ Som",
+      "brand": "Nobleza",
+      "category": "brinquedo",
+      "description": "Medidas aproximadas: 16cm",
+      "price": 1.99,
+      "stock": 30,
+      "image": "https://petcity.pt/18986-large_default/nobleza-peluche-smile-c-som-nbz265791.jpg"
     },
     {
-        "id": 37,
-        "name": "Bebedouro Cat It Senses",
-        "brand": "Cat It",
-        "category": "acessorios",
-        "description": "O Catit Design Bebedouro - 3 Litros é a forma perfeita de dar ao seu gato água corrente. A circulação e filtragem contínua da água aumenta as quantidades de oxigénio e garante que a água fica sempre fresca e pura. O facto de o seu gato beber muita água.",
-        "price": 40.84,
-        "stock": 50,
-        "image": "https://petcity.pt/19226-large_default/bebedouro-catit-senses-50761.jpg"
-    },
-
-    {
-        "id": 38,
-        "name": "Cat It Fonte de Água Fresh & Clear",
-        "brand": "Cat It",
-        "category": "acessorios",
-        "description": "Torna o acto de beber num prazer. Previne problemas renais ou do trato urinário. Fornece água potável limpa e fresca continuamente.",
-        "price": 69.15,
-        "stock": 94,
-        "image": "https://petcity.pt/5372-large_default/cat-it-fonte-de-agua-fresh-clear-fp50050.jpg"
+      "id": 34,
+      "name": "Nobleza Brinquedo c/ Corda",
+      "brand": "Nobleza",
+      "category": "brinquedo",
+      "description": "Medidas aproximadas: 37cm",
+      "price": 2.99,
+      "stock": 30,
+      "image": "https://petcity.pt/18957-large_default/nobleza-brinquedo-c-corda-nbz293101.jpg"
     },
     {
-        "id": 39,
-        "name": "Dashi Cat Coleira Solid Green",
-        "brand": "Dashi",
-        "category": "acessorios",
-        "description": "As nossas coleiras são feitas de poliéster resistente, totalmente ajustável, com um fecho de abertura fácil para a segurança do teu gato.",
-        "price": 4.99,
-        "stock": 94,
-        "image": "https://petcity.pt/18608-large_default/dashi-cat-coleira-solid-green-dcc00015.jpg"
+      "id": 35,
+      "name": "Trixie Galo c/ Som",
+      "brand": "Trixie",
+      "category": "brinquedo",
+      "description": "Brinquedo em peluche com som.",
+      "price": 5.6,
+      "stock": 30,
+      "image": "https://petcity.pt/17582-large_default/trixie-galo-c-som-tx35940.jpg"
     },
     {
-        "id": 40,
-        "name": "Dashi Cat Coleira Boom",
-        "brand": "Dashi",
-        "category": "acessorios",
-        "description": "As nossas coleiras são feitas de poliéster resistente, totalmente ajustável, com um fecho de abertura fácil para a segurança do teu gato.",
-        "price": 4.99,
-        "stock": 30,
-        "image": "https://petcity.pt/18568-large_default/dashi-cat-coleira-boom-dcc00002.jpg"
+      "id": 36,
+      "name": "Trixie Lama em Peluche c/ Som",
+      "brand": "Trixie",
+      "category": "brinquedo",
+      "description": "Peluche com som - 40cm",
+      "price": 7.9,
+      "stock": 30,
+      "image": "https://petcity.pt/17580-large_default/trixie-lama-em-peluche-c-som-tx35884.jpg"
     },
     {
-        "id": 41,
-        "name": "Karlie Flamingo Comedouro Duplo",
-        "brand": "Karlie Flamingo",
-        "category": "acessorios",
-        "description": "O comedouro duplo com suporte de madeira é um acessório no qual poderá servir a comida e a água do seu animal de estimação. Já não será necessário ter duas tigelas independentes que se movimentem de um lado para outro.",
-        "price": 42.50,
-        "stock": 50,
-        "image": "https://petcity.pt/18441-large_default/karlie-flamingo-comedouro-duplo-fl1031113.jpg"
+      "id": 37,
+      "name": "Animalzan Sweat Oficial Sporting CP",
+      "brand": "Animalzan",
+      "category": "acessorios",
+      "description": "Sweat polar cardada com impressão em alta definição do emblema do clube no dorso. Fabricada em Portugal.",
+      "price": 27.5,
+      "stock": 94,
+      "image": "https://petcity.pt/8175-large_default/animalzan-sweat-oficial-sporting-cp-exc3896-1.jpg"
     },
     {
-        "id": 42,
-        "name": "Karlie Flamingo Comedouro Cuisine",
-        "brand": "Karlie Flamingo",
-        "category": "acessorios",
-        "description": "Comedouro pesado com fundo de controlo de aderência - a taça está absolutamente firme e segura! Feito de Lustran, de alta qualidade, adequado para máquinas de lavar louça.",
-        "price": 16.25,
-        "stock": 94,
-        "image": "https://petcity.pt/18440-large_default/karlie-flamingo-comedouro-cuisine-k44293.jpg"
+      "id": 38,
+      "name": "Animalzan T-Shirt Oficial Sporting CP",
+      "brand": "Animalzan",
+      "category": "acessorios",
+      "description": "T-shirt inspirada no 1º equipamento de manga curta da época 2017/18 do Sporting CP.",
+      "price": 24.95,
+      "stock": 94,
+      "image": "https://petcity.pt/8168-large_default/animalzan-t-shirt-oficial-sporting-cp-exc3897-1.jpg"
     },
     {
-        "id": 43,
-        "name": "Mugue Pelù Smart Roll Refill",
-        "brand": "Mugue",
-        "category": "acessorios",
-        "description": "O rolo super adesivo. Excelente para remover pelos soltos do animal bem como pó, cabelos... de sofás ,mantas ,roupa, bancos de automóvel… Pack - dois rolos.",
-        "price": 6.90,
-        "stock": 30,
-        "image": "https://petcity.pt/4632-large_default/mugue-pelu-smart-roll-refill-idb28051.jpg"
+      "id": 39,
+      "name": "Camon Tapete Refrescante",
+      "brand": "Camon",
+      "category": "acessorios",
+      "description": "Este tapete refrescante mantém o seu cão fresco, mantendo uma temperatura apropriada. Pode ser usado tanto dentro de casa como fora. Macio e duradouro, pode ser útil para animais que estejam a sofrer de dores ou articulações inflamadas.",
+      "price": 11.86,
+      "stock": 50,
+      "image": "https://petcity.pt/12890-large_default/camon-tapete-refrescante-c7951.jpg"
     },
     {
-        "id": 44,
-        "name": "Mugue Pelù Pet Cat",
-        "brand": "Mugue",
-        "category": "acessorios",
-        "description": "Rolo adesivo para fixar pelos degatos Ideal para o gato – previne as bolas de pelo Ideal para si – se sofre de alergias.",
-        "price": 43.01,
-        "stock": 30,
-        "image": "https://petcity.pt/4630-large_default/mugue-pelu-pet-cat-esp28012.jpg"
+      "id": 40,
+      "name": "Camon Brinquedo Refrescante para Cão",
+      "brand": "Camon",
+      "category": "acessorios",
+      "description": "Brinquedo refrescante para entreter o seu melhor amigo nos dias mais quentes. ",
+      "price": 14.2,
+      "stock": 30,
+      "image": "https://petcity.pt/14681-large_default/brinquedo-refrescante-para-cao.jpg"
     },
     {
-        "id": 45,
-        "name": "Nobleza Caixa Transportadora",
-        "brand": "Nobleza",
-        "category": "acessorios",
-        "description": "Tamanho: S - 47cm x 31cm x 26cm M - 28cm x 38,7cm x 33cm L - 68cm x 48cm x 42cm",
-        "price": 12.65,
-        "stock": 30,
-        "image": "https://petcity.pt/4765-large_default/nobleza-caixa-transportadora-nbz25725.jpg"
+      "id": 41,
+      "name": "Dashi Taça Bamboo Originar",
+      "brand": "Dashi",
+      "category": "acessorios",
+      "description": "Taça feita de Pó de Bamboo e Melamina.",
+      "price": 10.99,
+      "stock": 94,
+      "image": "https://petcity.pt/9797-large_default/dashi-taca-bamboo-original-dbowl01.jpg"
     },
     {
-        "id": 46,
-        "name": "Nobleza Guizo p/ Coleira",
-        "brand": "Nobleza",
-        "category": "acessorios",
-        "description": "Tamanho S: 1.5 cm M: 1.8 cm",
-        "price": 0.29,
-        "stock": 30,
-        "image": "https://petcity.pt/6726-large_default/nobleza-guizo-p-coleira-nbz09558.jpg"
+      "id": 42,
+      "name": "Poop It Up And Chill!",
+      "brand": "Dashi",
+      "category": "acessorios",
+      "description": "Mesmo que o teu cão faça as necessidades quando ninguém está a ver, ainda assim tens de as apanhar. Com o Dispensador de Sacos da Dashi, vamos-te ajudar.",
+      "price": 3.99,
+      "stock": 94,
+      "image": "https://petcity.pt/18428-large_default/poop-it-up-and-chill-dispensador-de-sacos-dpb01.jpg"
     },
     {
-        "id": 47,
-        "name": "Trixie - Transportadora 'Traveller Capri'",
-        "brand": "Trixie",
-        "category": "acessorios",
-        "description": "Portador deplástico rigído com porta grelha de plástico resistente. Este portador do animal de estimação é a solução para levar seu animal de estimação em suas viagens de carro ou de comboio ou para visitas ao veterinário.",
-        "price": 12.99,
-        "stock": 30,
-        "image": "https://petcity.pt/11400-large_default/trixie-i-transportadora-traveller-capri-tx39811.jpg"
+      "id": 43,
+      "name": "Earth Rated - Dispensador de Sacos c/ Mosquetão",
+      "brand": "Earth Rated",
+      "category": "acessorios",
+      "description": "Dispensador de sacos para dejectos com recarga de 15 sacos. Com mosquetão incorporado indicado para transportar na trela ou preso ao cinto. A gama Earth Rated apenas fabrica sacos para dejectos feitos a partir de materiais reciclados e biodegradáveis.",
+      "price": 2.92,
+      "stock": 50,
+      "image": "https://petcity.pt/13692-large_default/earth-rated-dispensador-de-sacos-c-mosquetao.jpg"
     },
     {
-        "id": 48,
-        "name": "Trixie - Arranhador Zaragoza",
-        "brand": "Trixie",
-        "category": "acessorios",
-        "description": "Características: Com fixação para o teto; Cobertura em pelúcia; Postes envoltos em sisal natural; Nicho forrado em feltro. Dimensões: 68 x 56 x 220-260cm.",
-        "price": 174.35,
-        "stock": 30,
-        "image": "https://petcity.pt/2690-large_default/trixie-arranhador-zaragoza-tx43931.jpg"
+      "id": 44,
+      "name": "Earth Rated - Recargas com 120 Sacos",
+      "brand": "Earth Rated",
+      "category": "acessorios",
+      "description": "Esta embalagem inclui 8 rolos de 15 sacos que podem ser usados sozinhos ou com nosso dispensador. Esses sacos são fáceis de abrir, extra grossos e resistentes!",
+      "price": 6.79,
+      "stock": 30,
+      "image": "https://petcity.pt/3666-large_default/earth-rated-recargas-com-120-sacos-va01201.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Flexi Multi Box - Dispensador de Sacos ou Snacks",
+      "brand": "Flexi",
+      "category": "acessorios",
+      "description": "Flexi Multibox é um prático e inovador acessório para a sua trela extensível Flexi.",
+      "price": 5.99,
+      "stock": 30,
+      "image": "https://petcity.pt/16102-large_default/flexi-multi-box-dispensador-de-sacos-ou-snacks-fle03-2370.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Flexi Trela Verde Neon - Fita",
+      "brand": "Flexi",
+      "category": "acessorios",
+      "description": "Trela extensível em fita.",
+      "price": 18.09,
+      "stock": 30,
+      "image": "https://petcity.pt/19416-large_default/flexi-trela-verde-neon-fita.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Mugue - Pelù Rolo Adesivo Anti-Ácaros",
+      "brand": "Mugue",
+      "category": "acessorios",
+      "description": "Elimina 99% dos ácaros (testados pela Universidade de Milão em condições experimentais).Limpa e remove os pêlos de qualquer superfície / tecido.Papel adesivo de máxima eficiência.Ambiente perfumado.10 metros, 60 aplicações.",
+      "price": 7.9,
+      "stock": 30,
+      "image": "https://petcity.pt/6701-large_default/mugue-pelu-rolo-adesivo-anti-acaros-lintac.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Mugue - Pelù Smart Roll",
+      "brand": "Mugue",
+      "category": "acessorios",
+      "description": "O super rolo/escova adesivo. O objeto de design que se transforma: um único produto … 3 modos diferentes de o utilizar. 3 punhos e montagens diferentes que tornam mais fácil e eficaz a manutenção dos seus casacos e da sua casa.",
+      "price": 10.9,
+      "stock": 30,
+      "image": "https://petcity.pt/4633-large_default/mugue-pelu-smart-roll-28050.jpg"
     }
-
-    ],
-    "fish": [
-        {
-            "id": 1,
-            "name": "Aquapex Alimento de Férias Para Peixes",
-            "brand": "Orniex",
-            "category": "racao",
-            "description": "Aquapex Holiday Block é um alimento para férias para peixes de água doce, suficiente para alimentar 20-25 peixes no aquário, por um período até 2 semanas.",
-            "price": 2.16,
-            "stock": 94,
-            "image": "https://petcity.pt/18877-large_default/aquapex-alimento-de-ferias-para-peixes.jpg"
-        },
-
-        {
-            "id": 2,
-            "name": "Aquapex Alimento Fim de Semana para Peixes",
-            "brand": "Orniex",
-            "category": "racao",
-            "description": "Aquapex Weekend Block é um alimento de fim de semana para peixes de água doce.",
-            "price": 2.29,
-            "stock": 94,
-            "image": "https://petcity.pt/19060-large_default/aquapex-alimento-fim-de-semana-para-peixes.jpg"
-        },
-        {
-            "id": 3,
-            "name": "TetraPond Koi Sticks",
-            "brand": "Tetra",
-            "category": "racao",
-            "description": "Agora em embalagem resselável: TetraPond Koi Sticks, alimento completo em sticks flutuangtes para peixes de lago koi, para uma alimentação saudável e equilibrada.",
-            "price": 17.29,
-            "stock": 50,
-            "image": "https://shop-cdn-m.mediazs.com/bilder/tetrapond/koi/sticks/2/400/23524_pla_tetrapond_koi_sticks_4l_hs_01_2.jpg"
-        },
-        {
-            "id": 4,
-            "name": "TetraMin flocos",
-            "brand": "Tetra",
-            "category": "racao",
-            "description": "Comida completa, equilibrada e rica em vitaminas, para todos os peixes tropicais. Para uma vida longa e saudável. Com nutrientes de qualidade, incluindo vitaminas, minerais e oligoelementos.",
-            "price": 9.19,
-            "stock": 30,
-            "image": "https://shop-cdn-m.mediazs.com/bilder/tetramin/flocos/9/400/7740_pla_tetramin_flockenfutter_250ml_hs_01_9.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Sera Vipan Baby",
-            "brand": "Sera",
-            "category": "racao",
-            "description": "Microflocos para animais jovens sera Vipan Baby é o alimento de crescimento composto por microflocos cuidadosamente processados, para todos os peixes jovens que comem na superfície da água.",
-            "price": 2.90,
-            "stock": 94,
-            "image": "https://petcity.pt/6493-large_default/sera-vipan-baby-se00730.jpg"
-        },
-        {
-            "id": 6,
-            "name": "Sera Vipagran Baby",
-            "brand": "Sera",
-            "category": "racao",
-            "description": "Microgranulado para animais jovens sera Vipagran Baby é o alimento decrescimento composto por microgranuladomacio cuidadosamente processado,para todos os peixes jovensque comem na zona média da água.",
-            "price": 2.90,
-            "stock": 94,
-            "image": "https://petcity.pt/6499-large_default/sera-vipagran-baby-se00700.jpg"
-        },
-        {
-            "id": 7,
-            "name": "Tetra Goldfish comida em flocos para peixes",
-            "brand": "Tetra",
-            "category": "racao",
-            "description": "Comida em flocos para peixes de água doce ou carpas douradas. Contém os aditivos nutricionais e os oligoelementos essenciais que garantam uma alimentação completa e equilibrada.",
-            "price": 30.99,
-            "stock": 50,
-            "image": "https://shop-cdn-m.mediazs.com/bilder/tetra/goldfish/comida/em/flocos/para/peixes/7/400/75944_pla_tetra_goldfish_hs_01_7.jpg"
-        },
-        {
-            "id": 8,
-            "name": "TetraPond Multi Mix - mistura para peixes de lago",
-            "brand": "Tetra",
-            "category": "racao",
-            "description": "TetraPond Multi Mix em práticas embalagens resseláveis - uma mistura selecionada de comida que representa os hábitos alimentares individuais de cada um dos peixes do seu lago.",
-            "price": 24.99,
-            "stock": 30,
-            "image": "https://shop-cdn-m.mediazs.com/bilder/tetrapond/multi/mix/mistura/para/peixes/de/lago/2/400/23523_pla_tetrapond_teichfischfutter_multimix_4l_hs_01_2.jpg"
-        },
-        {
-            "id": 9,
-            "name": "Sera Koi Professional Alimento de Primavera/Outono",
-            "brand": "Sera",
-            "category": "racao",
-            "description": "O alimento de fácil digestão para temperaturas inferiores a 17 °C Quando as temperaturas são inferiores a 17 °C, o metabolismo dos peixes já não funciona à sua capacidade máxima. Por isso, os alimentos devem ser de fácil digestão. Só assim é que as Koi",
-            "price": 14.29,
-            "stock": 30,
-            "image": "https://petcity.pt/6521-large_default/sera-koi-professional-alimento-de-primaveraoutono-se07011.jpg"
-        },
-        {
-            "id": 10,
-            "name": "Sera Koi Professional Alimento de Inverno",
-            "brand": "Sera",
-            "category": "racao",
-            "description": "Alimento especial para Kois e outros valiosos peixes de lago a temperaturas inferiores a 12 °C.",
-            "price": 10.90,
-            "stock": 30,
-            "image": "https://petcity.pt/6572-large_default/sera-koi-professional-alimento-de-inverno-se07017.jpg"
-        },
-        {
-            "id": 11,
-            "name": "Sera Spirulina Tabs Nature",
-            "brand": "Sera",
-            "category": "racao",
-            "description": "Pastilhas autocolantes com 24 % de Spirulina para uma digestão saudável e vitalidade.",
-            "price": 2.90,
-            "stock": 30,
-            "image": "https://petcity.pt/14403-large_default/sera-spirulina-tabs-nature.jpg"
-        },
-        {
-            "id": 12,
-            "name": "Sera Pond Color Sticks Nature",
-            "brand": "Sera",
-            "category": "racao",
-            "description": "O alimento que realça as cores para peixes de lago.",
-            "price": 4.50,
-            "stock": 30,
-            "image": "https://petcity.pt/14407-large_default/sera-pond-color-sticks-nature.jpg"
-        },
-        {
-            "id": 13,
-            "name": "Saco Superfino para Aspirador Fx Gravel Vac",
-            "brand": "Fluval",
-            "category": "saude",
-            "description": "Quando usado com o limpador de cascalho Fluval FX, o saco de filtro fino captura partículas e detritos de forma eficaz.   CARACTERÍSTICAS PRINCIPAIS Compatível com o limpador de cascalho Fluval FX (vendido separadamente).",
-            "price": 7.88,
-            "stock": 94,
-            "image": "https://static.petness.pt/media/10/photos/products/169223/fx-gravel-vac-fine-bag-para-aspirador-de-po_1_g.png"
-        },
-
-        {
-            "id": 14,
-            "name": "Cartuchos Descartáveis ​​de CO2",
-            "brand": "Fluval",
-            "category": "saude",
-            "description": "Cartuchos Descartáveis ​​de CO2 - pacote com 3x45 g   Indicado para: Kit Fluval Pressurized 45g CO2 Este cartucho descartável pressurizado é um item de substituição genuíno para o kit de CO2 pressurizado Fluval 45 g.",
-            "price": 54.29,
-            "stock": 94,
-            "image": "https://static.petness.pt/media/10/photos/products/169278/descartavel-45g-co2-cartucho-3piezas_1_g.jpeg"
-        },
-        {
-            "id": 15,
-            "name": "Hill's Adult Fish Perfect Weight 3Kg",
-            "brand": "Tetra",
-            "category": "saude",
-            "description": "Torne a água da torneira segura para os peixes",
-            "price": 10.95,
-            "stock": 50,
-            "image": "https://static.petness.pt/media/10/photos/products/161973/tetra-aquasafe-6408ac6baa79d_g.jpg"
-        },
-        {
-            "id": 16,
-            "name": "Escovas da Marinha para Impulsores",
-            "brand": "Marina",
-            "category": "saude",
-            "description": "Ele contém duas escovas que são ideais para remover detritos pegajosos do eixo do rotor. De tamanho compacto, eles são válidos para qualquer filtro.",
-            "price": 4.79,
-            "stock": 30,
-            "image": "https://static.petness.pt/media/10/photos/products/169185/escovas-da-marinha-para-impulsores_1_g.jpeg"
-        },
-        {
-            "id": 17,
-            "name": "Sacos de Reposição do Vácuo da Marina",
-            "brand": "Marina",
-            "category": "saude",
-            "description": "Proporciona o máximo conforto ao limpar o cascalho do aquário sem a necessidade de molhar as mãos. Sua operação é muito simples, é apenas clique e começa a funcionar. Profundidades entre 23 e 45 cm.",
-            "price": 3.19,
-            "stock": 94,
-            "image": "https://static.petness.pt/media/10/photos/products/169189/sacos-de-reposicao-do-vacuo-da-marina_1_g.jpeg"
-        },
-        {
-            "id": 18,
-            "name": "Kit de Limpeza para Vidro",
-            "brand": "Marina",
-            "category": "saude",
-            "description": "Lâminas de reposição exclusivas para o kit de limpeza de vidro (11013). As lâminas afiadas são ideais para remover as algas mais resistentes e contêm as ferramentas essenciais que permitem limpar o interior do aquário sem molhar as mãos. ",
-            "price": 13.24,
-            "stock": 94,
-            "image": "https://static.petness.pt/media/10/photos/products/169192/kit-de-limpeza-para-vidro_1_g.jpeg"
-        },
-        {
-            "id": 19,
-            "name": "Water Conditioner Aquaplus",
-            "brand": "Fluval",
-            "category": "saude",
-            "description": "O condicionador de água Aqua Plus torna a água da torneira segura, removendo o cloro, a cloramina e as toxinas metálicas que ela contém. Extratos vegetais puros reduzem visivelmente o estresse atribuído ao transporte, manuseio e aclimatação.",
-            "price": 10.61,
-            "stock": 50,
-            "image": "https://static.petness.pt/media/10/photos/products/169247/water-conditioner-aquaplus_1_g.png"
-        },
-        {
-            "id": 20,
-            "name": "Water Conditioner Aquaplus",
-            "brand": "Fluval",
-            "category": "saude",
-            "description": "O condicionador de água Aqua Plus torna a água da torneira segura, removendo o cloro, a cloramina e as toxinas metálicas que ela contém. Extratos vegetais puros reduzem visivelmente o estresse atribuído ao transporte, manuseio e aclimatação.",
-            "price": 40.79,
-            "stock": 30,
-            "image": "https://static.petness.pt/media/10/photos/products/169249/water-conditioner-aquaplus_1_g.png"
-        },
-        {
-            "id": 21,
-            "name": "Biological Cleaner Waste Control",
-            "brand": "Fluval",
-            "category": "saude",
-            "description": "O Limpador Biológico de Controle de Resíduos ajuda a reduzir a manutenção do aquário reduzindo o acúmulo de detritos em cascalho, filtros mecânicos, decoração e superfícies internas.",
-            "price": 11.99,
-            "stock": 30,
-            "image": "https://static.petness.pt/media/10/photos/products/169256/biological-cleaner-waste-control_1_g.png"
-        },
-        {
-            "id": 22,
-            "name": "Rapido",
-            "brand": "Fluval",
-            "category": "saude",
-            "description": "O Fluval Quick Clear efetivamente ajuda a eliminar partículas indesejadas que geram água turva do aquário, como partículas orgânicas e inorgânicas suspensas, sujeira, sedimentos e areia fina.",
-            "price": 7.42,
-            "stock": 30,
-            "image": "https://static.petness.pt/media/10/photos/products/169260/rapido_1_g.png"
-        },
-        {
-            "id": 23,
-            "name": "Med Nematol Tratamento contra Vermes e Nematoides",
-            "brand": "Sera",
-            "category": "saude",
-            "description": "Com SERA Nematol pode tratar os seus peixes de forma rápida e eficaz contra vermes e outros nematóides! Indicações:- Tratamento contra infestações por lombrigas, vermes capilares e outros nematoides.",
-            "price": 17.29,
-            "stock": 30,
-            "image": "https://static.petness.pt/media/10/photos/products/500859/med-profesional-nematol-acondicionador-contra-nematodos_1_g.png"
-        },
-        {
-            "id": 24,
-            "name": "Baktopur Direto Conditioner Contra Infecções Bacterianas",
-            "brand": "Sera",
-            "category": "saude",
-            "description": "Tem efeitos desinfetantes e favorece o processo de cicatrização. Condicionador de água para uso de água doce no caso de doenças bacterianas comuns, tais como colunaris, aletas apodrecidas, ramos de brânquias e infecções com bactérias aeromonas ou pseudomonas.",
-            "price": 8.49,
-            "stock": 30,
-            "image": "https://static.petness.pt/media/10/photos/products/500939/backtopur-acondicionador-contra-infecciones-bacterianas_1_g.png"
-        },
-        {
-            "id": 25,
-            "name": "Aquário Fluval Chi",
-            "brand": "Fluval",
-            "category": "brinquedo",
-            "description": "Kit composto por: Aquário 19 litros com base | Filtro de baixa voltagemSistema de iluminaçao em LED | Caixa para PlantasCesto para areão | Areao natural 400gr Cesto para Plantas | Esponja de espuma | Esponja de filtragem.",
-            "price": 80.95,
-            "stock": 94,
-            "image": "https://petcity.pt/5354-large_default/aquario-fluval-chi-10506.jpg"
-        },
-
-        {
-            "id": 26,
-            "name": "Aquário Fluval Flex",
-            "brand": "Fluval",
-            "category": "brinquedo",
-            "description": "A nova gama de aquários nano, a serie FLUVAL FLEX, proporciona um estilo contemporâneo com o seu frontal distintivo em vidro côncavo O aquário é equipado com a filtração de 3-etapas.",
-            "price": 176.15,
-            "stock": 94,
-            "image": "https://petcity.pt/5363-large_default/aquario-fluval-flex-15007.jpg"
-        },
-        {
-            "id": 27,
-            "name": "Aquário Fluval Flex",
-            "brand": "Fluval",
-            "category": "brinquedo",
-            "description": "Inclui:Fluval EDGE, 23 L , 6 lados em vidro seladosSistema de iluminação de 21 LED. Poderoso e eficienteClip-On Power Filter na traseiraNutrafin aquaplus, condicionador de água (30 mL)Nutrafin cycle, activador biológico (30 mL).",
-            "price": 157.35,
-            "stock": 50,
-            "image": "https://petcity.pt/5365-large_default/aquario-fluval-edge-21led-15386.jpg"
-        },
-        {
-            "id": 28,
-            "name": "Aquário JustGrow - Acrílico",
-            "brand": "JustGrow",
-            "category": "brinquedo",
-            "description": "Tecnologia e natureza são fundidas para reduzir sinergias e ciclos naturais entre peixes, bactérias e plantas.",
-            "price": 439.00,
-            "stock": 30,
-            "image": "https://petcity.pt/8444-large_default/aquario-justgrow-acrilico-acrylic.jpg"
-        },
-        {
-            "id": 29,
-            "name": "Aquário JustGrow - Alumínio",
-            "brand": "JustGrow",
-            "category": "brinquedo",
-            "description": "Tecnologia e natureza são fundidas para reduzir sinergias e ciclos naturais entre peixes, bactérias e plantas.",
-            "price": 549.00,
-            "stock": 94,
-            "image": "https://petcity.pt/8445-large_default/aquario-justgrow-aluminio-aluminum.jpg"
-        },
-        {
-            "id": 30,
-            "name": "Aquário JustGrow Premium - Acrílico",
-            "brand": "JustGrow",
-            "category": "brinquedo",
-            "description": "Tecnologia e natureza são fundidas para reduzir sinergias e ciclos naturais entre peixes, bactérias e plantas.",
-            "price": 549.00,
-            "stock": 94,
-            "image": "https://petcity.pt/8446-large_default/aquario-justgrow-premium-acrilico-planetbox.jpg"
-        },
-        {
-            "id": 31,
-            "name": "Nobleza Mini - Aquário Triângular para Peixes",
-            "brand": "Nobleza",
-            "category": "brinquedo",
-            "description": "Aquário com função de drenagem.",
-            "price": 49.99,
-            "stock": 50,
-            "image": "https://petcity.pt/12678-large_default/nobleza-mini-aquario-triangular-para-peixes-nbz30040.jpg"
-        },
-        {
-            "id": 32,
-            "name": "Aquário Kit Fluval Flora",
-            "brand": "Fluval",
-            "category": "brinquedo",
-            "description": "Kit Fluval Fluvalra.",
-            "price": 82.15,
-            "stock": 30,
-            "image": "https://petcity.pt/14834-large_default/aquario-kit-fluval-flora.jpg"
-        },
-        {
-            "id": 33,
-            "name": "Aquário Globo em Acrílico",
-            "brand": "Orniex",
-            "category": "brinquedo",
-            "description": "Aquário redondo para peixes.",
-            "price": 8.55,
-            "stock": 30,
-            "image": "https://petcity.pt/18919-large_default/aquario-globo-em-acrilico.jpg"
-        },
-        {
-            "id": 34,
-            "name": "Marina Aquário Água Fria",
-            "brand": "Marina",
-            "category": "brinquedo",
-            "description": "Aquário ideal para quem se inicia em aquariofilia.Totalmente seguro para crianças, com tampa e em plástico inquebrável.",
-            "price": 29.99,
-            "stock": 30,
-            "image": "https://petcity.pt/19717-large_default/marina-aquario-agua-fria-ma13379.jpg"
-        },
-        {
-            "id": 35,
-            "name": "Marina Peixe Aquário | Betta Floral",
-            "brand": "Marina",
-            "category": "brinquedo",
-            "description": "Kit aquário para peixes.",
-            "price": 15.50,
-            "stock": 30,
-            "image": "https://quintanimal.pt/4422-large_default/marina-peixe-aquario-betta-floral.jpg"
-        },
-        {
-            "id": 36,
-            "name": "Fluvial Peixe Aquário | Flex",
-            "brand": "Fluvial",
-            "category": "brinquedo",
-            "description": "Kit aquário para peixes.",
-            "price": 182.10,
-            "stock": 30,
-            "image": "https://quintanimal.pt/4426-large_default/fluval-peixe-aquario-flex.jpg"
-        },
-        {
-            "id": 37,
-            "name": "Sera GH-Test",
-            "brand": "Sera",
-            "category": "acessorios",
-            "description": "Para determinar facilmente a dureza total. Para aproximadamente 420°dgH.",
-            "price": 5.80,
-            "stock": 94,
-            "image": "https://petcity.pt/18697-large_default/sera-gh-test-se04110.jpg"
-        },
-
-        {
-            "id": 38,
-            "name": "Sera Aspirador de Areão",
-            "brand": "Sera",
-            "category": "acessorios",
-            "description": "Remove cuidadosamente lodo e sujidade do fundo do aquário sem mudança de água. Basta ligar o sera aspirador de areão a uma bomba de membrana, p.ex. à bomb de ar sera air plus.Adequado para todos os aquários até uma altura de 60 cm.",
-            "price": 8.71,
-            "stock": 94,
-            "image": "https://petcity.pt/4375-large_default/sera-aspirador-de-areao-se08550.jpg"
-        },
-        {
-            "id": 39,
-            "name": "Areia Azul para Aquário",
-            "brand": "Orniex",
-            "category": "acessorios",
-            "description": "Areia colorida para colocar no fundo do aquário.",
-            "price": 2.61,
-            "stock": 50,
-            "image": "https://petcity.pt/18911-large_default/areia-azul-para-aquario.jpg"
-        },
-        {
-            "id": 40,
-            "name": "Trixie Arca do Tesouro",
-            "brand": "Trixie",
-            "category": "acessorios",
-            "description": "Decoração para aquário.",
-            "price": 12.57,
-            "stock": 30,
-            "image": "https://petcity.pt/8660-large_default/trixie-arca-do-tesouro-tx87813.jpg"
-        },
-        {
-            "id": 41,
-            "name": "Trixie Estrelas do Mar",
-            "brand": "Trixie",
-            "category": "acessorios",
-            "description": "Decoração para aquário.",
-            "price": 2.40,
-            "stock": 94,
-            "image": "https://petcity.pt/8665-large_default/trixie-estrelas-do-mar-tx8866.jpg"
-        },
-        {
-            "id": 42,
-            "name": "Decoração Destroços de Navio para Aquário",
-            "brand": "Orniex",
-            "category": "acessorios",
-            "description": "Decoração para aquários.",
-            "price": 10.50,
-            "stock": 94,
-            "image": "https://petcity.pt/18920-large_default/decoracao-destrocos-de-navio-para-aquario.jpg"
-        },
-        {
-            "id": 43,
-            "name": "Esconderijo de Pedra Médio para Aquário",
-            "brand": "Orniex",
-            "category": "acessorios",
-            "description": "Rocha artificial de decoração para aquários.",
-            "price": 9.80,
-            "stock": 50,
-            "image": "https://petcity.pt/18922-large_default/esconderijo-de-pedra-medio-para-aquario.jpg"
-        },
-        {
-            "id": 44,
-            "name": "Plantas Microsorum Artificiais para Aquário",
-            "brand": "Orniex",
-            "category": "acessorios",
-            "description": "Planta artificial de decoração para aquários.",
-            "price": 7.44,
-            "stock": 30,
-            "image": "https://petcity.pt/18923-large_default/plantas-microsorum-artificiais-para-aquario.jpg"
-        },
-        {
-            "id": 45,
-            "name": "Plantas Myriophyllum Red Artificias para Aquário",
-            "brand": "Orniex",
-            "category": "acessorios",
-            "description": "Planta artificial de decoração para aquários.",
-            "price": 7.44,
-            "stock": 30,
-            "image": "https://petcity.pt/18924-large_default/plantas-myriophyllum-red-artificiais-para-aquario.jpg"
-        },
-        {
-            "id": 46,
-            "name": "Superfish Peixe Decoração Aquário | Plantas Artificiais",
-            "brand": "Orniex",
-            "category": "acessorios",
-            "description": "Decoração para aquários de peixe.",
-            "price": 5.20,
-            "stock": 30,
-            "image": "https://quintanimal.pt/2449-large_default/superfish-peixe-decoracao-aquario-plantas-artificiais.jpg"
-        },
-        {
-            "id": 47,
-            "name": "Superfish Peixe Decoração Aquário | Plantas Artificiais",
-            "brand": "Orniex",
-            "category": "acessorios",
-            "description": "Esta planta artificial não é tóxica e suas bordas arredondadas não farão mal aos peixes. O seu pé permite fixá-lo facilmente na areia.",
-            "price": 1.10,
-            "stock": 30,
-            "image": "https://quintanimal.pt/2450-large_default/superfish-peixe-decoracao-aquario-plantas-artificiais.jpg"
-        },
-        {
-            "id": 48,
-            "name": "Amtra Peixe Decoração Aquário | Fluo Reef Mushroom",
-            "brand": "Wave",
-            "category": "acessorios",
-            "description": "A nova linha de decorativos Wave desenhada para enriquecer qualquer tipo de aquário com cores e formas. Confeccionadas em silicone de cor suave e resistente, essas decorações são equipadas com práticas ventosas para fixação.",
-            "price": 9.60,
-            "stock": 30,
-            "image": "https://quintanimal.pt/2451-large_default/amtra-peixe-decoracao-aquario-fluo-reef-mushroom.jpg"
-        }
-
-    ],
-    "bird": [
-        {
-            "id": 1,
-            "name": "Babypapex com seringa",
-            "brand": "Orniex",
-            "category": "racao",
-            "description": "Papa especial para aves recém nascidas de pequeno porteComposição especial para aves que necessitam de ajuda alimentar para o seu normal crescimento, ou quando rejeitadas pelos pais.Para criação com seringa.",
-            "price": 5.10,
-            "stock": 94,
-            "image": "https://petcity.pt/18701-large_default/babypapex-com-seringa-ex0185.jpg"
-        },
-        {
-            "id": 2,
-            "name": "Gritex - Grite p/ Aves Peq. Porte",
-            "brand": "Orniex",
-            "category": "racao",
-            "description": "Grite com carvão e tijoloPara aves de pequeno e médio porte, é um complemento mineral da alimentação e facilita a digestão.",
-            "price": 1.93,
-            "stock": 94,
-            "image": "https://petcity.pt/12671-large_default/gritex-grite-p-aves-peq-porte-ex0150.jpg"
-        },
-        {
-            "id": 3,
-            "name": "Psittacus Fórmula Manutenção Minor",
-            "brand": "Psittacus",
-            "category": "racao",
-            "description": "Psittacus alimento de manutençãominor é um alimento especialmente formulado para periquitos, agapornis pequenos, kakarikis e Forpus Sua fórmula destina se a alimentar essas aves ao longo do ano, se não em período reprodutivo.",
-            "price": 7.03,
-            "stock": 50,
-            "image": "https://petcity.pt/18517-large_default/psittacus-formula-manutencao-minor-pi4010.jpg"
-        },
-        {
-            "id": 4,
-            "name": "Psittacus Fórmula Ómega",
-            "brand": "Psittacus",
-            "category": "racao",
-            "description": "Este produto foi concebido para espécies como araras e cinzentos que, na natureza, consomem uma quantidade significativa de frutas e sementes de plantas ricas em óleo, e que beneficiam os perfis dos ácidos gordos, especialmente ricas em ácido palmítico.",
-            "price": 13.55,
-            "stock": 30,
-            "image": "https://petcity.pt/18549-large_default/psittacus-formula-omega-pi1410.jpg"
-        },
-        {
-            "id": 5,
-            "name": "Versele Laga Papagaios Exotic Fruit Mix",
-            "brand": "Versele Laga",
-            "category": "racao",
-            "description": "Prestige Papagaios Exotic Fruit Mix é uma mistura de cereais cuidadosamente seleccionados, enriquecida com frutos secos, amadurecidos ao sol e deliciosas nozes descascadas. Exotic Fruit Mix é feito exclusivamente de produtos frescos e não contém corante.",
-            "price": 6.31,
-            "stock": 94,
-            "image": "https://petcity.pt/18733-large_default/versele-laga-papagaios-exotic-fruit-mix-i421781.jpg"
-        },
-        {
-            "id": 6,
-            "name": "Versele Laga Papagaios Exotic Nut Mix",
-            "brand": "Versele Laga",
-            "category": "racao",
-            "description": "Prestige Papagaios Exotic Nut Mix é uma mistura de cereais cuidadosamente seleccionados e enriquecida com deliciosas nozes inteiras e frutos secos, amadurecidos ao sol. Exotic Nut Mix é feito exclusivamente de produtos frescos e não contém corantes.",
-            "price": 6.33,
-            "stock": 94,
-            "image": "https://petcity.pt/18732-large_default/versele-laga-papagaios-exotic-nut-mix-pen421782.jpg"
-        },
-        {
-            "id": 7,
-            "name": "Versele Laga Nutribi G14 Original",
-            "brand": "Versele Laga Nutribi",
-            "category": "racao",
-            "description": "NutriBird G14 Original é uma ração de manutenção completa e equilibrada para grandes periquitos.",
-            "price": 9.24,
-            "stock": 50,
-            "image": "https://petcity.pt/18378-large_default/versele-laga-nutribird-g14-original-i422058.jpg"
-        },
-        {
-            "id": 8,
-            "name": "Versele Laga Nutribird A18 Lori - p/ Lories",
-            "brand": "Versele Laga Nutribi",
-            "category": "racao",
-            "description": "NutriBird A18 é um alimento completo e equilibrado para a criação à mão de papagaios pequenos.",
-            "price": 14.87,
-            "stock": 30,
-            "image": "https://petcity.pt/19311-large_default/versele-laga-nutribird-a18-lori-plories-i422097.jpg"
-        },
-        {
-            "id": 9,
-            "name": "Versele Laga Insect Patee Premium",
-            "brand": "Versele Laga Orlux",
-            "category": "racao",
-            "description": "Orlux Insect patee Premium é um alimento completo para todos os pássaros insectívoros.",
-            "price": 8.85,
-            "stock": 30,
-            "image": "https://petcity.pt/12897-large_default/versele-laga-insect-patee-premium-i424091.jpg"
-        },
-        {
-            "id": 10,
-            "name": "Versele Laga Orlux Gold Patee Amarelo",
-            "brand": "Versele Laga Orlux",
-            "category": "racao",
-            "description": "Orlux Gold patee canários é uma papa de ovo pronta a usar para canários, pássaros exóticos e indígenas.",
-            "price": 2.72,
-            "stock": 30,
-            "image": "https://petcity.pt/11777-large_default/versele-laga-orlux-gold-patee-amarelo-gp424011.jpg"
-        },
-        {
-            "id": 11,
-            "name": "Versele Laga Periquitos Premium",
-            "brand": "Versele Laga Premium",
-            "category": "racao",
-            "description": "Esta mistura de sementes Premium tem uma composição variada e equilibrada, perfeitamente adaptada às necessidades alimentares de periquitos pequenos.",
-            "price": 3.75,
-            "stock": 30,
-            "image": "https://petcity.pt/18577-large_default/versele-laga-periquitos-premium-pp421688.jpg"
-        },
-        {
-            "id": 12,
-            "name": "Versele Laga Canários Premium",
-            "brand": "Versele Laga Premium",
-            "category": "racao",
-            "description": "Prestige Canários Premium é uma mistura de sementes enriquecida com elementos nutritivos suplementares dos quais os canários necessitam para manter uma boa forma.",
-            "price": 4.34,
-            "stock": 30,
-            "image": "https://petcity.pt/19348-large_default/versele-laga-canarios-premium-i421068.jpg"
-        },
-        {
-            "id": 13,
-            "name": "Anima Strath Suplemento",
-            "brand": "Anima Strath",
-            "category": "saude",
-            "description": "Suplemento fortificante à base de levedura vegetal.",
-            "price": 9.30,
-            "stock": 94,
-            "image": "https://petcity.pt/17710-large_default/anima-strath-anstr100.jpg"
-        },
-
-        {
-            "id": 14,
-            "name": "Anima Strath Tomilho",
-            "brand": "Anima Strath",
-            "category": "saude",
-            "description": "Anima-Strath Fortificante com tomilho é um alimento complementar para animais, 100% natural.",
-            "price": 9.90,
-            "stock": 94,
-            "image": "https://petcity.pt/18556-large_default/anima-strath-tomilho.jpg"
-        },
-        {
-            "id": 15,
-            "name": "Avizoon Aminovit 'L'",
-            "brand": "Avizoon",
-            "category": "saude",
-            "description": "Suplemento alimentar que contém uma completa gama de vitaminas e aminoácidos essenciais, indispensáveis para um correcto funcionamento do organismo.Graças à sua composição,Aminovit 'L' é umbioestimulante completo, de indiscutivel utilidade.",
-            "price": 2.90,
-            "stock": 50,
-            "image": "https://petcity.pt/6754-large_default/avizoon-aminovit-l-proml030cc.jpg"
-        },
-        {
-            "id": 16,
-            "name": "Avizoon Naturvermes Cápsulas",
-            "brand": "Avizoon",
-            "category": "saude",
-            "description": "Conforme revelado por inúmeros estudos, este produto tem a capacidade de inibição ou neutralização da maior parte dos parasitas intestinais. Espécies : Canários, exóticos, fauna europeia, periquitos, papagaios, faisões e outros.",
-            "price": 3.80,
-            "stock": 30,
-            "image": "https://petcity.pt/6750-large_default/avizoon-naturvermes-capsulas-natverm20.jpg"
-        },
-        {
-            "id": 17,
-            "name": "Avizoon Clearudine",
-            "brand": "Avizoon",
-            "category": "saude",
-            "description": "Clearudine é especialmente indicado para remover matéria orgânica, como fezes e gorduras. É ideal no uso em instalações. gaiolas. equipamentos e acessórios.",
-            "price": 4.50,
-            "stock": 94,
-            "image": "https://petcity.pt/6755-large_default/avizoon-clearudine-czocd100.jpg"
-        },
-        {
-            "id": 18,
-            "name": "Avizoon Fertizoon AD3EC",
-            "brand": "Avizoon",
-            "category": "saude",
-            "description": "Polivitaminico contendo vitamina A e E factor indispensável no crescimento, reprodução e fertilidade. A Vitamina D sendo um excelente coadjuvante na assimilação do cálcio e na formação óssea.E por ultimo Vitamina C, um anti-infeccioso indispensavel.",
-            "price": 2.99,
-            "stock": 94,
-            "image": "https://petcity.pt/6753-large_default/avizoon-fertizoon-ad3ec-vitazad030c.jpg"
-        },
-        {
-            "id": 19,
-            "name": "Excalibird Tipo A",
-            "brand": "Bioanalitica",
-            "category": "saude",
-            "description": "Excalibird Tipo A é um composto natural pronto a utilizar, desenvolvido para afugentar – sem agressão – aves de todos os tipos de estruturas e edifícios.",
-            "price": 12.20,
-            "stock": 50,
-            "image": "https://petcity.pt/2320-large_default/excalibird-tipo-a-chexacalibia.jpg"
-        },
-        {
-            "id": 20,
-            "name": "Excalibird Tipo B",
-            "brand": "Bioanalitica",
-            "category": "saude",
-            "description": "Excalibird não é perigoso para os seres humanos, plantas, solo e meio ambiente Excalibird Tipo-B é uma formulação patenteada constituída por ingredientes naturais que figuram na lista GRAS (Generally Recognized As Safe Geralmente Reconhecido como Seguro.",
-            "price": 12.20,
-            "stock": 30,
-            "image": "https://petcity.pt/2321-large_default/excalibird-tipo-b-chexacalibib.jpg"
-        },
-        {
-            "id": 21,
-            "name": "Tabernil Pomada",
-            "brand": "Divasa",
-            "category": "saude",
-            "description": "Pomada tarbenilpara canários e ornamentação em geral aves(periquitos, Pintassilgo, pombos, etc.) combina uma série de ações terapêuticas para uma regeneração epitelial de lesões epiteliais. Indicação para seu uso em caso de: Crostas",
-            "price": 8.50,
-            "stock": 30,
-            "image": "https://petcity.pt/6283-large_default/tabernil-pomada-tabpom.jpg"
-        },
-        {
-            "id": 22,
-            "name": "Tabernil Cria",
-            "brand": "Divasa",
-            "category": "saude",
-            "description": "Suplemento nutricional oral em pó Pela sua composição de componentes naturais, podem manter os animais nas melhores condições possíveis, dando-lhes a resistência natural contra situações críticas que ocorrem na época de reprodução.",
-            "price": 17.25,
-            "stock": 30,
-            "image": "https://petcity.pt/6296-large_default/tabernil-cria-tc4220292.jpg"
-        },
-        {
-            "id": 23,
-            "name": "Quikon Levedura de Cerveja",
-            "brand": "Orniex",
-            "category": "saude",
-            "description": "A levedura de cerveja é um produto 100% natural, rico em aminoácidos e vitaminas - Alimento complementar para aves, ideal para os períodos de criação e crescimento.",
-            "price": 12.24,
-            "stock": 30,
-            "image": "https://petcity.pt/5371-large_default/quikon-levedura-de-cerveja-qu100540.jpg"
-        },
-        {
-            "id": 24,
-            "name": "Sprayavex - Recarga",
-            "brand": "Orniex",
-            "category": "saude",
-            "description": "Produto natural.",
-            "price": 11.99,
-            "stock": 30,
-            "image": "https://petcity.pt/8644-large_default/sprayavex-recarga-ex1326.jpg"
-        },
-        {
-            "id": 25,
-            "name": "Trixie Brinquedo Colorido de Madeira",
-            "brand": "Trixie",
-            "category": "brinquedo",
-            "description": "Com corrente e corda. Por exemplo: para papagaios ou caturras.",
-            "price": 1.95,
-            "stock": 94,
-            "image": "https://petcity.pt/4305-large_default/trixie-brinquedo-colorido-de-madeira-bctx5195.jpg"
-        },
-
-        {
-            "id": 26,
-            "name": "Trixie Brinquedo em Corda e Madeira p/ Gaiola",
-            "brand": "Trixie",
-            "category": "brinquedo",
-            "description": "Brinquedo para pendurar na gaiola.",
-            "price": 4.30,
-            "stock": 94,
-            "image": "https://petcity.pt/9742-large_default/trixie-brinquedo-em-corda-e-madeira-p-gaiola-tx58985.jpg"
-        },
-        {
-            "id": 27,
-            "name": "Trixie Brinquedo Natural Living p/ Periquitos e Caturras",
-            "brand": "Trixie",
-            "category": "brinquedo",
-            "description": "Brinquedos que ajudam a cuidar da saúde do animal graças ao facto de serem acessórios produzidos com materiais naturais, que não são tratados com substâncias aditivas.",
-            "price": 2.20,
-            "stock": 50,
-            "image": "https://petcity.pt/9744-large_default/trixie-brinquedo-natural-living-p-periquitos-e-caturras-tx58961.jpg"
-        },
-        {
-            "id": 28,
-            "name": "Baloiço Duplo em Madeira com Sino para Aves",
-            "brand": "Trixie",
-            "category": "brinquedo",
-            "description": "Balanço de madeira natural adequado para periquitos ou similares.",
-            "price": 1.80,
-            "stock": 30,
-            "image": "https://petcity.pt/9822-large_default/baloico-duplo-em-madeira-com-sino-para-aves-tx5822.jpg"
-        },
-        {
-            "id": 29,
-            "name": "Brinquedo c/ Madeira, Couro e Contas p/ Gaiola",
-            "brand": "Trixie",
-            "category": "brinquedo",
-            "description": "Brinquedo para pendurar na gaiola.",
-            "price": 3.90,
-            "stock": 94,
-            "image": "https://petcity.pt/9743-large_default/brinquedo-c-madeira-couro-e-contas-p-gaiola-tx58984.jpg"
-        },
-        {
-            "id": 30,
-            "name": "Parque de Diversão em Madeira",
-            "brand": "Trixie",
-            "category": "brinquedo",
-            "description": " Parque de Diversão de Madeira. Medidas: 34 x 26 x 25cm.",
-            "price": 16.17,
-            "stock": 94,
-            "image": "https://goldpet.pt/35260-large_default/parque-de-diversao-em-madeira.jpg"
-        },
-        {
-            "id": 31,
-            "name": "Parque para aves em madeira natural",
-            "brand": "Trixie",
-            "category": "brinquedo",
-            "description": "Parque para aves em madeira natural. Medida: 28x25x22cm.",
-            "price": 9.22,
-            "stock": 50,
-            "image": "https://goldpet.pt/40276-large_default/parque-para-aves-em-madeira-natural.jpg"
-        },
-        {
-            "id": 32,
-            "name": "Parede Escalada Madeira Natural para Periquitos",
-            "brand": "Trixie",
-            "category": "brinquedo",
-            "description": " Madeira natural, com rede de sisal e com correntes.",
-            "price": 4.32,
-            "stock": 30,
-            "image": "https://goldpet.pt/74059-large_default/parede-escalada-madeira-natural-para-periquitos.jpg"
-        },
-        {
-            "id": 33,
-            "name": "Escada Prisma em Madeira Natural",
-            "brand": "Trixie",
-            "category": "brinquedo",
-            "description": "Escada Prisma em Madeira Natural. Medida: 58cm (12 degraus).",
-            "price": 4.32,
-            "stock": 30,
-            "image": "https://goldpet.pt/40222-large_default/escada-prisma-em-madeira-natural.jpg"
-        },
-        {
-            "id": 34,
-            "name": "Baloiço Triangular em Madeira Natural e Corda",
-            "brand": "Trixie",
-            "category": "brinquedo",
-            "description": "Baloiço Triangular em Madeira Natural. Tamanhos Disponíveis: Pequeno: 16x16x16cm e Grande: 27x27x27cm.",
-            "price": 5.06,
-            "stock": 30,
-            "image": "https://goldpet.pt/40233-large_default/baloico-triangular-em-madeira-natural-e-corda.jpg"
-        },
-        {
-            "id": 35,
-            "name": "Duvo+ Meia lua com cordas para aves",
-            "brand": "Duvo Plus",
-            "category": "brinquedo",
-            "description": "Brinquedo colorido de madeira e com cordas, para pássaros.",
-            "price": 13.52,
-            "stock": 30,
-            "image": "https://goldpet.pt/54849-large_default/duvo-meia-lua-com-cordas-para-aves.jpg"
-        },
-        {
-            "id": 36,
-            "name": "Duvo+ Brinquedo de blocos de madeira para aves",
-            "brand": "Duvo Plus",
-            "category": "brinquedo",
-            "description": "Brinquedo colorido de madeira e com aplicações em couro, para pássaros.",
-            "price": 11.21,
-            "stock": 30,
-            "image": "https://goldpet.pt/54850-large_default/duvo-brinquedo-de-blocos-de-madeira-para-aves.jpg"
-        },
-        {
-            "id": 37,
-            "name": "Espigas de Painço",
-            "brand": "Orniex",
-            "category": "acessorios",
-            "description": "Espigas de Painço 250gr - 6 unidades. Alimento complementar para Diamantes, Canários, Híbridos e outras aves Carnívoras de pequeno porte.",
-            "price": 3.89,
-            "stock": 94,
-            "image": "https://petcity.pt/8971-large_default/espigas-de-painco-epexa0610.jpg"
-        },
-
-        {
-            "id": 38,
-            "name": "Ninhex - Pelo de Cabra",
-            "brand": "Orniex",
-            "category": "acessorios",
-            "description": "Selecionado de acordo com o habitat natural das aves.",
-            "price": 1.90,
-            "stock": 94,
-            "image": "https://petcity.pt/14863-large_default/ninhex-pelo-de-cabra-ex0160.jpg"
-        },
-        {
-            "id": 39,
-            "name": "Ovoex Ovos Artificiais p/ Canários",
-            "brand": "Orniex",
-            "category": "acessorios",
-            "description": "Ovos artificiais para canários.",
-            "price": 4.35,
-            "stock": 50,
-            "image": "https://petcity.pt/14898-large_default/ovoex-ovos-artificiais-p-canarios-ex650.jpg"
-        },
-        {
-            "id": 40,
-            "name": "Ovoex Ovos Artificiais p/ Pombos",
-            "brand": "Orniex",
-            "category": "acessorios",
-            "description": "Ovos artificiais ø 30mm para pombos.",
-            "price": 0.60,
-            "stock": 30,
-            "image": "https://petcity.pt/8646-large_default/ovoex-ovos-artificiais-p-pombos-ex655.jpg"
-        },
-        {
-            "id": 41,
-            "name": "Trixie Osso de Choco com Suporte",
-            "brand": "Trixie",
-            "category": "acessorios",
-            "description": "Osso de choco, com suporte. Produto natural com cálcio, para o desgaste do bico. Tamanho: 12cm Tamanho: 16cm.",
-            "price": 1.97,
-            "stock": 94,
-            "image": "https://petcity.pt/11026-large_default/trixie-osso-de-choco-com-suporte-tr5050.jpg"
-        },
-        {
-            "id": 42,
-            "name": "Trixie Comedouro Circular",
-            "brand": "Trixie",
-            "category": "acessorios",
-            "description": "Comedouro circular com ganchos para pendurar.",
-            "price": 1.43,
-            "stock": 94,
-            "image": "https://petcity.pt/8891-large_default/trixie-comedouro-circular-tr5477.jpg"
-        },
-        {
-            "id": 43,
-            "name": "Trixie Poleiro Multicolorido em Corda Algodão p/ Aves",
-            "brand": "Trixie",
-            "category": "acessorios",
-            "description": "Em algodão - Flexíveis - Pode ser fixado em qualquer posição - Dimensão 37cm.",
-            "price": 4.80,
-            "stock": 50,
-            "image": "https://petcity.pt/2955-large_default/trixie-poleiro-multicolorido-em-corda-algodao-p-aves-tx5162.jpg"
-        },
-        {
-            "id": 44,
-            "name": "Quiko Tesoura Corta-Anilhas",
-            "brand": "Quiko",
-            "category": "acessorios",
-            "description": "Tesoura para remover anilhas.",
-            "price": 30.20,
-            "stock": 30,
-            "image": "https://petcity.pt/8138-large_default/quiko-tesoura-corta-anilhas-qu610050.jpg"
-        },
-        {
-            "id": 45,
-            "name": "Versele Laga Grit",
-            "brand": "Versele Laga Prestige",
-            "category": "acessorios",
-            "description": "Grit é um material comido por pássaros para ajudar em suas dietas e digestão.",
-            "price": 3.76,
-            "stock": 30,
-            "image": "https://petcity.pt/10278-large_default/versele-laga-grit-gp423110.jpg"
-        },
-        {
-            "id": 46,
-            "name": "Versele Laga Kristal Shell Sand White - Fundo Gaiola",
-            "brand": "Versele Laga Prestige",
-            "category": "acessorios",
-            "description": "Areia branca com casca de anis. esterilizado a alta temperatura.",
-            "price": 3.32,
-            "stock": 30,
-            "image": "https://petcity.pt/8550-large_default/versele-laga-kristal-shell-sand-white-fundo-gaiola-i423004.jpg"
-        },
-        {
-            "id": 47,
-            "name": "Versele Laga Milho Alvo em Cacho",
-            "brand": "Versele Laga",
-            "category": "acessorios",
-            "description": "Conjunto de painço para todos os tipos de pássaros.",
-            "price": 2.80,
-            "stock": 30,
-            "image": "https://petcity.pt/18681-large_default/versele-laga-milho-alvo-em-cacho-i451330.jpg"
-        },
-        {
-            "id": 48,
-            "name": "Versele Laga Bedding Wood Nº 6 - Cordi Faia Fina",
-            "brand": "Versele Laga",
-            "category": "acessorios",
-            "description": "Wood bedding n° 6 é uma cama higinica de madeira finamente trituradas faia para gaiolas e viveiros.",
-            "price": 16.22,
-            "stock": 30,
-            "image": "https://petcity.pt/8037-large_default/versele-laga-bedding-wood-n-6-cordi-faia-fina-ib423094.jpg"
-        }
-
-    ]
-
+  ],
+  "cat": [
+    {
+      "id": 1,
+      "name": "Acana Cat First Feast",
+      "brand": "Acana",
+      "category": "racao",
+      "description": "Inicie a vida do seu gatinho com uma alimentação cheia de ingredientes de origem animal. Concebida para fornecer tudo o que o seu gatinho precisa para um crescimento e desenvolvimento saudável.",
+      "price": 6.21,
+      "stock": 94,
+      "image": "https://petcity.pt/18686-large_default/acana-cat-first-feast-acc300.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Acana Pacifica Cat",
+      "brand": "Acana",
+      "category": "racao",
+      "description": "Fornece naturalmente os nutrientes de que seu gato necessita para ter uma saúde perfeita e estar sempre nutrido da maneira que a Mãe Natureza pretendia.",
+      "price": 7.11,
+      "stock": 94,
+      "image": "https://petcity.pt/9778-large_default/acana-pacifica-cat-acr303.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Advance Cat Sterilised +10 Chicken/Barley",
+      "brand": "Advance",
+      "category": "racao",
+      "description": "Alimento de gama alta indicado para gatos esterilizados com mais de 10 anos: Ajuda a prevenir a obesidade em gatos esterilizados, ajuda a diminuir o risco de insuficiência renal (DRC) e ajuda a evitar a formação de cálculos urinários de oxalato de cálcio.",
+      "price": 12.74,
+      "stock": 50,
+      "image": "https://petcity.pt/8098-large_default/advance-cat-sterilised-10-chickenbarley-ad921508.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Advance Kitten Feline",
+      "brand": "Advance",
+      "category": "racao",
+      "description": "Alimento de gama alta especialmente indicado para gatinhos (entre 2 e 12 meses) e para fêmeas gestantes ou lactantes.",
+      "price": 3.39,
+      "stock": 30,
+      "image": "https://petcity.pt/6322-large_default/advance-kitten-feline-ad7887.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Applaws Cat Senior Chicken",
+      "brand": "Applaws",
+      "category": "racao",
+      "description": "Muitos alimentos secos para gatos usam grãos como fonte primária de proteína. Dietas que contêm altos níveis de grãos podem ser difíceis de digerir e converter em energia. Isso pode stressar o fígado e os rins e pode levar ao desenvolvimento de alergias.",
+      "price": 15.9,
+      "stock": 94,
+      "image": "https://petcity.pt/7523-large_default/applaws-cat-senior-chicken-a4205ml.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Applaws Kitten Chicken",
+      "brand": "Applaws",
+      "category": "racao",
+      "description": "Applaws dá ao seu gatinho uma dieta rica em proteína animal que é naturalmente rica em taurina.",
+      "price": 4.75,
+      "stock": 94,
+      "image": "https://petcity.pt/7537-large_default/applaws-kitten-chicken-a4001c.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Arion Essencial Cat Fish Complet",
+      "brand": "Arion Essencial",
+      "category": "racao",
+      "description": "Arion Essential Fish Complet é um alimento completo para o seu gato. Tem na sua constituição peixe (5%) e é monopartícula.",
+      "price": 6.95,
+      "stock": 50,
+      "image": "https://petcity.pt/11079-large_default/arion-essential-cat-fish-complet-f01903.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Arion Essencial Cat Multimix",
+      "brand": "Arion Essencial",
+      "category": "racao",
+      "description": "Arion Essential Multimix é um alimento completo para o seu gato. Tem na sua composição carne de frango (mínimo 35%) e é multipartículas.",
+      "price": 6.95,
+      "stock": 30,
+      "image": "https://petcity.pt/5081-large_default/arion-essential-cat-multimix-f02003.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Avenal Cat Baby",
+      "brand": "Avenal",
+      "category": "racao",
+      "description": "Avenal BabyCat é um alimento completo recomendado especialmente para as gatas e seus gatinhos dos 2 aos 12 meses.",
+      "price": 33.99,
+      "stock": 30,
+      "image": "https://petcity.pt/19554-large_default/avenal-cat-baby.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Avenal Cat Adult Peixe",
+      "brand": "Avenal",
+      "category": "racao",
+      "description": "Avenal Cat Peixe é um alimento completo recomendado para gatos adultos de todas as raças.",
+      "price": 30.31,
+      "stock": 30,
+      "image": "https://petcity.pt/19548-large_default/avenal-cat-adult-peixe.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Cat Chow Adult Frango",
+      "brand": "Cat Chow",
+      "category": "racao",
+      "description": "Um alimento completo para gatos que inclui Naturium, uma combinação específica de fibras de fontes naturais, bem como uma fonte natural de prebiótico para promover uma digestão saudável.",
+      "price": 6.3,
+      "stock": 30,
+      "image": "https://petcity.pt/19716-large_default/cat-chow-adult-frango-cchadfp.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Cat Chow Adulto Salmão",
+      "brand": "Cat Chow",
+      "category": "racao",
+      "description": "Um alimento completo para gatos que inclui Naturium, uma combinação específica de fibras de fontes naturais, bem como uma fonte natural de prebiótico para promover uma digestão saudável.",
+      "price": 6.3,
+      "stock": 30,
+      "image": "https://petcity.pt/16995-large_default/cat-chow-adulto-salmao-cchadsa.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Biospotix Gato Spot On Pipetas",
+      "brand": "Biospotix",
+      "category": "saude",
+      "description": "Um antiparasitário simples e natural.",
+      "price": 7.1,
+      "stock": 94,
+      "image": "https://petcity.pt/19403-large_default/biospotix-gato-spot-on-pipetas.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Biospotix Gato Spray",
+      "brand": "Biospotix",
+      "category": "saude",
+      "description": "Spray de ação preventiva.",
+      "price": 16.8,
+      "stock": 94,
+      "image": "https://petcity.pt/19401-large_default/biospotix-gato-spray.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Bogaclean Smell e Free Spray",
+      "brand": "Bogaclean",
+      "category": "saude",
+      "description": "Bogaclean Clean & Smell Free Spray da Bogar é um detergente de limpeza ultra-eficiente e pronto a usar seguro para humanos e animais!",
+      "price": 7.99,
+      "stock": 50,
+      "image": "https://petcity.pt/11945-large_default/bogaclean-smell-e-free-spray.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Bogaclean Clean & Smell Free Concentrado",
+      "brand": "Bogaclean",
+      "category": "saude",
+      "description": "Detergente, altamente eficaz na eliminação das substâncias orgânicas (presentes nas fezes, urina, vómito, marcas territoriais, etc) que estão na origem de odores desagradáveis.",
+      "price": 15.99,
+      "stock": 30,
+      "image": "https://petcity.pt/12911-large_default/bogaclean-clean-smell-free-concentrado.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Camon Difusor Elétrico",
+      "brand": "Camon",
+      "category": "saude",
+      "description": "A sinergia de óleo de neem e óleos essenciais de eucalipto, palmarosa, manjericão, tomilho, cedro, óleo de açafrão e hortelã liberta uma fragância agradável, mantendo insectos longe. Oferece 12 horas de proteção segura e não tóxica para pessoas e animai",
+      "price": 13.39,
+      "stock": 94,
+      "image": "https://petcity.pt/2790-large_default/camon-difusor-eletrico-cmg925.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Camon Recargas Para Difusor Elétrico",
+      "brand": "Camon",
+      "category": "saude",
+      "description": "Além de perfumar agradavelmente a casa, cria um ambiente desfavorável para hóspedes indesejados como parasitas e insetos se acomodarem.",
+      "price": 4.99,
+      "stock": 94,
+      "image": "https://petcity.pt/10078-large_default/camon-recargas-para-difusor-eletrico-cmg925a.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Feliway Spray",
+      "brand": "Ceva",
+      "category": "saude",
+      "description": "Levar o seu gato para fora de casa, quer seja para umas férias divertidas ou eventualmente uma visita ao veterinário, pode ser muito mais fácil com Feliway (clinicamente comprovado). ",
+      "price": 14.11,
+      "stock": 50,
+      "image": "https://petcity.pt/13492-large_default/feliway-spray-viagem-feliway20ml.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Feliway Optimum",
+      "brand": "Ceva",
+      "category": "saude",
+      "description": "Feliway é um ambientador que ajuda a atenuar todos os sinais comuns de stresse ajudando os gatos a estarem tranquilos.",
+      "price": 30.21,
+      "stock": 30,
+      "image": "https://petcity.pt/18879-large_default/feliway-optimum.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Immunodol Cat",
+      "brand": "Dolfos",
+      "category": "saude",
+      "description": "ImmunoDol é utilizado durante períodos de convalescença, reprodução, em situações de stress e em caso de imunidade diminuída. Apoia o tratamento de infecções e neoplasias, acelera a recuperação dos tecidos.",
+      "price": 26.26,
+      "stock": 30,
+      "image": "https://petcity.pt/2537-large_default/immunodol-cat-immuc060.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Urinomet Cat",
+      "brand": "Dolfos",
+      "category": "saude",
+      "description": "UrinoMet Cat é um alimento complementar dietético para gatos com DL-Metionina. A DL-Metionina acidifica a urina e reduz a recorrência da formação de cálculos de estruvite.",
+      "price": 15.51,
+      "stock": 30,
+      "image": "https://petcity.pt/2536-large_default/urinomet-cat-urinmc060.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Multiva Viramax",
+      "brand": "Multiva",
+      "category": "saude",
+      "description": "Alimento complementar de concentração ótima para gatos jovens ou adultos de baixo peso.",
+      "price": 17.88,
+      "stock": 30,
+      "image": "https://petcity.pt/14193-large_default/multiva-viramax.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Multiva Calming Cats",
+      "brand": "Multiva",
+      "category": "saude",
+      "description": "Calmante natural indicado para promover um estado de calma em situações de stress para melhorar seu bem-estar.",
+      "price": 15.99,
+      "stock": 30,
+      "image": "https://petcity.pt/19093-large_default/multiva-calming-cats.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Camon Cat Laser Toy",
+      "brand": "Camon",
+      "category": "brinquedo",
+      "description": "Laser em formato de rato.",
+      "price": 6.9,
+      "stock": 94,
+      "image": "https://petcity.pt/14319-large_default/camon-cat-laser-toy.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Camon Peixe Dançarino Interativo",
+      "brand": "Camon",
+      "category": "brinquedo",
+      "description": "Este peixinho, graças à sua aparência incrivelmente realista e ao bater da cauda, é o brinquedo perfeito para o seu gato.",
+      "price": 15.2,
+      "stock": 94,
+      "image": "https://petcity.pt/18711-large_default/camon-peixe-dancarino-interativo.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Grumpy Cat Knit GingerBread",
+      "brand": "Grumpy Cat",
+      "category": "brinquedo",
+      "description": "Brinquedo de Natal para gato.",
+      "price": 4.99,
+      "stock": 50,
+      "image": "https://petcity.pt/18589-large_default/grumpy-cat-knit-gingerbread.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Grumpy Cat Plush Snowman - Especial Natal",
+      "brand": "Grumpy Cat",
+      "category": "brinquedo",
+      "description": "Confecionado com materiais suaves com detalhes bordados no rosto e na barriga, o brinquedo traz ainda uma grande cauda fofa para provocar e estimular o seu gato a brincar.",
+      "price": 4.99,
+      "stock": 30,
+      "image": "https://petcity.pt/9876-large_default/grumpy-cat-plush-snowman-especial-natal-xmas00205.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Kong Cat Purrsuit Whirlwind",
+      "brand": "Kong",
+      "category": "brinquedo",
+      "description": "Purrsuit Whirlwind estimula a perseguição de um gato girando imprevisivelmente em superfícies duras enquanto contrai ativamente sua cauda longa.",
+      "price": 12.6,
+      "stock": 94,
+      "image": "https://petcity.pt/9296-large_default/kong-cat-purrsuit-whirlwind-k31-ca455e.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Kong Cat Active Teaser Snake",
+      "brand": "Kong",
+      "category": "brinquedo",
+      "description": "O KONG Snake Teaser é perfeito para diversão interativa. Penas irresistíveis e movimentos imprevisíveis estimularão os instintos naturais de caça do seu amigo e fornecerão exercícios benéficos.",
+      "price": 5.29,
+      "stock": 94,
+      "image": "https://petcity.pt/19507-large_default/kong-cat-active-teaser-snake-k31-ct45e.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Nobleza Brinquedo Rã Sorridente",
+      "brand": "Nobleza",
+      "category": "brinquedo",
+      "description": "Brinquedo para cães em algodão e linho.",
+      "price": 1.7,
+      "stock": 50,
+      "image": "https://petcity.pt/9939-large_default/nobleza-brinquedo-ra-sorridente-nbz40278.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Nobleza Brinquedo Rato",
+      "brand": "Nobleza",
+      "category": "brinquedo",
+      "description": "Tamanho: 14 cm",
+      "price": 1.51,
+      "stock": 30,
+      "image": "https://petcity.pt/18602-large_default/nobleza-brinquedo-rato-nbz26166.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Trixie Túnel em Nylon p/ Gatos",
+      "brand": "Trixie",
+      "category": "brinquedo",
+      "description": "Feito de nylon resistente Estável graças à argola em espiral Para interior e exterior Com 4 entradas Também para cachorros.",
+      "price": 15.95,
+      "stock": 30,
+      "image": "https://petcity.pt/2979-large_default/trixie-tunel-em-nylon-p-gatos-tx4305.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Trixie Bola Dupla em Sisal Recheada c/ Catnip",
+      "brand": "Trixie",
+      "category": "brinquedo",
+      "description": "Brinquedo em sisal para gatos.",
+      "price": 1.3,
+      "stock": 30,
+      "image": "https://petcity.pt/8553-large_default/trixie-bola-dupla-em-sisal-recheada-c-catnip-tx4077.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Rosewood Christmas Koala - Cat",
+      "brand": "Rosewood",
+      "category": "brinquedo",
+      "description": "Brinquedo para gato temático de natal.",
+      "price": 5.5,
+      "stock": 30,
+      "image": "https://petcity.pt/10508-large_default/rosewood-christmas-koala-cat.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Rosewood Cat Floppy Rabbit",
+      "brand": "Rosewood",
+      "category": "brinquedo",
+      "description": "Brinquedo para gato e gatinho.",
+      "price": 4.49,
+      "stock": 30,
+      "image": "https://petcity.pt/19431-large_default/rosewood-cat-floppy-rabbit.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Bebedouro Cat It Senses",
+      "brand": "Cat It",
+      "category": "acessorios",
+      "description": "O Catit Design Bebedouro - 3 Litros é a forma perfeita de dar ao seu gato água corrente. A circulação e filtragem contínua da água aumenta as quantidades de oxigénio e garante que a água fica sempre fresca e pura. O facto de o seu gato beber muita água.",
+      "price": 40.84,
+      "stock": 50,
+      "image": "https://petcity.pt/19226-large_default/bebedouro-catit-senses-50761.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Cat It Fonte de Água Fresh & Clear",
+      "brand": "Cat It",
+      "category": "acessorios",
+      "description": "Torna o acto de beber num prazer. Previne problemas renais ou do trato urinário. Fornece água potável limpa e fresca continuamente.",
+      "price": 69.15,
+      "stock": 94,
+      "image": "https://petcity.pt/5372-large_default/cat-it-fonte-de-agua-fresh-clear-fp50050.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Dashi Cat Coleira Solid Green",
+      "brand": "Dashi",
+      "category": "acessorios",
+      "description": "As nossas coleiras são feitas de poliéster resistente, totalmente ajustável, com um fecho de abertura fácil para a segurança do teu gato.",
+      "price": 4.99,
+      "stock": 94,
+      "image": "https://petcity.pt/18608-large_default/dashi-cat-coleira-solid-green-dcc00015.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Dashi Cat Coleira Boom",
+      "brand": "Dashi",
+      "category": "acessorios",
+      "description": "As nossas coleiras são feitas de poliéster resistente, totalmente ajustável, com um fecho de abertura fácil para a segurança do teu gato.",
+      "price": 4.99,
+      "stock": 30,
+      "image": "https://petcity.pt/18568-large_default/dashi-cat-coleira-boom-dcc00002.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Karlie Flamingo Comedouro Duplo",
+      "brand": "Karlie Flamingo",
+      "category": "acessorios",
+      "description": "O comedouro duplo com suporte de madeira é um acessório no qual poderá servir a comida e a água do seu animal de estimação. Já não será necessário ter duas tigelas independentes que se movimentem de um lado para outro.",
+      "price": 42.5,
+      "stock": 50,
+      "image": "https://petcity.pt/18441-large_default/karlie-flamingo-comedouro-duplo-fl1031113.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Karlie Flamingo Comedouro Cuisine",
+      "brand": "Karlie Flamingo",
+      "category": "acessorios",
+      "description": "Comedouro pesado com fundo de controlo de aderência - a taça está absolutamente firme e segura! Feito de Lustran, de alta qualidade, adequado para máquinas de lavar louça.",
+      "price": 16.25,
+      "stock": 94,
+      "image": "https://petcity.pt/18440-large_default/karlie-flamingo-comedouro-cuisine-k44293.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Mugue Pelù Smart Roll Refill",
+      "brand": "Mugue",
+      "category": "acessorios",
+      "description": "O rolo super adesivo. Excelente para remover pelos soltos do animal bem como pó, cabelos... de sofás ,mantas ,roupa, bancos de automóvel… Pack - dois rolos.",
+      "price": 6.9,
+      "stock": 30,
+      "image": "https://petcity.pt/4632-large_default/mugue-pelu-smart-roll-refill-idb28051.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Mugue Pelù Pet Cat",
+      "brand": "Mugue",
+      "category": "acessorios",
+      "description": "Rolo adesivo para fixar pelos degatos Ideal para o gato – previne as bolas de pelo Ideal para si – se sofre de alergias.",
+      "price": 43.01,
+      "stock": 30,
+      "image": "https://petcity.pt/4630-large_default/mugue-pelu-pet-cat-esp28012.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Nobleza Caixa Transportadora",
+      "brand": "Nobleza",
+      "category": "acessorios",
+      "description": "Tamanho: S - 47cm x 31cm x 26cm M - 28cm x 38,7cm x 33cm L - 68cm x 48cm x 42cm",
+      "price": 12.65,
+      "stock": 30,
+      "image": "https://petcity.pt/4765-large_default/nobleza-caixa-transportadora-nbz25725.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Nobleza Guizo p/ Coleira",
+      "brand": "Nobleza",
+      "category": "acessorios",
+      "description": "Tamanho S: 1.5 cm M: 1.8 cm",
+      "price": 0.29,
+      "stock": 30,
+      "image": "https://petcity.pt/6726-large_default/nobleza-guizo-p-coleira-nbz09558.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Trixie - Transportadora 'Traveller Capri'",
+      "brand": "Trixie",
+      "category": "acessorios",
+      "description": "Portador deplástico rigído com porta grelha de plástico resistente. Este portador do animal de estimação é a solução para levar seu animal de estimação em suas viagens de carro ou de comboio ou para visitas ao veterinário.",
+      "price": 12.99,
+      "stock": 30,
+      "image": "https://petcity.pt/11400-large_default/trixie-i-transportadora-traveller-capri-tx39811.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Trixie - Arranhador Zaragoza",
+      "brand": "Trixie",
+      "category": "acessorios",
+      "description": "Características: Com fixação para o teto; Cobertura em pelúcia; Postes envoltos em sisal natural; Nicho forrado em feltro. Dimensões: 68 x 56 x 220-260cm.",
+      "price": 174.35,
+      "stock": 30,
+      "image": "https://petcity.pt/2690-large_default/trixie-arranhador-zaragoza-tx43931.jpg"
+    }
+  ],
+  "fish": [
+    {
+      "id": 1,
+      "name": "Aquapex Alimento de Férias Para Peixes",
+      "brand": "Orniex",
+      "category": "racao",
+      "description": "Aquapex Holiday Block é um alimento para férias para peixes de água doce, suficiente para alimentar 20-25 peixes no aquário, por um período até 2 semanas.",
+      "price": 2.16,
+      "stock": 94,
+      "image": "https://petcity.pt/18877-large_default/aquapex-alimento-de-ferias-para-peixes.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Aquapex Alimento Fim de Semana para Peixes",
+      "brand": "Orniex",
+      "category": "racao",
+      "description": "Aquapex Weekend Block é um alimento de fim de semana para peixes de água doce.",
+      "price": 2.29,
+      "stock": 94,
+      "image": "https://petcity.pt/19060-large_default/aquapex-alimento-fim-de-semana-para-peixes.jpg"
+    },
+    {
+      "id": 3,
+      "name": "TetraPond Koi Sticks",
+      "brand": "Tetra",
+      "category": "racao",
+      "description": "Agora em embalagem resselável: TetraPond Koi Sticks, alimento completo em sticks flutuangtes para peixes de lago koi, para uma alimentação saudável e equilibrada.",
+      "price": 17.29,
+      "stock": 50,
+      "image": "https://shop-cdn-m.mediazs.com/bilder/tetrapond/koi/sticks/2/400/23524_pla_tetrapond_koi_sticks_4l_hs_01_2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "TetraMin flocos",
+      "brand": "Tetra",
+      "category": "racao",
+      "description": "Comida completa, equilibrada e rica em vitaminas, para todos os peixes tropicais. Para uma vida longa e saudável. Com nutrientes de qualidade, incluindo vitaminas, minerais e oligoelementos.",
+      "price": 9.19,
+      "stock": 30,
+      "image": "https://shop-cdn-m.mediazs.com/bilder/tetramin/flocos/9/400/7740_pla_tetramin_flockenfutter_250ml_hs_01_9.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sera Vipan Baby",
+      "brand": "Sera",
+      "category": "racao",
+      "description": "Microflocos para animais jovens sera Vipan Baby é o alimento de crescimento composto por microflocos cuidadosamente processados, para todos os peixes jovens que comem na superfície da água.",
+      "price": 2.9,
+      "stock": 94,
+      "image": "https://petcity.pt/6493-large_default/sera-vipan-baby-se00730.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Sera Vipagran Baby",
+      "brand": "Sera",
+      "category": "racao",
+      "description": "Microgranulado para animais jovens sera Vipagran Baby é o alimento decrescimento composto por microgranuladomacio cuidadosamente processado,para todos os peixes jovensque comem na zona média da água.",
+      "price": 2.9,
+      "stock": 94,
+      "image": "https://petcity.pt/6499-large_default/sera-vipagran-baby-se00700.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Tetra Goldfish comida em flocos para peixes",
+      "brand": "Tetra",
+      "category": "racao",
+      "description": "Comida em flocos para peixes de água doce ou carpas douradas. Contém os aditivos nutricionais e os oligoelementos essenciais que garantam uma alimentação completa e equilibrada.",
+      "price": 30.99,
+      "stock": 50,
+      "image": "https://shop-cdn-m.mediazs.com/bilder/tetra/goldfish/comida/em/flocos/para/peixes/7/400/75944_pla_tetra_goldfish_hs_01_7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "TetraPond Multi Mix - mistura para peixes de lago",
+      "brand": "Tetra",
+      "category": "racao",
+      "description": "TetraPond Multi Mix em práticas embalagens resseláveis - uma mistura selecionada de comida que representa os hábitos alimentares individuais de cada um dos peixes do seu lago.",
+      "price": 24.99,
+      "stock": 30,
+      "image": "https://shop-cdn-m.mediazs.com/bilder/tetrapond/multi/mix/mistura/para/peixes/de/lago/2/400/23523_pla_tetrapond_teichfischfutter_multimix_4l_hs_01_2.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Sera Koi Professional Alimento de Primavera/Outono",
+      "brand": "Sera",
+      "category": "racao",
+      "description": "O alimento de fácil digestão para temperaturas inferiores a 17 °C Quando as temperaturas são inferiores a 17 °C, o metabolismo dos peixes já não funciona à sua capacidade máxima. Por isso, os alimentos devem ser de fácil digestão. Só assim é que as Koi",
+      "price": 14.29,
+      "stock": 30,
+      "image": "https://petcity.pt/6521-large_default/sera-koi-professional-alimento-de-primaveraoutono-se07011.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Sera Koi Professional Alimento de Inverno",
+      "brand": "Sera",
+      "category": "racao",
+      "description": "Alimento especial para Kois e outros valiosos peixes de lago a temperaturas inferiores a 12 °C.",
+      "price": 10.9,
+      "stock": 30,
+      "image": "https://petcity.pt/6572-large_default/sera-koi-professional-alimento-de-inverno-se07017.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Sera Spirulina Tabs Nature",
+      "brand": "Sera",
+      "category": "racao",
+      "description": "Pastilhas autocolantes com 24 % de Spirulina para uma digestão saudável e vitalidade.",
+      "price": 2.9,
+      "stock": 30,
+      "image": "https://petcity.pt/14403-large_default/sera-spirulina-tabs-nature.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Sera Pond Color Sticks Nature",
+      "brand": "Sera",
+      "category": "racao",
+      "description": "O alimento que realça as cores para peixes de lago.",
+      "price": 4.5,
+      "stock": 30,
+      "image": "https://petcity.pt/14407-large_default/sera-pond-color-sticks-nature.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Saco Superfino para Aspirador Fx Gravel Vac",
+      "brand": "Fluval",
+      "category": "saude",
+      "description": "Quando usado com o limpador de cascalho Fluval FX, o saco de filtro fino captura partículas e detritos de forma eficaz.   CARACTERÍSTICAS PRINCIPAIS Compatível com o limpador de cascalho Fluval FX (vendido separadamente).",
+      "price": 7.88,
+      "stock": 94,
+      "image": "https://static.petness.pt/media/10/photos/products/169223/fx-gravel-vac-fine-bag-para-aspirador-de-po_1_g.png"
+    },
+    {
+      "id": 14,
+      "name": "Cartuchos Descartáveis ​​de CO2",
+      "brand": "Fluval",
+      "category": "saude",
+      "description": "Cartuchos Descartáveis ​​de CO2 - pacote com 3x45 g   Indicado para: Kit Fluval Pressurized 45g CO2 Este cartucho descartável pressurizado é um item de substituição genuíno para o kit de CO2 pressurizado Fluval 45 g.",
+      "price": 54.29,
+      "stock": 94,
+      "image": "https://static.petness.pt/media/10/photos/products/169278/descartavel-45g-co2-cartucho-3piezas_1_g.jpeg"
+    },
+    {
+      "id": 15,
+      "name": "Hill's Adult Fish Perfect Weight 3Kg",
+      "brand": "Tetra",
+      "category": "saude",
+      "description": "Torne a água da torneira segura para os peixes",
+      "price": 10.95,
+      "stock": 50,
+      "image": "https://static.petness.pt/media/10/photos/products/161973/tetra-aquasafe-6408ac6baa79d_g.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Escovas da Marinha para Impulsores",
+      "brand": "Marina",
+      "category": "saude",
+      "description": "Ele contém duas escovas que são ideais para remover detritos pegajosos do eixo do rotor. De tamanho compacto, eles são válidos para qualquer filtro.",
+      "price": 4.79,
+      "stock": 30,
+      "image": "https://static.petness.pt/media/10/photos/products/169185/escovas-da-marinha-para-impulsores_1_g.jpeg"
+    },
+    {
+      "id": 17,
+      "name": "Sacos de Reposição do Vácuo da Marina",
+      "brand": "Marina",
+      "category": "saude",
+      "description": "Proporciona o máximo conforto ao limpar o cascalho do aquário sem a necessidade de molhar as mãos. Sua operação é muito simples, é apenas clique e começa a funcionar. Profundidades entre 23 e 45 cm.",
+      "price": 3.19,
+      "stock": 94,
+      "image": "https://static.petness.pt/media/10/photos/products/169189/sacos-de-reposicao-do-vacuo-da-marina_1_g.jpeg"
+    },
+    {
+      "id": 18,
+      "name": "Kit de Limpeza para Vidro",
+      "brand": "Marina",
+      "category": "saude",
+      "description": "Lâminas de reposição exclusivas para o kit de limpeza de vidro (11013). As lâminas afiadas são ideais para remover as algas mais resistentes e contêm as ferramentas essenciais que permitem limpar o interior do aquário sem molhar as mãos. ",
+      "price": 13.24,
+      "stock": 94,
+      "image": "https://static.petness.pt/media/10/photos/products/169192/kit-de-limpeza-para-vidro_1_g.jpeg"
+    },
+    {
+      "id": 19,
+      "name": "Water Conditioner Aquaplus",
+      "brand": "Fluval",
+      "category": "saude",
+      "description": "O condicionador de água Aqua Plus torna a água da torneira segura, removendo o cloro, a cloramina e as toxinas metálicas que ela contém. Extratos vegetais puros reduzem visivelmente o estresse atribuído ao transporte, manuseio e aclimatação.",
+      "price": 10.61,
+      "stock": 50,
+      "image": "https://static.petness.pt/media/10/photos/products/169247/water-conditioner-aquaplus_1_g.png"
+    },
+    {
+      "id": 20,
+      "name": "Water Conditioner Aquaplus",
+      "brand": "Fluval",
+      "category": "saude",
+      "description": "O condicionador de água Aqua Plus torna a água da torneira segura, removendo o cloro, a cloramina e as toxinas metálicas que ela contém. Extratos vegetais puros reduzem visivelmente o estresse atribuído ao transporte, manuseio e aclimatação.",
+      "price": 40.79,
+      "stock": 30,
+      "image": "https://static.petness.pt/media/10/photos/products/169249/water-conditioner-aquaplus_1_g.png"
+    },
+    {
+      "id": 21,
+      "name": "Biological Cleaner Waste Control",
+      "brand": "Fluval",
+      "category": "saude",
+      "description": "O Limpador Biológico de Controle de Resíduos ajuda a reduzir a manutenção do aquário reduzindo o acúmulo de detritos em cascalho, filtros mecânicos, decoração e superfícies internas.",
+      "price": 11.99,
+      "stock": 30,
+      "image": "https://static.petness.pt/media/10/photos/products/169256/biological-cleaner-waste-control_1_g.png"
+    },
+    {
+      "id": 22,
+      "name": "Rapido",
+      "brand": "Fluval",
+      "category": "saude",
+      "description": "O Fluval Quick Clear efetivamente ajuda a eliminar partículas indesejadas que geram água turva do aquário, como partículas orgânicas e inorgânicas suspensas, sujeira, sedimentos e areia fina.",
+      "price": 7.42,
+      "stock": 30,
+      "image": "https://static.petness.pt/media/10/photos/products/169260/rapido_1_g.png"
+    },
+    {
+      "id": 23,
+      "name": "Med Nematol Tratamento contra Vermes e Nematoides",
+      "brand": "Sera",
+      "category": "saude",
+      "description": "Com SERA Nematol pode tratar os seus peixes de forma rápida e eficaz contra vermes e outros nematóides! Indicações:- Tratamento contra infestações por lombrigas, vermes capilares e outros nematoides.",
+      "price": 17.29,
+      "stock": 30,
+      "image": "https://static.petness.pt/media/10/photos/products/500859/med-profesional-nematol-acondicionador-contra-nematodos_1_g.png"
+    },
+    {
+      "id": 24,
+      "name": "Baktopur Direto Conditioner Contra Infecções Bacterianas",
+      "brand": "Sera",
+      "category": "saude",
+      "description": "Tem efeitos desinfetantes e favorece o processo de cicatrização. Condicionador de água para uso de água doce no caso de doenças bacterianas comuns, tais como colunaris, aletas apodrecidas, ramos de brânquias e infecções com bactérias aeromonas ou pseudomonas.",
+      "price": 8.49,
+      "stock": 30,
+      "image": "https://static.petness.pt/media/10/photos/products/500939/backtopur-acondicionador-contra-infecciones-bacterianas_1_g.png"
+    },
+    {
+      "id": 25,
+      "name": "Aquário Fluval Chi",
+      "brand": "Fluval",
+      "category": "brinquedo",
+      "description": "Kit composto por: Aquário 19 litros com base | Filtro de baixa voltagemSistema de iluminaçao em LED | Caixa para PlantasCesto para areão | Areao natural 400gr Cesto para Plantas | Esponja de espuma | Esponja de filtragem.",
+      "price": 80.95,
+      "stock": 94,
+      "image": "https://petcity.pt/5354-large_default/aquario-fluval-chi-10506.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Aquário Fluval Flex",
+      "brand": "Fluval",
+      "category": "brinquedo",
+      "description": "A nova gama de aquários nano, a serie FLUVAL FLEX, proporciona um estilo contemporâneo com o seu frontal distintivo em vidro côncavo O aquário é equipado com a filtração de 3-etapas.",
+      "price": 176.15,
+      "stock": 94,
+      "image": "https://petcity.pt/5363-large_default/aquario-fluval-flex-15007.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Aquário Fluval Flex",
+      "brand": "Fluval",
+      "category": "brinquedo",
+      "description": "Inclui:Fluval EDGE, 23 L , 6 lados em vidro seladosSistema de iluminação de 21 LED. Poderoso e eficienteClip-On Power Filter na traseiraNutrafin aquaplus, condicionador de água (30 mL)Nutrafin cycle, activador biológico (30 mL).",
+      "price": 157.35,
+      "stock": 50,
+      "image": "https://petcity.pt/5365-large_default/aquario-fluval-edge-21led-15386.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Aquário JustGrow - Acrílico",
+      "brand": "JustGrow",
+      "category": "brinquedo",
+      "description": "Tecnologia e natureza são fundidas para reduzir sinergias e ciclos naturais entre peixes, bactérias e plantas.",
+      "price": 439,
+      "stock": 30,
+      "image": "https://petcity.pt/8444-large_default/aquario-justgrow-acrilico-acrylic.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Aquário JustGrow - Alumínio",
+      "brand": "JustGrow",
+      "category": "brinquedo",
+      "description": "Tecnologia e natureza são fundidas para reduzir sinergias e ciclos naturais entre peixes, bactérias e plantas.",
+      "price": 549,
+      "stock": 94,
+      "image": "https://petcity.pt/8445-large_default/aquario-justgrow-aluminio-aluminum.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Aquário JustGrow Premium - Acrílico",
+      "brand": "JustGrow",
+      "category": "brinquedo",
+      "description": "Tecnologia e natureza são fundidas para reduzir sinergias e ciclos naturais entre peixes, bactérias e plantas.",
+      "price": 549,
+      "stock": 94,
+      "image": "https://petcity.pt/8446-large_default/aquario-justgrow-premium-acrilico-planetbox.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Nobleza Mini - Aquário Triângular para Peixes",
+      "brand": "Nobleza",
+      "category": "brinquedo",
+      "description": "Aquário com função de drenagem.",
+      "price": 49.99,
+      "stock": 50,
+      "image": "https://petcity.pt/12678-large_default/nobleza-mini-aquario-triangular-para-peixes-nbz30040.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Aquário Kit Fluval Flora",
+      "brand": "Fluval",
+      "category": "brinquedo",
+      "description": "Kit Fluval Fluvalra.",
+      "price": 82.15,
+      "stock": 30,
+      "image": "https://petcity.pt/14834-large_default/aquario-kit-fluval-flora.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Aquário Globo em Acrílico",
+      "brand": "Orniex",
+      "category": "brinquedo",
+      "description": "Aquário redondo para peixes.",
+      "price": 8.55,
+      "stock": 30,
+      "image": "https://petcity.pt/18919-large_default/aquario-globo-em-acrilico.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Marina Aquário Água Fria",
+      "brand": "Marina",
+      "category": "brinquedo",
+      "description": "Aquário ideal para quem se inicia em aquariofilia.Totalmente seguro para crianças, com tampa e em plástico inquebrável.",
+      "price": 29.99,
+      "stock": 30,
+      "image": "https://petcity.pt/19717-large_default/marina-aquario-agua-fria-ma13379.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Marina Peixe Aquário | Betta Floral",
+      "brand": "Marina",
+      "category": "brinquedo",
+      "description": "Kit aquário para peixes.",
+      "price": 15.5,
+      "stock": 30,
+      "image": "https://quintanimal.pt/4422-large_default/marina-peixe-aquario-betta-floral.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Fluvial Peixe Aquário | Flex",
+      "brand": "Fluvial",
+      "category": "brinquedo",
+      "description": "Kit aquário para peixes.",
+      "price": 182.1,
+      "stock": 30,
+      "image": "https://quintanimal.pt/4426-large_default/fluval-peixe-aquario-flex.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Sera GH-Test",
+      "brand": "Sera",
+      "category": "acessorios",
+      "description": "Para determinar facilmente a dureza total. Para aproximadamente 420°dgH.",
+      "price": 5.8,
+      "stock": 94,
+      "image": "https://petcity.pt/18697-large_default/sera-gh-test-se04110.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Sera Aspirador de Areão",
+      "brand": "Sera",
+      "category": "acessorios",
+      "description": "Remove cuidadosamente lodo e sujidade do fundo do aquário sem mudança de água. Basta ligar o sera aspirador de areão a uma bomba de membrana, p.ex. à bomb de ar sera air plus.Adequado para todos os aquários até uma altura de 60 cm.",
+      "price": 8.71,
+      "stock": 94,
+      "image": "https://petcity.pt/4375-large_default/sera-aspirador-de-areao-se08550.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Areia Azul para Aquário",
+      "brand": "Orniex",
+      "category": "acessorios",
+      "description": "Areia colorida para colocar no fundo do aquário.",
+      "price": 2.61,
+      "stock": 50,
+      "image": "https://petcity.pt/18911-large_default/areia-azul-para-aquario.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Trixie Arca do Tesouro",
+      "brand": "Trixie",
+      "category": "acessorios",
+      "description": "Decoração para aquário.",
+      "price": 12.57,
+      "stock": 30,
+      "image": "https://petcity.pt/8660-large_default/trixie-arca-do-tesouro-tx87813.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Trixie Estrelas do Mar",
+      "brand": "Trixie",
+      "category": "acessorios",
+      "description": "Decoração para aquário.",
+      "price": 2.4,
+      "stock": 94,
+      "image": "https://petcity.pt/8665-large_default/trixie-estrelas-do-mar-tx8866.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Decoração Destroços de Navio para Aquário",
+      "brand": "Orniex",
+      "category": "acessorios",
+      "description": "Decoração para aquários.",
+      "price": 10.5,
+      "stock": 94,
+      "image": "https://petcity.pt/18920-large_default/decoracao-destrocos-de-navio-para-aquario.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Esconderijo de Pedra Médio para Aquário",
+      "brand": "Orniex",
+      "category": "acessorios",
+      "description": "Rocha artificial de decoração para aquários.",
+      "price": 9.8,
+      "stock": 50,
+      "image": "https://petcity.pt/18922-large_default/esconderijo-de-pedra-medio-para-aquario.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Plantas Microsorum Artificiais para Aquário",
+      "brand": "Orniex",
+      "category": "acessorios",
+      "description": "Planta artificial de decoração para aquários.",
+      "price": 7.44,
+      "stock": 30,
+      "image": "https://petcity.pt/18923-large_default/plantas-microsorum-artificiais-para-aquario.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Plantas Myriophyllum Red Artificias para Aquário",
+      "brand": "Orniex",
+      "category": "acessorios",
+      "description": "Planta artificial de decoração para aquários.",
+      "price": 7.44,
+      "stock": 30,
+      "image": "https://petcity.pt/18924-large_default/plantas-myriophyllum-red-artificiais-para-aquario.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Superfish Peixe Decoração Aquário | Plantas Artificiais",
+      "brand": "Orniex",
+      "category": "acessorios",
+      "description": "Decoração para aquários de peixe.",
+      "price": 5.2,
+      "stock": 30,
+      "image": "https://quintanimal.pt/2449-large_default/superfish-peixe-decoracao-aquario-plantas-artificiais.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Superfish Peixe Decoração Aquário | Plantas Artificiais",
+      "brand": "Orniex",
+      "category": "acessorios",
+      "description": "Esta planta artificial não é tóxica e suas bordas arredondadas não farão mal aos peixes. O seu pé permite fixá-lo facilmente na areia.",
+      "price": 1.1,
+      "stock": 30,
+      "image": "https://quintanimal.pt/2450-large_default/superfish-peixe-decoracao-aquario-plantas-artificiais.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Amtra Peixe Decoração Aquário | Fluo Reef Mushroom",
+      "brand": "Wave",
+      "category": "acessorios",
+      "description": "A nova linha de decorativos Wave desenhada para enriquecer qualquer tipo de aquário com cores e formas. Confeccionadas em silicone de cor suave e resistente, essas decorações são equipadas com práticas ventosas para fixação.",
+      "price": 9.6,
+      "stock": 30,
+      "image": "https://quintanimal.pt/2451-large_default/amtra-peixe-decoracao-aquario-fluo-reef-mushroom.jpg"
+    }
+  ],
+  "bird": [
+    {
+      "id": 1,
+      "name": "Babypapex com seringa",
+      "brand": "Orniex",
+      "category": "racao",
+      "description": "Papa especial para aves recém nascidas de pequeno porteComposição especial para aves que necessitam de ajuda alimentar para o seu normal crescimento, ou quando rejeitadas pelos pais.Para criação com seringa.",
+      "price": 5.1,
+      "stock": 94,
+      "image": "https://petcity.pt/18701-large_default/babypapex-com-seringa-ex0185.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Gritex - Grite p/ Aves Peq. Porte",
+      "brand": "Orniex",
+      "category": "racao",
+      "description": "Grite com carvão e tijoloPara aves de pequeno e médio porte, é um complemento mineral da alimentação e facilita a digestão.",
+      "price": 1.93,
+      "stock": 94,
+      "image": "https://petcity.pt/12671-large_default/gritex-grite-p-aves-peq-porte-ex0150.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Psittacus Fórmula Manutenção Minor",
+      "brand": "Psittacus",
+      "category": "racao",
+      "description": "Psittacus alimento de manutençãominor é um alimento especialmente formulado para periquitos, agapornis pequenos, kakarikis e Forpus Sua fórmula destina se a alimentar essas aves ao longo do ano, se não em período reprodutivo.",
+      "price": 7.03,
+      "stock": 50,
+      "image": "https://petcity.pt/18517-large_default/psittacus-formula-manutencao-minor-pi4010.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Psittacus Fórmula Ómega",
+      "brand": "Psittacus",
+      "category": "racao",
+      "description": "Este produto foi concebido para espécies como araras e cinzentos que, na natureza, consomem uma quantidade significativa de frutas e sementes de plantas ricas em óleo, e que beneficiam os perfis dos ácidos gordos, especialmente ricas em ácido palmítico.",
+      "price": 13.55,
+      "stock": 30,
+      "image": "https://petcity.pt/18549-large_default/psittacus-formula-omega-pi1410.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Versele Laga Papagaios Exotic Fruit Mix",
+      "brand": "Versele Laga",
+      "category": "racao",
+      "description": "Prestige Papagaios Exotic Fruit Mix é uma mistura de cereais cuidadosamente seleccionados, enriquecida com frutos secos, amadurecidos ao sol e deliciosas nozes descascadas. Exotic Fruit Mix é feito exclusivamente de produtos frescos e não contém corante.",
+      "price": 6.31,
+      "stock": 94,
+      "image": "https://petcity.pt/18733-large_default/versele-laga-papagaios-exotic-fruit-mix-i421781.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Versele Laga Papagaios Exotic Nut Mix",
+      "brand": "Versele Laga",
+      "category": "racao",
+      "description": "Prestige Papagaios Exotic Nut Mix é uma mistura de cereais cuidadosamente seleccionados e enriquecida com deliciosas nozes inteiras e frutos secos, amadurecidos ao sol. Exotic Nut Mix é feito exclusivamente de produtos frescos e não contém corantes.",
+      "price": 6.33,
+      "stock": 94,
+      "image": "https://petcity.pt/18732-large_default/versele-laga-papagaios-exotic-nut-mix-pen421782.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Versele Laga Nutribi G14 Original",
+      "brand": "Versele Laga Nutribi",
+      "category": "racao",
+      "description": "NutriBird G14 Original é uma ração de manutenção completa e equilibrada para grandes periquitos.",
+      "price": 9.24,
+      "stock": 50,
+      "image": "https://petcity.pt/18378-large_default/versele-laga-nutribird-g14-original-i422058.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Versele Laga Nutribird A18 Lori - p/ Lories",
+      "brand": "Versele Laga Nutribi",
+      "category": "racao",
+      "description": "NutriBird A18 é um alimento completo e equilibrado para a criação à mão de papagaios pequenos.",
+      "price": 14.87,
+      "stock": 30,
+      "image": "https://petcity.pt/19311-large_default/versele-laga-nutribird-a18-lori-plories-i422097.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Versele Laga Insect Patee Premium",
+      "brand": "Versele Laga Orlux",
+      "category": "racao",
+      "description": "Orlux Insect patee Premium é um alimento completo para todos os pássaros insectívoros.",
+      "price": 8.85,
+      "stock": 30,
+      "image": "https://petcity.pt/12897-large_default/versele-laga-insect-patee-premium-i424091.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Versele Laga Orlux Gold Patee Amarelo",
+      "brand": "Versele Laga Orlux",
+      "category": "racao",
+      "description": "Orlux Gold patee canários é uma papa de ovo pronta a usar para canários, pássaros exóticos e indígenas.",
+      "price": 2.72,
+      "stock": 30,
+      "image": "https://petcity.pt/11777-large_default/versele-laga-orlux-gold-patee-amarelo-gp424011.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Versele Laga Periquitos Premium",
+      "brand": "Versele Laga Premium",
+      "category": "racao",
+      "description": "Esta mistura de sementes Premium tem uma composição variada e equilibrada, perfeitamente adaptada às necessidades alimentares de periquitos pequenos.",
+      "price": 3.75,
+      "stock": 30,
+      "image": "https://petcity.pt/18577-large_default/versele-laga-periquitos-premium-pp421688.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Versele Laga Canários Premium",
+      "brand": "Versele Laga Premium",
+      "category": "racao",
+      "description": "Prestige Canários Premium é uma mistura de sementes enriquecida com elementos nutritivos suplementares dos quais os canários necessitam para manter uma boa forma.",
+      "price": 4.34,
+      "stock": 30,
+      "image": "https://petcity.pt/19348-large_default/versele-laga-canarios-premium-i421068.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Anima Strath Suplemento",
+      "brand": "Anima Strath",
+      "category": "saude",
+      "description": "Suplemento fortificante à base de levedura vegetal.",
+      "price": 9.3,
+      "stock": 94,
+      "image": "https://petcity.pt/17710-large_default/anima-strath-anstr100.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Anima Strath Tomilho",
+      "brand": "Anima Strath",
+      "category": "saude",
+      "description": "Anima-Strath Fortificante com tomilho é um alimento complementar para animais, 100% natural.",
+      "price": 9.9,
+      "stock": 94,
+      "image": "https://petcity.pt/18556-large_default/anima-strath-tomilho.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Avizoon Aminovit 'L'",
+      "brand": "Avizoon",
+      "category": "saude",
+      "description": "Suplemento alimentar que contém uma completa gama de vitaminas e aminoácidos essenciais, indispensáveis para um correcto funcionamento do organismo.Graças à sua composição,Aminovit 'L' é umbioestimulante completo, de indiscutivel utilidade.",
+      "price": 2.9,
+      "stock": 50,
+      "image": "https://petcity.pt/6754-large_default/avizoon-aminovit-l-proml030cc.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Avizoon Naturvermes Cápsulas",
+      "brand": "Avizoon",
+      "category": "saude",
+      "description": "Conforme revelado por inúmeros estudos, este produto tem a capacidade de inibição ou neutralização da maior parte dos parasitas intestinais. Espécies : Canários, exóticos, fauna europeia, periquitos, papagaios, faisões e outros.",
+      "price": 3.8,
+      "stock": 30,
+      "image": "https://petcity.pt/6750-large_default/avizoon-naturvermes-capsulas-natverm20.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Avizoon Clearudine",
+      "brand": "Avizoon",
+      "category": "saude",
+      "description": "Clearudine é especialmente indicado para remover matéria orgânica, como fezes e gorduras. É ideal no uso em instalações. gaiolas. equipamentos e acessórios.",
+      "price": 4.5,
+      "stock": 94,
+      "image": "https://petcity.pt/6755-large_default/avizoon-clearudine-czocd100.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Avizoon Fertizoon AD3EC",
+      "brand": "Avizoon",
+      "category": "saude",
+      "description": "Polivitaminico contendo vitamina A e E factor indispensável no crescimento, reprodução e fertilidade. A Vitamina D sendo um excelente coadjuvante na assimilação do cálcio e na formação óssea.E por ultimo Vitamina C, um anti-infeccioso indispensavel.",
+      "price": 2.99,
+      "stock": 94,
+      "image": "https://petcity.pt/6753-large_default/avizoon-fertizoon-ad3ec-vitazad030c.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Excalibird Tipo A",
+      "brand": "Bioanalitica",
+      "category": "saude",
+      "description": "Excalibird Tipo A é um composto natural pronto a utilizar, desenvolvido para afugentar – sem agressão – aves de todos os tipos de estruturas e edifícios.",
+      "price": 12.2,
+      "stock": 50,
+      "image": "https://petcity.pt/2320-large_default/excalibird-tipo-a-chexacalibia.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Excalibird Tipo B",
+      "brand": "Bioanalitica",
+      "category": "saude",
+      "description": "Excalibird não é perigoso para os seres humanos, plantas, solo e meio ambiente Excalibird Tipo-B é uma formulação patenteada constituída por ingredientes naturais que figuram na lista GRAS (Generally Recognized As Safe Geralmente Reconhecido como Seguro.",
+      "price": 12.2,
+      "stock": 30,
+      "image": "https://petcity.pt/2321-large_default/excalibird-tipo-b-chexacalibib.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Tabernil Pomada",
+      "brand": "Divasa",
+      "category": "saude",
+      "description": "Pomada tarbenilpara canários e ornamentação em geral aves(periquitos, Pintassilgo, pombos, etc.) combina uma série de ações terapêuticas para uma regeneração epitelial de lesões epiteliais. Indicação para seu uso em caso de: Crostas",
+      "price": 8.5,
+      "stock": 30,
+      "image": "https://petcity.pt/6283-large_default/tabernil-pomada-tabpom.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Tabernil Cria",
+      "brand": "Divasa",
+      "category": "saude",
+      "description": "Suplemento nutricional oral em pó Pela sua composição de componentes naturais, podem manter os animais nas melhores condições possíveis, dando-lhes a resistência natural contra situações críticas que ocorrem na época de reprodução.",
+      "price": 17.25,
+      "stock": 30,
+      "image": "https://petcity.pt/6296-large_default/tabernil-cria-tc4220292.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Quikon Levedura de Cerveja",
+      "brand": "Orniex",
+      "category": "saude",
+      "description": "A levedura de cerveja é um produto 100% natural, rico em aminoácidos e vitaminas - Alimento complementar para aves, ideal para os períodos de criação e crescimento.",
+      "price": 12.24,
+      "stock": 30,
+      "image": "https://petcity.pt/5371-large_default/quikon-levedura-de-cerveja-qu100540.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Sprayavex - Recarga",
+      "brand": "Orniex",
+      "category": "saude",
+      "description": "Produto natural.",
+      "price": 11.99,
+      "stock": 30,
+      "image": "https://petcity.pt/8644-large_default/sprayavex-recarga-ex1326.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Trixie Brinquedo Colorido de Madeira",
+      "brand": "Trixie",
+      "category": "brinquedo",
+      "description": "Com corrente e corda. Por exemplo: para papagaios ou caturras.",
+      "price": 1.95,
+      "stock": 94,
+      "image": "https://petcity.pt/4305-large_default/trixie-brinquedo-colorido-de-madeira-bctx5195.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Trixie Brinquedo em Corda e Madeira p/ Gaiola",
+      "brand": "Trixie",
+      "category": "brinquedo",
+      "description": "Brinquedo para pendurar na gaiola.",
+      "price": 4.3,
+      "stock": 94,
+      "image": "https://petcity.pt/9742-large_default/trixie-brinquedo-em-corda-e-madeira-p-gaiola-tx58985.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Trixie Brinquedo Natural Living p/ Periquitos e Caturras",
+      "brand": "Trixie",
+      "category": "brinquedo",
+      "description": "Brinquedos que ajudam a cuidar da saúde do animal graças ao facto de serem acessórios produzidos com materiais naturais, que não são tratados com substâncias aditivas.",
+      "price": 2.2,
+      "stock": 50,
+      "image": "https://petcity.pt/9744-large_default/trixie-brinquedo-natural-living-p-periquitos-e-caturras-tx58961.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Baloiço Duplo em Madeira com Sino para Aves",
+      "brand": "Trixie",
+      "category": "brinquedo",
+      "description": "Balanço de madeira natural adequado para periquitos ou similares.",
+      "price": 1.8,
+      "stock": 30,
+      "image": "https://petcity.pt/9822-large_default/baloico-duplo-em-madeira-com-sino-para-aves-tx5822.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Brinquedo c/ Madeira, Couro e Contas p/ Gaiola",
+      "brand": "Trixie",
+      "category": "brinquedo",
+      "description": "Brinquedo para pendurar na gaiola.",
+      "price": 3.9,
+      "stock": 94,
+      "image": "https://petcity.pt/9743-large_default/brinquedo-c-madeira-couro-e-contas-p-gaiola-tx58984.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Parque de Diversão em Madeira",
+      "brand": "Trixie",
+      "category": "brinquedo",
+      "description": " Parque de Diversão de Madeira. Medidas: 34 x 26 x 25cm.",
+      "price": 16.17,
+      "stock": 94,
+      "image": "https://goldpet.pt/35260-large_default/parque-de-diversao-em-madeira.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Parque para aves em madeira natural",
+      "brand": "Trixie",
+      "category": "brinquedo",
+      "description": "Parque para aves em madeira natural. Medida: 28x25x22cm.",
+      "price": 9.22,
+      "stock": 50,
+      "image": "https://goldpet.pt/40276-large_default/parque-para-aves-em-madeira-natural.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Parede Escalada Madeira Natural para Periquitos",
+      "brand": "Trixie",
+      "category": "brinquedo",
+      "description": " Madeira natural, com rede de sisal e com correntes.",
+      "price": 4.32,
+      "stock": 30,
+      "image": "https://goldpet.pt/74059-large_default/parede-escalada-madeira-natural-para-periquitos.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Escada Prisma em Madeira Natural",
+      "brand": "Trixie",
+      "category": "brinquedo",
+      "description": "Escada Prisma em Madeira Natural. Medida: 58cm (12 degraus).",
+      "price": 4.32,
+      "stock": 30,
+      "image": "https://goldpet.pt/40222-large_default/escada-prisma-em-madeira-natural.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Baloiço Triangular em Madeira Natural e Corda",
+      "brand": "Trixie",
+      "category": "brinquedo",
+      "description": "Baloiço Triangular em Madeira Natural. Tamanhos Disponíveis: Pequeno: 16x16x16cm e Grande: 27x27x27cm.",
+      "price": 5.06,
+      "stock": 30,
+      "image": "https://goldpet.pt/40233-large_default/baloico-triangular-em-madeira-natural-e-corda.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Duvo+ Meia lua com cordas para aves",
+      "brand": "Duvo Plus",
+      "category": "brinquedo",
+      "description": "Brinquedo colorido de madeira e com cordas, para pássaros.",
+      "price": 13.52,
+      "stock": 30,
+      "image": "https://goldpet.pt/54849-large_default/duvo-meia-lua-com-cordas-para-aves.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Duvo+ Brinquedo de blocos de madeira para aves",
+      "brand": "Duvo Plus",
+      "category": "brinquedo",
+      "description": "Brinquedo colorido de madeira e com aplicações em couro, para pássaros.",
+      "price": 11.21,
+      "stock": 30,
+      "image": "https://goldpet.pt/54850-large_default/duvo-brinquedo-de-blocos-de-madeira-para-aves.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Espigas de Painço",
+      "brand": "Orniex",
+      "category": "acessorios",
+      "description": "Espigas de Painço 250gr - 6 unidades. Alimento complementar para Diamantes, Canários, Híbridos e outras aves Carnívoras de pequeno porte.",
+      "price": 3.89,
+      "stock": 94,
+      "image": "https://petcity.pt/8971-large_default/espigas-de-painco-epexa0610.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Ninhex - Pelo de Cabra",
+      "brand": "Orniex",
+      "category": "acessorios",
+      "description": "Selecionado de acordo com o habitat natural das aves.",
+      "price": 1.9,
+      "stock": 94,
+      "image": "https://petcity.pt/14863-large_default/ninhex-pelo-de-cabra-ex0160.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Ovoex Ovos Artificiais p/ Canários",
+      "brand": "Orniex",
+      "category": "acessorios",
+      "description": "Ovos artificiais para canários.",
+      "price": 4.35,
+      "stock": 50,
+      "image": "https://petcity.pt/14898-large_default/ovoex-ovos-artificiais-p-canarios-ex650.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Ovoex Ovos Artificiais p/ Pombos",
+      "brand": "Orniex",
+      "category": "acessorios",
+      "description": "Ovos artificiais ø 30mm para pombos.",
+      "price": 0.6,
+      "stock": 30,
+      "image": "https://petcity.pt/8646-large_default/ovoex-ovos-artificiais-p-pombos-ex655.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Trixie Osso de Choco com Suporte",
+      "brand": "Trixie",
+      "category": "acessorios",
+      "description": "Osso de choco, com suporte. Produto natural com cálcio, para o desgaste do bico. Tamanho: 12cm Tamanho: 16cm.",
+      "price": 1.97,
+      "stock": 94,
+      "image": "https://petcity.pt/11026-large_default/trixie-osso-de-choco-com-suporte-tr5050.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Trixie Comedouro Circular",
+      "brand": "Trixie",
+      "category": "acessorios",
+      "description": "Comedouro circular com ganchos para pendurar.",
+      "price": 1.43,
+      "stock": 94,
+      "image": "https://petcity.pt/8891-large_default/trixie-comedouro-circular-tr5477.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Trixie Poleiro Multicolorido em Corda Algodão p/ Aves",
+      "brand": "Trixie",
+      "category": "acessorios",
+      "description": "Em algodão - Flexíveis - Pode ser fixado em qualquer posição - Dimensão 37cm.",
+      "price": 4.8,
+      "stock": 50,
+      "image": "https://petcity.pt/2955-large_default/trixie-poleiro-multicolorido-em-corda-algodao-p-aves-tx5162.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Quiko Tesoura Corta-Anilhas",
+      "brand": "Quiko",
+      "category": "acessorios",
+      "description": "Tesoura para remover anilhas.",
+      "price": 30.2,
+      "stock": 30,
+      "image": "https://petcity.pt/8138-large_default/quiko-tesoura-corta-anilhas-qu610050.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Versele Laga Grit",
+      "brand": "Versele Laga Prestige",
+      "category": "acessorios",
+      "description": "Grit é um material comido por pássaros para ajudar em suas dietas e digestão.",
+      "price": 3.76,
+      "stock": 30,
+      "image": "https://petcity.pt/10278-large_default/versele-laga-grit-gp423110.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Versele Laga Kristal Shell Sand White - Fundo Gaiola",
+      "brand": "Versele Laga Prestige",
+      "category": "acessorios",
+      "description": "Areia branca com casca de anis. esterilizado a alta temperatura.",
+      "price": 3.32,
+      "stock": 30,
+      "image": "https://petcity.pt/8550-large_default/versele-laga-kristal-shell-sand-white-fundo-gaiola-i423004.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Versele Laga Milho Alvo em Cacho",
+      "brand": "Versele Laga",
+      "category": "acessorios",
+      "description": "Conjunto de painço para todos os tipos de pássaros.",
+      "price": 2.8,
+      "stock": 30,
+      "image": "https://petcity.pt/18681-large_default/versele-laga-milho-alvo-em-cacho-i451330.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Versele Laga Bedding Wood Nº 6 - Cordi Faia Fina",
+      "brand": "Versele Laga",
+      "category": "acessorios",
+      "description": "Wood bedding n° 6 é uma cama higinica de madeira finamente trituradas faia para gaiolas e viveiros.",
+      "price": 16.22,
+      "stock": 30,
+      "image": "https://petcity.pt/8037-large_default/versele-laga-bedding-wood-n-6-cordi-faia-fina-ib423094.jpg"
+    }
+  ]
 }

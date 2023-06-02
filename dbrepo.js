@@ -3,8 +3,8 @@ const fs = require('fs')
 exports.databaseRepo = function () {
 
     var dbName = 'database.json';
-    
-    var readDb = function(){
+
+    var readDb = function () {
         var rawData = fs.readFileSync(dbName);
         return JSON.parse(rawData)
     };
@@ -27,28 +27,68 @@ exports.databaseRepo = function () {
             return personToUpdate
         },
         */
-        /*
-        insert: function(person){     
+
+        /*         insert: function (animal, category, product) {
+                    var dataJson = readDb();
+
+                    let nextId = 1;
+                    for (const p of dataJson[animal][category]) {
+                        if (nextId <= p.Id) {
+                            nextId = p.Id
+                        }
+                    }
+                    nextId++;
+                    product.Id = nextId;
+
+                    dataJson[animal][category].push(product);
+                    fs.writeFileSync(dbName, JSON.stringify(dataJson, null, 2));
+                    return product;
+                },
+         */
+        insert: function (product) {
             var dataJson = readDb();
 
-            let nextId = 1;
-            for (const person of dataJson.people) {
-                if(nextId <= person.Id){
-                    nextId = person.Id
+            // Find the array for the specified animal
+            var animal = product.animal;
+            if (!dataJson[animal]) {
+                // If the array doesn't exist, create it
+                dataJson[animal] = [];
+            }
+
+            // Generate the next id for the product
+            var animalArray = dataJson[animal];
+            var maxId = 0;
+            for (const p of animalArray) {
+                if (p.id > maxId) {
+                    maxId = p.id;
                 }
             }
-            nextId++;
-            person.Id = nextId;
-            
-            dataJson.people.push(person);            
+            var nextId = maxId + 1;
+            product.id = nextId;
+
+            // Reorder the properties of the product object
+            var orderedProduct = {
+                id: product.id,
+                name: product.name,
+                brand: product.brand,
+                category: product.category,
+                price: product.price,
+                image: product.image
+            };
+
+            // Add the product to the array
+            animalArray.push(orderedProduct);
+
+            // Write the updated data back to the file
             fs.writeFileSync(dbName, JSON.stringify(dataJson, null, 2));
-            return person
+
+            return product;
         },
-        */
-        list: function(queryParams, arrayName){
+
+        list: function (queryParams, arrayName) {
             return readDb()[arrayName].filter(a => a.category == queryParams.category);
         }
-        
+
         /*
         delete: function(id){
             var dataJson = readDb();
@@ -59,7 +99,7 @@ exports.databaseRepo = function () {
             return true;
         },
         */
-       /* listSampleData: function(onResponse){
+        /* listSampleData: function(onResponse){
             fs.readFile('product_list.json', 'utf8', onResponse);
         }
     
