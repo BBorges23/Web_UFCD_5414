@@ -34,6 +34,8 @@ app.get('/animal/:category', (req, res) => {
   res.send(dbRepo.list(req.query, category));
 });
 
+
+
 // app.get('/animal', (req, res) => {
 //   res.send(dbRepo.list(req.query, "cat"))
 //   // res.send(req.query)

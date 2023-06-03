@@ -22,7 +22,7 @@
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse  id=" navbarText">
+      <div class="collapse navbar-collapse  id="navbarText>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="#">Categorias</a>
@@ -35,11 +35,11 @@
           </li>
         </ul>
         <div class="col-sm  d-flex d-inline justify-content-end gap-3 align-items-baseline">
-          <a href="" style="text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+          <a href="login.html" style="text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
               fill="black" class="bi bi-person-fill" viewBox="0 0 16 16">
               <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
             </svg></a>
-          <a href=""> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="black"
+          <a href="carrinho.html"> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="black"
               class="bi bi-cart-fill" viewBox="0 0 16 16">
               <path
                 d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
@@ -189,7 +189,7 @@
         rows += '<div class="card col-sm-3 mb-4" style="width: 18rem;">';
         rows += '<img class="card-img-top image-fluid" style="height:180px" src="' + produto.image + '" alt="Card image cap">';
         rows += '<div class="card-body">';
-        rows += '<h5 class="card-title">' + produto.name + '</h5>';
+        rows += '<h5 class="card-title" onclick="redirectToProductPage(' + produto.id + ')">' + produto.name +'</h5>';
         rows += '<p class="card-text">' + produto.brand + '</p>';
         rows += '<div class="display-flex align-content-between">';
         rows += '<p class="card-text d-flex justify-content-between">€' + produto.price + '<a href="#" class="btn btn-primary">COMPRAR</a></p>';
@@ -202,5 +202,70 @@
   
     getCategoria();
   }
-  
+
+   // Obtém o ID do produto da URL
+   const productId = getProductIdFromURL();
+
+// Obtém os dados do produto com base no ID do produto
+getProductData(productId)
+  .then(product => {
+    renderProductDetails(product);
+  })
+  .catch(error => {
+    console.error('Erro ao obter os dados do produto:', error);
+  });
+
+// Função para obter o ID do produto da URL
+function getProductIdFromURL() {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get('id');
+}
+
+// Função para obter os dados do produto com base no ID do produto
+function getProductData(productId) {
+  return fetch('database.json') // Assuming database.json is in the same directory as this HTML file
+    .then(response => response.json())
+    .then(data => {
+      const product = data.animal.find(a => a.id === parseInt(productId));
+      if (product) {
+        return product;
+      } else {
+        throw new Error('Produto não encontrado');
+      }
+    });
+}
+
+// Função para renderizar os detalhes do produto na página
+function renderProductDetails(product) {
+  const productDetailsContainer = document.getElementById('product-details');
+
+  // Cria os elementos HTML para exibir os detalhes do produto
+  const productImage = document.createElement('img');
+  productImage.src = product.image;
+  productImage.alt = product.name;
+  productDetailsContainer.appendChild(productImage);
+
+  const productName = document.createElement('h2');
+  productName.textContent = product.name;
+  productDetailsContainer.appendChild(productName);
+
+  const productBrand = document.createElement('p');
+  productBrand.textContent = 'Marca: ' + product.brand;
+  productDetailsContainer.appendChild(productBrand);
+
+  const productPrice = document.createElement('p');
+  productPrice.textContent = 'Preço: €' + product.price;
+  productDetailsContainer.appendChild(productPrice);
+
+  const productDescription = document.createElement('p');
+  productDescription.textContent = 'Descrição: ' + product.description;
+  productDetailsContainer.appendChild(productDescription);
+}
+
+
+  function redirectToProductPage(productId) {
+  // Redireciona para a página detalhes_produto.html, passando o ID do produto como parâmetro na URL
+  window.location.href = 'produtos.html?id=' + productId;
+}
+
 </script>
