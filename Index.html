@@ -203,66 +203,6 @@
     getCategoria();
   }
 
-   // Obtém o ID do produto da URL
-   const productId = getProductIdFromURL();
-
-// Obtém os dados do produto com base no ID do produto
-getProductData(productId)
-  .then(product => {
-    renderProductDetails(product);
-  })
-  .catch(error => {
-    console.error('Erro ao obter os dados do produto:', error);
-  });
-
-// Função para obter o ID do produto da URL
-function getProductIdFromURL() {
-  const urlParams = new URLSearchParams(window.location.search);
-  return urlParams.get('id');
-}
-
-// Função para obter os dados do produto com base no ID do produto
-function getProductData(productId) {
-  return fetch('database.json') // Assuming database.json is in the same directory as this HTML file
-    .then(response => response.json())
-    .then(data => {
-      const product = data.animal.find(a => a.id === parseInt(productId));
-      if (product) {
-        return product;
-      } else {
-        throw new Error('Produto não encontrado');
-      }
-    });
-}
-
-// Função para renderizar os detalhes do produto na página
-function renderProductDetails(product) {
-  const productDetailsContainer = document.getElementById('product-details');
-
-  // Cria os elementos HTML para exibir os detalhes do produto
-  const productImage = document.createElement('img');
-  productImage.src = product.image;
-  productImage.alt = product.name;
-  productDetailsContainer.appendChild(productImage);
-
-  const productName = document.createElement('h2');
-  productName.textContent = product.name;
-  productDetailsContainer.appendChild(productName);
-
-  const productBrand = document.createElement('p');
-  productBrand.textContent = 'Marca: ' + product.brand;
-  productDetailsContainer.appendChild(productBrand);
-
-  const productPrice = document.createElement('p');
-  productPrice.textContent = 'Preço: €' + product.price;
-  productDetailsContainer.appendChild(productPrice);
-
-  const productDescription = document.createElement('p');
-  productDescription.textContent = 'Descrição: ' + product.description;
-  productDetailsContainer.appendChild(productDescription);
-}
-
-
   function redirectToProductPage(productId) {
   // Redireciona para a página detalhes_produto.html, passando o ID do produto como parâmetro na URL
   window.location.href = 'produtos.html?id=' + productId;

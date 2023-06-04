@@ -12,7 +12,6 @@
   <div id="product-details"></div>
 
   <script>
-    
     // Obtém o ID do produto da URL
     const productId = getProductIdFromURL();
 
@@ -33,15 +32,22 @@
 
     // Função para obter os dados do produto com base no ID do produto
     function getProductData(productId) {
-      return fetch('database.json') // Assuming database.json is in the same directory as this HTML file
+      return fetch('database.json')
         .then(response => response.json())
         .then(data => {
-          const product = data.dog.find(a => a.id === parseInt(productId));
-          if (product) {
-            return product;
-          } else {
-            throw new Error('Produto não encontrado');
+          // Procura o produto em todas as categorias
+          const categories = Object.keys(data);
+          for (let i = 0; i < categories.length; i++) {
+            const category = categories[i];
+            const products = data[category];
+            if (products && Array.isArray(products)) {
+              const product = products.find(a => a.id === parseInt(productId));
+              if (product) {
+                return product;
+              }
+            }
           }
+          throw new Error('Produto não encontrado');
         });
     }
 
