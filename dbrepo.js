@@ -11,59 +11,69 @@ exports.databaseRepo = function () {
 
 
     return {
-        /*
-        update: function(person){     
-            var dataJson = readDb();
-
-            var personToUpdate = dataJson.people.find(x => x.Id === person.Id);
-
-            personToUpdate.FirstName = person.FirstName;
-            personToUpdate.LastName = person.LastName;
-            personToUpdate.Age = person.Age;
-            personToUpdate.Email = person.Email;
-            
-            fs.writeFileSync(dbName, JSON.stringify(dataJson, null, 2));
-
-            return personToUpdate
-        },
-        */
-        /*
-        insert: function(person){     
-            var dataJson = readDb();
-
-            let nextId = 1;
-            for (const person of dataJson.people) {
-                if(nextId <= person.Id){
-                    nextId = person.Id
-                }
-            }
-            nextId++;
-            person.Id = nextId;
-            
-            dataJson.people.push(person);            
-            fs.writeFileSync(dbName, JSON.stringify(dataJson, null, 2));
-            return person
-        },
-        */
+       
         list: function(queryParams, arrayName){
             return readDb()[arrayName].filter(a => a.category == queryParams.category);
-        }
-        
-        /*
-        delete: function(id){
-            var dataJson = readDb();
-            dataJson.people = dataJson.people.filter(x => x.Id != id);
-            
-            fs.writeFileSync(dbName, JSON.stringify(dataJson, null, 2));
-
-            return true;
         },
-        */
-       /* listSampleData: function(onResponse){
-            fs.readFile('product_list.json', 'utf8', onResponse);
-        }
+        
+
+        delete: function (animalType, id) {
+            var dataJson = readDb();
     
-    */
+            if (dataJson.hasOwnProperty(animalType)) {
+                var animalArray = dataJson[animalType];
+                for (var i = 0; i < animalArray.length; i++) {
+                if (animalArray[i].id === id) {
+                    animalArray.splice(i, 1);
+                    fs.writeFileSync(dbName, JSON.stringify(dataJson, null, 2));
+                    return true;
+                }
+                }
+            }
+            return false;
+            },
+
+            insert: function (product) {
+                var dataJson = readDb();
+    
+                // Find the array for the specified animal
+                var animal = product.animal;
+                if (!dataJson[animal]) {
+                    // If the array doesn't exist, create it
+                    dataJson[animal] = [];
+                }
+    
+                // Generate the next id for the product
+                var animalArray = dataJson[animal];
+                var maxId = 0;
+                for (const p of animalArray) {
+                    if (p.id > maxId) {
+                        maxId = p.id;
+                    }
+                }
+                var nextId = maxId + 1;
+                product.id = nextId;
+    
+                // Reorder the properties of the product object
+                var orderedProduct = {
+                    id: product.id,
+                    name: product.name,
+                    brand: product.brand,
+                    category: product.category,
+                    description: product.description,
+                    price: product.price,
+                    stock: product.stock,
+                    image: product.image
+                };
+    
+                // Add the product to the array
+                animalArray.push(orderedProduct);
+    
+                // Write the updated data back to the file
+                fs.writeFileSync(dbName, JSON.stringify(dataJson, null, 2));
+    
+                return product;
+            }
     }
 
 };

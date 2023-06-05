@@ -9,7 +9,8 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
-  </script>
+    </script>
+  <link rel="stylesheet" href="index.css">
   <title>Salens Shop</title>
 </head>
 <!-- Barra de navegacao -->
@@ -22,7 +23,7 @@
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse  id="navbarText>
+      <div class="collapse navbar-collapse  id=" navbarText>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="#">Categorias</a>
@@ -35,8 +36,8 @@
           </li>
         </ul>
         <div class="col-sm  d-flex d-inline justify-content-end gap-3 align-items-baseline">
-          <a href="login.html" style="text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
-              fill="black" class="bi bi-person-fill" viewBox="0 0 16 16">
+          <a href="login.html" style="text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" width="22"
+              height="22" fill="black" class="bi bi-person-fill" viewBox="0 0 16 16">
               <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
             </svg></a>
           <a href="carrinho.html"> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="black"
@@ -54,26 +55,28 @@
         <ul class="navbar-nav  mx-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="cao" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false" >
+              aria-expanded="false">
               Cão
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'dog', 'racao')">Ração</a></li>
-              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'dog', 'saude')">Saúde</a></li>
-              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'dog', 'brinquedo')">Brinquedos</a></li>
-              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'dog', 'acessorios')">Acessórios para
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'dog', 'saude')">Saúde</a></li>
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'dog', 'brinquedo')">Brinquedos</a>
+              </li>
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'dog', 'acessorios')">Acessórios para
                   casa</a></li>
             </ul>
           <li class="nav-item dropdown" value="gato">
             <a class="nav-link dropdown-toggle" href="gato" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false" >
+              aria-expanded="false">
               Gato
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'cat', 'racao')">Ração</a></li>
-              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'cat', 'saude')">Saúde</a></li>
-              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'cat', 'brinquedo')">Brinquedos</a></li>
-              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'cat', 'acessorios')">Acessórios para
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'cat', 'saude')">Saúde</a></li>
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'cat', 'brinquedo')">Brinquedos</a>
+              </li>
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'cat', 'acessorios')">Acessórios para
                   casa</a></li>
             </ul>
           <li class="nav-item dropdown">
@@ -83,9 +86,11 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'fish', 'racao')">Ração</a></li>
-              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'fish', 'saude')">Saúde</a></li>
-              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'fish', 'brinquedo')">Brinquedos</a></li>
-              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'fish', 'acessorios')">Acessórios para
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'fish', 'saude')">Saúde</a></li>
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'fish', 'brinquedo')">Brinquedos</a>
+              </li>
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'fish', 'acessorios')">Acessórios
+                  para
                   casa</a></li>
             </ul>
           <li class="nav-item dropdown">
@@ -95,9 +100,11 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'bird', 'racao')">Ração</a></li>
-              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'bird', 'saude')">Saúde</a></li>
-              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'bird', 'brinquedo')">Brinquedos</a></li>
-              <li><a class="dropdown-item" href="#"  onclick="capturaPagina(event , 'bird', 'acessorios')">Acessórios para
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'bird', 'saude')">Saúde</a></li>
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'bird', 'brinquedo')">Brinquedos</a>
+              </li>
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'bird', 'acessorios')">Acessórios
+                  para
                   casa</a></li>
             </ul>
           </li>
@@ -111,101 +118,244 @@
   <div class="container-fluid text-center slide">
     <div class="row">
       <div class="col-sm ">
-            <div id="carouselExampleInterval" class="carousel slide carousel-index rounded" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="3000">
-                  <img src="1.jpg" class="d-block vh-100 vw-100" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                  <img src="2.jpg" class="d-block vh-100 vw-100" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                  <img src="3.jpg" class="d-block vh-100 vw-100" alt="...">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+        <div id="carouselExampleInterval" class="carousel slide carousel-index rounded" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img
+                src="https://img.freepik.com/psd-gratuitas/retrato-de-grupo-de-filhotes-adoraveis_53876-73977.jpg?w=1800&t=st=1685697224~exp=1685697824~hmac=e624efb30c6055972ebd5f0e5862ec5029f8ad32fb584549a8817d824f777e51"
+                class="d-block vh-95 vw-100" alt="...">
             </div>
-      </div>          
+            <div class="carousel-item" data-bs-interval="3000">
+              <img
+                src="https://img.freepik.com/fotos-gratis/gato-domestico-gordinho-apoiado-em-um-cachorrinho-marrom-deitado-sobre-uma-superficie-branca_181624-45927.jpg?w=1800&t=st=1685697706~exp=1685698306~hmac=c48213f20b483e1da4eddcd10f1e510316121a1ed51b2cb8739d195c859e0985"
+                class="d-block vh-95 vw-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img
+                src="https://img.freepik.com/fotos-gratis/retrato-de-grupo-de-filhotes-adoraveis_53876-64778.jpg?w=1800&t=st=1685697768~exp=1685698368~hmac=a2d4b0d6e74f11612a488e93365eb63bcfe763e0207df642699c84e2122bab42"
+                class="d-block vh-95 vw-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
     </div>
+  </div>
+
+  <div class="container">
+    <div class="row mt-4">
+      <div class="col-2">
+        <label for="inputAnimal" class="form-label">Animal</label>
+        <select class="form-select" id="inputAnimal" aria-label="Default select example">
+          <option value="dog">Cão</option>
+          <option value="cat">Gato</option>
+          <option value="fish">Peixe</option>
+          <option value="bird">Aves</option>
+        </select>
+      </div>
+      <div class="col-2">
+        <label for="inputCategory" class="form-label">Categoria</label>
+        <select class="form-select" id="inputCategory" aria-label="Default select example">
+          <option value="racao">Ração</option>
+          <option value="saude">Saúde</option>
+          <option value="brinquedo">Brinquedos</option>
+          <option value="acessorios">Acessórios para a casa</option>
+        </select>
+      </div>
+      <div class="col-2">
+        <label for="inputName" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="inputName">
+      </div>
+      <div class="col-2">
+        <label for="inputBrand" class="form-label">Marca</label>
+        <input type="text" class="form-control" id="inputBrand">
+      </div>
+      <div class="col-2">
+        <label for="inputDescription" class="form-label">Descrição</label>
+        <input type="text" class="form-control" id="inputDescription">
+      </div>
+      <div class="col-2">
+        <label for="inputPrice" class="form-label">Preço</label>
+        <input type="text" class="form-control" id="inputPrice">
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-2">
+        <label for="inputStock" class="form-label">Stock</label>
+        <input type="text" class="form-control" id="inputStock">
+      </div>
+      <div class="col-2">
+        <label for="inputImage" class="form-label">Imagem</label>
+        <input type="text" class="form-control" id="inputImage">
+      </div>
+      <div class="col-2"></div>
+      <div class="col-2"></div>
+      <div class="col-2"></div>
+      <div class="col-2 d-flex justify-content-end">
+        <button type="button" class="btn btn-primary mt-4" onclick="clickAddProduto(event)">Adicionar</button>
+      </div>
+    </div>
+  </div>
 
   <div class="container">
     <div class="row d-flex gap-3 justify-content-center pt-5" id="produtos">
 
     </div>
   </div>
-  <!--     <table class="table">
-      <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">First</th>
-          <th scope="col">Last</th>
-          <th scope="col">Age</th>
-          <th scope="col">Email</th>
-          <th scope="col"></th>
-        </tr>
-      </thead>
-      <tbody>
-      </tbody>
-    </table> -->
 
-  </div>
+  
 </body>
-
 </html>
 
 <script>
-  function capturaPagina(event, animal , categoria ) {
+  function capturaPagina(event, animal, categoria) {
     event.preventDefault(); // Isso impede o comportamento padrão do link
-  
+
     var url = "http://localhost:3000/animal/" + animal + "?category=" + categoria;
-  
+
     var listaProdutos = [];
-  
+
     var getCategoria = function () {
       var xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
           // Typical action to be performed when the document is ready:
           listaProdutos = JSON.parse(xhttp.responseText);
-  
+
           buildRows(listaProdutos);
         }
       };
-  
+
       xhttp.open("GET", url, true);
       xhttp.send();
     };
-  
+
     var buildRows = function (produtos) {
       var rows = "";
       for (let produto of produtos) {
         rows += '<div class="card col-sm-3 mb-4" style="width: 18rem;">';
-        rows += '<img class="card-img-top image-fluid" style="height:180px" src="' + produto.image + '" alt="Card image cap">';
+        rows += '<img class="card-img-top image-fluid" style="height:180px" src="' + produto.image +
+          '" alt="Card image cap">';
         rows += '<div class="card-body">';
-        rows += '<h5 class="card-title" onclick="redirectToProductPage(' + produto.id + ')">' + produto.name +'</h5>';
+        rows += '<h5 class="card-title" onclick="redirectToProductPage(' + produto.id + ')">' + produto.name + '</h5>';
         rows += '<p class="card-text">' + produto.brand + '</p>';
-        rows += '<div class="display-flex align-content-between">';
-        rows += '<p class="card-text d-flex justify-content-between">€' + produto.price + '<a href="#" class="btn btn-primary">COMPRAR</a></p>';
+        rows += '<div class="display-flex align-content-between border-bottom pb-3">';
+        rows += '<p class="card-text d-flex justify-content-between">€' + produto.price +
+          '<a href="#" class="btn btn-primary">COMPRAR</a></p>';
         rows += '</div>';
+        rows += '<p class="card-text d-flex justify-content-between mt-3">Stock: ' + produto.stock;
+        rows += '<button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + produto.id + '" aria-expanded="false" aria-controls="descricao-' + produto.id + '">Mostrar Descrição</button>';
+        rows += '<div class="collapse p-2" id="descricao-' + produto.id + '">';
+        rows += '<p>' + produto.description + '</p>';
+        rows += '</div>';
+        rows += '<div><button type="button" class="btn btn-danger btn-sm" onclick="clickDeleteProduto(\'' + animal + '\', ' + produto.id + ')">x</button></div>';
         rows += '</div>';
         rows += '</div>';
       }
       document.getElementById("produtos").innerHTML = rows;
     };
-  
+
     getCategoria();
   }
 
-  function redirectToProductPage(productId) {
-  // Redireciona para a página detalhes_produto.html, passando o ID do produto como parâmetro na URL
-  window.location.href = 'produtos.html?id=' + productId;
-}
+  //Função Detalhes de Produtos
 
+  function redirectToProductPage(productId) {
+    // Redireciona para a página detalhes_produto.html, passando o ID do produto como parâmetro na URL
+    window.location.href = 'produtos.html?id=' + productId;
+
+    //Função Detalhes de Produtos
+
+
+  }
+
+
+  var insertProduto = function (produto) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+      if (this.readyState == 4 && this.status == 200) {
+        let produto = JSON.parse(xhttp.responseText);
+        buildNewRow(produto);
+      }
+    };
+    xhttp.open("POST", "http://localhost:3000/addProduto", true);
+    xhttp.setRequestHeader("Content-type", "application/json;charset=UTF-8");
+    xhttp.send(JSON.stringify(produto));
+  };
+
+  var buildNewRow = function (produto) {
+    var newRow = '<div class="card col-sm-3 mb-4" style="width: 18rem;">';
+    newRow += '<img class="card-img-top image-fluid" style="height:180px" src="' + produto.image +
+      '" alt="Card image cap">';
+    newRow += '<div class="card-body">';
+    newRow += '<h5 class="card-title">' + produto.name + '</h5>';
+    newRow += '<p class="card-text">' + produto.brand + '</p>';
+    newRow += '<div class="display-flex align-content-between border-bottom pb-3">';
+    newRow += '<p class="card-text d-flex justify-content-between">€' + produto.price +
+      '<a href="#" class="btn btn-primary">COMPRAR</a></p>';
+    newRow += '</div>';
+    newRow += '<p class="card-text d-flex justify-content-between">Stock: ' + produto.stock;
+    newRow += '<button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + produto.id + '" aria-expanded="false" aria-controls="descricao-' + produto.id + '">Mostrar Descrição</button>';
+    newRow += '<div class="collapse p-2" id="descricao-' + produto.id + '">';
+    newRow += '<p>' + produto.description + '</p>';
+    newRow += '</div>';
+    newRow += '</div>';
+    newRow += '</div>';
+
+    var rows = document.getElementById("produtos").innerHTML;
+    document.getElementById("produtos").innerHTML = rows + newRow;
+  };
+
+
+  var clickAddProduto = function () {
+
+    event.preventDefault();
+    let animal = document.getElementById('inputAnimal').value;
+    let name = document.getElementById('inputName').value;
+    let brand = document.getElementById('inputBrand').value;
+    let description = document.getElementById('inputDescription').value;
+    let category = document.getElementById('inputCategory').value;
+    let price = document.getElementById('inputPrice').value;
+    let stock = document.getElementById('inputStock').value;
+    let image = document.getElementById('inputImage').value;
+
+    insertProduto({
+      animal: animal,
+      name: name,
+      brand: brand,
+      description: description,
+      category: category,
+      price: price,
+      stock: stock,
+      image: image,
+    });
+
+  };
+
+  //Função Eliminar produtos
+  var deleteProduto = function (animalType, id) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+      if (this.readyState == 4 && this.status == 200) {
+        alert(xhttp.responseText);
+      }
+    };
+    xhttp.open("POST", "http://localhost:3000/deleteProduto", true);
+    xhttp.setRequestHeader("Content-type", "application/json;charset=UTF-8");
+    xhttp.send(JSON.stringify({ id: id, animalType: animalType }));
+  };
+
+  var clickDeleteProduto = function (animalType, id) {
+    deleteProduto(animalType, id);
+  };
+  //Função Eliminar produtos
 </script>
