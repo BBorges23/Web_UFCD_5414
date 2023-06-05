@@ -483,7 +483,7 @@
   ],
   "cat": [
     {
-      "id": 1,
+      "id": 49,
       "name": "Acana Cat First Feast",
       "brand": "Acana",
       "category": "racao",
@@ -493,7 +493,7 @@
       "image": "https://petcity.pt/18686-large_default/acana-cat-first-feast-acc300.jpg"
     },
     {
-      "id": 2,
+      "id": 50,
       "name": "Acana Pacifica Cat",
       "brand": "Acana",
       "category": "racao",
@@ -503,7 +503,7 @@
       "image": "https://petcity.pt/9778-large_default/acana-pacifica-cat-acr303.jpg"
     },
     {
-      "id": 3,
+      "id": 51,
       "name": "Advance Cat Sterilised +10 Chicken/Barley",
       "brand": "Advance",
       "category": "racao",
@@ -513,7 +513,7 @@
       "image": "https://petcity.pt/8098-large_default/advance-cat-sterilised-10-chickenbarley-ad921508.jpg"
     },
     {
-      "id": 4,
+      "id": 52,
       "name": "Advance Kitten Feline",
       "brand": "Advance",
       "category": "racao",
@@ -523,7 +523,7 @@
       "image": "https://petcity.pt/6322-large_default/advance-kitten-feline-ad7887.jpg"
     },
     {
-      "id": 5,
+      "id": 53,
       "name": "Applaws Cat Senior Chicken",
       "brand": "Applaws",
       "category": "racao",
@@ -533,7 +533,7 @@
       "image": "https://petcity.pt/7523-large_default/applaws-cat-senior-chicken-a4205ml.jpg"
     },
     {
-      "id": 6,
+      "id": 54,
       "name": "Applaws Kitten Chicken",
       "brand": "Applaws",
       "category": "racao",
@@ -543,7 +543,7 @@
       "image": "https://petcity.pt/7537-large_default/applaws-kitten-chicken-a4001c.jpg"
     },
     {
-      "id": 7,
+      "id": 55,
       "name": "Arion Essencial Cat Fish Complet",
       "brand": "Arion Essencial",
       "category": "racao",
@@ -553,7 +553,7 @@
       "image": "https://petcity.pt/11079-large_default/arion-essential-cat-fish-complet-f01903.jpg"
     },
     {
-      "id": 8,
+      "id": 56,
       "name": "Arion Essencial Cat Multimix",
       "brand": "Arion Essencial",
       "category": "racao",
@@ -563,7 +563,7 @@
       "image": "https://petcity.pt/5081-large_default/arion-essential-cat-multimix-f02003.jpg"
     },
     {
-      "id": 9,
+      "id": 57,
       "name": "Avenal Cat Baby",
       "brand": "Avenal",
       "category": "racao",
@@ -573,7 +573,7 @@
       "image": "https://petcity.pt/19554-large_default/avenal-cat-baby.jpg"
     },
     {
-      "id": 10,
+      "id": 58,
       "name": "Avenal Cat Adult Peixe",
       "brand": "Avenal",
       "category": "racao",
@@ -583,7 +583,7 @@
       "image": "https://petcity.pt/19548-large_default/avenal-cat-adult-peixe.jpg"
     },
     {
-      "id": 11,
+      "id": 59,
       "name": "Cat Chow Adult Frango",
       "brand": "Cat Chow",
       "category": "racao",
@@ -593,7 +593,7 @@
       "image": "https://petcity.pt/19716-large_default/cat-chow-adult-frango-cchadfp.jpg"
     },
     {
-      "id": 12,
+      "id": 60,
       "name": "Cat Chow Adulto Salmão",
       "brand": "Cat Chow",
       "category": "racao",
@@ -603,7 +603,7 @@
       "image": "https://petcity.pt/16995-large_default/cat-chow-adulto-salmao-cchadsa.jpg"
     },
     {
-      "id": 13,
+      "id": 61,
       "name": "Biospotix Gato Spot On Pipetas",
       "brand": "Biospotix",
       "category": "saude",
@@ -613,7 +613,7 @@
       "image": "https://petcity.pt/19403-large_default/biospotix-gato-spot-on-pipetas.jpg"
     },
     {
-      "id": 14,
+      "id": 62,
       "name": "Biospotix Gato Spray",
       "brand": "Biospotix",
       "category": "saude",
@@ -623,7 +623,7 @@
       "image": "https://petcity.pt/19401-large_default/biospotix-gato-spray.jpg"
     },
     {
-      "id": 15,
+      "id": 63,
       "name": "Bogaclean Smell e Free Spray",
       "brand": "Bogaclean",
       "category": "saude",
@@ -633,7 +633,7 @@
       "image": "https://petcity.pt/11945-large_default/bogaclean-smell-e-free-spray.jpg"
     },
     {
-      "id": 16,
+      "id": 64,
       "name": "Bogaclean Clean & Smell Free Concentrado",
       "brand": "Bogaclean",
       "category": "saude",
@@ -643,7 +643,7 @@
       "image": "https://petcity.pt/12911-large_default/bogaclean-clean-smell-free-concentrado.jpg"
     },
     {
-      "id": 17,
+      "id": 65,
       "name": "Camon Difusor Elétrico",
       "brand": "Camon",
       "category": "saude",
@@ -653,7 +653,7 @@
       "image": "https://petcity.pt/2790-large_default/camon-difusor-eletrico-cmg925.jpg"
     },
     {
-      "id": 18,
+      "id": 66,
       "name": "Camon Recargas Para Difusor Elétrico",
       "brand": "Camon",
       "category": "saude",
@@ -663,7 +663,7 @@
       "image": "https://petcity.pt/10078-large_default/camon-recargas-para-difusor-eletrico-cmg925a.jpg"
     },
     {
-      "id": 19,
+      "id": 67,
       "name": "Feliway Spray",
       "brand": "Ceva",
       "category": "saude",
@@ -673,7 +673,7 @@
       "image": "https://petcity.pt/13492-large_default/feliway-spray-viagem-feliway20ml.jpg"
     },
     {
-      "id": 20,
+      "id": 68,
       "name": "Feliway Optimum",
       "brand": "Ceva",
       "category": "saude",
@@ -683,7 +683,7 @@
       "image": "https://petcity.pt/18879-large_default/feliway-optimum.jpg"
     },
     {
-      "id": 21,
+      "id": 69,
       "name": "Immunodol Cat",
       "brand": "Dolfos",
       "category": "saude",
@@ -693,7 +693,7 @@
       "image": "https://petcity.pt/2537-large_default/immunodol-cat-immuc060.jpg"
     },
     {
-      "id": 22,
+      "id": 70,
       "name": "Urinomet Cat",
       "brand": "Dolfos",
       "category": "saude",
@@ -703,7 +703,7 @@
       "image": "https://petcity.pt/2536-large_default/urinomet-cat-urinmc060.jpg"
     },
     {
-      "id": 23,
+      "id": 71,
       "name": "Multiva Viramax",
       "brand": "Multiva",
       "category": "saude",
@@ -713,7 +713,7 @@
       "image": "https://petcity.pt/14193-large_default/multiva-viramax.jpg"
     },
     {
-      "id": 24,
+      "id": 72,
       "name": "Multiva Calming Cats",
       "brand": "Multiva",
       "category": "saude",
@@ -723,7 +723,7 @@
       "image": "https://petcity.pt/19093-large_default/multiva-calming-cats.jpg"
     },
     {
-      "id": 25,
+      "id": 73,
       "name": "Camon Cat Laser Toy",
       "brand": "Camon",
       "category": "brinquedo",
@@ -733,7 +733,7 @@
       "image": "https://petcity.pt/14319-large_default/camon-cat-laser-toy.jpg"
     },
     {
-      "id": 26,
+      "id": 74,
       "name": "Camon Peixe Dançarino Interativo",
       "brand": "Camon",
       "category": "brinquedo",
@@ -743,7 +743,7 @@
       "image": "https://petcity.pt/18711-large_default/camon-peixe-dancarino-interativo.jpg"
     },
     {
-      "id": 27,
+      "id": 75,
       "name": "Grumpy Cat Knit GingerBread",
       "brand": "Grumpy Cat",
       "category": "brinquedo",
@@ -753,7 +753,7 @@
       "image": "https://petcity.pt/18589-large_default/grumpy-cat-knit-gingerbread.jpg"
     },
     {
-      "id": 28,
+      "id": 76,
       "name": "Grumpy Cat Plush Snowman - Especial Natal",
       "brand": "Grumpy Cat",
       "category": "brinquedo",
@@ -763,7 +763,7 @@
       "image": "https://petcity.pt/9876-large_default/grumpy-cat-plush-snowman-especial-natal-xmas00205.jpg"
     },
     {
-      "id": 29,
+      "id": 77,
       "name": "Kong Cat Purrsuit Whirlwind",
       "brand": "Kong",
       "category": "brinquedo",
@@ -773,7 +773,7 @@
       "image": "https://petcity.pt/9296-large_default/kong-cat-purrsuit-whirlwind-k31-ca455e.jpg"
     },
     {
-      "id": 30,
+      "id": 78,
       "name": "Kong Cat Active Teaser Snake",
       "brand": "Kong",
       "category": "brinquedo",
@@ -783,7 +783,7 @@
       "image": "https://petcity.pt/19507-large_default/kong-cat-active-teaser-snake-k31-ct45e.jpg"
     },
     {
-      "id": 31,
+      "id": 79,
       "name": "Nobleza Brinquedo Rã Sorridente",
       "brand": "Nobleza",
       "category": "brinquedo",
@@ -793,7 +793,7 @@
       "image": "https://petcity.pt/9939-large_default/nobleza-brinquedo-ra-sorridente-nbz40278.jpg"
     },
     {
-      "id": 32,
+      "id": 80,
       "name": "Nobleza Brinquedo Rato",
       "brand": "Nobleza",
       "category": "brinquedo",
@@ -803,7 +803,7 @@
       "image": "https://petcity.pt/18602-large_default/nobleza-brinquedo-rato-nbz26166.jpg"
     },
     {
-      "id": 33,
+      "id": 81,
       "name": "Trixie Túnel em Nylon p/ Gatos",
       "brand": "Trixie",
       "category": "brinquedo",
@@ -813,7 +813,7 @@
       "image": "https://petcity.pt/2979-large_default/trixie-tunel-em-nylon-p-gatos-tx4305.jpg"
     },
     {
-      "id": 34,
+      "id": 82,
       "name": "Trixie Bola Dupla em Sisal Recheada c/ Catnip",
       "brand": "Trixie",
       "category": "brinquedo",
@@ -823,7 +823,7 @@
       "image": "https://petcity.pt/8553-large_default/trixie-bola-dupla-em-sisal-recheada-c-catnip-tx4077.jpg"
     },
     {
-      "id": 35,
+      "id": 83,
       "name": "Rosewood Christmas Koala - Cat",
       "brand": "Rosewood",
       "category": "brinquedo",
@@ -833,7 +833,7 @@
       "image": "https://petcity.pt/10508-large_default/rosewood-christmas-koala-cat.jpg"
     },
     {
-      "id": 36,
+      "id": 84,
       "name": "Rosewood Cat Floppy Rabbit",
       "brand": "Rosewood",
       "category": "brinquedo",
@@ -843,7 +843,7 @@
       "image": "https://petcity.pt/19431-large_default/rosewood-cat-floppy-rabbit.jpg"
     },
     {
-      "id": 37,
+      "id": 85,
       "name": "Bebedouro Cat It Senses",
       "brand": "Cat It",
       "category": "acessorios",
@@ -853,7 +853,7 @@
       "image": "https://petcity.pt/19226-large_default/bebedouro-catit-senses-50761.jpg"
     },
     {
-      "id": 38,
+      "id": 86,
       "name": "Cat It Fonte de Água Fresh & Clear",
       "brand": "Cat It",
       "category": "acessorios",
@@ -863,7 +863,7 @@
       "image": "https://petcity.pt/5372-large_default/cat-it-fonte-de-agua-fresh-clear-fp50050.jpg"
     },
     {
-      "id": 39,
+      "id": 87,
       "name": "Dashi Cat Coleira Solid Green",
       "brand": "Dashi",
       "category": "acessorios",
@@ -873,7 +873,7 @@
       "image": "https://petcity.pt/18608-large_default/dashi-cat-coleira-solid-green-dcc00015.jpg"
     },
     {
-      "id": 40,
+      "id": 88,
       "name": "Dashi Cat Coleira Boom",
       "brand": "Dashi",
       "category": "acessorios",
@@ -883,7 +883,7 @@
       "image": "https://petcity.pt/18568-large_default/dashi-cat-coleira-boom-dcc00002.jpg"
     },
     {
-      "id": 41,
+      "id": 89,
       "name": "Karlie Flamingo Comedouro Duplo",
       "brand": "Karlie Flamingo",
       "category": "acessorios",
@@ -893,7 +893,7 @@
       "image": "https://petcity.pt/18441-large_default/karlie-flamingo-comedouro-duplo-fl1031113.jpg"
     },
     {
-      "id": 42,
+      "id": 90,
       "name": "Karlie Flamingo Comedouro Cuisine",
       "brand": "Karlie Flamingo",
       "category": "acessorios",
@@ -903,7 +903,7 @@
       "image": "https://petcity.pt/18440-large_default/karlie-flamingo-comedouro-cuisine-k44293.jpg"
     },
     {
-      "id": 43,
+      "id": 91,
       "name": "Mugue Pelù Smart Roll Refill",
       "brand": "Mugue",
       "category": "acessorios",
@@ -913,7 +913,7 @@
       "image": "https://petcity.pt/4632-large_default/mugue-pelu-smart-roll-refill-idb28051.jpg"
     },
     {
-      "id": 44,
+      "id": 92,
       "name": "Mugue Pelù Pet Cat",
       "brand": "Mugue",
       "category": "acessorios",
@@ -923,7 +923,7 @@
       "image": "https://petcity.pt/4630-large_default/mugue-pelu-pet-cat-esp28012.jpg"
     },
     {
-      "id": 45,
+      "id": 93,
       "name": "Nobleza Caixa Transportadora",
       "brand": "Nobleza",
       "category": "acessorios",
@@ -933,7 +933,7 @@
       "image": "https://petcity.pt/4765-large_default/nobleza-caixa-transportadora-nbz25725.jpg"
     },
     {
-      "id": 46,
+      "id": 94,
       "name": "Nobleza Guizo p/ Coleira",
       "brand": "Nobleza",
       "category": "acessorios",
@@ -943,7 +943,7 @@
       "image": "https://petcity.pt/6726-large_default/nobleza-guizo-p-coleira-nbz09558.jpg"
     },
     {
-      "id": 47,
+      "id": 95,
       "name": "Trixie - Transportadora 'Traveller Capri'",
       "brand": "Trixie",
       "category": "acessorios",
@@ -953,7 +953,7 @@
       "image": "https://petcity.pt/11400-large_default/trixie-i-transportadora-traveller-capri-tx39811.jpg"
     },
     {
-      "id": 48,
+      "id": 96,
       "name": "Trixie - Arranhador Zaragoza",
       "brand": "Trixie",
       "category": "acessorios",
@@ -965,7 +965,7 @@
   ],
   "fish": [
     {
-      "id": 1,
+      "id": 97,
       "name": "Aquapex Alimento de Férias Para Peixes",
       "brand": "Orniex",
       "category": "racao",
@@ -975,7 +975,7 @@
       "image": "https://petcity.pt/18877-large_default/aquapex-alimento-de-ferias-para-peixes.jpg"
     },
     {
-      "id": 2,
+      "id": 98,
       "name": "Aquapex Alimento Fim de Semana para Peixes",
       "brand": "Orniex",
       "category": "racao",
@@ -985,7 +985,7 @@
       "image": "https://petcity.pt/19060-large_default/aquapex-alimento-fim-de-semana-para-peixes.jpg"
     },
     {
-      "id": 3,
+      "id": 99,
       "name": "TetraPond Koi Sticks",
       "brand": "Tetra",
       "category": "racao",
@@ -995,7 +995,7 @@
       "image": "https://shop-cdn-m.mediazs.com/bilder/tetrapond/koi/sticks/2/400/23524_pla_tetrapond_koi_sticks_4l_hs_01_2.jpg"
     },
     {
-      "id": 4,
+      "id": 100,
       "name": "TetraMin flocos",
       "brand": "Tetra",
       "category": "racao",
@@ -1005,7 +1005,7 @@
       "image": "https://shop-cdn-m.mediazs.com/bilder/tetramin/flocos/9/400/7740_pla_tetramin_flockenfutter_250ml_hs_01_9.jpg"
     },
     {
-      "id": 5,
+      "id": 101,
       "name": "Sera Vipan Baby",
       "brand": "Sera",
       "category": "racao",
@@ -1015,7 +1015,7 @@
       "image": "https://petcity.pt/6493-large_default/sera-vipan-baby-se00730.jpg"
     },
     {
-      "id": 6,
+      "id": 102,
       "name": "Sera Vipagran Baby",
       "brand": "Sera",
       "category": "racao",
@@ -1025,7 +1025,7 @@
       "image": "https://petcity.pt/6499-large_default/sera-vipagran-baby-se00700.jpg"
     },
     {
-      "id": 7,
+      "id": 103,
       "name": "Tetra Goldfish comida em flocos para peixes",
       "brand": "Tetra",
       "category": "racao",
@@ -1035,7 +1035,7 @@
       "image": "https://shop-cdn-m.mediazs.com/bilder/tetra/goldfish/comida/em/flocos/para/peixes/7/400/75944_pla_tetra_goldfish_hs_01_7.jpg"
     },
     {
-      "id": 8,
+      "id": 104,
       "name": "TetraPond Multi Mix - mistura para peixes de lago",
       "brand": "Tetra",
       "category": "racao",
@@ -1045,7 +1045,7 @@
       "image": "https://shop-cdn-m.mediazs.com/bilder/tetrapond/multi/mix/mistura/para/peixes/de/lago/2/400/23523_pla_tetrapond_teichfischfutter_multimix_4l_hs_01_2.jpg"
     },
     {
-      "id": 9,
+      "id": 105,
       "name": "Sera Koi Professional Alimento de Primavera/Outono",
       "brand": "Sera",
       "category": "racao",
@@ -1055,7 +1055,7 @@
       "image": "https://petcity.pt/6521-large_default/sera-koi-professional-alimento-de-primaveraoutono-se07011.jpg"
     },
     {
-      "id": 10,
+      "id": 106,
       "name": "Sera Koi Professional Alimento de Inverno",
       "brand": "Sera",
       "category": "racao",
@@ -1065,7 +1065,7 @@
       "image": "https://petcity.pt/6572-large_default/sera-koi-professional-alimento-de-inverno-se07017.jpg"
     },
     {
-      "id": 11,
+      "id": 107,
       "name": "Sera Spirulina Tabs Nature",
       "brand": "Sera",
       "category": "racao",
@@ -1075,7 +1075,7 @@
       "image": "https://petcity.pt/14403-large_default/sera-spirulina-tabs-nature.jpg"
     },
     {
-      "id": 12,
+      "id": 108,
       "name": "Sera Pond Color Sticks Nature",
       "brand": "Sera",
       "category": "racao",
@@ -1085,7 +1085,7 @@
       "image": "https://petcity.pt/14407-large_default/sera-pond-color-sticks-nature.jpg"
     },
     {
-      "id": 13,
+      "id": 109,
       "name": "Saco Superfino para Aspirador Fx Gravel Vac",
       "brand": "Fluval",
       "category": "saude",
@@ -1095,7 +1095,7 @@
       "image": "https://static.petness.pt/media/10/photos/products/169223/fx-gravel-vac-fine-bag-para-aspirador-de-po_1_g.png"
     },
     {
-      "id": 14,
+      "id": 110,
       "name": "Cartuchos Descartáveis ​​de CO2",
       "brand": "Fluval",
       "category": "saude",
@@ -1105,7 +1105,7 @@
       "image": "https://static.petness.pt/media/10/photos/products/169278/descartavel-45g-co2-cartucho-3piezas_1_g.jpeg"
     },
     {
-      "id": 15,
+      "id": 111,
       "name": "Hill's Adult Fish Perfect Weight 3Kg",
       "brand": "Tetra",
       "category": "saude",
@@ -1115,7 +1115,7 @@
       "image": "https://static.petness.pt/media/10/photos/products/161973/tetra-aquasafe-6408ac6baa79d_g.jpg"
     },
     {
-      "id": 16,
+      "id": 112,
       "name": "Escovas da Marinha para Impulsores",
       "brand": "Marina",
       "category": "saude",
@@ -1125,7 +1125,7 @@
       "image": "https://static.petness.pt/media/10/photos/products/169185/escovas-da-marinha-para-impulsores_1_g.jpeg"
     },
     {
-      "id": 17,
+      "id": 113,
       "name": "Sacos de Reposição do Vácuo da Marina",
       "brand": "Marina",
       "category": "saude",
@@ -1135,7 +1135,7 @@
       "image": "https://static.petness.pt/media/10/photos/products/169189/sacos-de-reposicao-do-vacuo-da-marina_1_g.jpeg"
     },
     {
-      "id": 18,
+      "id": 114,
       "name": "Kit de Limpeza para Vidro",
       "brand": "Marina",
       "category": "saude",
@@ -1145,7 +1145,7 @@
       "image": "https://static.petness.pt/media/10/photos/products/169192/kit-de-limpeza-para-vidro_1_g.jpeg"
     },
     {
-      "id": 19,
+      "id": 115,
       "name": "Water Conditioner Aquaplus",
       "brand": "Fluval",
       "category": "saude",
@@ -1155,7 +1155,7 @@
       "image": "https://static.petness.pt/media/10/photos/products/169247/water-conditioner-aquaplus_1_g.png"
     },
     {
-      "id": 20,
+      "id": 116,
       "name": "Water Conditioner Aquaplus",
       "brand": "Fluval",
       "category": "saude",
@@ -1165,7 +1165,7 @@
       "image": "https://static.petness.pt/media/10/photos/products/169249/water-conditioner-aquaplus_1_g.png"
     },
     {
-      "id": 21,
+      "id": 117,
       "name": "Biological Cleaner Waste Control",
       "brand": "Fluval",
       "category": "saude",
@@ -1175,7 +1175,7 @@
       "image": "https://static.petness.pt/media/10/photos/products/169256/biological-cleaner-waste-control_1_g.png"
     },
     {
-      "id": 22,
+      "id": 118,
       "name": "Rapido",
       "brand": "Fluval",
       "category": "saude",
@@ -1185,7 +1185,7 @@
       "image": "https://static.petness.pt/media/10/photos/products/169260/rapido_1_g.png"
     },
     {
-      "id": 23,
+      "id": 119,
       "name": "Med Nematol Tratamento contra Vermes e Nematoides",
       "brand": "Sera",
       "category": "saude",
@@ -1195,7 +1195,7 @@
       "image": "https://static.petness.pt/media/10/photos/products/500859/med-profesional-nematol-acondicionador-contra-nematodos_1_g.png"
     },
     {
-      "id": 24,
+      "id": 120,
       "name": "Baktopur Direto Conditioner Contra Infecções Bacterianas",
       "brand": "Sera",
       "category": "saude",
@@ -1205,7 +1205,7 @@
       "image": "https://static.petness.pt/media/10/photos/products/500939/backtopur-acondicionador-contra-infecciones-bacterianas_1_g.png"
     },
     {
-      "id": 25,
+      "id": 121,
       "name": "Aquário Fluval Chi",
       "brand": "Fluval",
       "category": "brinquedo",
@@ -1215,7 +1215,7 @@
       "image": "https://petcity.pt/5354-large_default/aquario-fluval-chi-10506.jpg"
     },
     {
-      "id": 26,
+      "id": 122,
       "name": "Aquário Fluval Flex",
       "brand": "Fluval",
       "category": "brinquedo",
@@ -1225,7 +1225,7 @@
       "image": "https://petcity.pt/5363-large_default/aquario-fluval-flex-15007.jpg"
     },
     {
-      "id": 27,
+      "id": 123,
       "name": "Aquário Fluval Flex",
       "brand": "Fluval",
       "category": "brinquedo",
@@ -1235,7 +1235,7 @@
       "image": "https://petcity.pt/5365-large_default/aquario-fluval-edge-21led-15386.jpg"
     },
     {
-      "id": 28,
+      "id": 124,
       "name": "Aquário JustGrow - Acrílico",
       "brand": "JustGrow",
       "category": "brinquedo",
@@ -1245,7 +1245,7 @@
       "image": "https://petcity.pt/8444-large_default/aquario-justgrow-acrilico-acrylic.jpg"
     },
     {
-      "id": 29,
+      "id": 125,
       "name": "Aquário JustGrow - Alumínio",
       "brand": "JustGrow",
       "category": "brinquedo",
@@ -1255,7 +1255,7 @@
       "image": "https://petcity.pt/8445-large_default/aquario-justgrow-aluminio-aluminum.jpg"
     },
     {
-      "id": 30,
+      "id": 126,
       "name": "Aquário JustGrow Premium - Acrílico",
       "brand": "JustGrow",
       "category": "brinquedo",
@@ -1265,7 +1265,7 @@
       "image": "https://petcity.pt/8446-large_default/aquario-justgrow-premium-acrilico-planetbox.jpg"
     },
     {
-      "id": 31,
+      "id": 127,
       "name": "Nobleza Mini - Aquário Triângular para Peixes",
       "brand": "Nobleza",
       "category": "brinquedo",
@@ -1275,7 +1275,7 @@
       "image": "https://petcity.pt/12678-large_default/nobleza-mini-aquario-triangular-para-peixes-nbz30040.jpg"
     },
     {
-      "id": 32,
+      "id": 128,
       "name": "Aquário Kit Fluval Flora",
       "brand": "Fluval",
       "category": "brinquedo",
@@ -1285,7 +1285,7 @@
       "image": "https://petcity.pt/14834-large_default/aquario-kit-fluval-flora.jpg"
     },
     {
-      "id": 33,
+      "id": 129,
       "name": "Aquário Globo em Acrílico",
       "brand": "Orniex",
       "category": "brinquedo",
@@ -1295,7 +1295,7 @@
       "image": "https://petcity.pt/18919-large_default/aquario-globo-em-acrilico.jpg"
     },
     {
-      "id": 34,
+      "id": 130,
       "name": "Marina Aquário Água Fria",
       "brand": "Marina",
       "category": "brinquedo",
@@ -1305,7 +1305,7 @@
       "image": "https://petcity.pt/19717-large_default/marina-aquario-agua-fria-ma13379.jpg"
     },
     {
-      "id": 35,
+      "id": 131,
       "name": "Marina Peixe Aquário | Betta Floral",
       "brand": "Marina",
       "category": "brinquedo",
@@ -1315,7 +1315,7 @@
       "image": "https://quintanimal.pt/4422-large_default/marina-peixe-aquario-betta-floral.jpg"
     },
     {
-      "id": 36,
+      "id": 132,
       "name": "Fluvial Peixe Aquário | Flex",
       "brand": "Fluvial",
       "category": "brinquedo",
@@ -1325,7 +1325,7 @@
       "image": "https://quintanimal.pt/4426-large_default/fluval-peixe-aquario-flex.jpg"
     },
     {
-      "id": 37,
+      "id": 133,
       "name": "Sera GH-Test",
       "brand": "Sera",
       "category": "acessorios",
@@ -1335,7 +1335,7 @@
       "image": "https://petcity.pt/18697-large_default/sera-gh-test-se04110.jpg"
     },
     {
-      "id": 38,
+      "id": 134,
       "name": "Sera Aspirador de Areão",
       "brand": "Sera",
       "category": "acessorios",
@@ -1345,7 +1345,7 @@
       "image": "https://petcity.pt/4375-large_default/sera-aspirador-de-areao-se08550.jpg"
     },
     {
-      "id": 39,
+      "id": 135,
       "name": "Areia Azul para Aquário",
       "brand": "Orniex",
       "category": "acessorios",
@@ -1355,7 +1355,7 @@
       "image": "https://petcity.pt/18911-large_default/areia-azul-para-aquario.jpg"
     },
     {
-      "id": 40,
+      "id": 136,
       "name": "Trixie Arca do Tesouro",
       "brand": "Trixie",
       "category": "acessorios",
@@ -1365,7 +1365,7 @@
       "image": "https://petcity.pt/8660-large_default/trixie-arca-do-tesouro-tx87813.jpg"
     },
     {
-      "id": 41,
+      "id": 137,
       "name": "Trixie Estrelas do Mar",
       "brand": "Trixie",
       "category": "acessorios",
@@ -1375,7 +1375,7 @@
       "image": "https://petcity.pt/8665-large_default/trixie-estrelas-do-mar-tx8866.jpg"
     },
     {
-      "id": 42,
+      "id": 138,
       "name": "Decoração Destroços de Navio para Aquário",
       "brand": "Orniex",
       "category": "acessorios",
@@ -1385,7 +1385,7 @@
       "image": "https://petcity.pt/18920-large_default/decoracao-destrocos-de-navio-para-aquario.jpg"
     },
     {
-      "id": 43,
+      "id": 139,
       "name": "Esconderijo de Pedra Médio para Aquário",
       "brand": "Orniex",
       "category": "acessorios",
@@ -1395,7 +1395,7 @@
       "image": "https://petcity.pt/18922-large_default/esconderijo-de-pedra-medio-para-aquario.jpg"
     },
     {
-      "id": 44,
+      "id": 140,
       "name": "Plantas Microsorum Artificiais para Aquário",
       "brand": "Orniex",
       "category": "acessorios",
@@ -1405,7 +1405,7 @@
       "image": "https://petcity.pt/18923-large_default/plantas-microsorum-artificiais-para-aquario.jpg"
     },
     {
-      "id": 45,
+      "id": 141,
       "name": "Plantas Myriophyllum Red Artificias para Aquário",
       "brand": "Orniex",
       "category": "acessorios",
@@ -1415,7 +1415,7 @@
       "image": "https://petcity.pt/18924-large_default/plantas-myriophyllum-red-artificiais-para-aquario.jpg"
     },
     {
-      "id": 46,
+      "id": 142,
       "name": "Superfish Peixe Decoração Aquário | Plantas Artificiais",
       "brand": "Orniex",
       "category": "acessorios",
@@ -1425,7 +1425,7 @@
       "image": "https://quintanimal.pt/2449-large_default/superfish-peixe-decoracao-aquario-plantas-artificiais.jpg"
     },
     {
-      "id": 47,
+      "id": 143,
       "name": "Superfish Peixe Decoração Aquário | Plantas Artificiais",
       "brand": "Orniex",
       "category": "acessorios",
@@ -1435,7 +1435,7 @@
       "image": "https://quintanimal.pt/2450-large_default/superfish-peixe-decoracao-aquario-plantas-artificiais.jpg"
     },
     {
-      "id": 48,
+      "id": 144,
       "name": "Amtra Peixe Decoração Aquário | Fluo Reef Mushroom",
       "brand": "Wave",
       "category": "acessorios",
@@ -1447,7 +1447,7 @@
   ],
   "bird": [
     {
-      "id": 1,
+      "id": 145,
       "name": "Babypapex com seringa",
       "brand": "Orniex",
       "category": "racao",
@@ -1457,7 +1457,7 @@
       "image": "https://petcity.pt/18701-large_default/babypapex-com-seringa-ex0185.jpg"
     },
     {
-      "id": 2,
+      "id": 146,
       "name": "Gritex - Grite p/ Aves Peq. Porte",
       "brand": "Orniex",
       "category": "racao",
@@ -1467,7 +1467,7 @@
       "image": "https://petcity.pt/12671-large_default/gritex-grite-p-aves-peq-porte-ex0150.jpg"
     },
     {
-      "id": 3,
+      "id": 147,
       "name": "Psittacus Fórmula Manutenção Minor",
       "brand": "Psittacus",
       "category": "racao",
@@ -1477,7 +1477,7 @@
       "image": "https://petcity.pt/18517-large_default/psittacus-formula-manutencao-minor-pi4010.jpg"
     },
     {
-      "id": 4,
+      "id": 148,
       "name": "Psittacus Fórmula Ómega",
       "brand": "Psittacus",
       "category": "racao",
@@ -1487,7 +1487,7 @@
       "image": "https://petcity.pt/18549-large_default/psittacus-formula-omega-pi1410.jpg"
     },
     {
-      "id": 5,
+      "id": 149,
       "name": "Versele Laga Papagaios Exotic Fruit Mix",
       "brand": "Versele Laga",
       "category": "racao",
@@ -1497,7 +1497,7 @@
       "image": "https://petcity.pt/18733-large_default/versele-laga-papagaios-exotic-fruit-mix-i421781.jpg"
     },
     {
-      "id": 6,
+      "id": 150,
       "name": "Versele Laga Papagaios Exotic Nut Mix",
       "brand": "Versele Laga",
       "category": "racao",
@@ -1507,7 +1507,7 @@
       "image": "https://petcity.pt/18732-large_default/versele-laga-papagaios-exotic-nut-mix-pen421782.jpg"
     },
     {
-      "id": 7,
+      "id": 151,
       "name": "Versele Laga Nutribi G14 Original",
       "brand": "Versele Laga Nutribi",
       "category": "racao",
@@ -1517,7 +1517,7 @@
       "image": "https://petcity.pt/18378-large_default/versele-laga-nutribird-g14-original-i422058.jpg"
     },
     {
-      "id": 8,
+      "id": 152,
       "name": "Versele Laga Nutribird A18 Lori - p/ Lories",
       "brand": "Versele Laga Nutribi",
       "category": "racao",
@@ -1527,7 +1527,7 @@
       "image": "https://petcity.pt/19311-large_default/versele-laga-nutribird-a18-lori-plories-i422097.jpg"
     },
     {
-      "id": 9,
+      "id": 153,
       "name": "Versele Laga Insect Patee Premium",
       "brand": "Versele Laga Orlux",
       "category": "racao",
@@ -1537,7 +1537,7 @@
       "image": "https://petcity.pt/12897-large_default/versele-laga-insect-patee-premium-i424091.jpg"
     },
     {
-      "id": 10,
+      "id": 154,
       "name": "Versele Laga Orlux Gold Patee Amarelo",
       "brand": "Versele Laga Orlux",
       "category": "racao",
@@ -1547,7 +1547,7 @@
       "image": "https://petcity.pt/11777-large_default/versele-laga-orlux-gold-patee-amarelo-gp424011.jpg"
     },
     {
-      "id": 11,
+      "id": 155,
       "name": "Versele Laga Periquitos Premium",
       "brand": "Versele Laga Premium",
       "category": "racao",
@@ -1557,7 +1557,7 @@
       "image": "https://petcity.pt/18577-large_default/versele-laga-periquitos-premium-pp421688.jpg"
     },
     {
-      "id": 12,
+      "id": 156,
       "name": "Versele Laga Canários Premium",
       "brand": "Versele Laga Premium",
       "category": "racao",
@@ -1567,7 +1567,7 @@
       "image": "https://petcity.pt/19348-large_default/versele-laga-canarios-premium-i421068.jpg"
     },
     {
-      "id": 13,
+      "id": 157,
       "name": "Anima Strath Suplemento",
       "brand": "Anima Strath",
       "category": "saude",
@@ -1577,7 +1577,7 @@
       "image": "https://petcity.pt/17710-large_default/anima-strath-anstr100.jpg"
     },
     {
-      "id": 14,
+      "id": 158,
       "name": "Anima Strath Tomilho",
       "brand": "Anima Strath",
       "category": "saude",
@@ -1587,7 +1587,7 @@
       "image": "https://petcity.pt/18556-large_default/anima-strath-tomilho.jpg"
     },
     {
-      "id": 15,
+      "id": 159,
       "name": "Avizoon Aminovit 'L'",
       "brand": "Avizoon",
       "category": "saude",
@@ -1597,7 +1597,7 @@
       "image": "https://petcity.pt/6754-large_default/avizoon-aminovit-l-proml030cc.jpg"
     },
     {
-      "id": 16,
+      "id": 160,
       "name": "Avizoon Naturvermes Cápsulas",
       "brand": "Avizoon",
       "category": "saude",
@@ -1607,7 +1607,7 @@
       "image": "https://petcity.pt/6750-large_default/avizoon-naturvermes-capsulas-natverm20.jpg"
     },
     {
-      "id": 17,
+      "id": 161,
       "name": "Avizoon Clearudine",
       "brand": "Avizoon",
       "category": "saude",
@@ -1617,7 +1617,7 @@
       "image": "https://petcity.pt/6755-large_default/avizoon-clearudine-czocd100.jpg"
     },
     {
-      "id": 18,
+      "id": 162,
       "name": "Avizoon Fertizoon AD3EC",
       "brand": "Avizoon",
       "category": "saude",
@@ -1627,7 +1627,7 @@
       "image": "https://petcity.pt/6753-large_default/avizoon-fertizoon-ad3ec-vitazad030c.jpg"
     },
     {
-      "id": 19,
+      "id": 163,
       "name": "Excalibird Tipo A",
       "brand": "Bioanalitica",
       "category": "saude",
@@ -1637,7 +1637,7 @@
       "image": "https://petcity.pt/2320-large_default/excalibird-tipo-a-chexacalibia.jpg"
     },
     {
-      "id": 20,
+      "id": 164,
       "name": "Excalibird Tipo B",
       "brand": "Bioanalitica",
       "category": "saude",
@@ -1647,7 +1647,7 @@
       "image": "https://petcity.pt/2321-large_default/excalibird-tipo-b-chexacalibib.jpg"
     },
     {
-      "id": 21,
+      "id": 165,
       "name": "Tabernil Pomada",
       "brand": "Divasa",
       "category": "saude",
@@ -1657,7 +1657,7 @@
       "image": "https://petcity.pt/6283-large_default/tabernil-pomada-tabpom.jpg"
     },
     {
-      "id": 22,
+      "id": 166,
       "name": "Tabernil Cria",
       "brand": "Divasa",
       "category": "saude",
@@ -1667,7 +1667,7 @@
       "image": "https://petcity.pt/6296-large_default/tabernil-cria-tc4220292.jpg"
     },
     {
-      "id": 23,
+      "id": 167,
       "name": "Quikon Levedura de Cerveja",
       "brand": "Orniex",
       "category": "saude",
@@ -1677,7 +1677,7 @@
       "image": "https://petcity.pt/5371-large_default/quikon-levedura-de-cerveja-qu100540.jpg"
     },
     {
-      "id": 24,
+      "id": 168,
       "name": "Sprayavex - Recarga",
       "brand": "Orniex",
       "category": "saude",
@@ -1687,7 +1687,7 @@
       "image": "https://petcity.pt/8644-large_default/sprayavex-recarga-ex1326.jpg"
     },
     {
-      "id": 25,
+      "id": 169,
       "name": "Trixie Brinquedo Colorido de Madeira",
       "brand": "Trixie",
       "category": "brinquedo",
@@ -1697,7 +1697,7 @@
       "image": "https://petcity.pt/4305-large_default/trixie-brinquedo-colorido-de-madeira-bctx5195.jpg"
     },
     {
-      "id": 26,
+      "id": 170,
       "name": "Trixie Brinquedo em Corda e Madeira p/ Gaiola",
       "brand": "Trixie",
       "category": "brinquedo",
@@ -1707,7 +1707,7 @@
       "image": "https://petcity.pt/9742-large_default/trixie-brinquedo-em-corda-e-madeira-p-gaiola-tx58985.jpg"
     },
     {
-      "id": 27,
+      "id": 171,
       "name": "Trixie Brinquedo Natural Living p/ Periquitos e Caturras",
       "brand": "Trixie",
       "category": "brinquedo",
@@ -1717,7 +1717,7 @@
       "image": "https://petcity.pt/9744-large_default/trixie-brinquedo-natural-living-p-periquitos-e-caturras-tx58961.jpg"
     },
     {
-      "id": 28,
+      "id": 172,
       "name": "Baloiço Duplo em Madeira com Sino para Aves",
       "brand": "Trixie",
       "category": "brinquedo",
@@ -1727,7 +1727,7 @@
       "image": "https://petcity.pt/9822-large_default/baloico-duplo-em-madeira-com-sino-para-aves-tx5822.jpg"
     },
     {
-      "id": 29,
+      "id": 173,
       "name": "Brinquedo c/ Madeira, Couro e Contas p/ Gaiola",
       "brand": "Trixie",
       "category": "brinquedo",
@@ -1737,7 +1737,7 @@
       "image": "https://petcity.pt/9743-large_default/brinquedo-c-madeira-couro-e-contas-p-gaiola-tx58984.jpg"
     },
     {
-      "id": 30,
+      "id": 174,
       "name": "Parque de Diversão em Madeira",
       "brand": "Trixie",
       "category": "brinquedo",
@@ -1747,7 +1747,7 @@
       "image": "https://goldpet.pt/35260-large_default/parque-de-diversao-em-madeira.jpg"
     },
     {
-      "id": 31,
+      "id": 175,
       "name": "Parque para aves em madeira natural",
       "brand": "Trixie",
       "category": "brinquedo",
@@ -1757,7 +1757,7 @@
       "image": "https://goldpet.pt/40276-large_default/parque-para-aves-em-madeira-natural.jpg"
     },
     {
-      "id": 32,
+      "id": 176,
       "name": "Parede Escalada Madeira Natural para Periquitos",
       "brand": "Trixie",
       "category": "brinquedo",
@@ -1767,7 +1767,7 @@
       "image": "https://goldpet.pt/74059-large_default/parede-escalada-madeira-natural-para-periquitos.jpg"
     },
     {
-      "id": 33,
+      "id": 177,
       "name": "Escada Prisma em Madeira Natural",
       "brand": "Trixie",
       "category": "brinquedo",
@@ -1777,7 +1777,7 @@
       "image": "https://goldpet.pt/40222-large_default/escada-prisma-em-madeira-natural.jpg"
     },
     {
-      "id": 34,
+      "id": 178,
       "name": "Baloiço Triangular em Madeira Natural e Corda",
       "brand": "Trixie",
       "category": "brinquedo",
@@ -1787,7 +1787,7 @@
       "image": "https://goldpet.pt/40233-large_default/baloico-triangular-em-madeira-natural-e-corda.jpg"
     },
     {
-      "id": 35,
+      "id": 179,
       "name": "Duvo+ Meia lua com cordas para aves",
       "brand": "Duvo Plus",
       "category": "brinquedo",
@@ -1797,7 +1797,7 @@
       "image": "https://goldpet.pt/54849-large_default/duvo-meia-lua-com-cordas-para-aves.jpg"
     },
     {
-      "id": 36,
+      "id": 180,
       "name": "Duvo+ Brinquedo de blocos de madeira para aves",
       "brand": "Duvo Plus",
       "category": "brinquedo",
@@ -1807,7 +1807,7 @@
       "image": "https://goldpet.pt/54850-large_default/duvo-brinquedo-de-blocos-de-madeira-para-aves.jpg"
     },
     {
-      "id": 37,
+      "id": 181,
       "name": "Espigas de Painço",
       "brand": "Orniex",
       "category": "acessorios",
@@ -1817,7 +1817,7 @@
       "image": "https://petcity.pt/8971-large_default/espigas-de-painco-epexa0610.jpg"
     },
     {
-      "id": 38,
+      "id": 182,
       "name": "Ninhex - Pelo de Cabra",
       "brand": "Orniex",
       "category": "acessorios",
@@ -1827,7 +1827,7 @@
       "image": "https://petcity.pt/14863-large_default/ninhex-pelo-de-cabra-ex0160.jpg"
     },
     {
-      "id": 39,
+      "id": 183,
       "name": "Ovoex Ovos Artificiais p/ Canários",
       "brand": "Orniex",
       "category": "acessorios",
@@ -1837,7 +1837,7 @@
       "image": "https://petcity.pt/14898-large_default/ovoex-ovos-artificiais-p-canarios-ex650.jpg"
     },
     {
-      "id": 40,
+      "id": 184,
       "name": "Ovoex Ovos Artificiais p/ Pombos",
       "brand": "Orniex",
       "category": "acessorios",
@@ -1847,7 +1847,7 @@
       "image": "https://petcity.pt/8646-large_default/ovoex-ovos-artificiais-p-pombos-ex655.jpg"
     },
     {
-      "id": 41,
+      "id": 185,
       "name": "Trixie Osso de Choco com Suporte",
       "brand": "Trixie",
       "category": "acessorios",
@@ -1857,7 +1857,7 @@
       "image": "https://petcity.pt/11026-large_default/trixie-osso-de-choco-com-suporte-tr5050.jpg"
     },
     {
-      "id": 42,
+      "id": 186,
       "name": "Trixie Comedouro Circular",
       "brand": "Trixie",
       "category": "acessorios",
@@ -1867,7 +1867,7 @@
       "image": "https://petcity.pt/8891-large_default/trixie-comedouro-circular-tr5477.jpg"
     },
     {
-      "id": 43,
+      "id": 187,
       "name": "Trixie Poleiro Multicolorido em Corda Algodão p/ Aves",
       "brand": "Trixie",
       "category": "acessorios",
@@ -1877,7 +1877,7 @@
       "image": "https://petcity.pt/2955-large_default/trixie-poleiro-multicolorido-em-corda-algodao-p-aves-tx5162.jpg"
     },
     {
-      "id": 44,
+      "id": 188,
       "name": "Quiko Tesoura Corta-Anilhas",
       "brand": "Quiko",
       "category": "acessorios",
@@ -1887,7 +1887,7 @@
       "image": "https://petcity.pt/8138-large_default/quiko-tesoura-corta-anilhas-qu610050.jpg"
     },
     {
-      "id": 45,
+      "id": 189,
       "name": "Versele Laga Grit",
       "brand": "Versele Laga Prestige",
       "category": "acessorios",
@@ -1897,7 +1897,7 @@
       "image": "https://petcity.pt/10278-large_default/versele-laga-grit-gp423110.jpg"
     },
     {
-      "id": 46,
+      "id": 190,
       "name": "Versele Laga Kristal Shell Sand White - Fundo Gaiola",
       "brand": "Versele Laga Prestige",
       "category": "acessorios",
@@ -1907,7 +1907,7 @@
       "image": "https://petcity.pt/8550-large_default/versele-laga-kristal-shell-sand-white-fundo-gaiola-i423004.jpg"
     },
     {
-      "id": 47,
+      "id": 191,
       "name": "Versele Laga Milho Alvo em Cacho",
       "brand": "Versele Laga",
       "category": "acessorios",
@@ -1917,7 +1917,7 @@
       "image": "https://petcity.pt/18681-large_default/versele-laga-milho-alvo-em-cacho-i451330.jpg"
     },
     {
-      "id": 48,
+      "id": 192,
       "name": "Versele Laga Bedding Wood Nº 6 - Cordi Faia Fina",
       "brand": "Versele Laga",
       "category": "acessorios",
