@@ -2,12 +2,12 @@
   "dog": [
     {
       "id": 1,
-      "name": "Yorkshire Terrier Adult",
+      "name": "Yorkshire Terrier child",
       "brand": "Royal Canin",
       "category": "racao",
       "description": "Cães adultos de raça Yorkshire Terrier, após os 10 meses.",
-      "price": 5.05,
-      "stock": 94,
+      "price": "5.05",
+      "stock": "94",
       "image": "https://petcity.pt/18486-large_default/royal-canin-yorkshire-terrier-adult-rcyt0500.jpg"
     },
     {

@@ -212,8 +212,9 @@
     </div>
   </div>
 
-  
+
 </body>
+
 </html>
 
 <script>
@@ -257,7 +258,11 @@
         rows += '<div class="collapse p-2" id="descricao-' + produto.id + '">';
         rows += '<p>' + produto.description + '</p>';
         rows += '</div>';
-        rows += '<div><button type="button" class="btn btn-danger btn-sm" onclick="clickDeleteProduto(\'' + animal + '\', ' + produto.id + ')">x</button></div>';
+        rows += '<div class="row">';
+        rows += '<div class="col-sm-2"><button type="button" class="btn btn-danger btn-sm" onclick="clickDeleteProduto(\'' + animal + '\', ' + produto.id + ')">x</button></div>';
+        rows += '<div class="col-sm-2"><button type="button" class="btn btn-outline-warning btn-sm" onclick="editInfo(\'' + animal + '\', \'' + categoria + '\', ' + produto.id + ')">Edit</button></div>';
+        rows += '</div>';
+        rows += '</div>';
         rows += '</div>';
         rows += '</div>';
       }
@@ -267,17 +272,12 @@
     getCategoria();
   }
 
-  //Função Detalhes de Produtos
-
   function redirectToProductPage(productId) {
     // Redireciona para a página detalhes_produto.html, passando o ID do produto como parâmetro na URL
     window.location.href = 'produtos.html?id=' + productId;
 
     //Função Detalhes de Produtos
-
-
   }
-
 
   var insertProduto = function (produto) {
     var xhttp = new XMLHttpRequest();
@@ -315,7 +315,6 @@
     document.getElementById("produtos").innerHTML = rows + newRow;
   };
 
-
   var clickAddProduto = function () {
 
     event.preventDefault();
@@ -341,7 +340,6 @@
 
   };
 
-  //Função Eliminar produtos
   var deleteProduto = function (animalType, id) {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
@@ -357,5 +355,97 @@
   var clickDeleteProduto = function (animalType, id) {
     deleteProduto(animalType, id);
   };
-  //Função Eliminar produtos
+
+  var editInfo = function (animal, categoria, id) {
+
+    var url = "http://localhost:3000/animal/" + animal + "?category=" + categoria + "&id=" + id;
+
+    var produtos = [];
+
+    var getProduto = function () {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          produtos = JSON.parse(xhttp.responseText);
+          var produto = produtos.find(i => i.id === id);
+          displayEditableProduct(produto);
+        }
+      };
+
+      xhttp.open("GET", url, true);
+      xhttp.send();
+
+    };
+
+    var displayEditableProduct = function (produto) {
+      var form = '<form id="editForm">';
+      form += '<div class="form-group">';
+      form += '<label for="editName">Name:</label>';
+      form += '<input type="text" class="form-control" id="editName" value="' + produto.name + '">';
+      form += '</div>';
+      form += '<div class="form-group">';
+      form += '<label for="editBrand">Brand:</label>';
+      form += '<input type="text" class="form-control" id="editBrand" value="' + produto.brand + '">';
+      form += '</div>';
+      form += '<div class="form-group">';
+      form += '<label for="editDescription">Description:</label>';
+      form += '<textarea class="form-control" id="editDescription">' + produto.description + '</textarea>';
+      form += '</div>';
+      form += '<div class="form-group">';
+      form += '<label for="editPrice">Price:</label>';
+      form += '<input type="text" class="form-control" id="editPrice" value="' + produto.price + '">';
+      form += '</div>';
+      form += '<div class="form-group">';
+      form += '<label for="editStock">Stock:</label>';
+      form += '<input type="text" class="form-control" id="editStock" value="' + produto.stock + '">';
+      form += '</div>';
+      form += '<div class="form-group">';
+      form += '<label for="editImage">Image URL:</label>';
+      form += '<input type="text" class="form-control" id="editImage" value="' + produto.image + '">';
+      form += '</div>';
+      form += '<button type="submit" class="btn btn-primary" onclick="saveEditedProduct(' + produto.id + ',' + animal + ');">Save</button>';
+      form += '</form>';
+
+      document.getElementById("produtos").innerHTML = form;
+
+      // Adicione um listener para o evento de submit do formulário de edição
+      document.getElementById("editForm").addEventListener("submit", function (event) {
+        event.preventDefault(); // Impede o comportamento padrão do formulário
+        saveEditedProduct(produto.id, animal); // Corrigido: passa o ID do produto e o tipo de animal para a função saveEditedProduct
+      });
+    };
+
+
+
+    var saveEditedProduct = function (id, animal) {
+      var editedProduct = {
+        id: id,
+        name: document.getElementById("editName").value,
+        brand: document.getElementById("editBrand").value,
+        description: document.getElementById("editDescription").value,
+        price: document.getElementById("editPrice").value,
+        stock: document.getElementById("editStock").value,
+        image: document.getElementById("editImage").value,
+      };
+
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          var updatedProduct = JSON.parse(xhttp.responseText);
+          if (updatedProduct) {
+            capturaPagina(event, animal, categoria); // Atualiza a página principal após salvar as alterações
+          } else {
+            console.log('Erro ao atualizar o produto');
+          }
+        }
+      };
+
+      xhttp.open("POST", "http://localhost:3000/updateProduto", true);
+      xhttp.setRequestHeader("Content-type", "application/json;charset=UTF-8");
+      xhttp.send(JSON.stringify({ id: id, animal: animal, data: editedProduct }));
+    };
+
+
+    getProduto();
+  }
 </script>

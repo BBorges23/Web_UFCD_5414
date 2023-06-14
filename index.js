@@ -32,5 +32,18 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
+app.post('/updateProduto', (req, res) => {
+  let id = req.body.id;
+  let newData = req.body.data;
+  let animal = req.body.animal;
+  let updatedProduct = dbRepo.update(animal, id, newData);
+
+  if (updatedProduct) {
+    res.send(updatedProduct);
+  } else {
+    res.status(404).send('Produto nÃ£o encontrado');
+  }
+});
+
 
 
