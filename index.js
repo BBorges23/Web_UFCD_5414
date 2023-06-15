@@ -41,7 +41,7 @@ app.post('/updateProduto', (req, res) => {
   if (updatedProduct) {
     res.send(updatedProduct);
   } else {
-    res.status(404).send('Produto nÃ£o encontrado');
+    res.status(404).send('Produto nÃo encontrado');
   }
 });
 

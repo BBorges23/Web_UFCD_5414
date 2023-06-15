@@ -9,7 +9,7 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
-    </script>
+  </script>
   <link rel="stylesheet" href="index.css">
   <title>Salens Shop</title>
 </head>
@@ -23,7 +23,7 @@
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse  id=" navbarText>
+      <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="#">Categorias</a>
@@ -66,6 +66,7 @@
               <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'dog', 'acessorios')">Acessórios para
                   casa</a></li>
             </ul>
+          </li>
           <li class="nav-item dropdown" value="gato">
             <a class="nav-link dropdown-toggle" href="gato" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
@@ -79,6 +80,7 @@
               <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'cat', 'acessorios')">Acessórios para
                   casa</a></li>
             </ul>
+          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="peixe" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
@@ -93,6 +95,7 @@
                   para
                   casa</a></li>
             </ul>
+          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="aves" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
@@ -108,6 +111,7 @@
                   casa</a></li>
             </ul>
           </li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -247,20 +251,28 @@
         rows += '<img class="card-img-top image-fluid" style="height:180px" src="' + produto.image +
           '" alt="Card image cap">';
         rows += '<div class="card-body">';
-        rows += '<h5 class="card-title" onclick="redirectToProductPage(' + produto.id + ')">' + produto.name + '</h5>';
+        rows += '<h5 class="card-title" onclick="redirectToProductPage(' + produto.id + ')">' + produto.name +
+          '</h5>';
         rows += '<p class="card-text">' + produto.brand + '</p>';
         rows += '<div class="display-flex align-content-between border-bottom pb-3">';
         rows += '<p class="card-text d-flex justify-content-between">€' + produto.price +
           '<a href="#" class="btn btn-primary">COMPRAR</a></p>';
         rows += '</div>';
         rows += '<p class="card-text d-flex justify-content-between mt-3">Stock: ' + produto.stock;
-        rows += '<button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + produto.id + '" aria-expanded="false" aria-controls="descricao-' + produto.id + '">Mostrar Descrição</button>';
+        rows +=
+          '<button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' +
+          produto.id + '" aria-expanded="false" aria-controls="descricao-' + produto.id +
+          '">Mostrar Descrição</button>';
         rows += '<div class="collapse p-2" id="descricao-' + produto.id + '">';
         rows += '<p>' + produto.description + '</p>';
         rows += '</div>';
         rows += '<div class="row">';
-        rows += '<div class="col-sm-2"><button type="button" class="btn btn-danger btn-sm" onclick="clickDeleteProduto(\'' + animal + '\', ' + produto.id + ')">x</button></div>';
-        rows += '<div class="col-sm-2"><button type="button" class="btn btn-outline-warning btn-sm" onclick="editInfo(\'' + animal + '\', \'' + categoria + '\', ' + produto.id + ')">Edit</button></div>';
+        rows +=
+          '<div class="col-sm-2"><button type="button" class="btn btn-danger btn-sm" onclick="clickDeleteProduto(\'' +
+          animal + '\', ' + produto.id + ')">x</button></div>';
+        rows +=
+          '<div class="col-sm-2"><button type="button" class="btn btn-outline-warning btn-sm" onclick="editInfo(\'' +
+          animal + '\', \'' + categoria + '\', ' + produto.id + ')">Edit</button></div>';
         rows += '</div>';
         rows += '</div>';
         rows += '</div>';
@@ -304,7 +316,9 @@
       '<a href="#" class="btn btn-primary">COMPRAR</a></p>';
     newRow += '</div>';
     newRow += '<p class="card-text d-flex justify-content-between">Stock: ' + produto.stock;
-    newRow += '<button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' + produto.id + '" aria-expanded="false" aria-controls="descricao-' + produto.id + '">Mostrar Descrição</button>';
+    newRow +=
+      '<button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' +
+      produto.id + '" aria-expanded="false" aria-controls="descricao-' + produto.id + '">Mostrar Descrição</button>';
     newRow += '<div class="collapse p-2" id="descricao-' + produto.id + '">';
     newRow += '<p>' + produto.description + '</p>';
     newRow += '</div>';
@@ -315,9 +329,10 @@
     document.getElementById("produtos").innerHTML = rows + newRow;
   };
 
-  var clickAddProduto = function () {
+  var clickAddProduto = function (event) {
 
     event.preventDefault();
+
     let animal = document.getElementById('inputAnimal').value;
     let name = document.getElementById('inputName').value;
     let brand = document.getElementById('inputBrand').value;
@@ -327,16 +342,49 @@
     let stock = document.getElementById('inputStock').value;
     let image = document.getElementById('inputImage').value;
 
-    insertProduto({
-      animal: animal,
-      name: name,
-      brand: brand,
-      description: description,
-      category: category,
-      price: price,
-      stock: stock,
-      image: image,
-    });
+    let error = "";
+
+    if (name.length < 3 || name.length > 50) {
+
+      error += "Nome inválido\n";
+    }
+
+    if (brand.length < 3 || brand.length > 50) {
+
+      error += "Marca inválida\n";
+    }
+    if (description.length < 3 || description.length > 200) {
+
+      error += "Descrição inválida\n";
+    }
+    if ((price.length < 1 || price.length > 6) && isNaN(parseInt(price)))  {
+
+      error += "Preço inválido\n";
+    }
+    if ((price.length < 1 || price.length > 6)) {
+
+      error += "Stock inválido\n";
+    }
+    if (image.length < 3 || image.length > 200) {
+
+      error += "Imagem inválida\n";
+    }
+
+    if (error != "") {
+      alert(error);
+    } else {
+
+      insertProduto({
+        animal: animal,
+        name: name,
+        brand: brand,
+        description: description,
+        category: category,
+        price: price,
+        stock: stock,
+        image: image,
+      });
+    }
 
   };
 
@@ -349,7 +397,10 @@
     };
     xhttp.open("POST", "http://localhost:3000/deleteProduto", true);
     xhttp.setRequestHeader("Content-type", "application/json;charset=UTF-8");
-    xhttp.send(JSON.stringify({ id: id, animalType: animalType }));
+    xhttp.send(JSON.stringify({
+      id: id,
+      animalType: animalType
+    }));
   };
 
   var clickDeleteProduto = function (animalType, id) {
@@ -403,21 +454,22 @@
       form += '<label for="editImage">Image URL:</label>';
       form += '<input type="text" class="form-control" id="editImage" value="' + produto.image + '">';
       form += '</div>';
-      form += '<button type="submit" class="btn btn-primary" onclick="saveEditedProduct(' + produto.id + ',' + animal + ');">Save</button>';
+      form += '<button type="submit" class="btn btn-primary" onclick="saveEditedProduct(' + produto.id + ',' +
+        animal + ');">Save</button>';
       form += '</form>';
 
       document.getElementById("produtos").innerHTML = form;
-
-      // Adicione um listener para o evento de submit do formulário de edição
-      document.getElementById("editForm").addEventListener("submit", function (event) {
+       
+                // Adicione um listener para o evento de submit do formulário de edição
+        document.getElementById("editForm").addEventListener("submit", function (event) {
         event.preventDefault(); // Impede o comportamento padrão do formulário
         saveEditedProduct(produto.id, animal); // Corrigido: passa o ID do produto e o tipo de animal para a função saveEditedProduct
+
       });
     };
 
-
-
     var saveEditedProduct = function (id, animal) {
+
       var editedProduct = {
         id: id,
         name: document.getElementById("editName").value,
@@ -427,6 +479,7 @@
         stock: document.getElementById("editStock").value,
         image: document.getElementById("editImage").value,
       };
+
 
       var xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function () {
@@ -442,7 +495,11 @@
 
       xhttp.open("POST", "http://localhost:3000/updateProduto", true);
       xhttp.setRequestHeader("Content-type", "application/json;charset=UTF-8");
-      xhttp.send(JSON.stringify({ id: id, animal: animal, data: editedProduct }));
+      xhttp.send(JSON.stringify({
+        id: id,
+        animal: animal,
+        data: editedProduct
+      }));
     };
 
 

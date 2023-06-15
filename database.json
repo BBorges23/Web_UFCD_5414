@@ -2,12 +2,12 @@
   "dog": [
     {
       "id": 1,
-      "name": "Yorkshire Terrier child",
+      "name": "Yorkshire Terrier childaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
       "brand": "Royal Canin",
       "category": "racao",
       "description": "Cães adultos de raça Yorkshire Terrier, após os 10 meses.",
       "price": "5.05",
-      "stock": "94",
+      "stock": "95",
       "image": "https://petcity.pt/18486-large_default/royal-canin-yorkshire-terrier-adult-rcyt0500.jpg"
     },
     {
@@ -246,8 +246,8 @@
       "brand": "Ferribiela",
       "category": "brinquedo",
       "description": "Jogo para colocar snacks e divertir o seu cão.",
-      "price": 11.9,
-      "stock": 94,
+      "price": "11.9",
+      "stock": "94",
       "image": "https://petcity.pt/10610-large_default/ferribiella-jogo-roulette.jpg"
     },
     {
