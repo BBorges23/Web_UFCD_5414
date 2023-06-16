@@ -344,6 +344,9 @@
 
     let error = "";
 
+    const floatRegex = /^\d+(\.\d+)?$/; //permite validar números decimais
+    const numberRegex = /^\d+$/; //permite validar números inteiros
+
     if (name.length < 3 || name.length > 50) {
 
       error += "Nome inválido\n";
@@ -357,11 +360,12 @@
 
       error += "Descrição inválida\n";
     }
-    if ((price.length < 1 || price.length > 6) && isNaN(parseInt(price)))  {
-
+    if ((price.length < 1 || price.length > 6) || (!floatRegex.test(price))) {
+      /*verifica se o preço não corresponde ao padrão floatRegex, 
+      ou seja, se o preço nao é um float number válido */
       error += "Preço inválido\n";
     }
-    if ((price.length < 1 || price.length > 6)) {
+    if ((stock.length < 1 || stock.length > 6) || (!numberRegex.test(stock))) {
 
       error += "Stock inválido\n";
     }
@@ -459,11 +463,12 @@
       form += '</form>';
 
       document.getElementById("produtos").innerHTML = form;
-       
-                // Adicione um listener para o evento de submit do formulário de edição
-        document.getElementById("editForm").addEventListener("submit", function (event) {
+
+      // Adicione um listener para o evento de submit do formulário de edição
+      document.getElementById("editForm").addEventListener("submit", function (event) {
         event.preventDefault(); // Impede o comportamento padrão do formulário
-        saveEditedProduct(produto.id, animal); // Corrigido: passa o ID do produto e o tipo de animal para a função saveEditedProduct
+        saveEditedProduct(produto.id,
+          animal); // Corrigido: passa o ID do produto e o tipo de animal para a função saveEditedProduct
 
       });
     };
@@ -480,29 +485,58 @@
         image: document.getElementById("editImage").value,
       };
 
+      let error = "";
+      const floatRegex = /^\d+(\.\d+)?$/;
+      const numberRegex = /^\d+$/;
 
-      var xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function () {
-        if (this.readyState == 4 && this.status == 200) {
-          var updatedProduct = JSON.parse(xhttp.responseText);
-          if (updatedProduct) {
-            capturaPagina(event, animal, categoria); // Atualiza a página principal após salvar as alterações
-          } else {
-            console.log('Erro ao atualizar o produto');
+      if (editedProduct.name.length < 3 || editedProduct.name.length > 50) {
+        error += "Nome inválido\n";
+      }
+
+      if (editedProduct.brand.length < 3 || editedProduct.brand.length > 50) {
+        error += "Marca inválida\n";
+      }
+
+      if (editedProduct.description.length < 3 || editedProduct.description.length > 200) {
+        error += "Descrição inválida\n";
+      }
+
+      if ((editedProduct.price.length < 1 || editedProduct.price.length > 6) || !floatRegex.test(editedProduct.price)) {
+        error += "Preço inválido\n";
+      }
+
+      if ((editedProduct.stock.length < 1 || editedProduct.stock.length > 6) || !numberRegex.test(editedProduct.stock)) {
+        error += "Stock inválido\n";
+      }
+
+      if (editedProduct.image.length < 3 || editedProduct.image.length > 200) {
+        error += "Imagem inválida\n";
+      }
+
+      if (error != "") {
+        alert(error);
+      } else {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            var updatedProduct = JSON.parse(xhttp.responseText);
+            if (updatedProduct) {
+              capturaPagina(event, animal, categoria); // Atualiza a página principal após salvar as alterações
+            } else {
+              console.log('Erro ao atualizar o produto');
+            }
           }
-        }
+        };
+
+        xhttp.open("POST", "http://localhost:3000/updateProduto", true);
+        xhttp.setRequestHeader("Content-type", "application/json;charset=UTF-8");
+        xhttp.send(JSON.stringify({
+          id: id,
+          animal: animal,
+          data: editedProduct
+        }));
       };
-
-      xhttp.open("POST", "http://localhost:3000/updateProduto", true);
-      xhttp.setRequestHeader("Content-type", "application/json;charset=UTF-8");
-      xhttp.send(JSON.stringify({
-        id: id,
-        animal: animal,
-        data: editedProduct
-      }));
-    };
-
-
+    }
     getProduto();
   }
 </script>
