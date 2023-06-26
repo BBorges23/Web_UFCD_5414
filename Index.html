@@ -20,15 +20,24 @@
     </head>
 <!-- Barra de navegacao -->
 <style>
-  header{
+  header {
     font-family: 'Press Start 2P', cursive !important;
     font-size: 14px !important;
   }
-  body{
+
+  body {
     font-family: 'Press Start 2P', cursive !important;
     font-size: 10px !important;
   }
- 
+
+  /* SlideShow */
+  .carousel-inner>.carousel-item>img {
+    height: 520px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+
+  }
  
 </style>
 
@@ -81,7 +90,7 @@
               <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'dog', 'saude')">Saúde</a></li>
               <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'dog', 'brinquedo')">Brinquedos</a>
               </li>
-              <li><a class="dropdown-item text-white" href="#" onclick="capturaPagina(event , 'dog', 'acessorios')">Acessórios para
+              <li><a class="dropdown-item " href="#" onclick="capturaPagina(event , 'dog', 'acessorios')">Acessórios para
                   casa</a></li>
             </ul>
           </li>
@@ -95,7 +104,7 @@
               <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'cat', 'saude')">Saúde</a></li>
               <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'cat', 'brinquedo')">Brinquedos</a>
               </li>
-              <li><a class="dropdown-item text-white" href="#" onclick="capturaPagina(event , 'cat', 'acessorios')">Acessórios para
+              <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'cat', 'acessorios')">Acessórios para
                   casa</a></li>
             </ul>
           </li>
@@ -135,11 +144,11 @@
   </nav>
 </header>
 
-<body style="background-color: ;" >
+<body  >
   <!-- Slideshow -->
   <div class="container-fluid text-center slide">
     <div class="row">
-      <div class="col-sm ">
+      <div class="col-sm-12 p-0">
         <div id="carouselExampleInterval" class="carousel slide carousel-index rounded" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
@@ -174,7 +183,7 @@
   </div>
   <div class="container" >
     <div class="d-flex justify-content-end">
-      <button id="meuBotao" class="btn btn-primary mt-4 ">Adicionar</button>
+      <button id="meuBotao" class="btn mt-4 " style="color: #000000; background-color: #D47927;">Adicionar</button>
     </div>
     <div id="meuConteudo" class="mt-3" style="display: none;">
       <!-- Conteúdo a ser mostrado -->
@@ -234,7 +243,15 @@
       </div>
     </div>
   </div>
+  <!-- section produtos -->
+
+  <div class="container">
+    <div class="row d-flex gap-3 justify-content-center pt-5" id="produtos">
+
+    </div>
+  </div>
   <!-- sobre nos  -->
+  
   <section id="sobre-nos" class="container">
     <h2 class="mb-4">Sobre Nós</h2>
 
@@ -262,14 +279,8 @@
 
   </section>
   <!-- contatos  -->
-  <section class="container">
 
-  </section>
-  <div class="container">
-    <div class="row d-flex gap-3 justify-content-center pt-5" id="produtos">
-
-    </div>
-  </div>
+ 
 </body>
 
 <footer class="text-center py-4 bg-light " id="contatos">
@@ -422,7 +433,7 @@
 
   var buildNewRow = function (produto) {
     var newRow = '<div class="card col-sm-3 mb-4" style="width: 18rem;">';
-    newRow += '<img class="card-img-top image-fluid" style="height:180px" src="' + produto.image +
+    newRow += '<img class="card-img-top image-fluid" w-100 style="height:180px;"  src="' + produto.image +
       '" alt="Card image cap">';
     newRow += '<div class="card-body">';
     newRow += '<h5 class="card-title">' + produto.name + '</h5>';
