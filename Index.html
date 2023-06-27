@@ -38,6 +38,15 @@
     overflow: hidden;
 
   }
+  .product-title {
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Número máximo de linhas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 3.6em; /* Ajuste a altura conforme necessário */
+  }
+
  
 </style>
 
@@ -387,22 +396,21 @@
     var buildRows = function (produtos) {
       var rows = "";
       for (let produto of produtos) {
-        rows += '<div class="card col-sm-3 mb-4" style="width: 18rem;">';
+        rows += '<div class="card col-sm-3 mb-4" style="width: 18rem; min-height: 250px;">';
         rows += '<img class="card-img-top image-fluid" style="height:180px" src="' + produto.image +
           '" alt="Card image cap">';
         rows += '<div class="card-body">';
-        rows += '<h5 class="card-title" onclick="redirectToProductPage(' + produto.id + ')">' + produto.name +
+        rows += '<h5 class="card-title product-title" onclick="redirectToProductPage(' + produto.id + ')">' + produto.name +
           '</h5>';
         rows += '<p class="card-text">' + produto.brand + '</p>';
-        rows += '<div class="display-flex align-content-between border-bottom pb-3">';
-        rows += '<p class="card-text d-flex justify-content-between">€' + produto.price +
-          '<a href="#" class="btn btn-primary">COMPRAR</a></p>';
+        rows += '<div class=" d-flex border-bottom pb-3 justify-content-between ">';
+        rows += '<p class="card-text m-0 pt-2 ">€' + produto.price + '</p> <a href="#" style="color:#D47927; background-color: #ffffff;border-color:#D47927;" class="btn  btn-sm">COMPRAR</a>';
         rows += '</div>';
-        rows += '<p class="card-text d-flex justify-content-between mt-3">Stock: ' + produto.stock;
+        rows += '<p class="card-text d-flex justify-content-between mt-3">Stock: ' + produto.stock +'</p>';
         rows +=
-          '<button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' +
+          '<button style="color: #000000; background-color: #D47927; border: none;" class="btn btn-primary btn-sm mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' +
           produto.id + '" aria-expanded="false" aria-controls="descricao-' + produto.id +
-          '">Mostrar Descrição</button>';
+          '">Descrição</button>';
         rows += '<div class="collapse p-2" id="descricao-' + produto.id + '">';
         rows += '<p>' + produto.description + '</p>';
         rows += '</div>';
@@ -412,7 +420,7 @@
           animal + '\', ' + produto.id + ')">x</button></div>';
         rows +=
           '<div class="col-sm-2"><button type="button" class="btn btn-outline-warning btn-sm" onclick="editInfo(\'' +
-          animal + '\', \'' + categoria + '\', ' + produto.id + ')">Edit</button></div>';
+          animal + '\', \'' + categoria + '\', ' + produto.id + ')">Editar</button></div>';
         rows += '</div>';
         rows += '</div>';
         rows += '</div>';
@@ -573,21 +581,21 @@
     };
 
     var displayEditableProduct = function (produto) {
-      var form = '<form id="editForm">';
+      var form = '<div class="border border-secondary p-3"><h4>Editar</h4>'+'<form id="editForm " class="d-flex flex-column gap-3" >';
       form += '<div class="form-group">';
-      form += '<label for="editName">Name:</label>';
+      form += '<label for="editName">Nome:</label>';
       form += '<input type="text" class="form-control" id="editName" value="' + produto.name + '">';
       form += '</div>';
       form += '<div class="form-group">';
-      form += '<label for="editBrand">Brand:</label>';
+      form += '<label for="editBrand">Titulo:</label>';
       form += '<input type="text" class="form-control" id="editBrand" value="' + produto.brand + '">';
       form += '</div>';
       form += '<div class="form-group">';
-      form += '<label for="editDescription">Description:</label>';
+      form += '<label for="editDescription">Descrição:</label>';
       form += '<textarea class="form-control" id="editDescription">' + produto.description + '</textarea>';
       form += '</div>';
       form += '<div class="form-group">';
-      form += '<label for="editPrice">Price:</label>';
+      form += '<label for="editPrice">Preço:</label>';
       form += '<input type="text" class="form-control" id="editPrice" value="' + produto.price + '">';
       form += '</div>';
       form += '<div class="form-group">';
@@ -600,7 +608,7 @@
       form += '</div>';
       form += '<button type="submit" class="btn btn-primary" onclick="saveEditedProduct(' + produto.id + ',' +
         animal + ');">Save</button>';
-      form += '</form>';
+      form += '</form></div>';
 
       document.getElementById("produtos").innerHTML = form;
 
