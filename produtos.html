@@ -6,10 +6,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Detalhes do Produto</title>
+
+  <!-- Adicione os links para o Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
 </head>
 
-<body>
-  <div id="product-details"></div>
+<body >
+  <div class="container mt-5 w-50">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="" alt="" class="card-img-top" id="product-image">
+          <div class="card-body">
+            <h2 class="card-title" id="product-name"></h2>
+            <p class="card-text" id="product-brand"></p>
+            <p class="card-text" id="product-price"></p>
+            <p class="card-text" id="product-description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script>
     // Obtém o ID do produto da URL
@@ -53,31 +70,24 @@
 
     // Função para renderizar os detalhes do produto na página
     function renderProductDetails(product) {
-      const productDetailsContainer = document.getElementById('product-details');
+      const productImage = document.getElementById('product-image');
+      const productName = document.getElementById('product-name');
+      const productBrand = document.getElementById('product-brand');
+      const productPrice = document.getElementById('product-price');
+      const productDescription = document.getElementById('product-description');
 
-      // Cria os elementos HTML para exibir os detalhes do produto
-      const productImage = document.createElement('img');
       productImage.src = product.image;
       productImage.alt = product.name;
-      productDetailsContainer.appendChild(productImage);
 
-      const productName = document.createElement('h2');
       productName.textContent = product.name;
-      productDetailsContainer.appendChild(productName);
-
-      const productBrand = document.createElement('p');
       productBrand.textContent = 'Marca: ' + product.brand;
-      productDetailsContainer.appendChild(productBrand);
-
-      const productPrice = document.createElement('p');
       productPrice.textContent = 'Preço: €' + product.price;
-      productDetailsContainer.appendChild(productPrice);
-
-      const productDescription = document.createElement('p');
       productDescription.textContent = 'Descrição: ' + product.description;
-      productDetailsContainer.appendChild(productDescription);
     }
   </script>
+
+  <!-- Adicione os scripts do Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
