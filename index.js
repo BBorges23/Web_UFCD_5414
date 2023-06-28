@@ -5,14 +5,11 @@ var dbRepo = require('./dbrepo').databaseRepo();
 
 const bodyParser = require('body-parser');
 const session = require('express-session');
-const bcrypt = require('bcrypt');
 const port = 3000;
 
 app.use(cors())
 app.use(bodyParser.json());
 
-
-app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/animal/:category', (req, res) => {
   const { category } = req.params;
@@ -47,21 +44,6 @@ app.post('/updateProduto', (req, res) => {
     res.send(updatedProduct);
   } else {
     res.status(404).send('Produto nÃo encontrado');
-  }
-});
-
-
-app.post('/login', (req, res) => {
-  const username = req.body.username;
-  const password = req.body.password;
-
-  const authenticatedUser = dbRepo.login(username, password);
-
-  if (authenticatedUser) {
-    res.status(200).json({ message: 'Autenticação bem-sucedida!', username: authenticatedUser });
-  } else {
-
-    res.status(401).json({ message: 'Usuário ou senha inválidos!' });
   }
 });
 

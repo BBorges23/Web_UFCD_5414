@@ -16,9 +16,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <!-- </font -->
+
     <title>Salens Shop</title>
     </head>
-<!-- Barra de navegacao -->
 <style>
   header {
     font-family: 'Press Start 2P', cursive !important;
@@ -39,18 +39,17 @@
 
   }
   .product-title {
-
     display: -webkit-box;
     -webkit-line-clamp: 3; /* Número máximo de linhas */
     -webkit-box-orient: vertical;
     overflow: hidden;
     height: 3.6em; /* Ajuste a altura conforme necessário */
   }
-
  
 </style>
 
 <header>
+  <!-- Barra de navegacao -->
   <nav class="navbar navbar-expand-lg navbar-light px-5" style=" background-color: #D47927">
     <div class="container-fluid">
       <a class="navbar-brand" href="javascript:location.reload();"><img src="Imagens/Logo.jpeg" alt="lgoo"
@@ -85,6 +84,9 @@
       </div>
     </div>
   </nav>
+   <!-- Fim da Barra de navegacao -->
+
+    <!-- Barra de navegacao com tipo de Animais -->
   <nav class="navbar navbar-expand-sm navbar-light " style="background-color: #000000 !important;">
     <div class="container ">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -158,6 +160,7 @@
       </div>
     </div>
   </nav>
+    <!-- Barra de navegacao com tipo de Animais -->
 </header>
 
 <body  >
@@ -197,12 +200,16 @@
       </div>
     </div>
   </div>
+  <!-- Fim Slideshow -->
+
+  
   <div class="container" >
-    <div class="d-flex justify-content-end " >
-      <button id="meuBotao" class="btn mt-4 " style="color: #000000; background-color: #D47927;">Adicionar</button>
+    <div class="d-flex justify-content-end" >
+      <button id="meuBotao" class="btn mt-4" style="color: #000000; background-color: #D47927;">Adicionar</button>
     </div>
+    <!-- Conteúdo a ser mostrado após click no botão -->
+    <!-- Form para adicionar produtos -->
     <div id="meuConteudo" class="mt-3" style="display: none;">
-      <!-- Conteúdo a ser mostrado -->
       <div class="container">
         <div class="row mt-4">
           <div class="col-2">
@@ -259,16 +266,18 @@
       </div>
     </div>
   </div>
-  <!-- section produtos -->
+   <!-- Fim Form para adicionar produtos -->
 
+  <!-- section produtos -->
   <div class="container">
     <div class="row d-flex gap-3 justify-content-center pt-5" id="produtos">
 
     </div>
   </div>
-  <!-- sobre nos  -->
-  
-  <section id="sobre-nos" class="container border-top">
+  <!-- Fim section produtos -->
+
+  <!-- sobre nós  -->
+    <section id="sobre-nos" class="container border-top">
     <h2 class="mb-4 pt-3">Sobre Nós</h2>
 
     <p class="lh-lg">O Salems Shop é um petshop completo dedicado ao cuidado e bem-estar dos animais de estimação. Nossa missão é
@@ -290,13 +299,10 @@
       <li class="lh-lg">Ruben Joel - Formando</li>
     </ul>
   </section>
-
-  <!-- contatos  -->
-
+  <!-- Fim sobre nós  -->
 </body>
 
-
-
+<!-- contatos e localização  -->
 <footer class="text-center py-4 bg-light border-top" id="contatos">
   <div class="container ps-2">
     <div class="row pt-3">
@@ -372,37 +378,39 @@
       <p>Todos os direitos reservados &copy; Salem`s Shop</p>
     </div>
   </div>
-  
 </footer>
-
+<!-- Fim contatos e localização  -->
 </html>
 
 <script>
   
+  //Permite filtar a categoria de um certo animal 
   function capturaPagina(event, animal, categoria) {
     event.preventDefault(); // Isso impede o comportamento padrão do link
 
-    var url = "http://localhost:3000/animal/" + animal + "?category=" + categoria;
+    var url = "http://localhost:3000/animal/" + animal + "?category=" + categoria;  // URL da requisição
 
-    var listaProdutos = [];
+    var listaProdutos = []; // Array vazio para armazenar os produtos
 
     var getCategoria = function () {
-      var xhttp = new XMLHttpRequest();
+      var xhttp = new XMLHttpRequest(); // Criação de um objeto XMLHttpRequest
       xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-          // Typical action to be performed when the document is ready:
-          listaProdutos = JSON.parse(xhttp.responseText);
-
-          buildRows(listaProdutos);
+          // Converte a resposta em um objeto JavaScript
+          listaProdutos = JSON.parse(xhttp.responseText); // Converte a resposta em um objeto JavaScript
+          buildRows(listaProdutos); // Chama a função buildRows passando a lista de produtos como argumento
         }
       };
 
-      xhttp.open("GET", url, true);
-      xhttp.send();
+      xhttp.open("GET", url, true); // Configura uma requisição GET assíncrona para a URL especificada
+      xhttp.send(); // Envia a requisição
     };
 
     var buildRows = function (produtos) {
-      var rows = "";
+      var rows = ""; // Variável para armazenar as linhas de produtos
+      
+      // Itera sobre cada objeto "produto" na matriz "produtos"
+      // Constrói a estrutura do card do produto
       for (let produto of produtos) {
         rows += '<div class="card col-sm-3 mb-4" style="width: 18rem; min-height: 250px;">';
         rows += '<img class="card-img-top image-fluid" style="height:180px" src="' + produto.image +
@@ -434,33 +442,38 @@
         rows += '</div>';
         rows += '</div>';
       }
-      document.getElementById("produtos").innerHTML = rows;
+      document.getElementById("produtos").innerHTML = rows; // Atualiza o conteúdo do elemento HTML com o ID "produtos"
     };
 
-    getCategoria();
+    getCategoria(); // Chama a função para obter os dados da categoria
   }
 
   function redirectToProductPage(productId) {
-    // Redireciona para a página detalhes_produto.html, passando o ID do produto como parâmetro na URL
+    // Redireciona para a página produto.html, passando o ID do produto como parâmetro na URL
     window.location.href = 'produtos.html?id=' + productId;
 
-    //Função Detalhes de Produtos
   }
 
+  //função que permite inserir produto
   var insertProduto = function (produto) {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
       if (this.readyState == 4 && this.status == 200) {
         let produto = JSON.parse(xhttp.responseText);
+        // Chama a função buildNewRow passando o objeto produto como argumento
         buildNewRow(produto);
       }
     };
+    // Configura a requisição POST para o endpoint
     xhttp.open("POST", "http://localhost:3000/addProduto", true);
+    // Define o cabeçalho da requisição para indicar que o corpo é um JSON
     xhttp.setRequestHeader("Content-type", "application/json;charset=UTF-8");
+    // Envia a requisição com o objeto produto convertido em uma string JSON
     xhttp.send(JSON.stringify(produto));
   };
 
   var buildNewRow = function (produto) {
+    // Inicializa a variável newRow com a estrutura HTML da nova linha de card para novos produtos
     var newRow = '<div class="card col-sm-3 mb-4" style="width: 18rem;">';
     newRow += '<img class="card-img-top image-fluid" w-100 style="height:180px;"  src="' + produto.image +
       '" alt="Card image cap">';
@@ -481,7 +494,9 @@
     newRow += '</div>';
     newRow += '</div>';
 
+    // Obtém as linhas de cards existentes
     var rows = document.getElementById("produtos").innerHTML;
+    // Adiciona a nova linha de card à lista de linhas existentes (produtos existentes)
     document.getElementById("produtos").innerHTML = rows + newRow;
   };
 
@@ -489,6 +504,7 @@
 
     event.preventDefault();
 
+    // Obtém os valores dos campos de entrada
     let animal = document.getElementById('inputAnimal').value;
     let name = document.getElementById('inputName').value;
     let brand = document.getElementById('inputBrand').value;
@@ -498,11 +514,12 @@
     let stock = document.getElementById('inputStock').value;
     let image = document.getElementById('inputImage').value;
 
-    let error = "";
+    let error = ""; // Variável para armazenar mensagens de erro
 
-    const floatRegex = /^\d+(\.\d+)?$/; //permite validar números decimais
-    const numberRegex = /^\d+$/; //permite validar números inteiros
+    const floatRegex = /^\d+(\.\d+)?$/; //Expressão regular para validar números decimais
+    const numberRegex = /^\d+$/; // Expressão regular para validar números inteiros
 
+    // Validação dos campos
     if (name.length < 3 || name.length > 50) {
 
       error += "Nome inválido\n";
@@ -531,8 +548,11 @@
     }
 
     if (error != "") {
+      // Se houver mensagens de erro, exibe um alerta com os erros encontrados
       alert(error);
-    } else {
+    } 
+    else {
+      // Se não houver erros, chama a função insertProduto para adicionar o novo produto
 
       insertProduto({
         animal: animal,
@@ -548,6 +568,7 @@
 
   };
 
+  //função que permite eliminar produto
   var deleteProduto = function (animalType, id) {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
@@ -560,24 +581,32 @@
     xhttp.send(JSON.stringify({
       id: id,
       animalType: animalType
+    // O objeto contém as informações do produto a ser excluído, como o ID e o tipo de animal.
     }));
   };
 
   var clickDeleteProduto = function (animalType, id) {
     deleteProduto(animalType, id);
   };
+
+  //função que permite editar produto
   var editInfo = function (animal, categoria, id) {
 
+    // Constrói a URL da requisição utilizando os parâmetros fornecidos
     var url = "http://localhost:3000/animal/" + animal + "?category=" + categoria + "&id=" + id;
+    
+    // Array para armazenar os dados dos produtos
+    var produtos = []; 
 
-    var produtos = [];
-
+    // Função para obter os dados do produto
     var getProduto = function () {
       var xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
           produtos = JSON.parse(xhttp.responseText);
+          // Encontra o objeto do produto desejado com base no ID fornecido
           var produto = produtos.find(i => i.id === id);
+          // Exibe os dados do produto num formulário de edição
           displayEditableProduct(produto);
         }
       };
@@ -590,6 +619,7 @@
     var displayEditableProduct = function (produto) {
       var form = '<div class="border p-4 border-success">'; 
       form += ' <h4>Editar</h4>';
+      // Cria os campos de formulário preenchidos com os valores do produto
       form += '<form id="editForm">';
       form += '<div class="form-group">';
       form += '<label for="editName">Name:</label>';
@@ -615,23 +645,26 @@
       form += '<label for="editImage">Image URL:</label>';
       form += '<input type="text" class="form-control" id="editImage" value="' + produto.image + '">';
       form += '</div>';
+      // Adiciona um botão "Save" para salvar as alterações
       form += '<button style="color: #000000; background-color: #D47927; border:none;" type="submit" class="btn btn-primary mt-2 btn-lg" onclick="saveEditedProduct(' + produto.id + ',' +
         animal + ');">Save</button>';
       form += '</form></div>';
 
+      // Atualiza o conteúdo do elemento com id "produtos" com o formulário gerado
       document.getElementById("produtos").innerHTML = form;
 
       // Adicione um listener para o evento de submit do formulário de edição
       document.getElementById("editForm").addEventListener("submit", function (event) {
         event.preventDefault(); // Impede o comportamento padrão do formulário
         saveEditedProduct(produto.id,
-          animal); // Corrigido: passa o ID do produto e o tipo de animal para a função saveEditedProduct
+          animal); // Passa o ID do produto e o tipo de animal para a função saveEditedProduct
 
       });
     };
 
     var saveEditedProduct = function (id, animal) {
-
+      
+      // Cria um objeto editedProduct com as informações atualizadas do produto
       var editedProduct = {
         id: id,
         name: document.getElementById("editName").value,
@@ -642,6 +675,7 @@
         image: document.getElementById("editImage").value,
       };
 
+      // Validação dos campos do formulário
       let error = "";
       const floatRegex = /^\d+(\.\d+)?$/;
       const numberRegex = /^\d+$/;
@@ -670,6 +704,7 @@
         error += "Imagem inválida\n";
       }
 
+      // Verifica se ocorreram erros de validação e exibe um alerta com os erros
       if (error != "") {
         alert(error);
       } else {
@@ -694,8 +729,30 @@
         }));
       };
     }
+    // Chama a função getProduto para obter os dados do produto a ser editado
     getProduto();
   }
 
+  //Permite ocultar o formulário de produtos a adicionar
+
+  // Obtém a referência ao elemento do botão com o ID "meuBotao"
+  var botao = document.getElementById("meuBotao");
+
+  // Obtém a referência ao elemento de conteúdo com o ID "meuConteudo"
+  var conteudo = document.getElementById("meuConteudo");
+  botao.addEventListener("click", function () {
+    // Verifica se o estilo de exibição do conteúdo é "none"
+    if (conteudo.style.display === "none") {
+    // Se o conteúdo estiver oculto, muda o estilo de exibição para "block" (visível)
+      conteudo.style.display = "block";
+    // Altera o texto do botão para "Voltar"
+      botao.innerHTML = "Voltar";
+    } else {
+    // Se o conteúdo estiver visível, muda o estilo de exibição para "none" (oculto)
+      conteudo.style.display = "none";
+    // Altera o texto do botão para "Adicionar"
+      botao.innerHTML = "Adicionar";
+    }
+  });
 </script>
 
