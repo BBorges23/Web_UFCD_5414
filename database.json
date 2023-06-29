@@ -392,13 +392,13 @@
     },
     {
       "id": 40,
-      "name": "Camon Brinquedo Refrescante para Cão",
-      "brand": "Camon",
+      "name": "Trixie Gamela Slow Feed em plástico",
+      "brand": "Trixie",
       "category": "acessorios",
-      "description": "Brinquedo refrescante para entreter o seu melhor amigo nos dias mais quentes. ",
-      "price": 14.2,
-      "stock": 30,
-      "image": "https://petcity.pt/14681-large_default/brinquedo-refrescante-para-cao.jpg"
+      "description": "Evita que o alimento seja ingerido demasiado rápido pelo seu animal.\nPara todo o tipo de alimentos.\nÉ anti-derrapante, graças ao anel em borracha.",
+      "price": "2.72",
+      "stock": "30",
+      "image": "https://petcity.pt/13857-large_default/trixie-gamela-slow-feed-em-plastico.jpg"
     },
     {
       "id": 41,
@@ -778,9 +778,9 @@
       "brand": "Kong",
       "category": "brinquedo",
       "description": "O KONG Snake Teaser é perfeito para diversão interativa. Penas irresistíveis e movimentos imprevisíveis estimularão os instintos naturais de caça do seu amigo e fornecerão exercícios benéficos.",
-      "price": 5.29,
-      "stock": 94,
-      "image": "https://petcity.pt/19507-large_default/kong-cat-active-teaser-snake-k31-ct45e.jpg"
+      "price": "5.29",
+      "stock": "94",
+      "image": "https://static-shop.vivapets.com/media/catalog/product/cache/11fc96e7318a291175a0004e054be56e/g/p/gpju03366_1.jpg"
     },
     {
       "id": 79,

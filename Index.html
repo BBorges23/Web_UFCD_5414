@@ -9,16 +9,16 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
-    </script>
+  </script>
 
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <!-- </font -->
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <!-- </font -->
 
-    <title>Salens Shop</title>
-    </head>
+  <title>Salens Shop</title>
+</head>
 <style>
   header {
     font-family: 'Press Start 2P', cursive !important;
@@ -38,14 +38,38 @@
     overflow: hidden;
 
   }
+
   .product-title {
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* Número máximo de linhas */
+    -webkit-line-clamp: 3;
+    /* Número máximo de linhas */
     -webkit-box-orient: vertical;
     overflow: hidden;
-    height: 3.6em; /* Ajuste a altura conforme necessário */
+    height: 3.6em;
+    /* Ajuste a altura conforme necessário */
   }
- 
+
+  /* Top Button */
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    z-index: 99;
+    /* Certifica que não se sobrepõe */
+    border: none;
+    background-color: #D47927;
+    color: #000000;
+    cursor: pointer;
+    /* Adicionar um ponteiro do rato ao passar o rato */
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  #myBtn:hover {
+    background-color: #000000;
+    color: #D47927;
+  }
 </style>
 
 <header>
@@ -60,9 +84,6 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Categorias</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" href="#contatos">Contatos</a>
           </li>
@@ -84,23 +105,25 @@
       </div>
     </div>
   </nav>
-   <!-- Fim da Barra de navegacao -->
+  <!-- Fim da Barra de navegacao -->
 
-    <!-- Barra de navegacao com tipo de Animais -->
+  <!-- Barra de navegacao com tipo de Animais -->
   <nav class="navbar navbar-expand-sm navbar-light " style="background-color: #000000 !important;">
     <div class="container ">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <p style="color: #D47927;">Animais   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-bar-down" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"/>
-      </svg></p>
-        
-    </button>
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <p style="color: #D47927;">Animais <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+            fill="currentColor" class="bi bi-arrow-bar-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z" />
+          </svg></p>
+
+      </button>
       <div class="navbar-collapse " id="navbarSupportedContent">
         <ul class="navbar-nav  mx-auto mb-2 mb-lg-0 ">
           <li class="nav-item dropdown ">
-            <a class="nav-link dropdown-toggle text-white" href="cao" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a class="nav-link dropdown-toggle text-white" href="cao" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
               Cão
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -108,13 +131,14 @@
               <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'dog', 'saude')">Saúde</a></li>
               <li><a class="dropdown-item" href="#" onclick="capturaPagina(event , 'dog', 'brinquedo')">Brinquedos</a>
               </li>
-              <li><a class="dropdown-item " href="#" onclick="capturaPagina(event , 'dog', 'acessorios')">Acessórios para
+              <li><a class="dropdown-item " href="#" onclick="capturaPagina(event , 'dog', 'acessorios')">Acessórios
+                  para
                   casa</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown" value= "gato">
-            <a class="nav-link dropdown-toggle text-white" href="gato" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+          <li class="nav-item dropdown" value="gato">
+            <a class="nav-link dropdown-toggle text-white" href="gato" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
               Gato
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -127,8 +151,8 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" href="peixe" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a class="nav-link dropdown-toggle text-white" href="peixe" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
               Peixe
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -142,8 +166,8 @@
             </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle  text-white" href="aves" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a class="nav-link dropdown-toggle  text-white" href="aves" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
               Aves
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -160,10 +184,10 @@
       </div>
     </div>
   </nav>
-    <!-- Barra de navegacao com tipo de Animais -->
+  <!-- Barra de navegacao com tipo de Animais -->
 </header>
 
-<body  >
+<body>
   <!-- Slideshow -->
   <div class="container-fluid text-center slide">
     <div class="row">
@@ -202,9 +226,8 @@
   </div>
   <!-- Fim Slideshow -->
 
-  
-  <div class="container" >
-    <div class="d-flex justify-content-end" >
+  <div class="container">
+    <div class="d-flex justify-content-end">
       <button id="meuBotao" class="btn mt-4" style="color: #000000; background-color: #D47927;">Adicionar</button>
     </div>
     <!-- Conteúdo a ser mostrado após click no botão -->
@@ -260,37 +283,43 @@
           <div class="col-2"></div>
           <div class="col-2"></div>
           <div class="col-2 d-flex justify-content-end">
-            <button type="button" class="btn btn-primary mt-4 bg-success " style="border: none;" onclick="clickAddProduto(event)">Adicionar</button>
+            <button type="button" class="btn btn-primary mt-4 bg-success " style="border: none;"
+              onclick="clickAddProduto(event)">Adicionar</button>
           </div>
         </div>
       </div>
     </div>
   </div>
-   <!-- Fim Form para adicionar produtos -->
+  <!-- Fim Form para adicionar produtos -->
 
   <!-- section produtos -->
   <div class="container">
-    <div class="row d-flex gap-3 justify-content-center pt-5" id="produtos">
-
+    <div class="row d-flex gap-3 justify-content-center pt-4" id="produtos">
     </div>
   </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
   <!-- Fim section produtos -->
 
   <!-- sobre nós  -->
-    <section id="sobre-nos" class="container border-top">
+  <section id="sobre-nos" class="container border-top">
     <h2 class="mb-4 pt-3">Sobre Nós</h2>
 
-    <p class="lh-lg">O Salems Shop é um petshop completo dedicado ao cuidado e bem-estar dos animais de estimação. Nossa missão é
+    <p class="lh-lg">O Salems Shop é um petshop completo dedicado ao cuidado e bem-estar dos animais de estimação. Nossa
+      missão é
       proporcionar um ambiente seguro e confortável para os animais, além de oferecer produtos de alta qualidade e
       serviços especializados.</p>
-    <p class="lh-lg">Temos uma equipe de profissionais apaixonados e experientes que estão prontos para atender às necessidades de
+    <p class="lh-lg">Temos uma equipe de profissionais apaixonados e experientes que estão prontos para atender às
+      necessidades de
       cada animal, garantindo que recebam o melhor tratamento possível. Nossos serviços incluem banho e tosa, consultas
       veterinárias, vacinação, alimentação especializada, acessórios e muito mais.</p>
-    <p class="lh-lg">Valorizamos o relacionamento com nossos clientes e seus animais de estimação, e buscamos sempre superar suas
+    <p class="lh-lg">Valorizamos o relacionamento com nossos clientes e seus animais de estimação, e buscamos sempre
+      superar suas
       expectativas. Estamos comprometidos em promover a saúde e felicidade dos animais, fornecendo produtos e serviços
       que contribuam para o seu bem-estar.</p>
 
-    <p class="fs-6 lh-lg">Somos formandos do curso de TPSI (Técnico/a Especialista em Tecnologias e Programação de Sistemas de
+    <p class="fs-6 lh-lg">Somos formandos do curso de TPSI (Técnico/a Especialista em Tecnologias e Programação de
+      Sistemas de
       Informação)</p>
     <ul>
       <li class="lh-lg">Bruno Silva - Formando</li>
@@ -315,60 +344,60 @@
       <div class="col-sm-6">
         <h3 class="mb-4">Contatos</h3>
         <ul class="list-unstyled d-grid gap-3 pe-5">
-          <li class="list-group-item d-flex justify-content-between" >
-            <div class="text-start"><strong>Bruno Silva:</strong> Bruno.Silva.T0123778@edu.atec.pt</div> 
-            <div class="ms-auto"><a href="https://github.com/BBorges23"><svg
-              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <path
-                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-            </svg></a> <a href="https://www.linkedin.com/in/bruno-borges-674b84197/"><svg fill="blue"
-              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <path
-                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-            </svg></a></div>          
+          <li class="list-group-item d-flex justify-content-between">
+            <div class="text-start"><strong>Bruno Silva:</strong> Bruno.Silva.T0123778@edu.atec.pt</div>
+            <div class="ms-auto"><a href="https://github.com/BBorges23"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg></a> <a href="https://www.linkedin.com/in/bruno-borges-674b84197/"><svg fill="blue"
+                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg></a></div>
           </li>
           <li class="list-group-item d-flex justify-content-between ">
             <div class="text-start"><strong>Rui Gameiro:</strong> rui.gameiro.t0123775@edu.atec.pt</div>
-            <div class="ms-auto"><a href="https://github.com/ruigameir"><svg
-                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path
-                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-              </svg></a> <a href="https://www.linkedin.com/in/miguel-jesus-517264169"><svg fill="blue"
-                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path
-                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-              </svg></a>
+            <div class="ms-auto"><a href="https://github.com/ruigameir"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg></a> <a href="https://www.linkedin.com/in/miguel-jesus-517264169"><svg fill="blue"
+                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg></a>
             </div>
           </li>
           <li class="list-group-item d-flex justify-content-between">
             <div class="text-start"><strong>Miguel Jesus:</strong> miguel.jesus.t0123771@edu.atec.pt </div>
-            <div class="ms-auto"><a
-              href="https://github.com/migueljesus679"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                viewBox="0 0 24 24">
-                <path
-                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-              </svg></a> <a href="https://www.linkedin.com/in/ruipgameiro/"><svg fill="blue" xmlns="http://www.w3.org/2000/svg"
-                width="24" height="24" viewBox="0 0 24 24">
-                <path
-                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-              </svg></a>
+            <div class="ms-auto"><a href="https://github.com/migueljesus679"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg></a> <a href="https://www.linkedin.com/in/ruipgameiro/"><svg fill="blue"
+                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg></a>
             </div>
           </li>
           <li class="list-group-item d-flex justify-content-between">
-            <div class="text-start"><strong>Ruben Soares:</strong> ruben.soares.t0110260@edu.atec.pt </div> 
-            <div class="ms-auto"><a
-              href="https://github.com/RubenJoelS"><svg xmlns="http://www.w3.org/2000/svg"
-                width="24" height="24" viewBox="0 0 24 24">
-                <path
-                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-              </svg></a> <a href="https://www.linkedin.com/in/rubenjoels/"><svg fill="blue" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path
-                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-              </svg></a>
+            <div class="text-start"><strong>Ruben Soares:</strong> ruben.soares.t0110260@edu.atec.pt </div>
+            <div class="ms-auto"><a href="https://github.com/RubenJoelS"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg></a> <a href="https://www.linkedin.com/in/rubenjoels/"><svg fill="blue"
+                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg></a>
             </div>
           </li>
 
-          <li class="col-sm d-flex align-items-stretch lh-lg"><strong>Endereço:</strong>Quinta da Marqueza - Palmela, Parque Industrial da Volkswagen Autoeuropa,
+          <li class="col-sm d-flex align-items-stretch lh-lg"><strong>Endereço:</strong>Quinta da Marqueza - Palmela,
+            Parque Industrial da Volkswagen Autoeuropa,
             2950-557
             Q.ta do Anjo</li>
         </ul>
@@ -380,15 +409,15 @@
   </div>
 </footer>
 <!-- Fim contatos e localização  -->
+
 </html>
 
 <script>
-  
   //Permite filtar a categoria de um certo animal 
   function capturaPagina(event, animal, categoria) {
     event.preventDefault(); // Isso impede o comportamento padrão do link
 
-    var url = "http://localhost:3000/animal/" + animal + "?category=" + categoria;  // URL da requisição
+    var url = "http://localhost:3000/animal/" + animal + "?category=" + categoria; // URL da requisição
 
     var listaProdutos = []; // Array vazio para armazenar os produtos
 
@@ -408,7 +437,47 @@
 
     var buildRows = function (produtos) {
       var rows = ""; // Variável para armazenar as linhas de produtos
-      
+      var animalText = "";
+      var categoriaText = "";
+
+      // Converte o valor da variável animal para o texto desejado
+      switch (animal) {
+        case "dog":
+          animalText = "Cão";
+          break;
+        case "cat":
+          animalText = "Gato";
+          break;
+        case "fish":
+          animalText = "Peixe";
+          break;
+        case "bird":
+          animalText = "Aves";
+          break;
+        default:
+          break;
+      }
+
+      // Converte o valor da variável animal para o texto desejado
+      switch (categoria) {
+        case "racao":
+          categoriaText = "Ração";
+          break;
+        case "saude":
+          categoriaText = "Saúde";
+          break;
+        case "brinquedo":
+          categoriaText = "Brinquedos";
+          break;
+        case "acessorios":
+          categoriaText = "Acessórios para a casa";
+          break;
+        default:
+          break;
+      }
+
+      rows += '<h4>' + animalText + ' > ' + categoriaText + '</h4>'; // Adiciona a informação no topo de tudo
+
       // Itera sobre cada objeto "produto" na matriz "produtos"
       // Constrói a estrutura do card do produto
       for (let produto of produtos) {
@@ -416,13 +485,15 @@
         rows += '<img class="card-img-top image-fluid" style="height:180px" src="' + produto.image +
           '" alt="Card image cap">';
         rows += '<div class="card-body">';
-        rows += '<h5 class="card-title product-title" onclick="redirectToProductPage(' + produto.id + ')">' + produto.name +
+        rows += '<h5 class="card-title product-title" onclick="redirectToProductPage(' + produto.id + ')">' + produto
+          .name +
           '</h5>';
         rows += '<p class="card-text">' + produto.brand + '</p>';
         rows += '<div class=" d-flex border-bottom pb-3 justify-content-between ">';
-        rows += '<p class="card-text m-0 pt-2 ">€' + produto.price + '</p> <a href="#" style="color:#D47927; background-color: #ffffff;border-color:#D47927;" class="btn  btn-sm">COMPRAR</a>';
+        rows += '<p class="card-text m-0 pt-2 ">€' + produto.price +
+          '</p> <a href="#" style="color:#D47927; background-color: #ffffff;border-color:#D47927;" class="btn  btn-sm">COMPRAR</a>';
         rows += '</div>';
-        rows += '<p class="card-text d-flex justify-content-between mt-3">Stock: ' + produto.stock +'</p>';
+        rows += '<p class="card-text d-flex justify-content-between mt-3">Stock: ' + produto.stock + '</p>';
         rows +=
           '<button style="color: #000000; background-color: #D47927; border: none;" class="btn btn-primary btn-sm mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#descricao-' +
           produto.id + '" aria-expanded="false" aria-controls="descricao-' + produto.id +
@@ -442,7 +513,8 @@
         rows += '</div>';
         rows += '</div>';
       }
-      document.getElementById("produtos").innerHTML = rows; // Atualiza o conteúdo do elemento HTML com o ID "produtos"
+      document.getElementById("produtos").innerHTML =
+        rows; // Atualiza o conteúdo do elemento HTML com o ID "produtos"
     };
 
     getCategoria(); // Chama a função para obter os dados da categoria
@@ -550,8 +622,7 @@
     if (error != "") {
       // Se houver mensagens de erro, exibe um alerta com os erros encontrados
       alert(error);
-    } 
-    else {
+    } else {
       // Se não houver erros, chama a função insertProduto para adicionar o novo produto
 
       insertProduto({
@@ -581,7 +652,7 @@
     xhttp.send(JSON.stringify({
       id: id,
       animalType: animalType
-    // O objeto contém as informações do produto a ser excluído, como o ID e o tipo de animal.
+      // O objeto contém as informações do produto a ser excluído, como o ID e o tipo de animal.
     }));
   };
 
@@ -594,9 +665,9 @@
 
     // Constrói a URL da requisição utilizando os parâmetros fornecidos
     var url = "http://localhost:3000/animal/" + animal + "?category=" + categoria + "&id=" + id;
-    
+
     // Array para armazenar os dados dos produtos
-    var produtos = []; 
+    var produtos = [];
 
     // Função para obter os dados do produto
     var getProduto = function () {
@@ -617,7 +688,7 @@
     };
 
     var displayEditableProduct = function (produto) {
-      var form = '<div class="border p-4 border-success">'; 
+      var form = '<div class="border p-4 border-success">';
       form += ' <h4>Editar</h4>';
       // Cria os campos de formulário preenchidos com os valores do produto
       form += '<form id="editForm">';
@@ -646,7 +717,9 @@
       form += '<input type="text" class="form-control" id="editImage" value="' + produto.image + '">';
       form += '</div>';
       // Adiciona um botão "Save" para salvar as alterações
-      form += '<button style="color: #000000; background-color: #D47927; border:none;" type="submit" class="btn btn-primary mt-2 btn-lg" onclick="saveEditedProduct(' + produto.id + ',' +
+      form +=
+        '<button style="color: #000000; background-color: #D47927; border:none;" type="submit" class="btn btn-primary mt-2 btn-lg" onclick="saveEditedProduct(' +
+        produto.id + ',' +
         animal + ');">Save</button>';
       form += '</form></div>';
 
@@ -663,7 +736,7 @@
     };
 
     var saveEditedProduct = function (id, animal) {
-      
+
       // Cria um objeto editedProduct com as informações atualizadas do produto
       var editedProduct = {
         id: id,
@@ -692,11 +765,13 @@
         error += "Descrição inválida\n";
       }
 
-      if ((editedProduct.price.length < 1 || editedProduct.price.length > 6) || !floatRegex.test(editedProduct.price)) {
+      if ((editedProduct.price.length < 1 || editedProduct.price.length > 6) || !floatRegex.test(editedProduct
+          .price)) {
         error += "Preço inválido\n";
       }
 
-      if ((editedProduct.stock.length < 1 || editedProduct.stock.length > 6) || !numberRegex.test(editedProduct.stock)) {
+      if ((editedProduct.stock.length < 1 || editedProduct.stock.length > 6) || !numberRegex.test(editedProduct
+          .stock)) {
         error += "Stock inválido\n";
       }
 
@@ -734,7 +809,6 @@
   }
 
   //Permite ocultar o formulário de produtos a adicionar
-
   // Obtém a referência ao elemento do botão com o ID "meuBotao"
   var botao = document.getElementById("meuBotao");
 
@@ -743,16 +817,38 @@
   botao.addEventListener("click", function () {
     // Verifica se o estilo de exibição do conteúdo é "none"
     if (conteudo.style.display === "none") {
-    // Se o conteúdo estiver oculto, muda o estilo de exibição para "block" (visível)
+      // Se o conteúdo estiver oculto, muda o estilo de exibição para "block" (visível)
       conteudo.style.display = "block";
-    // Altera o texto do botão para "Voltar"
+      // Altera o texto do botão para "Voltar"
       botao.innerHTML = "Voltar";
     } else {
-    // Se o conteúdo estiver visível, muda o estilo de exibição para "none" (oculto)
+      // Se o conteúdo estiver visível, muda o estilo de exibição para "none" (oculto)
       conteudo.style.display = "none";
-    // Altera o texto do botão para "Adicionar"
+      // Altera o texto do botão para "Adicionar"
       botao.innerHTML = "Adicionar";
     }
   });
-</script>
 
+  // Top Button
+  let mybutton = document.getElementById("myBtn");
+
+  window.onscroll = function () {
+    scrollFunction()
+  };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // Quando o user clicka no butão, faz scroll até ao topo do artigo
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+
+  /*Fim Top Button*/
+</script>
