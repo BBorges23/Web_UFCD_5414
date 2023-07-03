@@ -4,7 +4,6 @@ var app = express()
 var dbRepo = require('./dbrepo').databaseRepo();
 
 const bodyParser = require('body-parser');
-const session = require('express-session');
 const port = 3000;
 
 app.use(cors())
